@@ -1823,3 +1823,42 @@
 {"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"16/05/2025 16:28:15","timestamp":"2025-05-16T09:28:15.144Z"}
 {"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"16/05/2025 16:28:15","timestamp":"2025-05-16T09:28:15.147Z"}
 {"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"16/05/2025 16:28:15","timestamp":"2025-05-16T09:28:15.151Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.901Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.908Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.910Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.912Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.913Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.914Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.915Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.916Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.918Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.919Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.920Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.924Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"16/05/2025 16:30:12","timestamp":"2025-05-16T09:30:12.926Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.873Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.878Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.880Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.881Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.882Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.883Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.883Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.884Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.885Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.885Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.886Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.890Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"16/05/2025 16:30:16","timestamp":"2025-05-16T09:30:16.892Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.952Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.956Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.958Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.959Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.960Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.961Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.961Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.962Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.963Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.964Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.964Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.967Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"16/05/2025 16:30:23","timestamp":"2025-05-16T09:30:23.969Z"}
