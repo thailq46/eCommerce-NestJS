@@ -5,6 +5,7 @@ import {ExtractJwt, Strategy} from 'passport-jwt';
 import {ConfigService} from 'src/base/config';
 import {TokenPayload} from 'src/modules/auth/types';
 import {UserRepository} from 'src/modules/user/repositories';
+import {IUser} from 'src/modules/user/types';
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
@@ -20,7 +21,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
       });
    }
 
-   async validate(payload: TokenPayload) {
+   async validate(payload: TokenPayload): Promise<IUser> {
       const {user_id} = payload;
       const user = await this.userRepository.findUserById(user_id);
       if (!user) {
@@ -37,6 +38,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
          usr_last_login_ip_at: user.usr_last_login_ip_at,
          usr_login_times: user.usr_login_times,
          status: user.status,
+         usr_gender: user.usr_gender,
       };
    }
 }

@@ -17,7 +17,7 @@ export class BaseEntityCRUD extends BaseEntity {
    updated_at: Date;
 
    @DeleteDateColumn({type: 'datetime', nullable: true})
-   deleted_at: Date;
+   deleted_at: Date | null;
 
    @DeleteDateColumn({type: 'boolean', default: false})
    is_deleted: boolean;
