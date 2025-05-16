@@ -1,0 +1,28 @@
+INFO   2025-05-15T09:33:22.872           morgan\index.js:130 | ::1 Anonymous GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 401 - 147.392 ms
+ (access)
+INFO   2025-05-15T09:33:32.698           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 101.607 ms
+ (access)
+INFO   2025-05-15T09:41:17.955           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 59.933 ms
+ (access)
+INFO   2025-05-15T09:45:13.340           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 60.892 ms
+ (access)
+INFO   2025-05-15T09:45:49.009           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 69.946 ms
+ (access)
+INFO   2025-05-15T09:48:21.400           morgan\index.js:130 | ::1 - - [15/May/2025:02:48:21 +0000] "POST /api/v1/auth/login HTTP/1.1" 201 823 "-" "PostmanRuntime/7.43.4"
+ (access)
+INFO   2025-05-15T09:48:56.263           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 54.076 ms
+ (access)
+INFO   2025-05-15T10:03:54.149           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 72.230 ms
+ (access)
+INFO   2025-05-15T10:28:36.862           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 241.032 ms
+ (access)
+INFO   2025-05-15T10:30:10.190           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 87.734 ms
+ (access)
+INFO   2025-05-15T10:49:54.940           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 53.693 ms
+ (access)
+INFO   2025-05-15T15:59:54.689           morgan\index.js:130 | ::1 Anonymous GET /api/v1/attendances?attendances?page=1&limit=10&search=&sort[]=-created_at&searchFields[]=employee.name&filter[month]=4&filter[year]=2025 404 - 3.970 ms
+ (access)
+INFO   2025-05-15T16:01:09.354           morgan\index.js:130 | ::1 Anonymous GET /api/v1/attendances?attendances?page=1&limit=10&search=&sort[]=-created_at&searchFields[]=employee.name&filter[month]=4&filter[year]=2025 404 - 3.135 ms
+ (access)
+INFO   2025-05-15T16:01:19.329           morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 2296.105 ms
+ (access)

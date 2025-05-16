@@ -1,0 +1,924 @@
+INFO   2025-05-16T08:25:39.506           morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 2833.263 ms
+ (access)
+INFO   2025-05-16T08:28:43.137           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 61.952 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:29:52.322           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 107.073 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:30:31.581           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 144.556 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:31:40.313           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 55.626 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:34:20.467           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 80.533 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:37:24.076           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 61.479 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:37:44.054           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 84.296 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:38:22.266           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 73.932 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:38:38.864           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 66.995 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:40:14.356           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 58.432 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:42:09.167           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 57.422 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:42:46.733           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 69.555 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:43:28.380           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 36.186 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:43:55.868           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 65.131 ms {"username":"thailq@gmail.com","password":"123123"}
+ (access)
+INFO   2025-05-16T08:44:31.581           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 66.040 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:45:06.988           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 48.227 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:45:40.534           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 72.511 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:48:50.710           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 91.266 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:49:30.203           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 50.461 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:50:05.143           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 101.812 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:50:15.398           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 20.726 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:50:41.191           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 53.165 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T08:55:13.128           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 67.630 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T09:00:28.151           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 60.584 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T09:03:34.553           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 77.022 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T09:04:27.486           morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 74.642 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T09:05:17.625 services\logger.service.j:49  | UserController {/api/v1/users}: RoutesResolver (default)
+INFO   2025-05-16T09:05:17.631 services\logger.service.j:49  | Mapped {/api/v1/users, POST} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.632 services\logger.service.j:49  | Mapped {/api/v1/users, GET} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.633 services\logger.service.j:49  | Mapped {/api/v1/users/:id, GET} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.634 services\logger.service.j:49  | Mapped {/api/v1/users/:id, PATCH} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.636 services\logger.service.j:49  | Mapped {/api/v1/users/:id, DELETE} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.636 services\logger.service.j:49  | AuthController {/api/v1/auth}: RoutesResolver (default)
+INFO   2025-05-16T09:05:17.637 services\logger.service.j:49  | Mapped {/api/v1/auth/login, POST} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.638 services\logger.service.j:49  | Mapped {/api/v1/auth/profile, GET} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.639 services\logger.service.j:49  | Mapped {/api/v1/auth/logout, POST} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.640 services\logger.service.j:49  | Mapped {/api/v1/auth/change-password, POST} route RouterExplorer (default)
+INFO   2025-05-16T09:05:17.650 services\logger.service.j:49  | Attempting to connect to Redis at localhost:6379 RedisService (default)
+INFO   2025-05-16T09:05:17.653 services\logger.service.j:49  | Nest application successfully started NestApplication (default)
+INFO   2025-05-16T09:06:31.270               src\main.ts:47  | Server time: Fri May 16 2025 09:06:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:06:31.272               src\main.ts:48  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:06:31.272               src\main.ts:49  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:06:41.844               src\main.ts:45  | Server time: Fri May 16 2025 09:06:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:06:41.845               src\main.ts:46  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:06:41.846               src\main.ts:47  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:07:00.133               src\main.ts:46  | Server time: Fri May 16 2025 09:07:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:07:00.134               src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:07:00.135               src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:12:30.893                  src\main.ts:46  | Server time: Fri May 16 2025 09:12:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:12:30.895                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:12:30.896                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:12:44.347              morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 90.682 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-05-16T09:24:56.012                  src\main.ts:46  | Server time: Fri May 16 2025 09:24:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:24:56.028                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:24:56.030                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:24:58.637                  src\main.ts:46  | Server time: Fri May 16 2025 09:24:58 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:24:58.639                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:24:58.639                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:26:13.981                  src\main.ts:46  | Server time: Fri May 16 2025 09:26:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:26:13.984                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:26:13.984                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+WARN   2025-05-16T09:26:27.150         user\user.service.ts:25  | Email: thailq@gmail.com - Username: thailq22 (default)
+INFO   2025-05-16T09:26:27.157              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 66.245 ms {"email":"thailq@gmail.com","password":"******","username":"thailq22"}
+ (access)
+INFO   2025-05-16T09:28:11.283                  src\main.ts:46  | Server time: Fri May 16 2025 09:28:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:28:11.285                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:28:11.286                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+WARN   2025-05-16T09:28:35.417         user\user.service.ts:25  | Email đã tồn tại! (default)
+INFO   2025-05-16T09:28:35.424              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 51.652 ms {"email":"thailq@gmail.com","password":"******","username":"thailq22"}
+ (access)
+INFO   2025-05-16T09:33:14.173                  src\main.ts:46  | Server time: Fri May 16 2025 09:33:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:33:14.175                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:33:14.176                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+WARN   2025-05-16T09:33:16.411         user\user.service.ts:26  | Email đã tồn tại! (default)
+ERROR  2025-05-16T09:33:16.412         user\user.service.ts:27  | Lỗi khi tạo tài khoản UserService BadRequestException: Email đã tồn tại!
+    at UserService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\user\user.service.ts:27:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Email đã tồn tại!',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-05-16T09:33:16.422              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 66.149 ms {"email":"thailq@gmail.com","password":"******","username":"thailq22"}
+ (access)
+INFO   2025-05-16T09:37:50.848                  src\main.ts:46  | Server time: Fri May 16 2025 09:37:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:37:50.850                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:37:50.850                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:37:53.450                  src\main.ts:46  | Server time: Fri May 16 2025 09:37:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:37:53.452                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:37:53.453                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:38:22.496                  src\main.ts:46  | Server time: Fri May 16 2025 09:38:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:38:22.499                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:38:22.500                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:38:33.093                  src\main.ts:46  | Server time: Fri May 16 2025 09:38:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:38:33.095                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:38:33.095                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:39:03.318                  src\main.ts:46  | Server time: Fri May 16 2025 09:39:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:39:03.320                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:39:03.320                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T09:39:06.063         user\user.service.ts:25  | Username đã tồn tại! (default)
+INFO   2025-05-16T09:39:06.068              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 38.624 ms {"email":"thailq2222@gmail.com","password":"******","username":"thailq22"}
+ (access)
+INFO   2025-05-16T09:39:10.506              morgan\index.js:130 | ::1 thailq POST /api/v1/users 201 - 28.737 ms {"email":"thailq2222@gmail.com","password":"******","username":"thailq22222"}
+ (access)
+INFO   2025-05-16T09:47:40.353                  src\main.ts:46  | Server time: Fri May 16 2025 09:47:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:47:40.355                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:47:40.355                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:47:41.893              morgan\index.js:130 | ::1 thailq POST /api/v1/users 500 - 59.036 ms {"email":"thailq2222@gmail.com","password":"******","username":"thailq22222"}
+ (access)
+INFO   2025-05-16T09:48:55.243                  src\main.ts:46  | Server time: Fri May 16 2025 09:48:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:48:55.245                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:48:55.246                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:48:58.517              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 85.159 ms {"email":"thailq2222@gmail.com","password":"******","username":"thailq22222"}
+ (access)
+INFO   2025-05-16T09:49:21.819                  src\main.ts:46  | Server time: Fri May 16 2025 09:49:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:49:21.821                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:49:21.821                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:49:23.019              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 65.767 ms {"email":"thailq2222@gmail.com","password":"******","username":"thailq22222"}
+ (access)
+INFO   2025-05-16T09:50:19.211                  src\main.ts:46  | Server time: Fri May 16 2025 09:50:19 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:50:19.213                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:50:19.213                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T09:50:20.462    mysql\MysqlQueryRunner.ts:246 | Lỗi khi tạo tài khoản QueryFailedError: Data too long for column 'usr_phone' at row 1
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'INSERT INTO `user`(`usr_id`, `usr_username`, `usr_email`, `usr_password`, `usr_gender`, `usr_phone`, `usr_avatar`, `usr_date_of_birth`, `usr_last_login_at`, `usr_last_login_ip_at`, `usr_login_times`, `status`, `created_at`, `updated_at`, `deleted_at`, `is_deleted`) VALUES (DEFAULT, ?, ?, ?, DEFAULT, ?, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT)',
+  parameters: [
+    'thailq22222',
+    'thailq2222@gmail.com',
+    'c2ad578c344f7f6b9d7f37865929642c7e138d977a6ee09c7b43a1b3267f2657',
+    '11111111111111111111111111111111111111111111111111111111111111111'
+  ],
+  driverError: Error: Data too long for column 'usr_phone' at row 1
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_DATA_TOO_LONG',
+    errno: 1406,
+    sqlState: '22001',
+    sqlMessage: "Data too long for column 'usr_phone' at row 1",
+    sql: "INSERT INTO `user`(`usr_id`, `usr_username`, `usr_email`, `usr_password`, `usr_gender`, `usr_phone`, `usr_avatar`, `usr_date_of_birth`, `usr_last_login_at`, `usr_last_login_ip_at`, `usr_login_times`, `status`, `created_at`, `updated_at`, `deleted_at`, `is_deleted`) VALUES (DEFAULT, 'thailq22222', 'thailq2222@gmail.com', 'c2ad578c344f7f6b9d7f37865929642c7e138d977a6ee09c7b43a1b3267f2657', DEFAULT, '11111111111111111111111111111111111111111111111111111111111111111', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT)"
+  },
+  code: 'ER_DATA_TOO_LONG',
+  errno: 1406,
+  sqlState: '22001',
+  sqlMessage: "Data too long for column 'usr_phone' at row 1",
+  sql: "INSERT INTO `user`(`usr_id`, `usr_username`, `usr_email`, `usr_password`, `usr_gender`, `usr_phone`, `usr_avatar`, `usr_date_of_birth`, `usr_last_login_at`, `usr_last_login_ip_at`, `usr_login_times`, `status`, `created_at`, `updated_at`, `deleted_at`, `is_deleted`) VALUES (DEFAULT, 'thailq22222', 'thailq2222@gmail.com', 'c2ad578c344f7f6b9d7f37865929642c7e138d977a6ee09c7b43a1b3267f2657', DEFAULT, '11111111111111111111111111111111111111111111111111111111111111111', DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT, DEFAULT)"
+} (default)
+INFO   2025-05-16T09:50:20.474              morgan\index.js:130 | ::1 thailq POST /api/v1/users 400 - 70.655 ms {"email":"thailq2222@gmail.com","password":"******","username":"thailq22222"}
+ (access)
+INFO   2025-05-16T09:55:01.964                  src\main.ts:46  | Server time: Fri May 16 2025 09:55:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:55:01.966                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:55:01.966                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:55:14.806                  src\main.ts:46  | Server time: Fri May 16 2025 09:55:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:55:14.808                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:55:14.809                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:56:08.569                  src\main.ts:46  | Server time: Fri May 16 2025 09:56:08 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:56:08.571                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:56:08.571                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:58:14.826                  src\main.ts:46  | Server time: Fri May 16 2025 09:58:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:58:14.828                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:58:14.828                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:58:46.926              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1838.315 ms {"email":"thailq@gmail.com","password":"******","username":"thailq"}
+ (access)
+INFO   2025-05-16T09:59:03.308              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1557.713 ms {}
+ (access)
+INFO   2025-05-16T09:59:33.072                  src\main.ts:46  | Server time: Fri May 16 2025 09:59:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:59:33.074                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:59:33.074                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T09:59:38.237              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1654.904 ms {}
+ (access)
+INFO   2025-05-16T09:59:51.528                  src\main.ts:46  | Server time: Fri May 16 2025 09:59:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T09:59:51.531                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T09:59:51.532                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:00:09.528                  src\main.ts:46  | Server time: Fri May 16 2025 10:00:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:00:09.530                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:00:09.531                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:00:12.653              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1634.834 ms {}
+ (access)
+INFO   2025-05-16T10:01:54.171                  src\main.ts:46  | Server time: Fri May 16 2025 10:01:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:01:54.173                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:01:54.173                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:02:43.393                  src\main.ts:46  | Server time: Fri May 16 2025 10:02:43 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:02:43.395                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:02:43.395                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:03:28.588                  src\main.ts:46  | Server time: Fri May 16 2025 10:03:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:03:28.591                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:03:28.592                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:08:23.836              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1674.026 ms {}
+ (access)
+INFO   2025-05-16T10:08:33.657                  src\main.ts:46  | Server time: Fri May 16 2025 10:08:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:08:33.659                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:08:33.659                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:08:36.126              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1918.499 ms {}
+ (access)
+INFO   2025-05-16T10:11:35.952                  src\main.ts:46  | Server time: Fri May 16 2025 10:11:35 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:11:35.953                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:11:35.954                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:11:52.369                  src\main.ts:46  | Server time: Fri May 16 2025 10:11:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:11:52.371                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:11:52.371                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:12:08.989                  src\main.ts:46  | Server time: Fri May 16 2025 10:12:08 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:12:08.991                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:12:08.991                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:12:21.711                  src\main.ts:46  | Server time: Fri May 16 2025 10:12:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:12:21.712                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:12:21.713                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:12:24.829              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1950.701 ms {}
+ (access)
+INFO   2025-05-16T10:14:02.402                  src\main.ts:46  | Server time: Fri May 16 2025 10:14:02 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:14:02.403                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:14:02.404                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:14:11.808                  src\main.ts:46  | Server time: Fri May 16 2025 10:14:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:14:11.810                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:14:11.811                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:14:13.968              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1912.534 ms {}
+ (access)
+INFO   2025-05-16T10:14:35.374                  src\main.ts:46  | Server time: Fri May 16 2025 10:14:35 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:14:35.376                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:14:35.376                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:14:55.326              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 200 - 1689.261 ms {}
+ (access)
+INFO   2025-05-16T10:16:25.606                  src\main.ts:46  | Server time: Fri May 16 2025 10:16:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:16:25.607                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:16:25.608                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:16:26.947              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201,%20is_deleted%20=%200} 500 - 42.945 ms {}
+ (access)
+INFO   2025-05-16T10:16:58.220              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201} 500 - 9.122 ms {}
+ (access)
+INFO   2025-05-16T10:17:02.037              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201} 500 - 7.529 ms {}
+ (access)
+INFO   2025-05-16T10:20:36.087                  src\main.ts:46  | Server time: Fri May 16 2025 10:20:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:20:36.089                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:20:36.090                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:20:46.095                  src\main.ts:46  | Server time: Fri May 16 2025 10:20:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:20:46.096                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:20:46.097                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:21:28.049                  src\main.ts:46  | Server time: Fri May 16 2025 10:21:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:21:28.052                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:21:28.052                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:23:42.677              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201} 200 - 30809.768 ms {}
+ (access)
+INFO   2025-05-16T10:25:07.101              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=2t231&searchFields=[%22username%22]&filter={status%20=%201} 200 - 36244.124 ms {}
+ (access)
+INFO   2025-05-16T10:33:39.118              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%201} 200 - 30635.376 ms {}
+ (access)
+INFO   2025-05-16T10:34:09.505                  src\main.ts:46  | Server time: Fri May 16 2025 10:34:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:34:09.507                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:34:09.507                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:35:43.073              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%20%27Active%27} 200 - 29862.232 ms {}
+ (access)
+INFO   2025-05-16T10:36:56.336              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&searchFields=[%22username%22]&filter={status%20=%20%27Active%27} 200 - 25724.197 ms {}
+ (access)
+INFO   2025-05-16T10:40:19.955              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22] 200 - 32599.190 ms {}
+ (access)
+INFO   2025-05-16T10:45:58.332              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%20%27Active%27} 200 - 27945.296 ms {}
+ (access)
+INFO   2025-05-16T10:46:43.913              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%202} 200 - 34246.279 ms {}
+ (access)
+INFO   2025-05-16T10:47:16.709                  src\main.ts:46  | Server time: Fri May 16 2025 10:47:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:47:16.711                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:47:16.711                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:47:54.290              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%202} 200 - 32245.909 ms {}
+ (access)
+INFO   2025-05-16T10:48:33.847                  src\main.ts:46  | Server time: Fri May 16 2025 10:48:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:48:33.849                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:48:33.849                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T10:48:50.261                  src\main.ts:46  | Server time: Fri May 16 2025 10:48:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T10:48:50.263                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T10:48:50.263                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:25:10.908                  src\main.ts:46  | Server time: Fri May 16 2025 15:25:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:25:10.910                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:25:10.910                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:25:13.285                  src\main.ts:46  | Server time: Fri May 16 2025 15:25:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:25:13.286                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:25:13.287                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:42:07.463                  src\main.ts:46  | Server time: Fri May 16 2025 15:42:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:42:07.465                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:42:07.465                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:45:42.361              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%202} 200 - 32213.264 ms {}
+ (access)
+INFO   2025-05-16T15:46:44.391                  src\main.ts:46  | Server time: Fri May 16 2025 15:46:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:46:44.396                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:46:44.396                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:46:46.748              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thai&searchFields=[%22username%22]&filter={status%20=%202} 200 - 34.237 ms {}
+ (access)
+INFO   2025-05-16T15:47:29.351              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 9.521 ms {}
+ (access)
+INFO   2025-05-16T15:48:11.529                  src\main.ts:46  | Server time: Fri May 16 2025 15:48:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:48:11.531                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:48:11.532                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:48:11.645              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 37.418 ms {}
+ (access)
+INFO   2025-05-16T15:48:34.931                  src\main.ts:46  | Server time: Fri May 16 2025 15:48:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:48:34.933                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:48:34.934                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:48:36.184              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 36.608 ms {}
+ (access)
+INFO   2025-05-16T15:49:28.160                  src\main.ts:46  | Server time: Fri May 16 2025 15:49:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:49:28.163                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:49:28.164                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:49:28.609              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 31.380 ms {}
+ (access)
+INFO   2025-05-16T15:52:52.934                  src\main.ts:46  | Server time: Fri May 16 2025 15:52:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:52:52.937                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:52:52.937                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:52:54.294              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 197.672 ms {}
+ (access)
+INFO   2025-05-16T15:54:01.849                  src\main.ts:46  | Server time: Fri May 16 2025 15:54:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:54:01.850                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:54:01.851                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:54:02.470              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 30.872 ms {}
+ (access)
+INFO   2025-05-16T15:54:21.725              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 12.219 ms {}
+ (access)
+INFO   2025-05-16T15:55:18.902                  src\main.ts:46  | Server time: Fri May 16 2025 15:55:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:55:18.904                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:55:18.904                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:55:21.633              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 31.678 ms {}
+ (access)
+INFO   2025-05-16T15:55:22.586              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 9.303 ms {}
+ (access)
+INFO   2025-05-16T15:55:31.503              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=%27thailq%27&searchFields=[%22username%22]&filter={status%20=%202} 200 - 10.804 ms {}
+ (access)
+INFO   2025-05-16T15:55:32.457              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=%27thailq%27&searchFields=[%22username%22]&filter={status%20=%202} 200 - 10.434 ms {}
+ (access)
+INFO   2025-05-16T15:55:37.397              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 9.713 ms {}
+ (access)
+INFO   2025-05-16T15:55:57.580                  src\main.ts:46  | Server time: Fri May 16 2025 15:55:57 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:55:57.584                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:55:57.585                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:56:13.439                  src\main.ts:46  | Server time: Fri May 16 2025 15:56:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:56:13.441                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:56:13.441                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:56:14.086              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 27.967 ms {}
+ (access)
+INFO   2025-05-16T15:56:50.737                  src\main.ts:46  | Server time: Fri May 16 2025 15:56:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:56:50.739                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:56:50.739                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:57:05.365                  src\main.ts:46  | Server time: Fri May 16 2025 15:57:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:57:05.367                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:57:05.367                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T15:57:06.322         user\user.service.ts:103 | Lỗi khi lấy danh sách tài khoản QueryFailedError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'thailq'') AND status = 'Pending'
+               ORDER BY usr_id ASC
+            ' at line 5
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('?') AND status = ?\n" +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT ?, ?\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            ',
+  parameters: [ 'thailq', 'Pending', 0, 10 ],
+  driverError: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'thailq'') AND status = 'Pending'
+                 ORDER BY usr_id ASC
+              ' at line 5
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'thailq'') AND status = 'Pending'\n" +
+      '               ORDER BY usr_id ASC\n' +
+      "            ' at line 5",
+    sql: '\n' +
+      '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+      '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+      '               FROM (\n' +
+      '               SELECT usr_id FROM user\n' +
+      "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST(''thailq'') AND status = 'Pending'\n" +
+      '               ORDER BY usr_id ASC\n' +
+      '               LIMIT 0, 10\n' +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      '               ON temp.usr_id = pre.usr_id\n' +
+      '               ORDER BY usr_id ASC\n' +
+      '            '
+  },
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'thailq'') AND status = 'Pending'\n" +
+    '               ORDER BY usr_id ASC\n' +
+    "            ' at line 5",
+  sql: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST(''thailq'') AND status = 'Pending'\n" +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT 0, 10\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            '
+} (default)
+INFO   2025-05-16T15:57:06.338              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 400 - 42.858 ms {}
+ (access)
+INFO   2025-05-16T15:57:27.742                  src\main.ts:46  | Server time: Fri May 16 2025 15:57:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T15:57:27.745                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T15:57:27.745                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T15:57:28.966              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 28.295 ms {}
+ (access)
+INFO   2025-05-16T16:00:37.974                  src\main.ts:46  | Server time: Fri May 16 2025 16:00:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:00:37.975                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:00:37.976                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:01:10.903              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 32810.628 ms {}
+ (access)
+INFO   2025-05-16T16:03:11.932                  src\main.ts:46  | Server time: Fri May 16 2025 16:03:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:03:11.934                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:03:11.934                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:03:13.474              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 34.870 ms {}
+ (access)
+INFO   2025-05-16T16:03:29.768                  src\main.ts:46  | Server time: Fri May 16 2025 16:03:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:03:29.770                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:03:29.771                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T16:03:30.149         user\user.service.ts:109 | Lỗi khi lấy danh sách tài khoản QueryFailedError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0
+               ) AS temp
+               INNER JOIN user AS pre
+    ' at line 7
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('thailq' IN BOOLEAN MODE) AND status = ?\n" +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT ?, ?\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            ',
+  parameters: [ 'thailq', 'Pending', 0, 10 ],
+  driverError: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0
+                 ) AS temp
+                 INNER JOIN user AS pre
+      ' at line 7
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0\n" +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      "    ' at line 7",
+    sql: '\n' +
+      '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+      '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+      '               FROM (\n' +
+      '               SELECT usr_id FROM user\n' +
+      "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('thailq' IN BOOLEAN MODE) AND status = 'thailq'\n" +
+      '               ORDER BY usr_id ASC\n' +
+      "               LIMIT 'Pending', 0\n" +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      '               ON temp.usr_id = pre.usr_id\n' +
+      '               ORDER BY usr_id ASC\n' +
+      '            '
+  },
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0\n" +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    "    ' at line 7",
+  sql: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('thailq' IN BOOLEAN MODE) AND status = 'thailq'\n" +
+    '               ORDER BY usr_id ASC\n' +
+    "               LIMIT 'Pending', 0\n" +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            '
+} (default)
+INFO   2025-05-16T16:03:30.165              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 400 - 56.651 ms {}
+ (access)
+INFO   2025-05-16T16:04:27.069                  src\main.ts:46  | Server time: Fri May 16 2025 16:04:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:04:27.070                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:04:27.071                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T16:04:27.544         user\user.service.ts:110 | Lỗi khi lấy danh sách tài khoản QueryFailedError: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0
+               ) AS temp
+               INNER JOIN user AS pre
+    ' at line 7
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('thailq' IN BOOLEAN MODE) AND status = ?\n" +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT ?, ?\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            ',
+  parameters: [ 'thailq', 'Pending', 0, 10 ],
+  driverError: Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0
+                 ) AS temp
+                 INNER JOIN user AS pre
+      ' at line 7
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_PARSE_ERROR',
+    errno: 1064,
+    sqlState: '42000',
+    sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0\n" +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      "    ' at line 7",
+    sql: '\n' +
+      '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+      '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+      '               FROM (\n' +
+      '               SELECT usr_id FROM user\n' +
+      "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('thailq' IN BOOLEAN MODE) AND status = 'thailq'\n" +
+      '               ORDER BY usr_id ASC\n' +
+      "               LIMIT 'Pending', 0\n" +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      '               ON temp.usr_id = pre.usr_id\n' +
+      '               ORDER BY usr_id ASC\n' +
+      '            '
+  },
+  code: 'ER_PARSE_ERROR',
+  errno: 1064,
+  sqlState: '42000',
+  sqlMessage: "You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Pending', 0\n" +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    "    ' at line 7",
+  sql: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST('thailq' IN BOOLEAN MODE) AND status = 'thailq'\n" +
+    '               ORDER BY usr_id ASC\n' +
+    "               LIMIT 'Pending', 0\n" +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            '
+} (default)
+INFO   2025-05-16T16:04:27.560              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 400 - 41.588 ms {}
+ (access)
+INFO   2025-05-16T16:05:25.718                  src\main.ts:46  | Server time: Fri May 16 2025 16:05:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:05:25.720                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:05:25.720                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:05:29.678              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 28.833 ms {}
+ (access)
+INFO   2025-05-16T16:06:17.169                  src\main.ts:46  | Server time: Fri May 16 2025 16:06:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:06:17.171                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:06:17.171                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T16:06:17.759    mysql\MysqlQueryRunner.ts:246 | Lỗi khi lấy danh sách tài khoản QueryFailedError: Can't find FULLTEXT index matching the column list
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    '               WHERE is_deleted = 0 AND MATCH(usr_username) AGAINST(? IN BOOLEAN MODE) AND status = ?\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT ?, ?\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            ',
+  parameters: [ 'thailq', 'Pending', 0, 10 ],
+  driverError: Error: Can't find FULLTEXT index matching the column list
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_FT_MATCHING_KEY_NOT_FOUND',
+    errno: 1191,
+    sqlState: 'HY000',
+    sqlMessage: "Can't find FULLTEXT index matching the column list",
+    sql: '\n' +
+      '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+      '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+      '               FROM (\n' +
+      '               SELECT usr_id FROM user\n' +
+      "               WHERE is_deleted = 0 AND MATCH(usr_username) AGAINST('thailq' IN BOOLEAN MODE) AND status = 'Pending'\n" +
+      '               ORDER BY usr_id ASC\n' +
+      '               LIMIT 0, 10\n' +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      '               ON temp.usr_id = pre.usr_id\n' +
+      '               ORDER BY usr_id ASC\n' +
+      '            '
+  },
+  code: 'ER_FT_MATCHING_KEY_NOT_FOUND',
+  errno: 1191,
+  sqlState: 'HY000',
+  sqlMessage: "Can't find FULLTEXT index matching the column list",
+  sql: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username) AGAINST('thailq' IN BOOLEAN MODE) AND status = 'Pending'\n" +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT 0, 10\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            '
+} (default)
+INFO   2025-05-16T16:06:17.773              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 400 - 41.444 ms {}
+ (access)
+INFO   2025-05-16T16:06:26.616                  src\main.ts:46  | Server time: Fri May 16 2025 16:06:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:06:26.617                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:06:26.618                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:06:28.269              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 33.615 ms {}
+ (access)
+INFO   2025-05-16T16:06:41.468                  src\main.ts:46  | Server time: Fri May 16 2025 16:06:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:06:41.470                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:06:41.470                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:06:42.177              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 35.417 ms {}
+ (access)
+INFO   2025-05-16T16:06:43.559              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 10.201 ms {}
+ (access)
+INFO   2025-05-16T16:07:01.766                  src\main.ts:46  | Server time: Fri May 16 2025 16:07:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:07:01.768                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:07:01.768                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:07:02.834              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 34.773 ms {}
+ (access)
+INFO   2025-05-16T16:08:18.245                  src\main.ts:46  | Server time: Fri May 16 2025 16:08:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:08:18.246                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:08:18.247                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:08:43.774              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 24314.911 ms {}
+ (access)
+INFO   2025-05-16T16:10:16.422                  src\main.ts:46  | Server time: Fri May 16 2025 16:10:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:10:16.424                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:10:16.424                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:10:42.671              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 25199.306 ms {}
+ (access)
+INFO   2025-05-16T16:11:15.364                  src\main.ts:46  | Server time: Fri May 16 2025 16:11:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:11:15.365                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:11:15.365                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T16:11:16.085         user\user.service.ts:96  | Lỗi khi lấy danh sách tài khoản TypeError: Cannot read properties of undefined (reading 'total')
+    at UserService.findAll (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\user\user.service.ts:96:38)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) (default)
+INFO   2025-05-16T16:11:16.091              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 400 - 25.951 ms {}
+ (access)
+INFO   2025-05-16T16:11:46.089                  src\main.ts:46  | Server time: Fri May 16 2025 16:11:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:11:46.091                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:11:46.092                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:11:47.125              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 27.769 ms {}
+ (access)
+INFO   2025-05-16T16:14:41.800                  src\main.ts:46  | Server time: Fri May 16 2025 16:14:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:14:41.802                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:14:41.802                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:14:43.030              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 39.938 ms {}
+ (access)
+INFO   2025-05-16T16:15:10.502                  src\main.ts:46  | Server time: Fri May 16 2025 16:15:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:15:10.504                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:15:10.504                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:15:11.335              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 32.113 ms {}
+ (access)
+INFO   2025-05-16T16:16:27.196                  src\main.ts:46  | Server time: Fri May 16 2025 16:16:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:16:27.198                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:16:27.198                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:16:28.378              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 87.787 ms {}
+ (access)
+INFO   2025-05-16T16:16:56.318                  src\main.ts:46  | Server time: Fri May 16 2025 16:16:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:16:56.320                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:16:56.320                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+ERROR  2025-05-16T16:16:57.196    mysql\MysqlQueryRunner.ts:246 | Lỗi khi lấy danh sách tài khoản QueryFailedError: Unknown column 'thailq' in 'where clause'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    '               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST(thailq IN BOOLEAN MODE) AND status = ?\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT ?, ?\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            ',
+  parameters: [ 'Pending', 0, 10 ],
+  driverError: Error: Unknown column 'thailq' in 'where clause'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'thailq' in 'where clause'",
+    sql: '\n' +
+      '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+      '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+      '               FROM (\n' +
+      '               SELECT usr_id FROM user\n' +
+      "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST(thailq IN BOOLEAN MODE) AND status = 'Pending'\n" +
+      '               ORDER BY usr_id ASC\n' +
+      '               LIMIT 0, 10\n' +
+      '               ) AS temp\n' +
+      '               INNER JOIN user AS pre\n' +
+      '               ON temp.usr_id = pre.usr_id\n' +
+      '               ORDER BY usr_id ASC\n' +
+      '            '
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'thailq' in 'where clause'",
+  sql: '\n' +
+    '               SELECT pre.usr_id, usr_username, usr_email, usr_gender,\n' +
+    '                  usr_phone, usr_avatar, usr_date_of_birth, status\n' +
+    '               FROM (\n' +
+    '               SELECT usr_id FROM user\n' +
+    "               WHERE is_deleted = 0 AND MATCH(usr_username, usr_email) AGAINST(thailq IN BOOLEAN MODE) AND status = 'Pending'\n" +
+    '               ORDER BY usr_id ASC\n' +
+    '               LIMIT 0, 10\n' +
+    '               ) AS temp\n' +
+    '               INNER JOIN user AS pre\n' +
+    '               ON temp.usr_id = pre.usr_id\n' +
+    '               ORDER BY usr_id ASC\n' +
+    '            '
+} (default)
+INFO   2025-05-16T16:16:57.207              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 400 - 36.913 ms {}
+ (access)
+INFO   2025-05-16T16:17:03.709                  src\main.ts:46  | Server time: Fri May 16 2025 16:17:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:17:03.711                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:17:03.711                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:17:19.157              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 63.003 ms {}
+ (access)
+INFO   2025-05-16T16:19:00.412                  src\main.ts:46  | Server time: Fri May 16 2025 16:19:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:19:00.415                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:19:00.415                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:19:01.273              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 31.645 ms {}
+ (access)
+INFO   2025-05-16T16:19:17.182              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%201} 200 - 11.655 ms {}
+ (access)
+INFO   2025-05-16T16:19:48.399                  src\main.ts:46  | Server time: Fri May 16 2025 16:19:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:19:48.401                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:19:48.401                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:19:51.520                  src\main.ts:46  | Server time: Fri May 16 2025 16:19:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:19:51.521                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:19:51.522                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:19:59.583                  src\main.ts:46  | Server time: Fri May 16 2025 16:19:59 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:19:59.585                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:19:59.585                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:20:07.148              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%201} 200 - 29.704 ms {}
+ (access)
+INFO   2025-05-16T16:20:08.175              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%201} 200 - 13.384 ms {}
+ (access)
+INFO   2025-05-16T16:20:11.998              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%202} 200 - 9.313 ms {}
+ (access)
+INFO   2025-05-16T16:20:15.604              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%201} 200 - 10.618 ms {}
+ (access)
+INFO   2025-05-16T16:20:29.055                  src\main.ts:46  | Server time: Fri May 16 2025 16:20:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:20:29.057                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:20:29.057                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:20:48.999                  src\main.ts:46  | Server time: Fri May 16 2025 16:20:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:20:49.001                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:20:49.002                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:22:04.464              morgan\index.js:130 | ::1 thailq GET /api/v1/users?page=1&limit=10&search=thailq&searchFields=[%22username%22]&filter={status%20=%201} 200 - 32.420 ms {}
+ (access)
+INFO   2025-05-16T16:23:01.405                  src\main.ts:46  | Server time: Fri May 16 2025 16:23:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:23:01.412                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:23:01.412                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:27:34.528                  src\main.ts:46  | Server time: Fri May 16 2025 16:27:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:27:34.530                  src\main.ts:47  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:27:34.531                  src\main.ts:48  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-05-16T16:28:15.156                  src\main.ts:42  | Server time: Fri May 16 2025 16:28:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-16T16:28:15.157                  src\main.ts:43  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-05-16T16:28:15.158                  src\main.ts:44  | Running app on: http://192.168.1.8:3005 (default)
