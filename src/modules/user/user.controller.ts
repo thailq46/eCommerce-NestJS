@@ -10,7 +10,6 @@ import {
    Query,
    UseInterceptors,
 } from '@nestjs/common';
-import {ResponseMessage} from 'src/base/decorators/customize.decorator';
 import {ParamIdDto} from 'src/base/shared/dto/common.dto';
 import {QuerySpecificationDto} from 'src/base/shared/dto/query-specification.dto';
 import {UpdateUserDto} from 'src/modules/user/dto/update-user.dto';
@@ -34,7 +33,6 @@ export class UserController {
    }
 
    @Get(':id')
-   @ResponseMessage('Lấy thông tin tài khoản thành công')
    findOne(@Param() params: ParamIdDto) {
       return this.userService.findOne(params.id);
    }
