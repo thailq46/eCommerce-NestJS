@@ -17,6 +17,7 @@ export class CategoryService {
    ) {}
 
    async create(payload: CreateCategoryDto) {
+      console.log('CategoryService ~ create ~ payload', payload);
       const existingSlug = await this.categoryRepo.findOne({
          where: {cate_slug: payload.cate_slug, is_deleted: false},
       });

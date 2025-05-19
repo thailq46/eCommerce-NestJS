@@ -1,0 +1,35 @@
+INFO   2025-05-19T09:40:18.081                  src\main.ts:42  | Server time: Mon May 19 2025 09:40:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:40:18.082                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:40:18.083                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-05-19T09:41:32.739              morgan\index.js:130 | ::1 thailq GET /api/v1/category 200 - 45.401 ms {"cate_desc":"Điện thoại di động DESC Chi tiết"}
+ (access)
+INFO   2025-05-19T09:41:55.951              morgan\index.js:130 | ::1 thailq GET /api/v1/category?page=1&limit=10 200 - 10.967 ms {}
+ (access)
+INFO   2025-05-19T09:43:13.302              morgan\index.js:130 | ::1 thailq POST /api/v1/category 201 - 170.673 ms {"cate_name":"Quần áo","cate_desc":"Quần áo DESC","cate_slug":"quan-ao"}
+ (access)
+INFO   2025-05-19T09:43:33.358              morgan\index.js:130 | ::1 thailq POST /api/v1/category 201 - 20.093 ms {"cate_name":"Quần áo thể thao","cate_desc":"Quần áo thể thao DESC","cate_slug":"quan-ao-the-thao","parent_id":"2"}
+ (access)
+INFO   2025-05-19T09:44:20.776                  src\main.ts:42  | Server time: Mon May 19 2025 09:44:20 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:44:20.778                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:44:20.778                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-05-19T09:44:29.402              morgan\index.js:130 | ::1 thailq POST /api/v1/category 201 - 69.239 ms {"cate_name":"Quần áo thể thao","cate_desc":"Quần áo thể thao DESC","cate_slug":"quan-ao-the-thao","parent_id":"2"}
+ (access)
+INFO   2025-05-19T09:44:47.536                  src\main.ts:42  | Server time: Mon May 19 2025 09:44:47 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:44:47.539                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:44:47.540                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-05-19T09:44:57.098              morgan\index.js:130 | ::1 thailq POST /api/v1/category 201 - 137.363 ms {"cate_name":"Quần áo thể thao","cate_desc":"Quần áo thể thao DESC","cate_slug":"quan-ao-the-thao","parent_id":"2"}
+ (access)
+INFO   2025-05-19T09:45:21.039                  src\main.ts:42  | Server time: Mon May 19 2025 09:45:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:45:21.041                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:45:21.042                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-05-19T09:50:12.578                  src\main.ts:42  | Server time: Mon May 19 2025 09:50:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:50:12.580                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:50:12.581                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-05-19T09:50:23.208              morgan\index.js:130 | ::1 thailq POST /api/v1/category 201 - 56.238 ms {"cate_name":"Quần áo thể thao","cate_desc":"Quần áo thể thao DESC","cate_slug":"quan-ao-the-thao","parent_id":"2"}
+ (access)
+INFO   2025-05-19T09:50:48.193                  src\main.ts:42  | Server time: Mon May 19 2025 09:50:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:50:48.194                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:50:48.195                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-05-19T09:51:18.800                  src\main.ts:42  | Server time: Mon May 19 2025 09:51:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-05-19T09:51:18.802                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-05-19T09:51:18.802                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)

@@ -1,5 +1,5 @@
 import {BaseEntityCRUD} from 'src/base/model/model.entity';
-import {BeforeInsert, Column, Entity, PrimaryGeneratedColumn} from 'typeorm';
+import {Column, Entity, PrimaryGeneratedColumn} from 'typeorm';
 
 @Entity('category')
 export class Category extends BaseEntityCRUD {
@@ -17,13 +17,4 @@ export class Category extends BaseEntityCRUD {
 
    @Column({type: 'int', default: null, nullable: true})
    parent_id: number | null;
-
-   @BeforeInsert()
-   setDefaultValue() {
-      this.created_at = new Date();
-      this.updated_at = new Date();
-      this.deleted_at = null;
-      this.is_deleted = false;
-      this.parent_id = null;
-   }
 }

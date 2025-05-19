@@ -83,6 +83,9 @@ const appenders: Record<string, Appender> = {
       type: 'dateFile',
       filename: 'logs/out.log',
       pattern: '-yyyy-MM-dd', // tạo file mới mỗi ngày (out-2025-03-24.log)
+      alwaysIncludePattern: true, // QUAN TRỌNG: Luôn thêm pattern vào tên file
+      keepFileExt: true, // giữ lại phần mở rộng của file
+      compress: false, // Không nén file cũ
       layout: layouts.dateFile,
    },
    access: {

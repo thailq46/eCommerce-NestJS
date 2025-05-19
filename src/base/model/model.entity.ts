@@ -1,4 +1,4 @@
-import {CreateDateColumn, DeleteDateColumn, UpdateDateColumn} from 'typeorm';
+import {Column, CreateDateColumn, DeleteDateColumn, UpdateDateColumn} from 'typeorm';
 import {BaseEntity as OrmBaseEntity} from 'typeorm/repository/BaseEntity';
 
 export class BaseEntity extends OrmBaseEntity {
@@ -10,7 +10,7 @@ export class BaseEntity extends OrmBaseEntity {
 }
 
 export class BaseEntityCRUD extends BaseEntity {
-   @CreateDateColumn({type: 'datetime'})
+   @CreateDateColumn({type: 'datetime', update: false})
    created_at: Date;
 
    @UpdateDateColumn({type: 'datetime'})
@@ -19,6 +19,6 @@ export class BaseEntityCRUD extends BaseEntity {
    @DeleteDateColumn({type: 'datetime', nullable: true})
    deleted_at: Date | null;
 
-   @DeleteDateColumn({type: 'boolean', default: false})
+   @Column({type: 'boolean', default: false})
    is_deleted: boolean;
 }

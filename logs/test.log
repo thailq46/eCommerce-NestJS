@@ -5899,3 +5899,251 @@
 {"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"18/05/2025 17:55:52","timestamp":"2025-05-18T10:55:52.940Z"}
 {"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"18/05/2025 17:55:52","timestamp":"2025-05-18T10:55:52.944Z"}
 {"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"18/05/2025 17:55:52","timestamp":"2025-05-18T10:55:52.946Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.484Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.488Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.489Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.490Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.491Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.492Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.493Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.494Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.495Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.495Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.496Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.497Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.498Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.498Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.499Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.500Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.500Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.501Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.501Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.502Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.502Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.502Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.503Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.503Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.504Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.505Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.505Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.506Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.506Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.509Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:32:55","timestamp":"2025-05-19T02:32:55.512Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.044Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.049Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.050Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.051Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.052Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.053Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.053Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.054Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.055Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.056Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.057Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.058Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.058Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.059Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.059Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.060Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.060Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.061Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.062Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.063Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.063Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.064Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.065Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.065Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.066Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.067Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.068Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.068Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.069Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.072Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:40:18","timestamp":"2025-05-19T02:40:18.075Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.714Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.721Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.723Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.726Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.729Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.730Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.731Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.733Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.734Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.735Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.737Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.738Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.739Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.740Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.741Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.741Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.742Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.743Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.746Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.749Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.750Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.751Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.752Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.753Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.753Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.754Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.756Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.758Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.759Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.765Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:44:20","timestamp":"2025-05-19T02:44:20.769Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.480Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.486Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.488Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.489Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.490Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.492Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.492Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.493Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.495Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.496Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.499Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.500Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.501Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.502Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.502Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.503Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.504Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.505Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.508Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.509Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.510Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.511Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.512Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.512Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.513Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.514Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.515Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.516Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.516Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.520Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:44:47","timestamp":"2025-05-19T02:44:47.525Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.900Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.906Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.908Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.909Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.910Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.911Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.912Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.912Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.913Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.914Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.916Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.916Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.917Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.919Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.920Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:20.984Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:45:20","timestamp":"2025-05-19T02:45:21.000Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.001Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.002Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.003Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.004Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.006Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.007Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.008Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.009Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.009Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.011Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.012Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.016Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:45:21","timestamp":"2025-05-19T02:45:21.031Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.547Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.551Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.552Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.553Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.555Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.556Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.556Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.557Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.559Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.559Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.560Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.560Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.561Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.561Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.562Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.562Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.563Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.563Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.563Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.564Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.564Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.565Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.565Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.566Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.566Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.567Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.568Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.568Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.569Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.571Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:50:12","timestamp":"2025-05-19T02:50:12.573Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.162Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.167Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.168Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.170Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.171Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.171Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.172Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.172Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.173Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.174Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.174Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.175Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.176Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.177Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.177Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.178Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.178Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.178Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.179Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.179Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.180Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.180Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.181Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.181Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.182Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.182Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.182Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.183Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.183Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.186Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:50:48","timestamp":"2025-05-19T02:50:48.189Z"}
+{"context":"RoutesResolver","level":"info","message":"UserController {/api/v1/users}:","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.766Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.771Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.772Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.773Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, PATCH} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.774Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/users/:id, DELETE} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.775Z"}
+{"context":"RoutesResolver","level":"info","message":"AuthController {/api/v1/auth}:","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.775Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/login, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.776Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/profile, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.777Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/logout, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.778Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/auth/change-password, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.779Z"}
+{"context":"RoutesResolver","level":"info","message":"ShopController {/api/v1/shop}:","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.779Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.780Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, PATCH} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.780Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, DELETE} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.781Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.781Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/shop/:id, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.782Z"}
+{"context":"RoutesResolver","level":"info","message":"SpuController {/api/v1/spu}:","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.783Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.783Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.784Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.784Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, PATCH} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.784Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/spu/:id, DELETE} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.785Z"}
+{"context":"RoutesResolver","level":"info","message":"CategoryController {/api/v1/category}:","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.785Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, POST} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.786Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.787Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, GET} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.787Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, PATCH} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.788Z"}
+{"context":"RouterExplorer","level":"info","message":"Mapped {/api/v1/category/:id, DELETE} route","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.788Z"}
+{"context":"RedisService","level":"info","message":"Attempting to connect to Redis at localhost:6379","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.792Z"}
+{"context":"NestApplication","level":"info","message":"Nest application successfully started","time":"19/05/2025 09:51:18","timestamp":"2025-05-19T02:51:18.794Z"}
