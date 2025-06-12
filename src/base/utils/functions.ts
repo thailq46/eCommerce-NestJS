@@ -1,3 +1,5 @@
+import slugify from 'slugify';
+
 /**
  * Tạo số ngẫu nhiên trong khoảng [min, max]
  * @param min Giá trị nhỏ nhất
@@ -5,7 +7,7 @@
  * @returns Số ngẫu nhiên
  */
 export function random(min: number, max: number) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
+   return Math.floor(Math.random() * (max - min + 1) + min);
 }
 
 /**
@@ -14,14 +16,21 @@ export function random(min: number, max: number) {
  * @returns Chuỗi chữ cái ngẫu nhiên
  */
 export const randomAlphabet = (stringLength: number) => {
-  let randomString = '';
+   let randomString = '';
+   const rd = () => {
+      let rd = random(65, 122);
+      if (90 < rd && rd < 97) rd += 10;
+      return rd;
+   };
+   while (stringLength--) randomString += String.fromCharCode(rd());
+   return randomString;
+};
 
-  const rd = () => {
-    let rd = random(65, 122);
-    if (90 < rd && rd < 97) rd += 10;
-    return rd;
-  };
-
-  while (stringLength--) randomString += String.fromCharCode(rd());
-  return randomString;
+export const generateSlugify = (str: string): string => {
+   const slug = slugify(str, {
+      lower: true,
+      strict: true,
+      locale: 'vi',
+   });
+   return slug;
 };

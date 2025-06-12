@@ -16,18 +16,21 @@ export class Spu extends BaseEntityCRUD {
    product_slug: string;
 
    @Column({type: 'text', nullable: true, default: null})
-   product_thumb: string;
+   product_thumb: string | null;
 
    @Column({type: 'int'})
-   product_category: string;
-
-   @Column({type: 'decimal', precision: 8, scale: 2})
-   product_price: number;
+   product_category: number;
 
    @Column({type: 'int'})
    product_shop: number;
 
-   @Column({type: 'int', default: 0, nullable: true})
+   @Column({type: 'decimal', precision: 10, scale: 2, default: 0})
+   product_price: number;
+
+   @Column({type: 'int'})
+   product_quantity: number;
+
+   @Column({type: 'decimal', precision: 3, scale: 1, default: 0})
    product_rating_avg: number;
 
    @Column({type: 'json'})

@@ -1,17 +1,17 @@
 import {
    Injectable,
    InternalServerErrorException,
-   Logger,
    NotFoundException,
    OnModuleDestroy,
    OnModuleInit,
 } from '@nestjs/common';
 import Redis from 'ioredis';
 import {config} from 'src/base/config';
+import {LoggingService} from 'src/base/logging';
 
 @Injectable()
 export class RedisService implements OnModuleInit, OnModuleDestroy {
-   private readonly logger = new Logger(RedisService.name);
+   private readonly category = RedisService.name;
    private clients: Record<string, Redis> = {};
    private connectionTimeout: NodeJS.Timeout | null = null;
    private readonly REDIS_CONNECT_TIMEOUT = 10000; // 10s
@@ -29,6 +29,8 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          en: 'Cannot connect to Redis',
       },
    };
+
+   constructor(private readonly loggingService: LoggingService) {}
 
    onModuleInit() {
       const isRedisEnabled = true;
@@ -63,17 +65,17 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          this.clients.instanceConnect = redisInstance;
          this.handleEventConnection(redisInstance);
 
-         this.logger.log(`Attempting to connect to Redis at ${host}:${port}`);
+         this.loggingService.logger.default.info(`Attempting to connect to Redis at ${host}:${port}`);
       } catch (error) {
-         this.logger.error(`Failed to initialize Redis connection: ${error.message}`);
+         this.loggingService.logger.default.error(`Failed to initialize Redis connection: ${error.message}`);
          throw error;
       }
    }
 
    private handleTimeoutError() {
       this.connectionTimeout = setTimeout(() => {
-         this.logger.error('Cannot connect to Redis - connection timeout');
-         console.log(`connectionIORedis - Connection status: timeout`);
+         this.loggingService.logger.default.error('Cannot connect to Redis - connection timeout');
+         // console.log(`connectionIORedis - Connection status: timeout`);
          // Trong NestJS, thường không ném lỗi trực tiếp mà xử lý gracefully
          throw new InternalServerErrorException(this.REDIS_CONNECT_MESSAGE.message.vn);
       }, this.REDIS_CONNECT_TIMEOUT);
@@ -81,8 +83,8 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
 
    private handleEventConnection(redisConnection: Redis) {
       redisConnection.on(this.statusConnectRedis.CONNECT, () => {
-         // this.logger.log('Redis connection established successfully');
-         console.log(`connectionIORedis - Connection status: connected`);
+         this.loggingService.logger.default.info('connectionIORedis - Connection status: connected');
+         // console.log(`connectionIORedis - Connection status: connected`);
          if (this.connectionTimeout) {
             clearTimeout(this.connectionTimeout);
             this.connectionTimeout = null;
@@ -90,14 +92,14 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       });
 
       redisConnection.on(this.statusConnectRedis.END, () => {
-         // this.logger.warn('Redis connection ended');
-         console.log(`connectionIORedis - Connection status: disconnected`);
+         this.loggingService.logger.default.warn('Redis connection ended');
+         // console.log(`connectionIORedis - Connection status: disconnected`);
          this.handleTimeoutError();
       });
 
       redisConnection.on(this.statusConnectRedis.RECONNECT, () => {
-         // this.logger.log('Attempting to reconnect to Redis');
-         console.log(`connectionIORedis - Connection status: reconnecting`);
+         this.loggingService.logger.default.info('Attempting to reconnect to Redis');
+         // console.log(`connectionIORedis - Connection status: reconnecting`);
          if (this.connectionTimeout) {
             clearTimeout(this.connectionTimeout);
             this.connectionTimeout = null;
@@ -105,8 +107,8 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       });
 
       redisConnection.on(this.statusConnectRedis.ERROR, (err) => {
-         // this.logger.error(`Redis connection error: ${err.message}`);
-         console.log(`connectionIORedis - Connection status: error ${err}`);
+         this.loggingService.logger.default.error(`Redis connection error: ${err.message}`);
+         // console.log(`connectionIORedis - Connection status: error ${err}`);
          this.handleTimeoutError();
       });
    }
@@ -122,14 +124,14 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       for (const clientName in this.clients) {
          if (this.clients[clientName]) {
             await this.clients[clientName].quit();
-            // this.logger.log(`Closed Redis connection: ${clientName}`);
+            this.loggingService.logger.default.info(`Closed Redis connection: ${clientName}`);
             console.log(`connectionIORedis - Connection status: closed`);
          }
       }
       this.clients = {};
    }
 
-   async set({key, value}: {key: string; value: string | number}) {
+   async set({key, value}: {key: string; value: any}) {
       try {
          const redisCache = this.getClient();
          if (!redisCache) {
@@ -138,6 +140,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          return await redisCache.set(key, value);
       } catch (error) {
          console.log('RedisService ~ set ~ error', error);
+         this.loggingService.logger.default.error(`RedisService ~ set ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
@@ -151,11 +154,12 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          return await redisCache.get(key);
       } catch (error) {
          console.log('RedisService ~ get ~ error', error);
+         this.loggingService.logger.default.error(`RedisService ~ get ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
 
-   async setCacheWithExpireTime({key, value, expireTime}: {key: string; value: string | number; expireTime: number}) {
+   async setCacheWithExpireTime({key, value, expireTime}: {key: string; value: any; expireTime: number}) {
       try {
          const redisCache = this.getClient();
          if (!redisCache) {
@@ -164,6 +168,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          return await redisCache.set(key, value, 'EX', expireTime);
       } catch (error) {
          console.log('RedisService ~ setCacheWithExpireTime ~ error', error);
+         this.loggingService.logger.default.error(`RedisService ~ setCacheWithExpireTime ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }

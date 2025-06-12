@@ -1,8 +1,9 @@
 import * as morgan from 'morgan';
+import {IUser} from 'src/modules/user/types';
 
 declare module 'http' {
    interface IncomingMessage {
-      user?: {usr_username: string};
+      user: IUser;
       body?: any;
    }
 }
@@ -14,7 +15,7 @@ morgan.token('user', (req) => {
 
 morgan.token('body', (req) => {
    const body = req.body || {};
-   // Lọc các thông tin nhạy cảm (nếu cần)
+   // Lọc các thông tin nhạy cảm
    if (body.password) body.password = '******';
    if (body.token) body.token = '******';
    if (body.refreshToken) body.refreshToken = '******';

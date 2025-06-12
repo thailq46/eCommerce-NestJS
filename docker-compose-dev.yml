@@ -1,0 +1,25 @@
+version: '3.2'
+
+networks:
+   nest-app-network:
+      driver: bridge
+
+services:
+   mysql:
+      image: mysql:8.0
+      container_name: mysql-container
+      volumes:
+         - ./environments/mysql:/var/lib/mysql
+      command: [
+            '--character-set-server=utf8mb4',
+            '--collation-server=utf8mb4_unicode_ci',
+            '--skip-character-set-client-handshake', # Buộc tất cả kết nối sử dụng utf8mb4
+         ]
+      environment:
+         MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+         MYSQL_DATABASE: ${DB_DATABASE}
+         MYSQL_PASSWORD: ${DB_PASSWORD}
+      ports:
+         - '8811:3306'
+      networks:
+         - nest-app-network

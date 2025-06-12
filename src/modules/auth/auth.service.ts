@@ -81,7 +81,7 @@ export class AuthService {
       }
       const decoded: TokenPayload = await this.jwtService.decode(accessToken as string);
       const redis = await this.redisService.set({
-         key: `TOKEN_BLACK_LIST_${(req.user as IUser).usr_id}_${decoded.jit}`,
+         key: `TOKEN_BLACK_LIST_${req.user.usr_id}_${decoded.jit}`,
          value: 1,
       });
       console.log(`REDIS SET STATUS BLACK_LIST[:::] `, redis);
@@ -90,7 +90,7 @@ export class AuthService {
    }
 
    async changePassword(body: {oldPassword: string; newPassword: string}, req: Request) {
-      const user = req.user as IUser;
+      const user = req.user;
       const {oldPassword, newPassword} = body;
       const hashOldPassword = this.userRepository.hashPassword(oldPassword);
       const currentPassword = await this.userRepository.findPasswordById(user.usr_id);

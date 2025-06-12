@@ -1,0 +1,13 @@
+INFO   2025-06-07T10:02:42.646                  src\main.ts:42  | Server time: Sat Jun 07 2025 10:02:42 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-07T10:02:42.649                  src\main.ts:43  | Local/public ip: 192.168.1.7 - 192.168.1.7 (default)
+INFO   2025-06-07T10:02:42.650                  src\main.ts:44  | Running app on: http://192.168.1.7:3005 (default)
+INFO   2025-06-07T10:07:33.568              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/2 401 - 31.078 ms {}
+ (access)
+INFO   2025-06-07T10:07:39.830              morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 84.679 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-06-07T10:07:47.986              morgan\index.js:130 | ::1 thailq GET /api/v1/spu/2 200 - 27.486 ms {}
+ (access)
+INFO   2025-06-07T10:11:37.580              morgan\index.js:130 | ::1 thailq DELETE /api/v1/spu/2 200 - 10.478 ms {"product_name":"Áo thun Hàn Quốc","product_thumb":"https://shopdev.com/p/product123456.jpg","product_desc":"Áo thun Hàn Quốc thời trang nhất 2025","product_rating_avg":4.8,"product_category":2,"product_variations":[{"images":[],"name":"color","options":["red","green","blue"]},{"images":[],"name":"size","options":["S","M"]}],"sku_list":[{"sku_tier_idx":[0,0],"sku_price":1000,"sku_stock":10,"sku_default":false},{"sku_tier_idx":[0,1],"sku_price":1002,"sku_stock":12,"sku_default":false},{"sku_tier_idx":[1,0],"sku_price":1003,"sku_stock":13,"sku_default":false},{"sku_tier_idx":[1,1],"sku_price":1005,"sku_stock":15,"sku_default":true},{"sku_tier_idx":[2,0],"sku_price":1007,"sku_stock":17,"sku_default":false},{"sku_tier_idx":[2,1],"sku_price":1008,"sku_stock":18,"sku_default":false}]}
+ (access)
+INFO   2025-06-07T10:11:43.909              morgan\index.js:130 | ::1 thailq DELETE /api/v1/spu/2 200 - 8.279 ms {}
+ (access)

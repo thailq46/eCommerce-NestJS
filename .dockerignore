@@ -1,0 +1,20 @@
+/environments
+/node_modules
+/logs
+
+## git
+.git
+.gitignore
+
+## docker
+.dockerignore
+docker-volumes
+docker
+
+
+*.md
+*.txt
+!README.md
+.prettierrc
+.DS_Store
+.vscode/

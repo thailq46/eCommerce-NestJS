@@ -30,14 +30,12 @@ export class QuerySpecificationDto {
    disablePagination?: boolean;
 
    // SortSpecificationDto
-
    @IsOptional()
    @IsArray()
    @IsString({each: true})
    sort?: string[];
 
    // SearchSpecificationDto
-
    @IsOptional()
    @IsString()
    search?: string;

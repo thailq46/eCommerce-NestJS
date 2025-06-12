@@ -10,6 +10,7 @@ import {RefreshTokensModule} from 'src/modules/refresh-tokens/refresh-tokens.mod
 import {AuthModule} from './modules/auth/auth.module';
 import {CategoryModule} from './modules/category/category.module';
 import {ShopModule} from './modules/shop/shop.module';
+import {SkuModule} from './modules/sku/sku.module';
 import {SpuModule} from './modules/spu/spu.module';
 import {UserModule} from './modules/user/user.module';
 
@@ -17,7 +18,7 @@ const globalModule = [ConfigModule, LoggingModule];
 
 const coreModule = [DatabaseModule, RedisModule];
 
-const appModule = [UserModule, AuthModule, RefreshTokensModule, ShopModule, SpuModule, CategoryModule];
+const appModule = [UserModule, AuthModule, RefreshTokensModule, ShopModule, SpuModule, CategoryModule, SkuModule];
 
 @Module({
    imports: [...globalModule, ...coreModule, ...appModule],

@@ -234,10 +234,23 @@ export class ShopService {
    }
 
    // REPOSITORY
-   async findShopById(id: number) {
+   async findShopById(id: number): Promise<Shop | null> {
       const shop = await this.shopRepo
          .createQueryBuilder('s')
          .where('s.shop_id = :id', {id})
+         .andWhere('s.is_deleted = 0')
+         .select(['shop_id', 'shop_name', 'shop_desc', 'shop_address', 'shop_avatar', 'shop_banner', 'owner_id'])
+         .getRawOne();
+      if (!shop) {
+         return null;
+      }
+      return shop;
+   }
+
+   async findShopByOwnerId(id: number): Promise<Shop | null> {
+      const shop = await this.shopRepo
+         .createQueryBuilder('s')
+         .where('s.owner_id = :id', {id})
          .andWhere('s.is_deleted = 0')
          .select(['shop_id', 'shop_name', 'shop_desc', 'shop_address', 'shop_avatar', 'shop_banner', 'owner_id'])
          .getRawOne();
