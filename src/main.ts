@@ -3,6 +3,7 @@ import {NestFactory, Reflector} from '@nestjs/core';
 import {NestExpressApplication} from '@nestjs/platform-express';
 import * as compression from 'compression';
 import helmet from 'helmet';
+import {join} from 'path';
 import {config} from 'src/base/config';
 import {LoggingService} from 'src/base/logging';
 import {MyLogger} from 'src/base/logging/my.logger';
@@ -36,6 +37,11 @@ async function bootstrap() {
    app.setGlobalPrefix(config.API_NAMESPACE);
 
    app.useGlobalInterceptors(new ResponseTransformInterceptor(reflector));
+
+   // Set static assets directory
+   app.useStaticAssets(join(__dirname, '../uploads'), {
+      prefix: '/uploads',
+   });
 
    // Start app
    await app.listen(config.PORT);

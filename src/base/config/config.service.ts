@@ -3,7 +3,6 @@ import {CorsOptions} from '@nestjs/common/interfaces/external/cors-options.inter
 import * as customEnv from 'custom-env';
 import * as ip from 'ip';
 import * as ms from 'ms';
-import * as path from 'path';
 
 import {DEFAULT_CACHE_LONG_TIMEOUT, DEFAULT_CACHE_TIMEOUT} from './config.constants';
 
@@ -24,10 +23,6 @@ export class ConfigService {
    NODE_ENV = _process.env.NODE_ENV;
    UPLOAD_LIMIT = parseInt(_process.env.UPLOAD_LIMIT ?? '5242880', 10); // Byte
    UPLOAD_PATH = _process.env.UPLOAD_PATH ?? 'uploads/';
-
-   // DIR
-   ROOT_PATH = path.resolve('.');
-   STATIC_PATH = 'static';
 
    // NETWORK
    LOCAL_IP: string = ip.address();
