@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.9.0/axios.min.js"
+         referrerpolicy="no-referrer"
+      ></script>
+      <title>Upload Large Files</title>
+      <style>
+         .file-item {
+            border: 1px solid #ccc;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+         }
+         .progress-bar {
+            width: 100%;
+            height: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            overflow: hidden;
+         }
+         .progress-fill {
+            height: 100%;
+            background-color: #4caf50;
+            transition: width 0.3s ease;
+         }
+         .status {
+            margin-top: 5px;
+            font-weight: bold;
+         }
+         .error {
+            color: red;
+         }
+         .success {
+            color: green;
+         }
+         .uploading {
+            color: blue;
+         }
+      </style>
+   </head>
+   <body>
+      <h1>Upload Multiple Large Files</h1>
+      <input type="file" multiple id="fileInput" />
+      <button onclick="uploadAllFiles()">Upload All Files</button>
+      <button onclick="mergeAllFiles()">Merge All Files</button>
+      <div id="fileList"></div>
+
+      <script>
+         const CHUNK_SIZE = 181 * 1024; // 1MB chunks
+         let selectedFiles = [];
+         let uploadedFiles = [];
+
+         document.getElementById('fileInput').addEventListener('change', (e) => {
+            selectedFiles = Array.from(e.target.files);
+            displayFileList();
+         });
+
+         function displayFileList() {
+            const fileListDiv = document.getElementById('fileList');
+            fileListDiv.innerHTML = '';
+
+            selectedFiles.forEach((file, index) => {
+               const fileDiv = document.createElement('div');
+               fileDiv.className = 'file-item';
+               fileDiv.innerHTML = `
+                  <h3>File ${index + 1}: ${file.name} (${formatFileSize(file.size)})</h3>
+                  <div class="progress-bar">
+                     <div id="progress-${index}" class="progress-fill" style="width: 0%"></div>
+                  </div>
+                  <div id="status-${index}" class="status">Waiting...</div>
+                  <button onclick="uploadSingleFile(${index})">Upload This File</button>
+                  <button onclick="mergeSingleFile(${index})" disabled id="merge-btn-${index}">Merge This File</button>
+               `;
+               fileListDiv.appendChild(fileDiv);
+            });
+         }
+
+         function formatFileSize(bytes) {
+            if (bytes === 0) return '0 Bytes';
+            const k = 1024;
+            const sizes = ['Bytes', 'KB', 'MB', 'GB'];
+            const i = Math.floor(Math.log(bytes) / Math.log(k));
+            return parseFloat((bytes / Math.pow(k, i)).toFixed(2)) + ' ' + sizes[i];
+         }
+
+         async function uploadSingleFile(fileIndex) {
+            const file = selectedFiles[fileIndex];
+            if (!file) {
+               updateStatus(fileIndex, 'No file selected', 'error');
+               return;
+            }
+
+            const totalChunks = Math.ceil(file.size / CHUNK_SIZE);
+            const fileName = `${Date.now()}-${file.name}`;
+
+            updateStatus(fileIndex, 'Starting upload...', 'uploading');
+
+            try {
+               for (let chunkIndex = 0; chunkIndex < totalChunks; chunkIndex++) {
+                  const start = chunkIndex * CHUNK_SIZE;
+                  const end = Math.min(start + CHUNK_SIZE, file.size);
+                  const chunk = file.slice(start, end);
+
+                  const formData = new FormData();
+                  formData.append('files', chunk, `chunk-${chunkIndex}`);
+                  formData.append('name', fileName);
+                  formData.append('chunkIndex', chunkIndex.toString());
+                  formData.append('totalChunks', totalChunks.toString());
+                  formData.append('originalName', file.name);
+
+                  await axios.post('http://localhost:3005/api/v1/upload/large-file', formData, {
+                     headers: {
+                        'Content-Type': 'multipart/form-data',
+                     },
+                  });
+
+                  const progress = ((chunkIndex + 1) / totalChunks) * 100;
+                  updateProgress(fileIndex, progress);
+                  updateStatus(fileIndex, `Uploading... ${Math.round(progress)}%`, 'uploading');
+               }
+
+               uploadedFiles[fileIndex] = fileName;
+               updateStatus(fileIndex, 'Upload completed!', 'success');
+               document.getElementById(`merge-btn-${fileIndex}`).disabled = false;
+            } catch (error) {
+               console.error('Upload error:', error);
+               updateStatus(fileIndex, `Upload failed: ${error.message}`, 'error');
+            }
+         }
+
+         async function mergeSingleFile(fileIndex) {
+            const fileName = uploadedFiles[fileIndex];
+            if (!fileName) {
+               updateStatus(fileIndex, 'File not uploaded yet', 'error');
+               return;
+            }
+
+            updateStatus(fileIndex, 'Merging chunks...', 'uploading');
+
+            try {
+               const response = await axios.get(`http://localhost:3005/api/v1/upload/merge/file?fileName=${fileName}`);
+               updateStatus(fileIndex, 'File merged successfully!', 'success');
+               console.log('Merge result:', response.data);
+            } catch (error) {
+               console.error('Merge error:', error);
+               updateStatus(fileIndex, `Merge failed: ${error.message}`, 'error');
+            }
+         }
+
+         async function uploadAllFiles() {
+            for (let i = 0; i < selectedFiles.length; i++) {
+               await uploadSingleFile(i);
+               // Small delay between files to prevent overwhelming the server
+               await new Promise((resolve) => setTimeout(resolve, 100));
+            }
+         }
+
+         async function mergeAllFiles() {
+            for (let i = 0; i < uploadedFiles.length; i++) {
+               if (uploadedFiles[i]) {
+                  await mergeSingleFile(i);
+                  // Small delay between merges
+                  await new Promise((resolve) => setTimeout(resolve, 100));
+               }
+            }
+         }
+
+         function updateProgress(fileIndex, percentage) {
+            const progressBar = document.getElementById(`progress-${fileIndex}`);
+            if (progressBar) {
+               progressBar.style.width = percentage + '%';
+            }
+         }
+
+         function updateStatus(fileIndex, message, type) {
+            const statusDiv = document.getElementById(`status-${fileIndex}`);
+            if (statusDiv) {
+               statusDiv.textContent = message;
+               statusDiv.className = `status ${type}`;
+            }
+         }
+      </script>
+   </body>
+</html>

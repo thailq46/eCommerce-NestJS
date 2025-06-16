@@ -1,0 +1,735 @@
+INFO   2025-06-16T09:10:39.611       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T09:10:39.624                  src\main.ts:48  | Server time: Mon Jun 16 2025 09:10:39 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T09:10:39.625                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T09:10:39.627                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T09:10:39.635       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T09:13:53.504              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 23.189 ms {"name":"1750040033466-1354012.png","chunkIndex":"0","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.521              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 9.071 ms {"name":"1750040033466-1354012.png","chunkIndex":"1","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.538              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 9.349 ms {"name":"1750040033466-1354012.png","chunkIndex":"2","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.553              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 7.961 ms {"name":"1750040033466-1354012.png","chunkIndex":"3","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.570              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 7.799 ms {"name":"1750040033466-1354012.png","chunkIndex":"4","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.595              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 18.884 ms {"name":"1750040033466-1354012.png","chunkIndex":"5","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.608              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.298 ms {"name":"1750040033466-1354012.png","chunkIndex":"6","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.622              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.814 ms {"name":"1750040033466-1354012.png","chunkIndex":"7","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.635              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.743 ms {"name":"1750040033466-1354012.png","chunkIndex":"8","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.650              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 6.455 ms {"name":"1750040033466-1354012.png","chunkIndex":"9","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.662              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.985 ms {"name":"1750040033466-1354012.png","chunkIndex":"10","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.675              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.836 ms {"name":"1750040033466-1354012.png","chunkIndex":"11","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.701              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 18.802 ms {"name":"1750040033466-1354012.png","chunkIndex":"12","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.724              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 16.593 ms {"name":"1750040033466-1354012.png","chunkIndex":"13","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.737              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 6.748 ms {"name":"1750040033466-1354012.png","chunkIndex":"14","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.748              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.190 ms {"name":"1750040033466-1354012.png","chunkIndex":"15","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.759              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.032 ms {"name":"1750040033466-1354012.png","chunkIndex":"16","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.772              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.770 ms {"name":"1750040033466-1354012.png","chunkIndex":"17","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.790              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 10.667 ms {"name":"1750040033466-1354012.png","chunkIndex":"18","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.801              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.158 ms {"name":"1750040033466-1354012.png","chunkIndex":"19","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.813              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 6.275 ms {"name":"1750040033466-1354012.png","chunkIndex":"20","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.828              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 8.024 ms {"name":"1750040033466-1354012.png","chunkIndex":"21","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.839              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 3.725 ms {"name":"1750040033466-1354012.png","chunkIndex":"22","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.851              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.256 ms {"name":"1750040033466-1354012.png","chunkIndex":"23","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.863              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.542 ms {"name":"1750040033466-1354012.png","chunkIndex":"24","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.875              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.385 ms {"name":"1750040033466-1354012.png","chunkIndex":"25","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.886              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.112 ms {"name":"1750040033466-1354012.png","chunkIndex":"26","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.900              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.450 ms {"name":"1750040033466-1354012.png","chunkIndex":"27","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:13:53.913              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.617 ms {"name":"1750040033466-1354012.png","chunkIndex":"28","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:16:36.267       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T09:16:36.277                  src\main.ts:48  | Server time: Mon Jun 16 2025 09:16:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T09:16:36.278                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T09:16:36.278                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T09:16:36.285       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T09:17:18.839              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 143.782 ms {"name":"85812-1354012.png-0"}
+ (access)
+INFO   2025-06-16T09:17:18.885              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 159.251 ms {"name":"85812-1354012.png-1"}
+ (access)
+INFO   2025-06-16T09:17:18.918              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 188.904 ms {"name":"85812-1354012.png-2"}
+ (access)
+INFO   2025-06-16T09:17:18.989              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 250.713 ms {"name":"85812-1354012.png-4"}
+ (access)
+INFO   2025-06-16T09:17:19.006              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 261.523 ms {"name":"85812-1354012.png-5"}
+ (access)
+INFO   2025-06-16T09:17:19.025              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 292.169 ms {"name":"85812-1354012.png-3"}
+ (access)
+INFO   2025-06-16T09:17:19.077              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 147.733 ms {"name":"85812-1354012.png-6"}
+ (access)
+INFO   2025-06-16T09:17:19.093              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 63.338 ms {"name":"85812-1354012.png-7"}
+ (access)
+INFO   2025-06-16T09:17:19.109              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 73.250 ms {"name":"85812-1354012.png-8"}
+ (access)
+INFO   2025-06-16T09:17:19.120              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 72.986 ms {"name":"85812-1354012.png-9"}
+ (access)
+INFO   2025-06-16T09:17:19.171              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 118.771 ms {"name":"85812-1354012.png-10"}
+ (access)
+INFO   2025-06-16T09:17:19.184              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 129.255 ms {"name":"85812-1354012.png-11"}
+ (access)
+INFO   2025-06-16T09:17:19.217              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 118.466 ms {"name":"85812-1354012.png-12"}
+ (access)
+INFO   2025-06-16T09:17:19.235              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 108.809 ms {"name":"85812-1354012.png-13"}
+ (access)
+INFO   2025-06-16T09:17:19.248              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 60.467 ms {"name":"85812-1354012.png-14"}
+ (access)
+INFO   2025-06-16T09:17:19.260              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 69.088 ms {"name":"85812-1354012.png-15"}
+ (access)
+INFO   2025-06-16T09:17:19.275              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 80.770 ms {"name":"85812-1354012.png-16"}
+ (access)
+INFO   2025-06-16T09:17:19.285              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 88.830 ms {"name":"85812-1354012.png-17"}
+ (access)
+INFO   2025-06-16T09:17:19.308              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 86.977 ms {"name":"85812-1354012.png-18"}
+ (access)
+INFO   2025-06-16T09:17:19.324              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 60.771 ms {"name":"85812-1354012.png-19"}
+ (access)
+INFO   2025-06-16T09:17:19.334              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 45.879 ms {"name":"85812-1354012.png-20"}
+ (access)
+INFO   2025-06-16T09:17:19.347              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 55.023 ms {"name":"85812-1354012.png-21"}
+ (access)
+INFO   2025-06-16T09:17:19.369              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 70.244 ms {"name":"85812-1354012.png-23"}
+ (access)
+INFO   2025-06-16T09:17:19.378              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 82.257 ms {"name":"85812-1354012.png-22"}
+ (access)
+INFO   2025-06-16T09:17:19.400              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 84.920 ms {"name":"85812-1354012.png-24"}
+ (access)
+INFO   2025-06-16T09:17:19.414              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 59.723 ms {"name":"85812-1354012.png-25"}
+ (access)
+INFO   2025-06-16T09:17:19.438              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 81.293 ms {"name":"85812-1354012.png-26"}
+ (access)
+INFO   2025-06-16T09:17:19.456              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 67.375 ms {"name":"85812-1354012.png-28"}
+ (access)
+INFO   2025-06-16T09:17:19.472              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 86.970 ms {"name":"85812-1354012.png-27"}
+ (access)
+INFO   2025-06-16T09:18:16.566       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T09:18:16.575                  src\main.ts:48  | Server time: Mon Jun 16 2025 09:18:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T09:18:16.576                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T09:18:16.576                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T09:18:16.581       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T09:18:19.896              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 38.026 ms {"name":"1750040299845-1354012.png","chunkIndex":"0","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.905              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.092 ms {"name":"1750040299845-1354012.png","chunkIndex":"1","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.917              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.670 ms {"name":"1750040299845-1354012.png","chunkIndex":"2","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.930              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.387 ms {"name":"1750040299845-1354012.png","chunkIndex":"3","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.945              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 6.598 ms {"name":"1750040299845-1354012.png","chunkIndex":"4","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.958              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.974 ms {"name":"1750040299845-1354012.png","chunkIndex":"5","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.972              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.488 ms {"name":"1750040299845-1354012.png","chunkIndex":"6","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:19.989              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 6.843 ms {"name":"1750040299845-1354012.png","chunkIndex":"7","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.007              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 8.375 ms {"name":"1750040299845-1354012.png","chunkIndex":"8","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.025              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 9.445 ms {"name":"1750040299845-1354012.png","chunkIndex":"9","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.036              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.518 ms {"name":"1750040299845-1354012.png","chunkIndex":"10","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.048              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.060 ms {"name":"1750040299845-1354012.png","chunkIndex":"11","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.059              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.421 ms {"name":"1750040299845-1354012.png","chunkIndex":"12","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.072              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.871 ms {"name":"1750040299845-1354012.png","chunkIndex":"13","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.084              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.964 ms {"name":"1750040299845-1354012.png","chunkIndex":"14","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.097              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.876 ms {"name":"1750040299845-1354012.png","chunkIndex":"15","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.113              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.593 ms {"name":"1750040299845-1354012.png","chunkIndex":"16","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.125              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.079 ms {"name":"1750040299845-1354012.png","chunkIndex":"17","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.138              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.220 ms {"name":"1750040299845-1354012.png","chunkIndex":"18","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.155              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 6.313 ms {"name":"1750040299845-1354012.png","chunkIndex":"19","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.185              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 20.855 ms {"name":"1750040299845-1354012.png","chunkIndex":"20","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.200              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.345 ms {"name":"1750040299845-1354012.png","chunkIndex":"21","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.212              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 5.641 ms {"name":"1750040299845-1354012.png","chunkIndex":"22","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.227              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 4.718 ms {"name":"1750040299845-1354012.png","chunkIndex":"23","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.245              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 8.333 ms {"name":"1750040299845-1354012.png","chunkIndex":"24","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.258              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 3.946 ms {"name":"1750040299845-1354012.png","chunkIndex":"25","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.298              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 28.588 ms {"name":"1750040299845-1354012.png","chunkIndex":"26","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.319              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 10.511 ms {"name":"1750040299845-1354012.png","chunkIndex":"27","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T09:18:20.336              morgan\index.js:130 | ::1 Anonymous POST /api/v1/user/upload/large-file 201 - 7.695 ms {"name":"1750040299845-1354012.png","chunkIndex":"28","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:01:24.877       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:01:24.888                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:01:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:01:24.888                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:01:24.888                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:01:24.896       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:05:42.303       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:05:42.315                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:05:42 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:05:42.316                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:05:42.317                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:05:42.328       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:14:06.272              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 404 - 6.433 ms {}
+ (access)
+INFO   2025-06-16T16:14:27.959       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:14:27.968                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:14:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:14:27.970                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:14:27.970                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:14:27.979       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:14:54.640       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:14:54.650                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:14:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:14:54.650                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:14:54.651                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:14:54.657       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:14:56.609     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 0/29 UploadService (default)
+INFO   2025-06-16T16:14:56.617              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 34.860 ms {"name":"1750065296570-1354012.png","chunkIndex":"0","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.628     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 1/29 UploadService (default)
+INFO   2025-06-16T16:14:56.631              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.085 ms {"name":"1750065296570-1354012.png","chunkIndex":"1","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.644     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 2/29 UploadService (default)
+INFO   2025-06-16T16:14:56.647              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.171 ms {"name":"1750065296570-1354012.png","chunkIndex":"2","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.698     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 3/29 UploadService (default)
+INFO   2025-06-16T16:14:56.700              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 46.637 ms {"name":"1750065296570-1354012.png","chunkIndex":"3","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.711     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 4/29 UploadService (default)
+INFO   2025-06-16T16:14:56.712              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.194 ms {"name":"1750065296570-1354012.png","chunkIndex":"4","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.722     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 5/29 UploadService (default)
+INFO   2025-06-16T16:14:56.724              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.962 ms {"name":"1750065296570-1354012.png","chunkIndex":"5","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.737     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 6/29 UploadService (default)
+INFO   2025-06-16T16:14:56.740              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 9.500 ms {"name":"1750065296570-1354012.png","chunkIndex":"6","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.751     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 7/29 UploadService (default)
+INFO   2025-06-16T16:14:56.755              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.187 ms {"name":"1750065296570-1354012.png","chunkIndex":"7","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.777     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 8/29 UploadService (default)
+INFO   2025-06-16T16:14:56.780              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 10.708 ms {"name":"1750065296570-1354012.png","chunkIndex":"8","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.794     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 9/29 UploadService (default)
+INFO   2025-06-16T16:14:56.799              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 11.630 ms {"name":"1750065296570-1354012.png","chunkIndex":"9","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.811     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 10/29 UploadService (default)
+INFO   2025-06-16T16:14:56.815              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.091 ms {"name":"1750065296570-1354012.png","chunkIndex":"10","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.855     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 11/29 UploadService (default)
+INFO   2025-06-16T16:14:56.857              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 34.392 ms {"name":"1750065296570-1354012.png","chunkIndex":"11","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.867     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 12/29 UploadService (default)
+INFO   2025-06-16T16:14:56.869              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.737 ms {"name":"1750065296570-1354012.png","chunkIndex":"12","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.883     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 13/29 UploadService (default)
+INFO   2025-06-16T16:14:56.889              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 12.386 ms {"name":"1750065296570-1354012.png","chunkIndex":"13","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.901     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 14/29 UploadService (default)
+INFO   2025-06-16T16:14:56.903              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.703 ms {"name":"1750065296570-1354012.png","chunkIndex":"14","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.938     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 15/29 UploadService (default)
+INFO   2025-06-16T16:14:56.940              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 28.261 ms {"name":"1750065296570-1354012.png","chunkIndex":"15","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.954     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 16/29 UploadService (default)
+INFO   2025-06-16T16:14:56.961              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 12.879 ms {"name":"1750065296570-1354012.png","chunkIndex":"16","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.972     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 17/29 UploadService (default)
+INFO   2025-06-16T16:14:56.978              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.311 ms {"name":"1750065296570-1354012.png","chunkIndex":"17","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:56.991     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 18/29 UploadService (default)
+INFO   2025-06-16T16:14:56.993              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.961 ms {"name":"1750065296570-1354012.png","chunkIndex":"18","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.008     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 19/29 UploadService (default)
+INFO   2025-06-16T16:14:57.010              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.978 ms {"name":"1750065296570-1354012.png","chunkIndex":"19","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.026     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 20/29 UploadService (default)
+INFO   2025-06-16T16:14:57.033              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 15.203 ms {"name":"1750065296570-1354012.png","chunkIndex":"20","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.046     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 21/29 UploadService (default)
+INFO   2025-06-16T16:14:57.049              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.236 ms {"name":"1750065296570-1354012.png","chunkIndex":"21","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.059     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 22/29 UploadService (default)
+INFO   2025-06-16T16:14:57.060              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.626 ms {"name":"1750065296570-1354012.png","chunkIndex":"22","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.073     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 23/29 UploadService (default)
+INFO   2025-06-16T16:14:57.079              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 11.151 ms {"name":"1750065296570-1354012.png","chunkIndex":"23","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.093     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 24/29 UploadService (default)
+INFO   2025-06-16T16:14:57.102              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 15.381 ms {"name":"1750065296570-1354012.png","chunkIndex":"24","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.112     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 25/29 UploadService (default)
+INFO   2025-06-16T16:14:57.117              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.456 ms {"name":"1750065296570-1354012.png","chunkIndex":"25","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.140     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 26/29 UploadService (default)
+INFO   2025-06-16T16:14:57.141              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.047 ms {"name":"1750065296570-1354012.png","chunkIndex":"26","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.156     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 27/29 UploadService (default)
+INFO   2025-06-16T16:14:57.158              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.435 ms {"name":"1750065296570-1354012.png","chunkIndex":"27","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:14:57.168     upload\upload.service.ts:100 | Chunk uploaded: 1750065296570-1354012.png, chunk 28/29 UploadService (default)
+INFO   2025-06-16T16:14:57.170              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.343 ms {"name":"1750065296570-1354012.png","chunkIndex":"28","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:15:24.998              morgan\index.js:130 | ::1 Anonymous GET /api/v1/merge/file?fileName=1750065296570-1354012.png 404 - 1.073 ms {}
+ (access)
+INFO   2025-06-16T16:15:44.875              morgan\index.js:130 | ::1 Anonymous GET /api/v1/merge/file?fileName=1750065296570-1354012.png 404 - 0.425 ms {}
+ (access)
+INFO   2025-06-16T16:16:01.890     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 0/29 UploadService (default)
+INFO   2025-06-16T16:16:01.892              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.497 ms {"name":"1750065361881-1354012.png","chunkIndex":"0","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:01.906     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 1/29 UploadService (default)
+INFO   2025-06-16T16:16:01.908              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 9.660 ms {"name":"1750065361881-1354012.png","chunkIndex":"1","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:01.921     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 2/29 UploadService (default)
+INFO   2025-06-16T16:16:01.924              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.380 ms {"name":"1750065361881-1354012.png","chunkIndex":"2","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:01.935     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 3/29 UploadService (default)
+INFO   2025-06-16T16:16:01.939              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.376 ms {"name":"1750065361881-1354012.png","chunkIndex":"3","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:01.950     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 4/29 UploadService (default)
+INFO   2025-06-16T16:16:01.953              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.362 ms {"name":"1750065361881-1354012.png","chunkIndex":"4","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:01.966     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 5/29 UploadService (default)
+INFO   2025-06-16T16:16:01.968              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.039 ms {"name":"1750065361881-1354012.png","chunkIndex":"5","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:01.990     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 6/29 UploadService (default)
+INFO   2025-06-16T16:16:01.992              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 12.752 ms {"name":"1750065361881-1354012.png","chunkIndex":"6","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.004     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 7/29 UploadService (default)
+INFO   2025-06-16T16:16:02.007              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.269 ms {"name":"1750065361881-1354012.png","chunkIndex":"7","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.020     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 8/29 UploadService (default)
+INFO   2025-06-16T16:16:02.023              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.423 ms {"name":"1750065361881-1354012.png","chunkIndex":"8","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.059     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 9/29 UploadService (default)
+INFO   2025-06-16T16:16:02.082              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 51.921 ms {"name":"1750065361881-1354012.png","chunkIndex":"9","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.101     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 10/29 UploadService (default)
+INFO   2025-06-16T16:16:02.105              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 10.481 ms {"name":"1750065361881-1354012.png","chunkIndex":"10","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.119     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 11/29 UploadService (default)
+INFO   2025-06-16T16:16:02.122              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 9.207 ms {"name":"1750065361881-1354012.png","chunkIndex":"11","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.142     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 12/29 UploadService (default)
+INFO   2025-06-16T16:16:02.145              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 11.946 ms {"name":"1750065361881-1354012.png","chunkIndex":"12","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.162     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 13/29 UploadService (default)
+INFO   2025-06-16T16:16:02.166              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 9.935 ms {"name":"1750065361881-1354012.png","chunkIndex":"13","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.181     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 14/29 UploadService (default)
+INFO   2025-06-16T16:16:02.187              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.288 ms {"name":"1750065361881-1354012.png","chunkIndex":"14","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.199     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 15/29 UploadService (default)
+INFO   2025-06-16T16:16:02.201              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.154 ms {"name":"1750065361881-1354012.png","chunkIndex":"15","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.212     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 16/29 UploadService (default)
+INFO   2025-06-16T16:16:02.214              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.507 ms {"name":"1750065361881-1354012.png","chunkIndex":"16","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.227     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 17/29 UploadService (default)
+INFO   2025-06-16T16:16:02.231              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 10.350 ms {"name":"1750065361881-1354012.png","chunkIndex":"17","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.243     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 18/29 UploadService (default)
+INFO   2025-06-16T16:16:02.249              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.045 ms {"name":"1750065361881-1354012.png","chunkIndex":"18","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.258     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 19/29 UploadService (default)
+INFO   2025-06-16T16:16:02.260              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.425 ms {"name":"1750065361881-1354012.png","chunkIndex":"19","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.273     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 20/29 UploadService (default)
+INFO   2025-06-16T16:16:02.275              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.363 ms {"name":"1750065361881-1354012.png","chunkIndex":"20","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.288     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 21/29 UploadService (default)
+INFO   2025-06-16T16:16:02.291              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.405 ms {"name":"1750065361881-1354012.png","chunkIndex":"21","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.303     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 22/29 UploadService (default)
+INFO   2025-06-16T16:16:02.305              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.032 ms {"name":"1750065361881-1354012.png","chunkIndex":"22","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.318     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 23/29 UploadService (default)
+INFO   2025-06-16T16:16:02.320              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.023 ms {"name":"1750065361881-1354012.png","chunkIndex":"23","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.331     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 24/29 UploadService (default)
+INFO   2025-06-16T16:16:02.335              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.510 ms {"name":"1750065361881-1354012.png","chunkIndex":"24","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.349     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 25/29 UploadService (default)
+INFO   2025-06-16T16:16:02.352              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.570 ms {"name":"1750065361881-1354012.png","chunkIndex":"25","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.369     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 26/29 UploadService (default)
+INFO   2025-06-16T16:16:02.372              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 9.722 ms {"name":"1750065361881-1354012.png","chunkIndex":"26","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.388     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 27/29 UploadService (default)
+INFO   2025-06-16T16:16:02.390              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.044 ms {"name":"1750065361881-1354012.png","chunkIndex":"27","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:02.406     upload\upload.service.ts:100 | Chunk uploaded: 1750065361881-1354012.png, chunk 28/29 UploadService (default)
+INFO   2025-06-16T16:16:02.409              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.906 ms {"name":"1750065361881-1354012.png","chunkIndex":"28","totalChunks":"29","originalName":"1354012.png"}
+ (access)
+INFO   2025-06-16T16:16:10.575     upload\upload.service.ts:163 | File merged successfully: 1354012.png, size: 5199941 UploadService (default)
+INFO   2025-06-16T16:16:10.576              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750065361881-1354012.png 200 - 19.345 ms {}
+ (access)
+INFO   2025-06-16T16:16:44.808       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:16:44.816                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:16:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:16:44.817                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:16:44.818                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:16:44.822       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:17:14.879       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:17:14.889                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:17:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:17:14.890                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:17:14.890                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:17:14.900       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:17:50.924       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:17:50.931                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:17:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:17:50.932                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:17:50.932                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:17:50.937       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:18:27.785       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:18:27.792                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:18:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:18:27.792                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:18:27.793                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:18:27.798       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:19:12.451       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:19:12.459                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:19:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:19:12.460                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:19:12.460                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:19:12.464       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:20:23.556       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:20:23.565                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:20:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:20:23.566                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:20:23.567                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:20:23.572       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:20:30.307       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:20:30.316                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:20:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:20:30.317                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:20:30.317                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:20:30.322       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:21:30.770       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:21:30.779                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:21:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:21:30.779                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:21:30.780                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:21:30.785       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:24:49.895       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:24:49.904                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:24:49 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:24:49.906                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:24:49.907                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:24:49.911       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:25:10.286       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:25:10.296                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:25:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:25:10.298                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:25:10.299                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:25:10.306       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:25:29.970       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:25:29.980                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:25:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:25:29.980                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:25:29.981                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:25:29.987       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:25:45.203       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:25:45.213                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:25:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:25:45.213                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:25:45.214                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:25:45.219       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:25:55.501       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:25:55.512                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:25:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:25:55.512                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:25:55.513                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:25:55.518       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:26:13.322       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:26:13.336                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:26:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:26:13.337                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:26:13.338                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:26:13.342       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:26:24.579       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:26:24.590                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:26:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:26:24.591                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:26:24.592                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:26:24.598       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:27:24.950       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:27:24.961                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:27:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:27:24.962                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:27:24.962                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:27:24.968       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:28:01.469       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:28:01.480                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:28:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:28:01.481                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:28:01.481                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:28:01.490       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:28:07.968       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:28:07.980                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:28:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:28:07.980                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:28:07.981                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:28:07.986       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:28:18.204       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:28:18.217                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:28:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:28:18.220                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:28:18.221                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:28:18.226       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:28:56.910       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:28:56.923                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:28:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:28:56.924                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:28:56.925                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:28:56.932       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:29:37.034       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:29:37.043                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:29:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:29:37.044                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:29:37.045                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:29:37.049       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:29:42.151       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:29:42.162                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:29:42 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:29:42.163                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:29:42.164                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:29:42.169       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:29:52.871       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:29:52.885                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:29:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:29:52.886                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:29:52.887                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:29:52.893       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:05.317       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:05.328                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:05.329                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:05.330                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:05.338       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:15.505       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:15.516                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:15.517                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:15.518                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:15.522       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:32.458       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:32.466                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:32.467                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:32.468                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:32.472       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:40.469       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:40.492                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:40.499                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:40.502                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:40.513       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:43.688       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:43.727                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:43 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:43.728                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:43.729                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:43.748       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:51.187       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:51.199                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:51.200                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:51.201                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:51.208       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:30:56.070       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:30:56.080                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:30:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:30:56.081                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:30:56.082                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:30:56.087       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:31:32.362       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:31:32.372                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:31:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:31:32.372                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:31:32.373                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:31:32.382       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:31:37.636       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:31:37.659                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:31:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:31:37.660                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:31:37.661                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:31:37.672       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:31:50.660       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:31:50.681                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:31:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:31:50.694                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:31:50.699                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:31:50.711       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:32:10.062       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:32:10.091                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:32:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:32:10.092                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:32:10.092                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:32:10.099       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:32:52.587       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:32:52.598                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:32:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:32:52.599                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:32:52.600                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:32:52.605       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:32:58.907       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:32:58.918                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:32:58 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:32:58.920                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:32:58.921                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:32:58.926       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:33:07.499       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:33:07.508                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:33:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:33:07.509                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:33:07.510                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:33:07.518       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:36:24.223       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:36:24.234                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:36:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:36:24.235                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:36:24.236                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:36:24.242       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:36:33.601              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 20.959 ms {"name":"1750066593565-12.png","chunkIndex":"0","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.616              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.876 ms {"name":"1750066593565-12.png","chunkIndex":"1","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.630              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.454 ms {"name":"1750066593565-12.png","chunkIndex":"2","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.643              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.999 ms {"name":"1750066593565-12.png","chunkIndex":"3","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.654              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.151 ms {"name":"1750066593565-12.png","chunkIndex":"4","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.669              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.462 ms {"name":"1750066593565-12.png","chunkIndex":"5","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.681              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 3.887 ms {"name":"1750066593565-12.png","chunkIndex":"6","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.696              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.725 ms {"name":"1750066593565-12.png","chunkIndex":"7","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.711              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.612 ms {"name":"1750066593565-12.png","chunkIndex":"8","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.725              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.586 ms {"name":"1750066593565-12.png","chunkIndex":"9","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.739              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.581 ms {"name":"1750066593565-12.png","chunkIndex":"10","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.751              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.090 ms {"name":"1750066593565-12.png","chunkIndex":"11","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.766              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.869 ms {"name":"1750066593565-12.png","chunkIndex":"12","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.780              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.249 ms {"name":"1750066593565-12.png","chunkIndex":"13","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.794              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.949 ms {"name":"1750066593565-12.png","chunkIndex":"14","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.806              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.168 ms {"name":"1750066593565-12.png","chunkIndex":"15","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.818              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.117 ms {"name":"1750066593565-12.png","chunkIndex":"16","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.858              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 23.262 ms {"name":"1750066593565-12.png","chunkIndex":"17","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.924              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 56.539 ms {"name":"1750066593565-12.png","chunkIndex":"18","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:33.954              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 13.752 ms {"name":"1750066593565-12.png","chunkIndex":"19","totalChunks":"20","originalName":"12.png"}
+ (access)
+INFO   2025-06-16T16:36:35.545              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750066593565-12.png 200 - 14.659 ms {}
+ (access)
+INFO   2025-06-16T16:37:13.454       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:37:13.462                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:37:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:37:13.462                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:37:13.463                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:37:13.468       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:37:30.458       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:37:30.476                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:37:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:37:30.477                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:37:30.477                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:37:30.484       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:37:35.844       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:37:35.857                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:37:35 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:37:35.858                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:37:35.858                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:37:35.864       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:37:42.931              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 20.195 ms {"name":"1750066662896-AOP NestJS.png","chunkIndex":"0","totalChunks":"1","originalName":"AOP NestJS.png"}
+ (access)
+INFO   2025-06-16T16:37:44.624              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750066662896-AOP%20NestJS.png 200 - 3.563 ms {}
+ (access)
+INFO   2025-06-16T16:37:58.749              morgan\index.js:130 | ::ffff:192.168.1.8 Anonymous GET /uploads/AOP%20NestJS.png 200 - 2.679 ms {}
+ (access)
+INFO   2025-06-16T16:38:23.187       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:38:23.199                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:38:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:38:23.199                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:38:23.200                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:38:23.207       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:38:30.751       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:38:30.758                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:38:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:38:30.759                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:38:30.759                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:38:30.763       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:39:15.967              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 19.265 ms {"name":"1750066755934-a.png","chunkIndex":"0","totalChunks":"2","originalName":"a.png"}
+ (access)
+INFO   2025-06-16T16:39:15.980              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.536 ms {"name":"1750066755934-a.png","chunkIndex":"1","totalChunks":"2","originalName":"a.png"}
+ (access)
+INFO   2025-06-16T16:39:16.096              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.370 ms {"name":"1750066756084-a2.png","chunkIndex":"0","totalChunks":"3","originalName":"a2.png"}
+ (access)
+INFO   2025-06-16T16:39:16.112              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 8.956 ms {"name":"1750066756084-a2.png","chunkIndex":"1","totalChunks":"3","originalName":"a2.png"}
+ (access)
+INFO   2025-06-16T16:39:16.125              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 5.587 ms {"name":"1750066756084-a2.png","chunkIndex":"2","totalChunks":"3","originalName":"a2.png"}
+ (access)
+INFO   2025-06-16T16:39:18.710              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750066755934-a.png 200 - 3.349 ms {}
+ (access)
+INFO   2025-06-16T16:39:18.824              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750066756084-a2.png 200 - 2.733 ms {}
+ (access)
+INFO   2025-06-16T16:39:40.304       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:39:40.395                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:39:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:39:40.396                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:39:40.397                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:39:40.425       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:39:49.098       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:39:49.126                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:39:49 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:39:49.128                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:39:49.129                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:39:49.139       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:39:55.718       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:39:55.726                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:39:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:39:55.726                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:39:55.727                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:39:55.731       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:40:33.433       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:40:33.442                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:40:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:40:33.442                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:40:33.443                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:40:33.448       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:40:48.388       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:40:48.396                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:40:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:40:48.397                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:40:48.397                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:40:48.402       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:41:00.520       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:41:00.528                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:41:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:41:00.529                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:41:00.529                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:41:00.533       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:42:31.750       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:42:31.758                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:42:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:42:31.759                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:42:31.760                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:42:31.765       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:43:54.966       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:43:54.974                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:43:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:43:54.975                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:43:54.976                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:43:54.980       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:44:01.753       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:44:01.762                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:44:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:44:01.762                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:44:01.763                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:44:01.767       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:44:58.561       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T16:44:58.571                  src\main.ts:48  | Server time: Mon Jun 16 2025 16:44:58 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T16:44:58.572                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T16:44:58.572                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T16:44:58.576       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-16T16:45:42.637              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 20.314 ms {"name":"1750067142603-logger.png","chunkIndex":"0","totalChunks":"5","originalName":"logger.png"}
+ (access)
+INFO   2025-06-16T16:45:42.649              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.194 ms {"name":"1750067142603-logger.png","chunkIndex":"1","totalChunks":"5","originalName":"logger.png"}
+ (access)
+INFO   2025-06-16T16:45:42.662              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 4.870 ms {"name":"1750067142603-logger.png","chunkIndex":"2","totalChunks":"5","originalName":"logger.png"}
+ (access)
+INFO   2025-06-16T16:45:42.676              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 6.431 ms {"name":"1750067142603-logger.png","chunkIndex":"3","totalChunks":"5","originalName":"logger.png"}
+ (access)
+INFO   2025-06-16T16:45:42.690              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 7.760 ms {"name":"1750067142603-logger.png","chunkIndex":"4","totalChunks":"5","originalName":"logger.png"}
+ (access)
+INFO   2025-06-16T16:45:42.803              morgan\index.js:130 | ::1 Anonymous POST /api/v1/upload/large-file 201 - 3.871 ms {"name":"1750067142793-nestjs-logo.svg","chunkIndex":"0","totalChunks":"1","originalName":"nestjs-logo.svg"}
+ (access)
+INFO   2025-06-16T16:45:44.112              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750067142603-logger.png 200 - 6.227 ms {}
+ (access)
+INFO   2025-06-16T16:45:49.319              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750067142793-nestjs-logo.svg 200 - 2.331 ms {}
+ (access)

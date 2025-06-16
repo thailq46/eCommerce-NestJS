@@ -39,8 +39,8 @@ async function bootstrap() {
    app.useGlobalInterceptors(new ResponseTransformInterceptor(reflector));
 
    // Set static assets directory
-   app.useStaticAssets(join(__dirname, '../uploads'), {
-      prefix: '/uploads',
+   app.useStaticAssets(join(__dirname, `../${config.UPLOAD_PATH}`), {
+      prefix: `/${config.UPLOAD_PATH}`,
    });
 
    // Start app

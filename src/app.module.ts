@@ -7,6 +7,7 @@ import {DatabaseModule} from 'src/base/db/db.module';
 import {RedisModule} from 'src/base/db/redis/redis.module';
 import {LoggingModule} from 'src/base/logging/logging.module';
 import {RefreshTokensModule} from 'src/modules/refresh-tokens/refresh-tokens.module';
+import {UploadModule} from 'src/modules/upload/upload.module';
 import {AuthModule} from './modules/auth/auth.module';
 import {CategoryModule} from './modules/category/category.module';
 import {ShopModule} from './modules/shop/shop.module';
@@ -18,7 +19,16 @@ const globalModule = [ConfigModule, LoggingModule];
 
 const coreModule = [DatabaseModule, RedisModule];
 
-const appModule = [UserModule, AuthModule, RefreshTokensModule, ShopModule, SpuModule, CategoryModule, SkuModule];
+const appModule = [
+   UserModule,
+   AuthModule,
+   RefreshTokensModule,
+   ShopModule,
+   SpuModule,
+   CategoryModule,
+   SkuModule,
+   UploadModule,
+];
 
 @Module({
    imports: [...globalModule, ...coreModule, ...appModule],

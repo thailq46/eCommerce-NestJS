@@ -22,7 +22,7 @@ export class ConfigService {
    DEBUG = (_process.env.DEBUG ?? 'false').toLowerCase() !== 'false';
    NODE_ENV = _process.env.NODE_ENV;
    UPLOAD_LIMIT = parseInt(_process.env.UPLOAD_LIMIT ?? '5242880', 10); // Byte
-   UPLOAD_PATH = _process.env.UPLOAD_PATH ?? 'uploads/';
+   UPLOAD_PATH = _process.env.UPLOAD_PATH ?? 'uploads';
 
    // NETWORK
    LOCAL_IP: string = ip.address();

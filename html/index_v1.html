@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.9.0/axios.min.js"
+         integrity="sha512-FPlUpimug7gt7Hn7swE8N2pHw/+oQMq/+R/hH/2hZ43VOQ+Kjh25rQzuLyPz7aUWKlRpI7wXbY6+U3oFPGjPOA=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+      ></script>
+      <title>Upload Large File</title>
+   </head>
+   <body>
+      <h1>Upload Large File</h1>
+      <input type="file" multiple id="fileInput" />
+
+      <script>
+         // cd html / npx http-server .
+         const inputFile = document.querySelector('#fileInput');
+         // Set chunk size
+         const chunkSize = 181 * 1024; // 181 KB
+         inputFile.onchange = async (event) => {
+            // File[0]
+            const file = inputFile.files[0];
+            const chunks = [];
+            let startPos = 0;
+            while (startPos < file.size) {
+               const endPos = Math.min(startPos + chunkSize, file.size);
+               const chunk = file.slice(startPos, endPos);
+               console.log(`Chunk: ${startPos} - ${endPos}`);
+               chunks.push(chunk);
+               startPos += chunkSize;
+            }
+            if (chunks.length === 0) {
+               console.log('No chunks to upload');
+               return;
+            }
+            const fileNameRandom = Math.random().toString().slice(2, 7);
+            const chunksPromise = [];
+            chunks.map((chunk, index) => {
+               const data = new FormData();
+               const nameFileFinal = fileNameRandom + '-' + file.name + '-' + index;
+               data.set('name', nameFileFinal);
+               // data.set('num-file', 20);
+               // [...inputFile.files].forEach((file) => {
+               //    data.append('files', file);
+               // });
+               data.append('files', chunk);
+               chunksPromise.push(
+                  axios.post('http://localhost:3005/api/v1/user/upload/large-file', data, {
+                     headers: {'Content-Type': 'multipart/form-data'},
+                  }),
+               );
+            });
+            await Promise.all(chunksPromise);
+            // Call API to merge chunks
+         };
+      </script>
+   </body>
+</html>
