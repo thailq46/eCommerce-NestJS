@@ -1,5 +1,6 @@
 import {BadRequestException, Injectable, NotFoundException} from '@nestjs/common';
 import {InjectRepository} from '@nestjs/typeorm';
+import {RedisService} from 'src/base/db/redis/redis.service';
 import {LoggingService} from 'src/base/logging';
 import {generateSlugify} from 'src/base/utils/functions';
 import {ShopService} from 'src/modules/shop/shop.service';
@@ -13,6 +14,8 @@ import {UpdateSpuDto} from './dto/update-spu.dto';
 
 @Injectable()
 export class SpuService {
+   private count = 0;
+
    constructor(
       @InjectRepository(Spu)
       private readonly spuRepo: Repository<Spu>,
@@ -21,6 +24,7 @@ export class SpuService {
       private readonly loggingService: LoggingService,
       private readonly shopService: ShopService,
       private readonly dataSource: DataSource,
+      private readonly redisService: RedisService,
    ) {}
 
    async create(payload: CreateSpuDto, user: IUser) {
@@ -389,5 +393,68 @@ export class SpuService {
          }
       }
       return false;
+   }
+
+   /** CÁC PHƯƠNG THỨC DÙNG ĐỂ TEST */
+   private genEventItemKey(itemId: string) {
+      return 'PRO_SPU:ITEM:' + itemId;
+   }
+
+   /** (Câu lệnh để test)
+    * echo GET http://localhost:3005/api/v1/spu/info/2/normal | vegeta attack -name=2000qps -duration=10s -rate=100 | vegeta report
+    * [?] Vấn đề của hàm getSpuDetailByIdCacheNormal dù đã check cache nhưng vẫn query DB
+    * Vì Khi nhiều reqs đi vào Redis thì nó xử lý không kịp VD: 1000reqs đi vào kiểm tra cache trong vòng 100ms -> chắc chắn sẽ có rất nhiều reqs lọt vô đc MySQL -> Lúc này cache bị gãy ngay tức thì
+    */
+   async getSpuDetailByIdCacheNormal(id: number) {
+      // 1. Check cache first by Redis
+      const spuDetail = await this.redisService.get(this.genEventItemKey(id.toString()));
+      // Biến này và biến count dùng để test số lần bị lọt qua cache và truy vấn DB
+      const testCountKey = `test:db-queries:${id}`;
+      // 2. Yes -> Hit cache
+      if (spuDetail !== null) {
+         this.loggingService.logger.default.log(
+            `FROM CACHE: ${id} ----- ${Date.now()} ----- ${spuDetail} --- COUNT: ${this.count}`,
+            'getSpuDetailByIdCache',
+         );
+         return {
+            message: `Lấy thông tin sản phẩm thành công từ cache`,
+            data: JSON.parse(spuDetail),
+         };
+      }
+      // 3. No -> Miss cache, fetch from DB
+      const spuInfo = await this.spuRepo.findOne({
+         where: {spu_id: id, is_deleted: false},
+         select: [
+            'spu_id',
+            'product_name',
+            'product_desc',
+            'product_slug',
+            'product_thumb',
+            'product_category',
+            'product_shop',
+            'product_price',
+            'product_quantity',
+            'product_rating_avg',
+            'product_variations',
+         ],
+      });
+      if (!spuInfo) {
+         throw new NotFoundException(`Không tìm thấy sản phẩm với ID ${id}`);
+      }
+      await this.redisService.getClient().incr(testCountKey);
+      // 4. Set cache
+      await this.redisService.set({
+         key: this.genEventItemKey(id.toString()),
+         value: JSON.stringify({...spuInfo, COUNT: this.count}),
+      });
+      this.count++;
+      this.loggingService.logger.default.log(
+         `FROM DBS: ${id} ----- ${Date.now()} ----- ${spuDetail} --- COUNT: ${this.count}`,
+         'getSpuDetailByIdCache',
+      );
+      return {
+         message: `Lấy thông tin sản phẩm thành công`,
+         data: spuInfo,
+      };
    }
 }

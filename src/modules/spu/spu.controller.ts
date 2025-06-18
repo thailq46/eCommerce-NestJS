@@ -1,5 +1,6 @@
 import {Body, Controller, Delete, Get, Param, Patch, Post, Req} from '@nestjs/common';
 import {Request} from 'express';
+import {Public} from 'src/base/decorators/customize.decorator';
 import {ParamIdDto} from 'src/base/shared/dto/common.dto';
 import {CreateSpuDto} from './dto/create-spu.dto';
 import {UpdateSpuDto} from './dto/update-spu.dto';
@@ -27,5 +28,12 @@ export class SpuController {
    @Delete(':id')
    remove(@Param() {id}: ParamIdDto) {
       return this.spuService.remove(id);
+   }
+
+   /** TEST */
+   @Public()
+   @Get('/info/:id/normal')
+   getSpuDetailById(@Param() {id}: ParamIdDto) {
+      return this.spuService.getSpuDetailByIdCacheNormal(id);
    }
 }

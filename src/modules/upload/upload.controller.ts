@@ -1,4 +1,3 @@
-// filepath: src/modules/upload/upload.controller.ts
 import {
    BadRequestException,
    Body,

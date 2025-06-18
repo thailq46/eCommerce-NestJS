@@ -733,3 +733,8 @@ INFO   2025-06-16T16:45:44.112              morgan\index.js:130 | ::1 Anonymous 
  (access)
 INFO   2025-06-16T16:45:49.319              morgan\index.js:130 | ::1 Anonymous GET /api/v1/upload/merge/file?fileName=1750067142793-nestjs-logo.svg 200 - 2.331 ms {}
  (access)
+INFO   2025-06-16T17:04:50.362       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-16T17:04:50.370                  src\main.ts:48  | Server time: Mon Jun 16 2025 17:04:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-16T17:04:50.371                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-16T17:04:50.371                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-16T17:04:50.375       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
