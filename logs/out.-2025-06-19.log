@@ -1,0 +1,211 @@
+INFO   2025-06-19T07:57:05.356       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T07:57:05.366                  src\main.ts:48  | Server time: Thu Jun 19 2025 07:57:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T07:57:05.367                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T07:57:05.367                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T07:57:05.372       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T08:58:28.324       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T08:58:28.333                  src\main.ts:48  | Server time: Thu Jun 19 2025 08:58:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T08:58:28.334                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T08:58:28.334                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T08:58:28.341       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T08:58:33.150       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T08:58:33.164                  src\main.ts:48  | Server time: Thu Jun 19 2025 08:58:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T08:58:33.166                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T08:58:33.167                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T08:58:33.186       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T08:58:38.412       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T08:58:38.424                  src\main.ts:48  | Server time: Thu Jun 19 2025 08:58:38 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T08:58:38.425                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T08:58:38.425                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T08:58:38.430       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T08:59:17.718       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T08:59:17.727                  src\main.ts:48  | Server time: Thu Jun 19 2025 08:59:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T08:59:17.727                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T08:59:17.728                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T08:59:17.732       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:01:06.109       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:01:06.126                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:01:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:01:06.127                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T09:01:06.128                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T09:01:06.135       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:16:20.135       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:16:20.154                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:16:20 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:16:20.157                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T09:16:20.158                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T09:16:20.166       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:18:01.816       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:18:01.826                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:18:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:18:01.827                  src\main.ts:49  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-06-19T09:18:01.827                  src\main.ts:50  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-06-19T09:18:01.833       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:18:17.701              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 3021.448 ms {}
+ (access)
+INFO   2025-06-19T09:18:35.505              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 3007.591 ms {}
+ (access)
+INFO   2025-06-19T09:19:45.019              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 3014.756 ms {}
+ (access)
+INFO   2025-06-19T09:20:40.530              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 5.973 ms {}
+ (access)
+INFO   2025-06-19T09:20:42.402              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.596 ms {}
+ (access)
+INFO   2025-06-19T09:20:45.299              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.172 ms {}
+ (access)
+INFO   2025-06-19T09:20:47.231              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 3.436 ms {}
+ (access)
+INFO   2025-06-19T09:20:48.814              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.031 ms {}
+ (access)
+INFO   2025-06-19T09:20:49.893              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.848 ms {}
+ (access)
+INFO   2025-06-19T09:20:51.004              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.208 ms {}
+ (access)
+INFO   2025-06-19T09:20:51.727              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.069 ms {}
+ (access)
+INFO   2025-06-19T09:25:31.943              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 3008.754 ms {}
+ (access)
+INFO   2025-06-19T09:30:05.620       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:30:05.657                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:30:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:30:05.658                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:30:05.660                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:30:05.668       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:30:09.677              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 787.710 ms {}
+ (access)
+INFO   2025-06-19T09:30:37.655       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:30:37.669                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:30:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:30:37.670                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:30:37.674                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:30:37.686       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:31:10.758       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:31:10.768                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:31:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:31:10.769                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:31:10.770                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:31:10.778       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:31:12.716              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 769.177 ms {}
+ (access)
+INFO   2025-06-19T09:31:29.285              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 687.649 ms {}
+ (access)
+INFO   2025-06-19T09:31:30.890              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 229.412 ms {}
+ (access)
+INFO   2025-06-19T09:32:16.927       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:32:16.937                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:32:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:32:16.938                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:32:16.938                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:32:16.943       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:32:21.143              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 723.525 ms {}
+ (access)
+INFO   2025-06-19T09:55:26.757       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:55:26.776                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:55:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:55:26.777                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:55:26.777                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:55:26.783       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:55:31.451              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 760.200 ms {}
+ (access)
+INFO   2025-06-19T09:55:50.063       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:55:50.073                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:55:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:55:50.074                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:55:50.075                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:55:50.080       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:55:56.550              morgan\index.js:130 | ::1 Anonymous GET /api/v1/health 404 - 3.640 ms {}
+ (access)
+INFO   2025-06-19T09:56:06.963              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 798.118 ms {}
+ (access)
+INFO   2025-06-19T09:56:12.385              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 488.423 ms {}
+ (access)
+INFO   2025-06-19T09:56:44.679       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:56:44.690                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:56:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:56:44.691                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:56:44.692                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:56:44.697       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:56:59.810       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:56:59.828                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:56:59 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:56:59.829                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:56:59.830                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:56:59.840       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:57:02.338              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 62.381 ms {}
+ (access)
+INFO   2025-06-19T09:57:06.532              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 690.311 ms {}
+ (access)
+INFO   2025-06-19T09:57:08.163              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 2.968 ms {}
+ (access)
+INFO   2025-06-19T09:58:00.694              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 27.723 ms {}
+ (access)
+INFO   2025-06-19T09:58:04.943              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 4.474 ms {}
+ (access)
+INFO   2025-06-19T09:59:07.396       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:59:07.406                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:59:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:59:07.408                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:59:07.408                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:59:07.414       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:59:10.958       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T09:59:10.968                  src\main.ts:48  | Server time: Thu Jun 19 2025 09:59:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T09:59:10.969                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T09:59:10.970                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T09:59:10.974       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T09:59:26.982              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 47.343 ms {}
+ (access)
+INFO   2025-06-19T09:59:29.914              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 717.287 ms {}
+ (access)
+INFO   2025-06-19T10:01:23.504              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 387.714 ms {}
+ (access)
+INFO   2025-06-19T10:01:35.702              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 25.399 ms {}
+ (access)
+INFO   2025-06-19T10:01:44.331              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 4.023 ms {}
+ (access)
+INFO   2025-06-19T10:01:47.418              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 3.030 ms {}
+ (access)
+INFO   2025-06-19T10:06:11.313       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T10:06:11.321                  src\main.ts:48  | Server time: Thu Jun 19 2025 10:06:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T10:06:11.322                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T10:06:11.322                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T10:06:11.327       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T10:06:13.841       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T10:06:13.849                  src\main.ts:48  | Server time: Thu Jun 19 2025 10:06:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T10:06:13.850                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T10:06:13.851                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T10:06:13.855       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T10:06:35.577       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T10:06:35.588                  src\main.ts:48  | Server time: Thu Jun 19 2025 10:06:35 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T10:06:35.589                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T10:06:35.590                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T10:06:35.596       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T10:06:40.536       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T10:06:40.545                  src\main.ts:48  | Server time: Thu Jun 19 2025 10:06:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T10:06:40.546                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T10:06:40.546                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T10:06:40.551       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)
+INFO   2025-06-19T10:06:58.059              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 584.853 ms {}
+ (access)
+INFO   2025-06-19T10:07:26.105              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 705.225 ms {}
+ (access)
+INFO   2025-06-19T10:07:30.749              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 518.262 ms {}
+ (access)
+INFO   2025-06-19T10:07:40.605              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 24.029 ms {}
+ (access)
+INFO   2025-06-19T10:07:44.363              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.780 ms {}
+ (access)
+INFO   2025-06-19T10:07:46.481              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 6.006 ms {}
+ (access)
+INFO   2025-06-19T10:08:01.518              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 3.793 ms {}
+ (access)
+INFO   2025-06-19T10:08:03.385              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 1.236 ms {}
+ (access)
+INFO   2025-06-19T10:08:05.239              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 4.037 ms {}
+ (access)
+INFO   2025-06-19T10:08:37.448              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 4.606 ms {}
+ (access)
+INFO   2025-06-19T10:08:39.419              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 5.343 ms {}
+ (access)
+INFO   2025-06-19T10:08:41.573              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 3.695 ms {}
+ (access)
+INFO   2025-06-19T10:08:52.570              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 689.462 ms {}
+ (access)
+INFO   2025-06-19T10:08:54.314              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 231.401 ms {}
+ (access)
+INFO   2025-06-19T10:09:02.543              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external 200 - 852.334 ms {}
+ (access)
+INFO   2025-06-19T10:09:03.827              morgan\index.js:130 | ::1 Anonymous GET /api/v1/external/health 200 - 192.987 ms {}
+ (access)
+INFO   2025-06-19T10:11:21.961       redis\redis.service.ts:68  | Attempting to connect to Redis at localhost:6379 (default)
+INFO   2025-06-19T10:11:21.975                  src\main.ts:48  | Server time: Thu Jun 19 2025 10:11:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-19T10:11:21.975                  src\main.ts:49  | Local/public ip: 172.25.64.1 - 172.25.64.1 (default)
+INFO   2025-06-19T10:11:21.977                  src\main.ts:50  | Running app on: http://172.25.64.1:3005 (default)
+INFO   2025-06-19T10:11:21.984       redis\redis.service.ts:86  | connectionIORedis - Connection status: connected (default)

@@ -10,6 +10,7 @@ import {RefreshTokensModule} from 'src/modules/refresh-tokens/refresh-tokens.mod
 import {UploadModule} from 'src/modules/upload/upload.module';
 import {AuthModule} from './modules/auth/auth.module';
 import {CategoryModule} from './modules/category/category.module';
+import {HttpExternalModule} from './modules/http-external/http-external.module';
 import {ShopModule} from './modules/shop/shop.module';
 import {SkuModule} from './modules/sku/sku.module';
 import {SpuModule} from './modules/spu/spu.module';
@@ -28,6 +29,7 @@ const appModule = [
    CategoryModule,
    SkuModule,
    UploadModule,
+   HttpExternalModule,
 ];
 
 @Module({
