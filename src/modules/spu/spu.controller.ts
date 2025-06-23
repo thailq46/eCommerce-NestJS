@@ -36,4 +36,10 @@ export class SpuController {
    getSpuDetailById(@Param() {id}: ParamIdDto) {
       return this.spuService.getSpuDetailByIdCacheNormal(id);
    }
+
+   @Public()
+   @Get('/info/:id/advanced')
+   getSpuDetailByIdAdvanced(@Param() {id}: ParamIdDto) {
+      return this.spuService.getSpuDetailByIdCacheAdvanced(id);
+   }
 }
