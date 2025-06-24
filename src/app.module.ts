@@ -2,6 +2,7 @@ import {Module} from '@nestjs/common';
 import {APP_GUARD} from '@nestjs/core';
 import {JwtAuthGuard} from 'src/modules/auth/jwt-auth.guard';
 
+import {PrometheusModule} from '@willsoto/nestjs-prometheus';
 import {ConfigModule} from 'src/base/config';
 import {DatabaseModule} from 'src/base/db/db.module';
 import {RedisModule} from 'src/base/db/redis/redis.module';
@@ -33,7 +34,7 @@ const appModule = [
 ];
 
 @Module({
-   imports: [...globalModule, ...coreModule, ...appModule],
+   imports: [...globalModule, ...coreModule, ...appModule, PrometheusModule.register({path: '/metrics'})],
    providers: [
       {
          provide: APP_GUARD,

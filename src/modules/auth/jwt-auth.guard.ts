@@ -23,11 +23,18 @@ export class JwtAuthGuard extends AuthGuard('jwt') {
          context.getHandler(),
          context.getClass(),
       ]);
+
       if (isPublic) {
          return true;
       }
 
       const request = context.switchToHttp().getRequest();
+      const {url} = request;
+
+      if (url === '/metrics') {
+         return true;
+      }
+
       const token = this.extractTokenFromHeader(request);
       if (!token) {
          throw new UnauthorizedException('Token không hợp lệ');

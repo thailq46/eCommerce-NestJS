@@ -460,6 +460,8 @@ export class SpuService {
 
    /**
     * echo GET http://localhost:3005/api/v1/spu/info/2/advanced | vegeta attack -name=1000qps -duration=10s -rate=100 | vegeta report
+    * [?] Trong hệ thống Monolith thì sử dụng LUA Redis thì khá là ngon, còn nếu chuyển sang Microservices thì không ổn thì tại sao ko sử dụng LUA Redis trong trường hợp này(Microservices)?
+    * Vì LUA nó rất khó để control việc unLock khóa vì sử dụng nhiều Service mà 1 service bị disconnect,mà trong TH này Service nó vẫn chạy đc vì có Cluster (1 thằng chết thì thằng khác vẫn chạy) -> Nếu mà sử dụng LUA thì sẽ ko bao h unLock hoặc khó có thể triển khai thao tác lock và unLock trong Redis
     */
    async getSpuDetailByIdCacheAdvanced(id: number) {
       const resourceId = Date.now().toString();

@@ -2,7 +2,8 @@
 /dist
 /node_modules
 /build
-/environments
+/environments/mysql
+/environments/data
 /uploads
 
 # Logs

@@ -34,7 +34,9 @@ async function bootstrap() {
    app.useGlobalPipes(new ValidationPipe({whitelist: true}));
 
    // Set global prefix
-   app.setGlobalPrefix(config.API_NAMESPACE);
+   app.setGlobalPrefix(config.API_NAMESPACE, {
+      exclude: ['/metrics'],
+   });
 
    app.useGlobalInterceptors(new ResponseTransformInterceptor(reflector));
 

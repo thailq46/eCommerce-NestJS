@@ -11,3 +11,8 @@ Có thể thêm tiền tố đằng sau VD: `TOKEN_BLACK_LIST_userId_alias` bỏ
 
 Cách 2:
 Sử dụng Jit -> Just in time -> Tiêu chuẩn của JWT đại diện cho 1 định danh duy nhất được cấp phát cho mỗi token
+
+# Prometheus và Graphana
+
+- Prometheus công cụ cảnh báo và giám sát hệ thống -> Đầu tiên nó thu thập dữ liệu sau đó nó lưu trữ và truy vấn chuỗi dữ liệu đó thông qua 1 thời gian cụ thể rất nhanh thông qua req của http
+- Graphana dùng để trực quan hóa và phân tích dữ liệu, nó kết nối đến nhiều nguồn dữ liệu khác nhau chứ ko phải riêng thằng Prometheus

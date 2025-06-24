@@ -1,0 +1,999 @@
+INFO   2025-06-24T13:27:27.623              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T13:27:27.632                  src\main.ts:48  | Server time: Tue Jun 24 2025 13:27:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T13:27:27.633                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T13:27:27.633                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T13:27:27.640       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T13:47:13.456              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T13:47:13.469                  src\main.ts:48  | Server time: Tue Jun 24 2025 13:47:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T13:47:13.471                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T13:47:13.472                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T13:47:13.484       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T13:47:28.616              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T13:47:28.625                  src\main.ts:48  | Server time: Tue Jun 24 2025 13:47:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T13:47:28.626                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T13:47:28.626                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T13:47:28.634       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T14:25:50.995              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T14:25:51.013                  src\main.ts:48  | Server time: Tue Jun 24 2025 14:25:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T14:25:51.014                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T14:25:51.015                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T14:25:51.034       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T14:25:54.657              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T14:25:54.666                  src\main.ts:48  | Server time: Tue Jun 24 2025 14:25:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T14:25:54.667                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T14:25:54.667                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T14:25:54.676       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T15:10:09.298              morgan\index.js:130 | ::1 Anonymous GET /api/v1/actuator 404 - 13.425 ms {}
+ (access)
+INFO   2025-06-24T15:10:09.469              morgan\index.js:130 | ::1 Anonymous GET /favicon.ico 404 - 1.982 ms {}
+ (access)
+INFO   2025-06-24T15:10:14.240              morgan\index.js:130 | ::1 Anonymous GET /actuator 404 - 0.698 ms {}
+ (access)
+INFO   2025-06-24T15:10:25.708              morgan\index.js:130 | ::1 Anonymous GET /api/v1/actuator 404 - 0.420 ms {}
+ (access)
+INFO   2025-06-24T15:17:06.426              morgan\index.js:130 | ::1 Anonymous GET /api/v1/actuator/prometheus 404 - 0.615 ms {}
+ (access)
+INFO   2025-06-24T15:35:30.503              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.475 ms {}
+ (access)
+INFO   2025-06-24T15:35:35.459              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.155 ms {}
+ (access)
+INFO   2025-06-24T15:35:40.458              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.095 ms {}
+ (access)
+INFO   2025-06-24T15:35:45.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.490 ms {}
+ (access)
+INFO   2025-06-24T15:35:50.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.685 ms {}
+ (access)
+INFO   2025-06-24T15:35:55.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.869 ms {}
+ (access)
+INFO   2025-06-24T15:36:00.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.652 ms {}
+ (access)
+INFO   2025-06-24T15:36:05.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.080 ms {}
+ (access)
+INFO   2025-06-24T15:36:10.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.164 ms {}
+ (access)
+INFO   2025-06-24T15:36:15.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.814 ms {}
+ (access)
+INFO   2025-06-24T15:36:20.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.440 ms {}
+ (access)
+INFO   2025-06-24T15:36:25.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.309 ms {}
+ (access)
+INFO   2025-06-24T15:36:30.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.337 ms {}
+ (access)
+INFO   2025-06-24T15:36:35.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.963 ms {}
+ (access)
+INFO   2025-06-24T15:36:40.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.419 ms {}
+ (access)
+INFO   2025-06-24T15:36:45.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.318 ms {}
+ (access)
+INFO   2025-06-24T15:36:50.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.048 ms {}
+ (access)
+INFO   2025-06-24T15:36:55.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.492 ms {}
+ (access)
+INFO   2025-06-24T15:37:00.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.362 ms {}
+ (access)
+INFO   2025-06-24T15:37:05.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.434 ms {}
+ (access)
+INFO   2025-06-24T15:37:10.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.696 ms {}
+ (access)
+INFO   2025-06-24T15:37:15.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.408 ms {}
+ (access)
+INFO   2025-06-24T15:37:20.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.092 ms {}
+ (access)
+INFO   2025-06-24T15:37:25.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.375 ms {}
+ (access)
+INFO   2025-06-24T15:39:24.916              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T15:39:24.923                  src\main.ts:48  | Server time: Tue Jun 24 2025 15:39:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T15:39:24.923                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T15:39:24.924                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T15:39:24.930       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:32:45.324              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:32:45.331                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:32:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:32:45.332                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:32:45.332                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:32:45.341       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:32:48.490              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:32:48.497                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:32:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:32:48.498                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:32:48.498                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:32:48.506       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:36:07.405              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:36:07.412                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:36:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:36:07.413                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:36:07.413                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:36:07.419       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:36:26.121              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:36:26.129                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:36:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:36:26.130                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:36:26.131                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:36:26.141       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:36:34.897              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:36:34.906                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:36:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:36:34.907                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:36:34.908                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:36:34.914       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:36:44.782              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:36:44.791                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:36:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:36:44.792                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:36:44.793                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:36:44.802       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:37:21.998              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:37:22.006                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:37:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:37:22.007                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:37:22.007                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:37:22.014       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:37:50.023              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:37:50.033                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:37:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:37:50.033                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:37:50.034                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:37:50.040       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:39:34.230              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:39:34.246                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:39:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:39:34.247                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:39:34.248                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:39:34.267       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:39:41.393              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:39:41.401                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:39:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:39:41.401                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:39:41.402                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:39:41.408       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:40:52.933              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:40:52.942                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:40:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:40:52.943                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:40:52.944                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:40:52.952       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:41:06.039              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:41:06.047                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:41:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:41:06.048                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:41:06.048                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:41:06.057       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:41:36.910              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:41:36.919                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:41:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:41:36.919                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:41:36.920                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:41:36.928       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:41:56.256              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:41:56.265                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:41:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:41:56.266                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:41:56.266                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:41:56.274       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:42:32.384              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:42:32.391                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:42:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:42:32.392                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:42:32.393                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:42:32.400       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:42:37.461              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:42:37.468                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:42:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:42:37.469                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:42:37.470                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:42:37.476       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:42:43.607              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:42:43.613                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:42:43 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:42:43.614                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:42:43.615                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:42:43.621       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:42:56.739              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:42:56.747                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:42:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:42:56.748                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:42:56.748                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:42:56.755       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:43:26.655              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:43:26.668                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:43:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:43:26.669                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:43:26.669                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:43:26.680       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:43:30.059              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:43:30.066                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:43:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:43:30.067                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:43:30.067                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:43:30.073       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:44:03.869              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:44:03.873 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:44:03.879                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:44:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:44:03.880                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:44:03.880                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:44:03.886       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:45:02.471              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:45:02.475 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:45:02.483                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:45:02 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:45:02.483                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:45:02.484                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:45:02.490       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:46:17.303              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:46:17.308 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:46:17.314                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:46:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:46:17.315                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:46:17.316                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:46:17.322       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:46:40.470              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:46:40.476 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:46:40.487                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:46:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:46:40.488                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:46:40.489                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:46:40.500       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:46:44.072              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:46:44.077 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:46:44.082                  src\main.ts:48  | Server time: Tue Jun 24 2025 18:46:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:46:44.083                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:46:44.083                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:46:44.088       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:47:36.222              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:47:36.226 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:47:36.234                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:47:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:47:36.235                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:47:36.235                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:47:36.242       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:48:04.320              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:48:04.328 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:48:04.337                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:48:04 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:48:04.338                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:48:04.339                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:48:04.347       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:49:46.853              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:49:46.859 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:49:46.868                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:49:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:49:46.869                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:49:46.869                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:49:46.876       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:49:50.104              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:49:50.109 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:49:50.117                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:49:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:49:50.118                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:49:50.119                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:49:50.124       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:50:14.329              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:50:14.333 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:50:14.339                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:50:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:50:14.339                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:50:14.340                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:50:14.345       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:50:53.137              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:50:53.141 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:50:53.150                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:50:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:50:53.151                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:50:53.152                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:50:53.159       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:50:55.882              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:50:55.886 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:50:55.893                  src\main.ts:54  | Server time: Tue Jun 24 2025 18:50:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:50:55.894                  src\main.ts:55  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:50:55.895                  src\main.ts:56  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:50:55.901       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:57:37.906              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T18:57:37.910 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T18:57:37.917                  src\main.ts:59  | Server time: Tue Jun 24 2025 18:57:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T18:57:37.918                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T18:57:37.919                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T18:57:37.924       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T18:59:05.467              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 3.974 ms {}
+ (access)
+INFO   2025-06-24T18:59:10.462              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.172 ms {}
+ (access)
+INFO   2025-06-24T18:59:15.460              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.675 ms {}
+ (access)
+INFO   2025-06-24T18:59:20.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.344 ms {}
+ (access)
+INFO   2025-06-24T18:59:25.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.643 ms {}
+ (access)
+INFO   2025-06-24T18:59:30.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.349 ms {}
+ (access)
+INFO   2025-06-24T18:59:35.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.346 ms {}
+ (access)
+INFO   2025-06-24T18:59:40.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.310 ms {}
+ (access)
+INFO   2025-06-24T18:59:45.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.501 ms {}
+ (access)
+INFO   2025-06-24T18:59:50.467              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.562 ms {}
+ (access)
+INFO   2025-06-24T18:59:55.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.425 ms {}
+ (access)
+INFO   2025-06-24T19:00:00.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.660 ms {}
+ (access)
+INFO   2025-06-24T19:00:05.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.370 ms {}
+ (access)
+INFO   2025-06-24T19:00:10.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.414 ms {}
+ (access)
+INFO   2025-06-24T19:00:15.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.367 ms {}
+ (access)
+INFO   2025-06-24T19:00:20.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.567 ms {}
+ (access)
+INFO   2025-06-24T19:00:25.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.510 ms {}
+ (access)
+INFO   2025-06-24T19:00:30.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.038 ms {}
+ (access)
+INFO   2025-06-24T19:00:35.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.342 ms {}
+ (access)
+INFO   2025-06-24T19:00:40.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.065 ms {}
+ (access)
+INFO   2025-06-24T19:00:45.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.345 ms {}
+ (access)
+INFO   2025-06-24T19:00:50.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.317 ms {}
+ (access)
+INFO   2025-06-24T19:00:55.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.486 ms {}
+ (access)
+INFO   2025-06-24T19:01:00.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.587 ms {}
+ (access)
+INFO   2025-06-24T19:01:05.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.403 ms {}
+ (access)
+INFO   2025-06-24T19:01:10.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.317 ms {}
+ (access)
+INFO   2025-06-24T19:01:15.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.347 ms {}
+ (access)
+INFO   2025-06-24T19:01:20.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.302 ms {}
+ (access)
+INFO   2025-06-24T19:01:25.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.330 ms {}
+ (access)
+INFO   2025-06-24T19:01:30.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.299 ms {}
+ (access)
+INFO   2025-06-24T19:01:35.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.323 ms {}
+ (access)
+INFO   2025-06-24T19:01:40.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.496 ms {}
+ (access)
+INFO   2025-06-24T19:01:45.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.304 ms {}
+ (access)
+INFO   2025-06-24T19:01:50.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.387 ms {}
+ (access)
+INFO   2025-06-24T19:01:55.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.343 ms {}
+ (access)
+INFO   2025-06-24T19:02:00.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.578 ms {}
+ (access)
+INFO   2025-06-24T19:02:05.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.571 ms {}
+ (access)
+INFO   2025-06-24T19:02:09.847              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 0.499 ms {}
+ (access)
+INFO   2025-06-24T19:02:10.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.495 ms {}
+ (access)
+INFO   2025-06-24T19:02:15.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.526 ms {}
+ (access)
+INFO   2025-06-24T19:02:19.306              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 2.303 ms {}
+ (access)
+INFO   2025-06-24T19:02:20.444              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.316 ms {}
+ (access)
+INFO   2025-06-24T19:02:25.444              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.353 ms {}
+ (access)
+INFO   2025-06-24T19:02:30.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.290 ms {}
+ (access)
+INFO   2025-06-24T19:02:35.444              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.339 ms {}
+ (access)
+INFO   2025-06-24T19:02:40.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.309 ms {}
+ (access)
+INFO   2025-06-24T19:02:45.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.828 ms {}
+ (access)
+INFO   2025-06-24T19:02:50.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.986 ms {}
+ (access)
+INFO   2025-06-24T19:02:55.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.474 ms {}
+ (access)
+INFO   2025-06-24T19:03:00.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.335 ms {}
+ (access)
+INFO   2025-06-24T19:03:05.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.362 ms {}
+ (access)
+INFO   2025-06-24T19:03:10.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.304 ms {}
+ (access)
+INFO   2025-06-24T19:03:15.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.317 ms {}
+ (access)
+INFO   2025-06-24T19:03:20.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.305 ms {}
+ (access)
+INFO   2025-06-24T19:03:25.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.327 ms {}
+ (access)
+INFO   2025-06-24T19:03:33.303              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T19:03:33.307 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T19:03:33.314                  src\main.ts:59  | Server time: Tue Jun 24 2025 19:03:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T19:03:33.315                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T19:03:33.315                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T19:03:33.321       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T19:03:33.343              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 4.471 ms {}
+ (access)
+INFO   2025-06-24T19:03:34.060              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 1.456 ms {}
+ (access)
+INFO   2025-06-24T19:03:35.138              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 0.702 ms {}
+ (access)
+INFO   2025-06-24T19:03:35.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 3.173 ms {}
+ (access)
+INFO   2025-06-24T19:03:36.223              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 0.531 ms {}
+ (access)
+INFO   2025-06-24T19:03:40.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.575 ms {}
+ (access)
+INFO   2025-06-24T19:03:43.161              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 401 - 0.649 ms {}
+ (access)
+INFO   2025-06-24T19:03:45.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.316 ms {}
+ (access)
+INFO   2025-06-24T19:03:50.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.605 ms {}
+ (access)
+INFO   2025-06-24T19:03:54.147              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T19:03:54.151 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T19:03:54.159                  src\main.ts:59  | Server time: Tue Jun 24 2025 19:03:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T19:03:54.160                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T19:03:54.160                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T19:03:54.166       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T19:03:55.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 5.961 ms {}
+ (access)
+INFO   2025-06-24T19:03:55.837              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 2.323 ms {}
+ (access)
+INFO   2025-06-24T19:04:00.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.855 ms {}
+ (access)
+INFO   2025-06-24T19:04:05.439              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.437 ms {}
+ (access)
+INFO   2025-06-24T19:04:09.700              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T19:04:09.705 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T19:04:09.715                  src\main.ts:59  | Server time: Tue Jun 24 2025 19:04:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T19:04:09.716                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T19:04:09.717                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T19:04:09.728       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T19:04:10.457              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 7.365 ms {}
+ (access)
+INFO   2025-06-24T19:04:11.231              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 200 - 7.468 ms {}
+ (access)
+INFO   2025-06-24T19:04:15.439              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.871 ms {}
+ (access)
+INFO   2025-06-24T19:04:20.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 2.585 ms {}
+ (access)
+INFO   2025-06-24T19:04:25.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.326 ms {}
+ (access)
+INFO   2025-06-24T19:04:30.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.582 ms {}
+ (access)
+INFO   2025-06-24T19:04:35.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.420 ms {}
+ (access)
+INFO   2025-06-24T19:04:40.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.089 ms {}
+ (access)
+INFO   2025-06-24T19:04:45.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.480 ms {}
+ (access)
+INFO   2025-06-24T19:04:50.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 2.197 ms {}
+ (access)
+INFO   2025-06-24T19:04:55.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.399 ms {}
+ (access)
+INFO   2025-06-24T19:05:00.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.411 ms {}
+ (access)
+INFO   2025-06-24T19:05:05.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.536 ms {}
+ (access)
+INFO   2025-06-24T19:05:10.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.348 ms {}
+ (access)
+INFO   2025-06-24T19:05:15.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.560 ms {}
+ (access)
+INFO   2025-06-24T19:05:20.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.422 ms {}
+ (access)
+INFO   2025-06-24T19:05:25.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.322 ms {}
+ (access)
+INFO   2025-06-24T19:05:30.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.347 ms {}
+ (access)
+INFO   2025-06-24T19:05:35.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.315 ms {}
+ (access)
+INFO   2025-06-24T19:05:40.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.348 ms {}
+ (access)
+INFO   2025-06-24T19:05:45.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.441 ms {}
+ (access)
+INFO   2025-06-24T19:05:50.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.457 ms {}
+ (access)
+INFO   2025-06-24T19:05:55.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.335 ms {}
+ (access)
+INFO   2025-06-24T19:06:00.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.521 ms {}
+ (access)
+INFO   2025-06-24T19:06:05.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 0.321 ms {}
+ (access)
+INFO   2025-06-24T19:06:10.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 404 - 1.022 ms {}
+ (access)
+INFO   2025-06-24T19:08:59.238              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T19:08:59.243 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T19:08:59.251                  src\main.ts:59  | Server time: Tue Jun 24 2025 19:08:59 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T19:08:59.252                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T19:08:59.253                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T19:08:59.261       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T19:09:16.160              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 404 - 7.367 ms {}
+ (access)
+INFO   2025-06-24T19:09:21.146              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 404 - 1.042 ms {}
+ (access)
+INFO   2025-06-24T19:09:26.144              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 404 - 0.581 ms {}
+ (access)
+INFO   2025-06-24T19:09:31.143              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 404 - 0.414 ms {}
+ (access)
+INFO   2025-06-24T19:10:03.584              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T19:10:03.590 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T19:10:03.597                  src\main.ts:59  | Server time: Tue Jun 24 2025 19:10:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T19:10:03.598                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T19:10:03.598                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T19:10:03.606       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T19:10:26.624              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 404 - 5.270 ms {}
+ (access)
+INFO   2025-06-24T19:10:26.776              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /favicon.ico 404 - 1.219 ms {}
+ (access)
+INFO   2025-06-24T19:10:42.946              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 404 - 0.662 ms {}
+ (access)
+INFO   2025-06-24T19:10:54.832              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 0.361 ms {}
+ (access)
+INFO   2025-06-24T19:17:17.622              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/metrics 404 - 0.589 ms {}
+ (access)
+INFO   2025-06-24T21:10:56.049              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:10:56.053 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:10:56.059                  src\main.ts:59  | Server time: Tue Jun 24 2025 21:10:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:10:56.060                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:10:56.060                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:10:56.065       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:10:59.419              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:10:59.425 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:10:59.433                  src\main.ts:59  | Server time: Tue Jun 24 2025 21:10:59 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:10:59.434                  src\main.ts:60  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:10:59.434                  src\main.ts:61  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:10:59.442       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:11:03.432              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:11:03.435 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:11:03.441                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:11:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:11:03.442                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:11:03.442                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:11:03.447       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:11:22.492              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 7.125 ms {}
+ (access)
+INFO   2025-06-24T21:11:34.327              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:11:34.333 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:11:34.343                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:11:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:11:34.343                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:11:34.344                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:11:34.351       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:11:36.166              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 4.272 ms {}
+ (access)
+INFO   2025-06-24T21:11:38.497              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 1.071 ms {}
+ (access)
+INFO   2025-06-24T21:13:24.321              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:13:24.332 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:13:24.344                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:13:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:13:24.346                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:13:24.347                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:13:24.355       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:14:39.044              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:14:39.047 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:14:39.053                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:14:39 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:14:39.054                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:14:39.054                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:14:39.059       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:17:59.529              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 4.163 ms {}
+ (access)
+INFO   2025-06-24T21:18:18.100              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:18:18.103 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:18:18.109                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:18:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:18:18.110                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:18:18.110                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:18:18.116       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:19:46.263              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:19:46.267 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:19:46.274                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:19:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:19:46.275                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:19:46.275                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:19:46.281       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:19:52.131              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 9.050 ms {}
+ (access)
+INFO   2025-06-24T21:20:24.854              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:20:24.859 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:20:24.869                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:20:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:20:24.870                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:20:24.870                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:20:24.876       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:20:28.214              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 10.403 ms {}
+ (access)
+INFO   2025-06-24T21:21:06.265              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:21:06.268 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:21:06.277                  src\main.ts:61  | Server time: Tue Jun 24 2025 21:21:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:21:06.278                  src\main.ts:62  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:21:06.278                  src\main.ts:63  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:21:06.284       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:21:13.077              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 9.831 ms {}
+ (access)
+INFO   2025-06-24T21:22:26.378              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 3.727 ms {}
+ (access)
+INFO   2025-06-24T21:22:28.579              morgan\index.js:130 | ::1 Anonymous GET /metrics 304 - 2.467 ms {}
+ (access)
+INFO   2025-06-24T21:23:32.901              morgan\index.js:130 | ::1 Anonymous GET /metrics/health 404 - 1.460 ms {}
+ (access)
+INFO   2025-06-24T21:23:45.516              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics/health 500 - 6.193 ms {}
+ (access)
+INFO   2025-06-24T21:25:37.160              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:25:37.164 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:25:37.171                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:25:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:25:37.171                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:25:37.172                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:25:37.177       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:29:48.653              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 404 - 5.144 ms {}
+ (access)
+INFO   2025-06-24T21:29:52.767              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 6.700 ms {}
+ (access)
+INFO   2025-06-24T21:30:15.458              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:30:15.462 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:30:15.469                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:30:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:30:15.470                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:30:15.470                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:30:15.477       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:30:16.317              morgan\index.js:130 | ::1 Anonymous GET /metrics 401 - 6.134 ms {}
+ (access)
+INFO   2025-06-24T21:30:54.251              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:30:54.254 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:30:54.260                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:30:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:30:54.261                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:30:54.261                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:30:54.265       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:30:54.989              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 8.896 ms {}
+ (access)
+INFO   2025-06-24T21:31:16.115              morgan\index.js:130 | ::1 Anonymous GET /metrics 304 - 3.407 ms {}
+ (access)
+INFO   2025-06-24T21:31:58.360              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:31:58.372 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:31:58.381                  src\main.ts:48  | Server time: Tue Jun 24 2025 21:31:58 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:31:58.382                  src\main.ts:49  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:31:58.383                  src\main.ts:50  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:31:58.393       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:31:59.295              morgan\index.js:130 | ::1 Anonymous GET /metrics 404 - 4.884 ms {}
+ (access)
+INFO   2025-06-24T21:32:07.255              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 401 - 2.311 ms {}
+ (access)
+INFO   2025-06-24T21:32:26.668              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:32:26.672 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:32:26.679                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:32:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:32:26.680                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:32:26.680                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:32:26.686       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:34:46.942 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:34:46.944              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:34:46.953                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:34:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:34:46.954                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:34:46.954                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:34:46.963       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:34:50.275              morgan\index.js:130 | ::1 Anonymous GET /api/v1/metrics 404 - 3.742 ms {}
+ (access)
+INFO   2025-06-24T21:34:56.122              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 6.816 ms {}
+ (access)
+INFO   2025-06-24T21:35:24.447 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:35:24.452              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:35:24.459                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:35:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:35:24.460                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:35:24.461                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:35:24.469       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:35:26.150              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 9.843 ms {}
+ (access)
+INFO   2025-06-24T21:35:58.193              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 7.946 ms {}
+ (access)
+INFO   2025-06-24T21:44:28.640 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:44:28.644              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:44:28.651                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:44:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:44:28.652                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:44:28.653                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:44:28.660       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:44:48.760 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:44:48.806              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:44:48.863                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:44:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:44:48.864                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:44:48.866                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:44:48.875       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:45:00.612 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:45:00.614              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:45:00.624                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:45:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:45:00.624                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:45:00.625                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:45:00.632       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:45:03.579              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 9.368 ms {}
+ (access)
+INFO   2025-06-24T21:45:07.994              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 2.704 ms {}
+ (access)
+INFO   2025-06-24T21:45:32.439 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:45:32.444              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:45:32.451                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:45:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:45:32.452                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:45:32.452                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:45:32.462       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:45:41.029 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:45:41.034              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:45:41.043                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:45:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:45:41.044                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:45:41.045                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:45:41.054       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:45:45.975 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:45:45.979              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:45:45.985                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:45:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:45:45.985                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:45:45.986                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:45:45.992       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:45:48.152              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 9.732 ms {}
+ (access)
+INFO   2025-06-24T21:45:49.359              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 2.494 ms {}
+ (access)
+INFO   2025-06-24T21:46:00.437 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:46:00.442              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:46:00.449                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:46:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:46:00.450                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:46:00.451                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:46:00.456       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:47:05.473              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 9.785 ms {}
+ (access)
+INFO   2025-06-24T21:47:10.461              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.681 ms {}
+ (access)
+INFO   2025-06-24T21:47:15.459              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.026 ms {}
+ (access)
+INFO   2025-06-24T21:47:30.459              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.878 ms {}
+ (access)
+INFO   2025-06-24T21:47:35.457              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.948 ms {}
+ (access)
+INFO   2025-06-24T21:47:38.642              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 2.165 ms {}
+ (access)
+INFO   2025-06-24T21:47:40.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.854 ms {}
+ (access)
+INFO   2025-06-24T21:47:45.457              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.281 ms {}
+ (access)
+INFO   2025-06-24T21:47:50.457              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.000 ms {}
+ (access)
+INFO   2025-06-24T21:47:55.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.355 ms {}
+ (access)
+INFO   2025-06-24T21:48:00.479              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 26.146 ms {}
+ (access)
+INFO   2025-06-24T21:48:05.460              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 5.349 ms {}
+ (access)
+INFO   2025-06-24T21:48:10.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.502 ms {}
+ (access)
+INFO   2025-06-24T21:48:15.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.478 ms {}
+ (access)
+INFO   2025-06-24T21:48:20.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.522 ms {}
+ (access)
+INFO   2025-06-24T21:48:25.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.556 ms {}
+ (access)
+INFO   2025-06-24T21:48:30.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.760 ms {}
+ (access)
+INFO   2025-06-24T21:48:35.460              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 5.835 ms {}
+ (access)
+INFO   2025-06-24T21:48:40.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.715 ms {}
+ (access)
+INFO   2025-06-24T21:48:45.776 metrics\custom-metrics.servi:32  | Custom metrics initialized successfully MetricsService (default)
+INFO   2025-06-24T21:48:45.782              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:48:45.793                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:48:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:48:45.794                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:48:45.795                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:48:45.804       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:48:50.469              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 9.433 ms {}
+ (access)
+INFO   2025-06-24T21:48:55.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.073 ms {}
+ (access)
+INFO   2025-06-24T21:49:00.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.398 ms {}
+ (access)
+INFO   2025-06-24T21:49:05.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.396 ms {}
+ (access)
+INFO   2025-06-24T21:49:10.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.338 ms {}
+ (access)
+INFO   2025-06-24T21:49:15.458              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 6.088 ms {}
+ (access)
+INFO   2025-06-24T21:49:20.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.665 ms {}
+ (access)
+INFO   2025-06-24T21:49:25.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.652 ms {}
+ (access)
+INFO   2025-06-24T21:49:30.461              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 7.173 ms {}
+ (access)
+INFO   2025-06-24T21:49:35.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.488 ms {}
+ (access)
+INFO   2025-06-24T21:49:40.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.101 ms {}
+ (access)
+INFO   2025-06-24T21:49:45.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.919 ms {}
+ (access)
+INFO   2025-06-24T21:49:50.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.920 ms {}
+ (access)
+INFO   2025-06-24T21:49:55.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.728 ms {}
+ (access)
+INFO   2025-06-24T21:50:00.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.698 ms {}
+ (access)
+INFO   2025-06-24T21:50:05.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.152 ms {}
+ (access)
+INFO   2025-06-24T21:50:10.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.680 ms {}
+ (access)
+INFO   2025-06-24T21:50:15.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.972 ms {}
+ (access)
+INFO   2025-06-24T21:50:20.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.547 ms {}
+ (access)
+INFO   2025-06-24T21:50:25.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.238 ms {}
+ (access)
+INFO   2025-06-24T21:50:30.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.707 ms {}
+ (access)
+INFO   2025-06-24T21:50:35.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.024 ms {}
+ (access)
+INFO   2025-06-24T21:50:40.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.489 ms {}
+ (access)
+INFO   2025-06-24T21:50:45.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.107 ms {}
+ (access)
+INFO   2025-06-24T21:50:50.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.802 ms {}
+ (access)
+INFO   2025-06-24T21:50:55.320              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:50:55.328                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:50:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:50:55.329                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:50:55.329                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:50:55.336       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:50:55.462              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 10.888 ms {}
+ (access)
+INFO   2025-06-24T21:50:56.853              morgan\index.js:130 | ::1 Anonymous GET /metrics 200 - 3.332 ms {}
+ (access)
+INFO   2025-06-24T21:51:00.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.401 ms {}
+ (access)
+INFO   2025-06-24T21:51:05.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.605 ms {}
+ (access)
+INFO   2025-06-24T21:51:09.493              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:51:09.500                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:51:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:51:09.501                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:51:09.501                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:51:09.507       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:51:10.466              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 10.891 ms {}
+ (access)
+INFO   2025-06-24T21:51:14.557              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-24T21:51:14.565                  src\main.ts:50  | Server time: Tue Jun 24 2025 21:51:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-24T21:51:14.566                  src\main.ts:51  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-06-24T21:51:14.566                  src\main.ts:52  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-06-24T21:51:14.573       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-24T21:51:15.463              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 9.188 ms {}
+ (access)
+INFO   2025-06-24T21:51:20.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.813 ms {}
+ (access)
+INFO   2025-06-24T21:51:25.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 6.153 ms {}
+ (access)
+INFO   2025-06-24T21:51:30.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.566 ms {}
+ (access)
+INFO   2025-06-24T21:51:35.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 5.588 ms {}
+ (access)
+INFO   2025-06-24T21:51:40.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.770 ms {}
+ (access)
+INFO   2025-06-24T21:51:45.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.636 ms {}
+ (access)
+INFO   2025-06-24T21:51:50.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.581 ms {}
+ (access)
+INFO   2025-06-24T21:51:55.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.274 ms {}
+ (access)
+INFO   2025-06-24T21:52:00.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.789 ms {}
+ (access)
+INFO   2025-06-24T21:52:05.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.616 ms {}
+ (access)
+INFO   2025-06-24T21:52:10.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.581 ms {}
+ (access)
+INFO   2025-06-24T21:52:15.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.705 ms {}
+ (access)
+INFO   2025-06-24T21:52:20.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.857 ms {}
+ (access)
+INFO   2025-06-24T21:52:25.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.510 ms {}
+ (access)
+INFO   2025-06-24T21:52:30.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.818 ms {}
+ (access)
+INFO   2025-06-24T21:52:35.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.571 ms {}
+ (access)
+INFO   2025-06-24T21:52:40.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.211 ms {}
+ (access)
+INFO   2025-06-24T21:52:45.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.790 ms {}
+ (access)
+INFO   2025-06-24T21:52:50.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.921 ms {}
+ (access)
+INFO   2025-06-24T21:52:55.444              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.581 ms {}
+ (access)
+INFO   2025-06-24T21:53:00.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.241 ms {}
+ (access)
+INFO   2025-06-24T21:53:05.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.349 ms {}
+ (access)
+INFO   2025-06-24T21:53:10.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.300 ms {}
+ (access)
+INFO   2025-06-24T21:53:15.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.483 ms {}
+ (access)
+INFO   2025-06-24T21:53:20.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.311 ms {}
+ (access)
+INFO   2025-06-24T21:53:25.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.950 ms {}
+ (access)
+INFO   2025-06-24T21:53:30.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.323 ms {}
+ (access)
+INFO   2025-06-24T21:53:35.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.454 ms {}
+ (access)
+INFO   2025-06-24T21:53:40.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.342 ms {}
+ (access)
+INFO   2025-06-24T21:53:45.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.444 ms {}
+ (access)
+INFO   2025-06-24T21:53:50.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.315 ms {}
+ (access)
+INFO   2025-06-24T21:53:55.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.277 ms {}
+ (access)
+INFO   2025-06-24T21:54:00.439              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.591 ms {}
+ (access)
+INFO   2025-06-24T21:54:05.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.300 ms {}
+ (access)
+INFO   2025-06-24T21:54:10.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.376 ms {}
+ (access)
+INFO   2025-06-24T21:54:15.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.386 ms {}
+ (access)
+INFO   2025-06-24T21:54:20.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.442 ms {}
+ (access)
+INFO   2025-06-24T21:54:25.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.269 ms {}
+ (access)
+INFO   2025-06-24T21:54:30.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.366 ms {}
+ (access)
+INFO   2025-06-24T21:54:35.439              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.708 ms {}
+ (access)
+INFO   2025-06-24T21:54:40.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.962 ms {}
+ (access)
+INFO   2025-06-24T21:54:45.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.140 ms {}
+ (access)
+INFO   2025-06-24T21:54:50.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.338 ms {}
+ (access)
+INFO   2025-06-24T21:54:55.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.330 ms {}
+ (access)
+INFO   2025-06-24T21:55:00.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.229 ms {}
+ (access)
+INFO   2025-06-24T21:55:05.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.202 ms {}
+ (access)
+INFO   2025-06-24T21:55:10.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.266 ms {}
+ (access)
+INFO   2025-06-24T21:55:15.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.261 ms {}
+ (access)
+INFO   2025-06-24T21:55:20.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.262 ms {}
+ (access)
+INFO   2025-06-24T21:55:25.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.306 ms {}
+ (access)
+INFO   2025-06-24T21:55:30.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.686 ms {}
+ (access)
+INFO   2025-06-24T21:55:35.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.498 ms {}
+ (access)
+INFO   2025-06-24T21:55:40.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.289 ms {}
+ (access)
+INFO   2025-06-24T21:55:45.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.517 ms {}
+ (access)
+INFO   2025-06-24T21:55:50.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.953 ms {}
+ (access)
+INFO   2025-06-24T21:55:55.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.978 ms {}
+ (access)
+INFO   2025-06-24T21:56:00.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.867 ms {}
+ (access)
+INFO   2025-06-24T21:56:05.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.998 ms {}
+ (access)
+INFO   2025-06-24T21:56:10.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.380 ms {}
+ (access)
+INFO   2025-06-24T21:56:15.430              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.248 ms {}
+ (access)
+INFO   2025-06-24T21:56:20.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.006 ms {}
+ (access)
+INFO   2025-06-24T21:56:25.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.868 ms {}
+ (access)
+INFO   2025-06-24T21:56:30.439              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 5.003 ms {}
+ (access)
+INFO   2025-06-24T21:56:35.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 5.268 ms {}
+ (access)
+INFO   2025-06-24T21:56:40.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.580 ms {}
+ (access)
+INFO   2025-06-24T21:56:45.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.200 ms {}
+ (access)
+INFO   2025-06-24T21:56:50.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.340 ms {}
+ (access)
+INFO   2025-06-24T21:56:55.429              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.813 ms {}
+ (access)
+INFO   2025-06-24T21:57:00.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.315 ms {}
+ (access)
+INFO   2025-06-24T21:57:05.429              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.268 ms {}
+ (access)
+INFO   2025-06-24T21:57:10.428              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.171 ms {}
+ (access)
+INFO   2025-06-24T21:57:15.428              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.248 ms {}
+ (access)
+INFO   2025-06-24T21:57:20.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.062 ms {}
+ (access)
+INFO   2025-06-24T21:57:25.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.358 ms {}
+ (access)
+INFO   2025-06-24T21:57:30.426              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.221 ms {}
+ (access)
+INFO   2025-06-24T21:57:35.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.732 ms {}
+ (access)
+INFO   2025-06-24T21:57:40.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.071 ms {}
+ (access)
+INFO   2025-06-24T21:57:45.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.747 ms {}
+ (access)
+INFO   2025-06-24T21:57:50.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.885 ms {}
+ (access)
+INFO   2025-06-24T21:57:55.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.978 ms {}
+ (access)
+INFO   2025-06-24T21:58:00.424              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.264 ms {}
+ (access)
+INFO   2025-06-24T21:58:05.426              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.257 ms {}
+ (access)
+INFO   2025-06-24T21:58:10.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.945 ms {}
+ (access)
+INFO   2025-06-24T21:58:15.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.182 ms {}
+ (access)
+INFO   2025-06-24T21:58:20.423              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.345 ms {}
+ (access)
+INFO   2025-06-24T21:58:25.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.309 ms {}
+ (access)
+INFO   2025-06-24T21:58:30.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.178 ms {}
+ (access)
+INFO   2025-06-24T21:58:35.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.368 ms {}
+ (access)
+INFO   2025-06-24T21:58:40.423              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.582 ms {}
+ (access)
+INFO   2025-06-24T21:58:45.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.895 ms {}
+ (access)
