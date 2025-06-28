@@ -13,3 +13,8 @@ scrape_configs:
      static_configs:
         - targets: ['host.docker.internal:3005']
      metrics_path: '/metrics'
+
+   - job_name: 'ecommerce-node-exporter'
+     scrape_interval: 5s
+     static_configs:
+        - targets: ['host.docker.internal:9100']
