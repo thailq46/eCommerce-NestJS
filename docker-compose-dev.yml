@@ -1,3 +1,4 @@
+#  docker-compose -p ecom-monitor -f docker-compose-dev.yml up
 version: '3.2'
 
 networks:
@@ -23,6 +24,14 @@ services:
    #       - '8811:3306'
    #    networks:
    #       - nest-app-network
+
+   redis:
+      container_name: pre-event-redis
+      image: redis:latest
+      ports:
+         - '6319:6379'
+      networks:
+         - nest-app-network
 
    prometheus:
       image: prom/prometheus:latest
@@ -102,5 +111,13 @@ services:
          - DATA_SOURCE_NAME=root:thailq@tcp(mysql:8811)/
       # depends_on:
       #    - mysql
+      networks:
+         - nest-app-network
+
+   redis-exporter:
+      image: oliver006/redis_exporter
+      command: -redis.addr redis://redis:6319
+      ports:
+         - 9121:9121
       networks:
          - nest-app-network
