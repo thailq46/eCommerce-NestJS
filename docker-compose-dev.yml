@@ -79,3 +79,28 @@ services:
          - '9100:9100'
       networks:
          - nest-app-network
+
+   mysqld-exporter:
+      image: prom/mysqld-exporter
+      container_name: pre-event-mysqld-exporter
+      ports:
+         - '9104:9104'
+      command:
+         - '--collect.engine_innodb_status'
+         - '--collect.info_schema.processlist'
+         - '--collect.info_schema.tables'
+         - '--collect.info_schema.query_response_time'
+         - '--collect.perf_schema.file_events'
+         - '--collect.perf_schema.eventsstatements'
+         - '--collect.perf_schema.indexiowaits'
+         - '--collect.global_status'
+         #      - '--ignore-tables' # Ko giám sát các table của hệ thống
+         - '--config.my-cnf=/etc/mysql/.my.cnf'
+      volumes:
+         - ./environments/mysqld-exporter/.my.cnf:/etc/mysql/.my.cnf
+      environment:
+         - DATA_SOURCE_NAME=root:thailq@tcp(mysql:8811)/
+      # depends_on:
+      #    - mysql
+      networks:
+         - nest-app-network

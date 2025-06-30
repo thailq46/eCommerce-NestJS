@@ -1,0 +1,2399 @@
+INFO   2025-06-30T13:18:51.893              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-30T13:18:51.901                  src\main.ts:50  | Server time: Mon Jun 30 2025 13:18:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-30T13:18:51.901                  src\main.ts:51  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-06-30T13:18:51.902                  src\main.ts:52  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-06-30T13:18:51.909       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-30T13:44:10.477              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 12.567 ms {}
+ (access)
+INFO   2025-06-30T13:44:15.464              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 7.302 ms {}
+ (access)
+INFO   2025-06-30T13:44:20.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.891 ms {}
+ (access)
+INFO   2025-06-30T13:44:25.463              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.306 ms {}
+ (access)
+INFO   2025-06-30T13:44:30.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.832 ms {}
+ (access)
+INFO   2025-06-30T13:44:35.457              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.607 ms {}
+ (access)
+INFO   2025-06-30T13:44:40.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.595 ms {}
+ (access)
+INFO   2025-06-30T13:44:45.457              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.697 ms {}
+ (access)
+INFO   2025-06-30T13:44:50.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.134 ms {}
+ (access)
+INFO   2025-06-30T13:44:55.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.127 ms {}
+ (access)
+INFO   2025-06-30T13:45:00.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.270 ms {}
+ (access)
+INFO   2025-06-30T13:45:05.459              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.439 ms {}
+ (access)
+INFO   2025-06-30T13:45:10.459              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.293 ms {}
+ (access)
+INFO   2025-06-30T13:45:15.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.125 ms {}
+ (access)
+INFO   2025-06-30T13:45:20.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.232 ms {}
+ (access)
+INFO   2025-06-30T13:45:25.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.328 ms {}
+ (access)
+INFO   2025-06-30T13:45:30.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.245 ms {}
+ (access)
+INFO   2025-06-30T13:45:35.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.299 ms {}
+ (access)
+INFO   2025-06-30T13:45:40.455              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.852 ms {}
+ (access)
+INFO   2025-06-30T13:45:45.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.268 ms {}
+ (access)
+INFO   2025-06-30T13:45:50.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.426 ms {}
+ (access)
+INFO   2025-06-30T13:45:55.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.213 ms {}
+ (access)
+INFO   2025-06-30T13:46:00.456              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.401 ms {}
+ (access)
+INFO   2025-06-30T13:46:05.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.472 ms {}
+ (access)
+INFO   2025-06-30T13:46:10.454              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.798 ms {}
+ (access)
+INFO   2025-06-30T13:46:15.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.723 ms {}
+ (access)
+INFO   2025-06-30T13:46:20.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.597 ms {}
+ (access)
+INFO   2025-06-30T13:46:25.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.813 ms {}
+ (access)
+INFO   2025-06-30T13:46:30.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.371 ms {}
+ (access)
+INFO   2025-06-30T13:46:35.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.616 ms {}
+ (access)
+INFO   2025-06-30T13:46:40.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.474 ms {}
+ (access)
+INFO   2025-06-30T13:46:45.453              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.001 ms {}
+ (access)
+INFO   2025-06-30T13:46:50.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.887 ms {}
+ (access)
+INFO   2025-06-30T13:46:55.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.034 ms {}
+ (access)
+INFO   2025-06-30T13:47:00.450              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.845 ms {}
+ (access)
+INFO   2025-06-30T13:47:05.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.464 ms {}
+ (access)
+INFO   2025-06-30T13:47:10.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.242 ms {}
+ (access)
+INFO   2025-06-30T13:47:15.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.376 ms {}
+ (access)
+INFO   2025-06-30T13:47:20.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.246 ms {}
+ (access)
+INFO   2025-06-30T13:47:25.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.703 ms {}
+ (access)
+INFO   2025-06-30T13:47:30.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.016 ms {}
+ (access)
+INFO   2025-06-30T13:47:35.448              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.595 ms {}
+ (access)
+INFO   2025-06-30T13:47:40.446              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.712 ms {}
+ (access)
+INFO   2025-06-30T13:47:45.444              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.244 ms {}
+ (access)
+INFO   2025-06-30T13:47:50.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.875 ms {}
+ (access)
+INFO   2025-06-30T13:47:55.445              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.289 ms {}
+ (access)
+INFO   2025-06-30T13:48:00.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.207 ms {}
+ (access)
+INFO   2025-06-30T13:48:05.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.243 ms {}
+ (access)
+INFO   2025-06-30T13:48:10.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.015 ms {}
+ (access)
+INFO   2025-06-30T13:48:15.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.293 ms {}
+ (access)
+INFO   2025-06-30T13:48:20.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.220 ms {}
+ (access)
+INFO   2025-06-30T13:48:25.443              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.441 ms {}
+ (access)
+INFO   2025-06-30T13:48:30.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.175 ms {}
+ (access)
+INFO   2025-06-30T13:48:35.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.205 ms {}
+ (access)
+INFO   2025-06-30T13:48:40.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.223 ms {}
+ (access)
+INFO   2025-06-30T13:48:45.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.222 ms {}
+ (access)
+INFO   2025-06-30T13:48:50.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.157 ms {}
+ (access)
+INFO   2025-06-30T13:48:55.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.470 ms {}
+ (access)
+INFO   2025-06-30T13:49:00.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.191 ms {}
+ (access)
+INFO   2025-06-30T13:49:05.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.410 ms {}
+ (access)
+INFO   2025-06-30T13:49:10.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.633 ms {}
+ (access)
+INFO   2025-06-30T13:49:15.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.488 ms {}
+ (access)
+INFO   2025-06-30T13:49:20.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.661 ms {}
+ (access)
+INFO   2025-06-30T13:49:25.441              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.830 ms {}
+ (access)
+INFO   2025-06-30T13:49:30.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.150 ms {}
+ (access)
+INFO   2025-06-30T13:49:35.440              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.338 ms {}
+ (access)
+INFO   2025-06-30T13:49:40.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.145 ms {}
+ (access)
+INFO   2025-06-30T13:49:45.442              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.643 ms {}
+ (access)
+INFO   2025-06-30T13:49:50.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.465 ms {}
+ (access)
+INFO   2025-06-30T13:49:55.438              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.947 ms {}
+ (access)
+INFO   2025-06-30T13:50:00.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.215 ms {}
+ (access)
+INFO   2025-06-30T13:50:05.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.195 ms {}
+ (access)
+INFO   2025-06-30T13:50:10.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.185 ms {}
+ (access)
+INFO   2025-06-30T13:50:15.436              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.320 ms {}
+ (access)
+INFO   2025-06-30T13:50:20.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.196 ms {}
+ (access)
+INFO   2025-06-30T13:50:25.437              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.443 ms {}
+ (access)
+INFO   2025-06-30T13:50:30.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.130 ms {}
+ (access)
+INFO   2025-06-30T13:50:35.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.164 ms {}
+ (access)
+INFO   2025-06-30T13:50:40.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.365 ms {}
+ (access)
+INFO   2025-06-30T13:50:45.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.268 ms {}
+ (access)
+INFO   2025-06-30T13:50:50.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.640 ms {}
+ (access)
+INFO   2025-06-30T13:50:55.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.424 ms {}
+ (access)
+INFO   2025-06-30T13:51:00.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.196 ms {}
+ (access)
+INFO   2025-06-30T13:51:05.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.182 ms {}
+ (access)
+INFO   2025-06-30T13:51:10.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.168 ms {}
+ (access)
+INFO   2025-06-30T13:51:15.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.191 ms {}
+ (access)
+INFO   2025-06-30T13:51:20.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.193 ms {}
+ (access)
+INFO   2025-06-30T13:51:25.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.611 ms {}
+ (access)
+INFO   2025-06-30T13:51:30.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.150 ms {}
+ (access)
+INFO   2025-06-30T13:51:35.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.235 ms {}
+ (access)
+INFO   2025-06-30T13:51:40.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.170 ms {}
+ (access)
+INFO   2025-06-30T13:51:45.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.369 ms {}
+ (access)
+INFO   2025-06-30T13:51:50.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.164 ms {}
+ (access)
+INFO   2025-06-30T13:51:55.431              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.270 ms {}
+ (access)
+INFO   2025-06-30T13:52:00.430              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.407 ms {}
+ (access)
+INFO   2025-06-30T13:52:05.429              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.200 ms {}
+ (access)
+INFO   2025-06-30T13:52:10.429              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.223 ms {}
+ (access)
+INFO   2025-06-30T13:52:15.430              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.693 ms {}
+ (access)
+INFO   2025-06-30T13:52:20.428              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.200 ms {}
+ (access)
+INFO   2025-06-30T13:52:25.429              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.216 ms {}
+ (access)
+INFO   2025-06-30T13:52:30.428              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.266 ms {}
+ (access)
+INFO   2025-06-30T13:52:35.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.412 ms {}
+ (access)
+INFO   2025-06-30T13:52:40.429              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.684 ms {}
+ (access)
+INFO   2025-06-30T13:52:45.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.404 ms {}
+ (access)
+INFO   2025-06-30T13:52:50.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.202 ms {}
+ (access)
+INFO   2025-06-30T13:52:55.427              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.455 ms {}
+ (access)
+INFO   2025-06-30T13:53:00.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.422 ms {}
+ (access)
+INFO   2025-06-30T13:53:05.428              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.788 ms {}
+ (access)
+INFO   2025-06-30T13:53:10.426              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.036 ms {}
+ (access)
+INFO   2025-06-30T13:53:15.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.163 ms {}
+ (access)
+INFO   2025-06-30T13:53:20.424              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.146 ms {}
+ (access)
+INFO   2025-06-30T13:53:25.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.473 ms {}
+ (access)
+INFO   2025-06-30T13:53:30.423              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.107 ms {}
+ (access)
+INFO   2025-06-30T13:53:35.424              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.170 ms {}
+ (access)
+INFO   2025-06-30T13:53:40.423              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.140 ms {}
+ (access)
+INFO   2025-06-30T13:53:45.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.265 ms {}
+ (access)
+INFO   2025-06-30T13:53:50.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.394 ms {}
+ (access)
+INFO   2025-06-30T13:53:55.425              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.163 ms {}
+ (access)
+INFO   2025-06-30T13:54:00.432              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.389 ms {}
+ (access)
+INFO   2025-06-30T13:54:05.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.166 ms {}
+ (access)
+INFO   2025-06-30T13:54:10.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.370 ms {}
+ (access)
+INFO   2025-06-30T13:54:15.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.497 ms {}
+ (access)
+INFO   2025-06-30T13:54:20.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.934 ms {}
+ (access)
+INFO   2025-06-30T13:54:25.421              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.416 ms {}
+ (access)
+INFO   2025-06-30T13:54:30.420              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.368 ms {}
+ (access)
+INFO   2025-06-30T13:54:35.424              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.858 ms {}
+ (access)
+INFO   2025-06-30T13:54:40.420              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.917 ms {}
+ (access)
+INFO   2025-06-30T13:54:45.447              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.794 ms {}
+ (access)
+INFO   2025-06-30T13:54:50.420              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.265 ms {}
+ (access)
+INFO   2025-06-30T13:54:55.421              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.532 ms {}
+ (access)
+INFO   2025-06-30T13:55:00.420              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.173 ms {}
+ (access)
+INFO   2025-06-30T13:55:05.421              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.184 ms {}
+ (access)
+INFO   2025-06-30T13:55:10.419              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.726 ms {}
+ (access)
+INFO   2025-06-30T13:55:15.421              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.111 ms {}
+ (access)
+INFO   2025-06-30T13:55:20.418              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.199 ms {}
+ (access)
+INFO   2025-06-30T13:55:24.781              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-30T13:55:24.793                  src\main.ts:50  | Server time: Mon Jun 30 2025 13:55:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-30T13:55:24.794                  src\main.ts:51  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-06-30T13:55:24.795                  src\main.ts:52  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-06-30T13:55:24.806       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-06-30T13:55:25.435              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 10.118 ms {}
+ (access)
+INFO   2025-06-30T13:55:30.419              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.535 ms {}
+ (access)
+INFO   2025-06-30T13:55:35.417              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.677 ms {}
+ (access)
+INFO   2025-06-30T13:55:40.417              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.536 ms {}
+ (access)
+INFO   2025-06-30T13:55:45.419              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.889 ms {}
+ (access)
+INFO   2025-06-30T13:55:50.417              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.540 ms {}
+ (access)
+INFO   2025-06-30T13:55:55.417              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.108 ms {}
+ (access)
+INFO   2025-06-30T13:56:00.416              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.624 ms {}
+ (access)
+INFO   2025-06-30T13:56:05.418              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.324 ms {}
+ (access)
+INFO   2025-06-30T13:56:10.420              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.707 ms {}
+ (access)
+INFO   2025-06-30T13:56:15.415              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.490 ms {}
+ (access)
+INFO   2025-06-30T13:56:20.415              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.469 ms {}
+ (access)
+INFO   2025-06-30T13:56:25.419              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.511 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.607              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 40.419 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.609              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 46.811 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.610              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 63.929 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.611              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 54.975 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.613              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 30.885 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.614              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 55.572 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.615              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 20.922 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.616              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 37.779 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.625              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.791 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.626              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.071 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.629              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.229 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.632              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.112 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.641              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.097 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.656              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.230 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.677              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.172 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.679              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 6.353 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.682              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.096 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.706              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.501 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.708              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.579 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.711              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.178 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.734              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.076 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.735              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.403 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.749              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.650 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.754              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.255 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.765              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.492 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.780              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.267 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.785              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.753 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.799              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.034 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.808              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.526 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.813              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.683 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.826              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.828 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.842              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.468 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.843              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.894 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.856              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.101 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.873              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.085 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.874              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.889 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.886              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.151 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.901              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.052 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.903              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.176 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.917              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.278 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.922              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.020 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.934              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.234 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.949              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.667 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.952              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.974 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.964              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.919 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.980              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.645 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.983              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.011 ms {}
+ (access)
+INFO   2025-06-30T13:56:28.994              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.042 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.012              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.011 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.014              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.455 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.025              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.443 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.040              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.333 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.042              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.243 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.056              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.031 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.071              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.064 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.073              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.399 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.087              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.275 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.090              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.189 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.103              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.970 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.119              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.562 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.122              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.187 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.134              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.007 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.149              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.430 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.152              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.134 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.163              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.944 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.180              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.124 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.183              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.148 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.194              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.105 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.210              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.772 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.212              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.458 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.226              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.635 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.242              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.258 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.243              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.478 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.256              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.999 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.272              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.115 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.274              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.378 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.290              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.909 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.293              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.184 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.304              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.886 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.318              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.113 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.321              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.928 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.333              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.026 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.350              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.364 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.353              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.800 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.365              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.072 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.380              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.621 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.382              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.351 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.396              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.772 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.411              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.017 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.412              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.116 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.426              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.911 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.442              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.188 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.443              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.056 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.457              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.304 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.474              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.007 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.476              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.207 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.488              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.253 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.491              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.052 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.503              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.961 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.519              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.294 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.521              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.745 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.533              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.851 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.550              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.728 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.551              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.298 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.566              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.944 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.581              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.039 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.582              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.265 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.596              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.986 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.611              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.164 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.613              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.555 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.658              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.745 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.663              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 10.266 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.666              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 11.438 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.669              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 13.084 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.673              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.925 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.676              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.515 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.687              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.804 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.691              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.627 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.713              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.044 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.714              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.606 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.727              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.190 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.730              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.470 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.902 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.389 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.761              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.906 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.907 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.787              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.404 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.138 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.803              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.843 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.819              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.940 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.822              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.264 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.150 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.586 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.853              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.275 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.864              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.204 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.879              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.636 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.883              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.858 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.893              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.952 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.910              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.717 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.913              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.011 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.925              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.456 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.940              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.036 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.941              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.025 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.956              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.931 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.973              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.340 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.974              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.448 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.987              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.282 ms {}
+ (access)
+INFO   2025-06-30T13:56:29.990              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.350 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.003              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.808 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.018              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.337 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.021              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.779 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.033              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.886 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.050              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.644 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.053              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.963 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.065              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.139 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.081              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.590 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.082              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.513 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.096              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.647 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.113              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.587 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.114              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.327 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.126              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.842 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.142              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.095 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.143              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.078 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.157              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.922 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.161              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.969 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.173              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.851 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.189              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.480 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.192              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.776 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.204              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.770 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.220              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.563 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.222              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.764 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.235              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.843 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.251              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.285 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.253              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.781 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.265              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.863 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.282              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.504 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.283              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.505 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.299              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.747 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.302              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.923 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.311              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.109 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.332              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.734 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.337              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.562 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.342              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.121 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.359              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.149 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.361              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.787 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.372              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.902 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.388              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.942 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.391              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.865 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.403              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.951 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.414              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.427 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.418              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.936 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.421              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.794 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.434              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.831 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.450              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.099 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.451              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.068 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.465              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.838 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.483              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.093 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.485              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.273 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.497              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.111 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.500              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.036 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.512              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.970 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.527              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.154 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.532              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.747 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.542              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.906 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.557              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.855 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.560              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.027 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.572              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.789 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.589              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.575 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.591              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.792 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.603              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.850 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.618              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.022 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.620              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.840 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.633              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.858 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.648              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.159 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.651              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.787 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.663              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.994 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.679              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.730 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.682              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.757 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.693              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.864 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.710              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.699 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.713              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.248 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.724              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.787 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.740              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.382 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.741              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.390 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.755              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.144 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.771              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.074 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.325 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.852 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.802              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.827 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.803              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.010 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.817              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.801 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.827 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.679 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.624 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.853              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.507 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.865              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.644 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.882              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.416 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.883              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.822 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.895              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.970 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.911              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.052 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.912              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.128 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.926              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.073 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.943              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.963 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.944              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.003 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.957              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.318 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.961              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.980 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.972              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.164 ms {}
+ (access)
+INFO   2025-06-30T13:56:30.994              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.337 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.000              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 6.880 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.004              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.784 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.018              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.154 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.022              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.415 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.033              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.611 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.048              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.852 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.051              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.704 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.063              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.734 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.080              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.637 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.083              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.574 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.094              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.723 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.110              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.355 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.111              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.173 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.126              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.161 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.141              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.178 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.142              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.568 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.156              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.923 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.171              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.066 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.172              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.325 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.187              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.128 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.190              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.142 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.201              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.968 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.221              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.658 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.224              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.623 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.234              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.385 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.249              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.835 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.254              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.004 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.264              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.969 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.280              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.640 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.281              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.499 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.295              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.191 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.311              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.978 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.312              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.637 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.325              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.027 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.341              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.964 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.342              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.169 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.356              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.933 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.372              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.113 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.373              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.244 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.387              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.966 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.390              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.123 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.402              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.867 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.419              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.265 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.422              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.984 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.433              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.913 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.449              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.201 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.452              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.841 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.464              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.921 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.480              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.113 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.481              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.150 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.495              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.242 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.512              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.042 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.513              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.189 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.525              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.833 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.541              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.253 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.542              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.030 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.556              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.828 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.572              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.879 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.572              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.035 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.587              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.157 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.590              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.837 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.602              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.820 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.617              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.818 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.620              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.845 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.633              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.832 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.649              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.188 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.651              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.785 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.663              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.787 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.680              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.939 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.681              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.887 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.698              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.450 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.715              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.033 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.718              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.493 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.725              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.027 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.750              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.273 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.753              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.613 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.760              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.978 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.766              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.610 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.776              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.771 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.786              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.587 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.798              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.478 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.804              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.432 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.814              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.670 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.831              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.243 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.841              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.025 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.852              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.572 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.861              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.817 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.868              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.591 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.872              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.494 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.891              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.662 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.896              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.318 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.907              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.855 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.914              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.657 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.923              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.860 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.939              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.541 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.948              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.797 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.958              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.585 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.969              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 6.627 ms {}
+ (access)
+INFO   2025-06-30T13:56:31.979              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.069 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.000              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 8.504 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.004              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 10.280 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.006              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.609 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.019              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.679 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.027              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.261 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.039              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.113 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.045              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.522 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.064              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.599 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.066              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.659 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.076              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.108 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.092              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.350 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.093              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.772 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.107              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.096 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.124              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.377 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.125              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.148 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.139              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.228 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.143              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.463 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.154              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.038 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.170              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.652 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.174              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.229 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.186              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.387 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.202              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.597 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.206              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.678 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.215              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.867 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.231              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.314 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.232              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.322 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.245              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.489 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.263              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.338 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.265              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.414 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.279              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.421 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.286              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.886 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.294              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.897 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.309              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.069 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.483              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 25.018 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.503              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 42.861 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.522              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 68.980 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.524              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 69.735 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.527              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 64.420 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.532              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 66.540 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.536              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 70.378 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.541              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 73.341 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.567              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 88.726 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.572              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 90.562 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.582              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 31.157 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.584              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 30.672 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.586              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 31.313 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.589              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 31.579 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.590              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 30.293 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.602              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 38.102 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.606              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 39.573 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.613              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 39.073 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.620              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 44.057 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.622              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 42.289 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.625              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 43.714 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.627              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 35.091 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.629              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 35.757 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.633              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 38.069 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.637              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 33.373 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.640              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 24.267 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.643              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 19.007 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.646              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 14.723 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.648              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 12.873 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.653              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 11.768 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.656              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 11.070 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.660              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 189.111 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.665              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 189.518 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.680              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 29.330 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.687              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 11.434 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.692              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 9.941 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.693              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 9.671 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.698              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 6.575 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.701              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 6.051 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.706              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.699 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.724              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.082 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.726              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.662 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.737              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.881 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.756              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.847 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.759              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.663 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.772              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 9.660 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.779              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.831 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.785              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.260 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.799              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.405 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.804              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.321 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.813              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.773 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.827              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.020 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.847              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.189 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.851              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 7.117 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.857              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.627 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.874              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.912 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.876              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.611 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.889              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.256 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.893              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.347 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.910              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 6.141 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.914              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.780 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.937              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.357 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.940              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.242 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.947              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.735 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.966              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.242 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.967              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.997 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.982              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.100 ms {}
+ (access)
+INFO   2025-06-30T13:56:32.984              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.765 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.001              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.997 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.007              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.255 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.014              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.632 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.028              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.375 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.032              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.405 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.042              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.603 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.059              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.584 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.066              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.711 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.073              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.694 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.089              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.829 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.093              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.521 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.103              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.109 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.121              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.531 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.130              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.562 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.135              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.470 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.154              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.051 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.155              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.985 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.166              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.474 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.183              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.370 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.186              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.406 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.198              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.662 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.205              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.440 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.214              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.539 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.226              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.840 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.243              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.390 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.244              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.499 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.259              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.214 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.264              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.654 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.275              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.265 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.290              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.010 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.293              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.008 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.305              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.468 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.319              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.084 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.321              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.577 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.334              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.837 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.350              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.412 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.351              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.212 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.365              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.731 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.382              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.918 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.383              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.223 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.397              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.027 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.411              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.005 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.412              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.138 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.427              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.095 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.430              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.767 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.442              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.040 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.459              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.731 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.462              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.450 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.473              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.822 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.489              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.494 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.491              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.862 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.504              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.308 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.519              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.668 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.523              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.564 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.536              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.657 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.549              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.113 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.552              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.317 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.564              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.761 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.580              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.438 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.581              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.358 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.596              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.200 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.610              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.930 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.611              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.932 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.626              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.755 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.642              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.832 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.643              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.963 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.658              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.107 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.661              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.641 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.673              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.813 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.689              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.095 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.691              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.659 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.703              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.689 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.721              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.535 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.722              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.169 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.734              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.930 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.752              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.367 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.753              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.171 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.766              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.935 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.781              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.778 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.782              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.971 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.797              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.450 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.812              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.845 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.814              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.569 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.827              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.136 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.830              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.795 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.842              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.015 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.857              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.862 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.860              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.708 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.872              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.792 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.888              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.166 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.891              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.734 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.903              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.766 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.918              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.090 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.921              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.670 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.934              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.229 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.950              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.161 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.951              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.088 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.965              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.948 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.982              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.992 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.984              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.797 ms {}
+ (access)
+INFO   2025-06-30T13:56:33.996              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.785 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.011              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.169 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.012              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.137 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.028              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.335 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.031              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.844 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.042              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.144 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.058              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.075 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.061              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.682 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.073              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.078 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.089              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.396 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.092              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.957 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.106              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.394 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.120              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.432 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.121              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.428 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.135              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.056 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.150              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.878 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.151              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.976 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.166              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.000 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.181              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.014 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.182              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.875 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.197              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.801 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.200              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.870 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.212              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.859 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.227              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.859 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.230              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.982 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.242              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.769 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.259              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.266 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.262              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.814 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.274              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.852 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.289              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.062 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.291              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.709 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.303              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.651 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.320              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.520 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.321              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.182 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.335              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.881 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.351              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.320 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.352              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.158 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.368              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.006 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.372              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.678 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.383              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.097 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.399              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.635 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.403              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.592 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.413              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.407 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.429              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.450 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.432              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.853 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.443              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.732 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.459              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.974 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.462              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.764 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.474              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.913 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.491              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.918 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.492              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.912 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.504              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.229 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.517              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.871 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.521              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.563 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.533              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.750 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.550              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.190 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.553              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.173 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.563              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.204 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.581              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.604 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.584              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.146 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.595              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.911 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.610              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.773 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.611              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.185 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.626              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.702 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.641              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.842 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.642              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.639 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.655              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.699 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.673              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.714 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.675              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.582 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.688              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.836 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.692              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.187 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.702              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.219 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.717              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.967 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.733              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.506 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.734              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.602 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.750              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.851 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.754              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.387 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.763              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.281 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.779              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.288 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.781              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.851 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.794              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.277 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.809              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.135 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.812              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.815 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.826              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.607 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.841              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.266 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.842              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.563 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.855              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.465 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.873              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.132 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.874              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.509 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.886              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.829 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.902              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.159 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.903              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.519 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.919              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.735 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.924              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.521 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.932              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.275 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.948              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.268 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.952              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.285 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.963              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.542 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.978              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.904 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.981              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.692 ms {}
+ (access)
+INFO   2025-06-30T13:56:34.993              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.727 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.008              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.968 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.011              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.625 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.023              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.704 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.041              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.150 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.042              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.795 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.056              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.925 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.070              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.979 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.071              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.201 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.086              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.013 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.102              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.523 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.116              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 16.110 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.122              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.029 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.137              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 16.104 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.159              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 9.030 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.161              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 9.134 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.162              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 8.803 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.171              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.493 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.177              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.770 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.194              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.415 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.196              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.875 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.207              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.942 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.222              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.803 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.223              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.938 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.238              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.092 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.240              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.710 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.253              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.656 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.270              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.779 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.273              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.883 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.286              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.000 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.301              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.623 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.302              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.478 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.316              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.347 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.331              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.533 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.332              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.531 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.345              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.795 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.362              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.468 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.362              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.817 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.377              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.831 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.393              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.371 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.394              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.001 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.408              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.491 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.412              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.847 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.413              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.513 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.423              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.695 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.439              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.109 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.442              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.866 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.455              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.223 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.470              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.782 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.471              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.545 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.484              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.728 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.502              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.590 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.503              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.457 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.515              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.962 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.531              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.019 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.533              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.109 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.547              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.954 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.550              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.442 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.563              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.682 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.580              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.340 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.583              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.961 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.593              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.934 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.611              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.517 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.612              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.874 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.626              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.896 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.643              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.062 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.644              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.814 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.657              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.109 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.665              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.575 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.674              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.414 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.689              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.173 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.693              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.873 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.705              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.424 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.717              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.174 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.739              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.892 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.741              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.471 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.746              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.260 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.763              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.810 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.765              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.038 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.779              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.879 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.783              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.327 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.794              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.132 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.811              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.544 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.816              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.455 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.828              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.045 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.832              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.724 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.841              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.077 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.857              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.724 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.872              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.810 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.873              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.955 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.889              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.434 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.893              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.695 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.904              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.782 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.920              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.373 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.922              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.715 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.934              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.103 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.952              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.786 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.954              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.223 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.966              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.362 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.982              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.849 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.984              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.318 ms {}
+ (access)
+INFO   2025-06-30T13:56:35.999              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.178 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.006              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.228 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.013              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.998 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.027              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.254 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.037              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.605 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.047              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.361 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.060              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.385 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.066              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.376 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.074              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.057 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.091              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.775 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.096              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.181 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.106              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.417 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.124              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.688 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.127              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 5.645 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.132              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.972 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.152              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.537 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.154              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.819 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.166              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.389 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.184              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.847 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.185              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.697 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.197              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.028 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.214              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.219 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.216              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.660 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.227              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.907 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.231              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.272 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.243              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.466 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.259              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.226 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.263              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.484 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.274              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.993 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.293              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.509 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.295              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.611 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.305              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.913 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.321              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.584 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.322              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.488 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.337              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.878 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.352              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.499 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.353              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.164 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.367              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.897 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.384              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.936 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.385              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.282 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.397              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.727 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.413              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.810 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.414              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.891 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.429              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.427 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.433              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.440 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.443              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.880 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.459              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.296 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.463              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.990 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.473              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.981 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.490              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.813 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.491              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.225 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.505              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.262 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.521              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.730 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.521              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.847 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.536              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.698 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.553              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.671 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.554              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.573 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.567              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.725 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.571              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.275 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.582              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.795 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.599              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.278 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.603              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.776 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.613              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.816 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.629              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.312 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.634              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.895 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.644              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.020 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.659              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.419 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.662              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.640 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.675              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.286 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.690              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.227 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.691              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.008 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.705              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.981 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.723              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.741 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.724              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.497 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.735              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.804 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.751              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.987 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.752              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.993 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.766              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.966 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.781              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.714 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.782              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.849 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.796              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.872 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.812              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.882 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.813              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.004 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.827              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.866 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.843              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.536 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.845              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.457 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.857              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.776 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.860              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.825 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.872              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.677 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.888              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.932 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.892              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.241 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.904              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.918 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.919              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.138 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.921              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.697 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.935              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.770 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.950              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.183 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.951              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.317 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.964              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.709 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.981              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.070 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.982              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.547 ms {}
+ (access)
+INFO   2025-06-30T13:56:36.997              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.334 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.011              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.732 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.012              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.945 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.028              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.800 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.031              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.105 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.042              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.762 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.059              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.528 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.062              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.626 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.074              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.901 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.089              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.586 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.092              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.852 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.106              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.002 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.119              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.972 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.121              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.654 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.134              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.005 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.149              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.422 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.153              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.342 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.164              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.967 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.180              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.337 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.181              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.015 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.196              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.902 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.211              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.764 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.211              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.903 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.226              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.994 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.242              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.628 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.244              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.919 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.257              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.899 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.260              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.047 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.273              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.700 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.288              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.578 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.291              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.838 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.303              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.092 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.318              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.837 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.320              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.612 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.333              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.802 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.349              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.249 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.351              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.680 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.365              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.595 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.381              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.684 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.382              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.446 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.405              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.675 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.408              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.919 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.430              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.659 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.439              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 11.230 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.452              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.016 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.454              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.791 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.459              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.877 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.463              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.585 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.474              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.941 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.489              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.567 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.494              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.812 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.505              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.807 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.521              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.948 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.522              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.092 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.537              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.863 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.552              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.741 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.553              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.980 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.568              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.851 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.573              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.841 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.584              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.342 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.600              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.816 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.602              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.802 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.616              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.970 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.631              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.842 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.632              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.534 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.645              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.071 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.664              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.550 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.666              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.837 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.679              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.170 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.683              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.552 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.692              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.408 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.709              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 4.220 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.715              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.019 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.722              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.977 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.737              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.083 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.741              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.067 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.752              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.738 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.768              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.828 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.771              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.778 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.784              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.273 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.799              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.999 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.801              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.571 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.814              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.790 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.831              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.264 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.833              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.592 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.845              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.975 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.861              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.143 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.862              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.214 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.875              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.751 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.891              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.977 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.892              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.026 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.905              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.717 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.921              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.965 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.922              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.838 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.936              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.846 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.953              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.872 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.954              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.537 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.967              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.762 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.970              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.762 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.983              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.867 ms {}
+ (access)
+INFO   2025-06-30T13:56:37.999              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.251 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.003              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.395 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.014              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.915 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.030              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.714 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.033              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.890 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.047              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.694 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.060              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.263 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.061              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.148 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.075              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.746 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.093              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.433 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.094              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.769 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.106              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.986 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.121              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.880 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.123              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.552 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.136              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.840 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.151              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.968 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.153              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.319 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.167              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.150 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.170              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.865 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.184              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.124 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.198              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.895 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.201              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.747 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.214              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.569 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.229              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.398 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.232              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.660 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.244              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.672 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.260              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.193 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.261              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.003 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.275              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.982 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.292              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.868 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.293              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.583 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.307              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.163 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.321              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.906 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.322              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.099 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.338              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.004 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.341              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.856 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.354              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.417 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.369              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.153 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.371              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.559 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.385              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.643 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.400              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.223 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.401              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.475 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.415              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.881 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.430              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.017 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.431              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.083 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.445              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.857 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.461              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.805 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.462              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.886 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.477              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.390 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.480              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.746 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.492              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 2.050 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.507              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 1.902 ms {}
+ (access)
+INFO   2025-06-30T13:56:38.512              morgan\index.js:130 | ::1 Anonymous GET /api/v1/spu/info/2/advanced 200 - 3.456 ms {}
+ (access)
+INFO   2025-06-30T13:56:40.413              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.462 ms {}
+ (access)
+INFO   2025-06-30T13:56:45.415              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.859 ms {}
+ (access)
+INFO   2025-06-30T13:56:50.412              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.669 ms {}
+ (access)
+INFO   2025-06-30T13:56:55.412              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.364 ms {}
+ (access)
+INFO   2025-06-30T13:57:00.412              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.336 ms {}
+ (access)
+INFO   2025-06-30T13:57:05.412              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.678 ms {}
+ (access)
+INFO   2025-06-30T13:57:10.412              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.248 ms {}
+ (access)
+INFO   2025-06-30T13:57:15.411              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.311 ms {}
+ (access)
+INFO   2025-06-30T13:57:20.410              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.263 ms {}
+ (access)
+INFO   2025-06-30T13:57:25.411              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.727 ms {}
+ (access)
+INFO   2025-06-30T13:57:30.411              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.478 ms {}
+ (access)
+INFO   2025-06-30T13:57:35.414              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.529 ms {}
+ (access)
+INFO   2025-06-30T13:57:40.414              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.634 ms {}
+ (access)
+INFO   2025-06-30T13:57:45.411              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.749 ms {}
+ (access)
+INFO   2025-06-30T13:57:50.410              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.419 ms {}
+ (access)
+INFO   2025-06-30T13:57:55.410              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.287 ms {}
+ (access)
+INFO   2025-06-30T13:58:00.409              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.343 ms {}
+ (access)
+INFO   2025-06-30T13:58:05.409              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.467 ms {}
+ (access)
+INFO   2025-06-30T13:58:10.409              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.486 ms {}
+ (access)
+INFO   2025-06-30T13:58:15.408              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.430 ms {}
+ (access)
+INFO   2025-06-30T13:58:20.408              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.327 ms {}
+ (access)
+INFO   2025-06-30T13:58:25.408              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.380 ms {}
+ (access)
+INFO   2025-06-30T13:58:30.407              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.238 ms {}
+ (access)
+INFO   2025-06-30T13:58:35.407              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.731 ms {}
+ (access)
+INFO   2025-06-30T13:58:40.406              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.307 ms {}
+ (access)
+INFO   2025-06-30T13:58:45.406              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.323 ms {}
+ (access)
+INFO   2025-06-30T13:58:50.407              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.333 ms {}
+ (access)
+INFO   2025-06-30T13:58:55.406              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.330 ms {}
+ (access)
+INFO   2025-06-30T13:59:00.406              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.058 ms {}
+ (access)
+INFO   2025-06-30T13:59:05.407              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.364 ms {}
+ (access)
+INFO   2025-06-30T13:59:10.406              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.730 ms {}
+ (access)
+INFO   2025-06-30T13:59:15.405              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.352 ms {}
+ (access)
+INFO   2025-06-30T13:59:20.403              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.241 ms {}
+ (access)
+INFO   2025-06-30T13:59:25.404              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.196 ms {}
+ (access)
+INFO   2025-06-30T13:59:30.404              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.432 ms {}
+ (access)
+INFO   2025-06-30T13:59:35.404              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.264 ms {}
+ (access)
+INFO   2025-06-30T13:59:40.403              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.669 ms {}
+ (access)
+INFO   2025-06-30T13:59:45.406              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.037 ms {}
+ (access)
+INFO   2025-06-30T13:59:50.402              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.361 ms {}
+ (access)
+INFO   2025-06-30T13:59:55.402              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.423 ms {}
+ (access)
+INFO   2025-06-30T14:00:00.404              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.700 ms {}
+ (access)
+INFO   2025-06-30T14:00:05.405              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.075 ms {}
+ (access)
+INFO   2025-06-30T14:00:11.831              db\db.module.ts:32  | DB Connected successfully DatabaseModule (default)
+INFO   2025-06-30T14:00:11.840                  src\main.ts:50  | Server time: Mon Jun 30 2025 14:00:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-06-30T14:00:11.841                  src\main.ts:51  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-06-30T14:00:11.841                  src\main.ts:52  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-06-30T14:00:11.849       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
