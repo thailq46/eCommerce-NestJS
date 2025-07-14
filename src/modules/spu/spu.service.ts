@@ -1,6 +1,5 @@
 import {BadRequestException, Injectable, InternalServerErrorException, NotFoundException} from '@nestjs/common';
 import {InjectRepository} from '@nestjs/typeorm';
-import {RedisService} from 'src/base/db/redis/redis.service';
 import {LoggingService} from 'src/base/logging';
 import {generateSlugify} from 'src/base/utils/functions';
 import {ShopService} from 'src/modules/shop/shop.service';
@@ -22,7 +21,6 @@ export class SpuService {
       private readonly loggingService: LoggingService,
       private readonly shopService: ShopService,
       private readonly dataSource: DataSource,
-      private readonly redisService: RedisService,
    ) {}
 
    async create(payload: CreateSpuDto, user: IUser) {
