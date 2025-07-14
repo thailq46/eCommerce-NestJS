@@ -1,0 +1,1245 @@
+INFO   2025-07-01T00:00:03.853              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.008 ms {}
+ (access)
+INFO   2025-07-01T00:00:08.851              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.309 ms {}
+ (access)
+INFO   2025-07-01T00:00:13.850              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.043 ms {}
+ (access)
+INFO   2025-07-01T00:00:18.850              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.167 ms {}
+ (access)
+INFO   2025-07-01T00:00:23.850              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.487 ms {}
+ (access)
+INFO   2025-07-01T00:00:28.851              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.815 ms {}
+ (access)
+INFO   2025-07-01T00:00:33.850              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.358 ms {}
+ (access)
+INFO   2025-07-01T00:00:38.856              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.850 ms {}
+ (access)
+INFO   2025-07-01T00:00:43.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.329 ms {}
+ (access)
+INFO   2025-07-01T00:00:48.850              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.216 ms {}
+ (access)
+INFO   2025-07-01T00:00:53.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.034 ms {}
+ (access)
+INFO   2025-07-01T00:00:58.848              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.125 ms {}
+ (access)
+INFO   2025-07-01T00:01:03.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.143 ms {}
+ (access)
+INFO   2025-07-01T00:01:08.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.793 ms {}
+ (access)
+INFO   2025-07-01T00:01:13.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.212 ms {}
+ (access)
+INFO   2025-07-01T00:01:18.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.241 ms {}
+ (access)
+INFO   2025-07-01T00:01:23.848              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.113 ms {}
+ (access)
+INFO   2025-07-01T00:01:28.849              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.220 ms {}
+ (access)
+INFO   2025-07-01T00:01:33.847              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.071 ms {}
+ (access)
+INFO   2025-07-01T00:01:38.851              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.412 ms {}
+ (access)
+INFO   2025-07-01T00:01:43.848              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.799 ms {}
+ (access)
+INFO   2025-07-01T00:01:48.848              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.230 ms {}
+ (access)
+INFO   2025-07-01T00:01:53.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.182 ms {}
+ (access)
+INFO   2025-07-01T00:01:58.847              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.131 ms {}
+ (access)
+INFO   2025-07-01T00:02:03.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.219 ms {}
+ (access)
+INFO   2025-07-01T00:02:08.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.180 ms {}
+ (access)
+INFO   2025-07-01T00:02:13.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.071 ms {}
+ (access)
+INFO   2025-07-01T00:02:18.847              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.248 ms {}
+ (access)
+INFO   2025-07-01T00:02:23.845              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.624 ms {}
+ (access)
+INFO   2025-07-01T00:02:28.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.101 ms {}
+ (access)
+INFO   2025-07-01T00:02:33.845              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.022 ms {}
+ (access)
+INFO   2025-07-01T00:02:38.850              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.398 ms {}
+ (access)
+INFO   2025-07-01T00:02:43.845              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.244 ms {}
+ (access)
+INFO   2025-07-01T00:02:48.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.758 ms {}
+ (access)
+INFO   2025-07-01T00:02:53.845              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.151 ms {}
+ (access)
+INFO   2025-07-01T00:02:58.844              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 0.996 ms {}
+ (access)
+INFO   2025-07-01T00:03:03.843              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.063 ms {}
+ (access)
+INFO   2025-07-01T00:03:08.844              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.122 ms {}
+ (access)
+INFO   2025-07-01T00:03:13.844              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.253 ms {}
+ (access)
+INFO   2025-07-01T00:03:18.844              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.130 ms {}
+ (access)
+INFO   2025-07-01T00:03:23.843              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.138 ms {}
+ (access)
+INFO   2025-07-01T00:03:28.843              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.208 ms {}
+ (access)
+INFO   2025-07-01T00:03:33.842              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.126 ms {}
+ (access)
+INFO   2025-07-01T00:03:38.848              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.409 ms {}
+ (access)
+INFO   2025-07-01T00:03:43.842              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.087 ms {}
+ (access)
+INFO   2025-07-01T00:03:48.846              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.675 ms {}
+ (access)
+INFO   2025-07-01T00:03:53.841              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.128 ms {}
+ (access)
+INFO   2025-07-01T00:03:58.841              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.133 ms {}
+ (access)
+INFO   2025-07-01T00:04:03.841              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.422 ms {}
+ (access)
+INFO   2025-07-01T00:04:08.841              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.163 ms {}
+ (access)
+INFO   2025-07-01T00:04:13.840              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.024 ms {}
+ (access)
+INFO   2025-07-01T00:04:18.840              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.231 ms {}
+ (access)
+INFO   2025-07-01T00:04:23.841              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.182 ms {}
+ (access)
+INFO   2025-07-01T00:04:28.840              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.499 ms {}
+ (access)
+INFO   2025-07-01T00:04:33.840              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.077 ms {}
+ (access)
+INFO   2025-07-01T00:04:38.848              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.437 ms {}
+ (access)
+INFO   2025-07-01T00:04:43.839              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.434 ms {}
+ (access)
+INFO   2025-07-01T00:04:48.840              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.699 ms {}
+ (access)
+INFO   2025-07-01T00:04:53.839              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.161 ms {}
+ (access)
+INFO   2025-07-01T00:04:58.839              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.503 ms {}
+ (access)
+INFO   2025-07-01T00:05:03.838              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.062 ms {}
+ (access)
+INFO   2025-07-01T00:05:08.839              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.423 ms {}
+ (access)
+INFO   2025-07-01T00:05:13.838              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.317 ms {}
+ (access)
+INFO   2025-07-01T00:05:18.839              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.043 ms {}
+ (access)
+INFO   2025-07-01T00:05:23.838              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.463 ms {}
+ (access)
+INFO   2025-07-01T00:05:28.838              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.288 ms {}
+ (access)
+INFO   2025-07-01T00:05:33.839              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.311 ms {}
+ (access)
+INFO   2025-07-01T00:05:38.841              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.288 ms {}
+ (access)
+INFO   2025-07-01T00:05:43.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.147 ms {}
+ (access)
+INFO   2025-07-01T00:05:48.840              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.624 ms {}
+ (access)
+INFO   2025-07-01T00:05:53.837              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.218 ms {}
+ (access)
+INFO   2025-07-01T00:05:58.837              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.314 ms {}
+ (access)
+INFO   2025-07-01T00:06:03.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.253 ms {}
+ (access)
+INFO   2025-07-01T00:06:08.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.034 ms {}
+ (access)
+INFO   2025-07-01T00:06:13.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.097 ms {}
+ (access)
+INFO   2025-07-01T00:06:18.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.195 ms {}
+ (access)
+INFO   2025-07-01T00:06:23.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.264 ms {}
+ (access)
+INFO   2025-07-01T00:06:28.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.044 ms {}
+ (access)
+INFO   2025-07-01T00:06:33.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.480 ms {}
+ (access)
+INFO   2025-07-01T00:06:38.844              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.611 ms {}
+ (access)
+INFO   2025-07-01T00:06:43.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.298 ms {}
+ (access)
+INFO   2025-07-01T00:06:48.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.984 ms {}
+ (access)
+INFO   2025-07-01T00:06:53.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.672 ms {}
+ (access)
+INFO   2025-07-01T00:06:58.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.382 ms {}
+ (access)
+INFO   2025-07-01T00:07:03.836              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.189 ms {}
+ (access)
+INFO   2025-07-01T00:07:08.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.394 ms {}
+ (access)
+INFO   2025-07-01T00:07:13.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.182 ms {}
+ (access)
+INFO   2025-07-01T00:07:18.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.059 ms {}
+ (access)
+INFO   2025-07-01T00:07:23.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.149 ms {}
+ (access)
+INFO   2025-07-01T00:07:28.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.026 ms {}
+ (access)
+INFO   2025-07-01T00:07:33.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.286 ms {}
+ (access)
+INFO   2025-07-01T00:07:38.837              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.922 ms {}
+ (access)
+INFO   2025-07-01T00:07:43.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.042 ms {}
+ (access)
+INFO   2025-07-01T00:07:48.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.391 ms {}
+ (access)
+INFO   2025-07-01T00:07:53.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.150 ms {}
+ (access)
+INFO   2025-07-01T00:07:58.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.133 ms {}
+ (access)
+INFO   2025-07-01T00:08:03.832              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.291 ms {}
+ (access)
+INFO   2025-07-01T00:08:08.832              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.100 ms {}
+ (access)
+INFO   2025-07-01T00:08:13.832              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.043 ms {}
+ (access)
+INFO   2025-07-01T00:08:18.833              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.726 ms {}
+ (access)
+INFO   2025-07-01T00:08:23.831              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.040 ms {}
+ (access)
+INFO   2025-07-01T00:08:28.832              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.502 ms {}
+ (access)
+INFO   2025-07-01T00:08:33.831              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.164 ms {}
+ (access)
+INFO   2025-07-01T00:08:38.835              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.443 ms {}
+ (access)
+INFO   2025-07-01T00:08:43.831              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.284 ms {}
+ (access)
+INFO   2025-07-01T00:08:48.831              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.238 ms {}
+ (access)
+INFO   2025-07-01T00:08:53.831              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.286 ms {}
+ (access)
+INFO   2025-07-01T00:08:58.830              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.259 ms {}
+ (access)
+INFO   2025-07-01T00:09:03.830              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.289 ms {}
+ (access)
+INFO   2025-07-01T00:09:08.830              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.101 ms {}
+ (access)
+INFO   2025-07-01T00:09:13.829              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.160 ms {}
+ (access)
+INFO   2025-07-01T00:09:18.830              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.308 ms {}
+ (access)
+INFO   2025-07-01T00:09:23.829              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.236 ms {}
+ (access)
+INFO   2025-07-01T00:09:28.830              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.361 ms {}
+ (access)
+INFO   2025-07-01T00:09:33.829              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.020 ms {}
+ (access)
+INFO   2025-07-01T00:09:38.834              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 4.553 ms {}
+ (access)
+INFO   2025-07-01T00:09:43.828              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.155 ms {}
+ (access)
+INFO   2025-07-01T00:09:48.829              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.342 ms {}
+ (access)
+INFO   2025-07-01T00:09:53.832              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.112 ms {}
+ (access)
+INFO   2025-07-01T00:09:58.829              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.580 ms {}
+ (access)
+INFO   2025-07-01T00:10:03.827              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.242 ms {}
+ (access)
+INFO   2025-07-01T00:10:08.828              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.640 ms {}
+ (access)
+INFO   2025-07-01T00:10:13.827              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.558 ms {}
+ (access)
+INFO   2025-07-01T00:10:18.827              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.499 ms {}
+ (access)
+INFO   2025-07-01T00:10:23.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.223 ms {}
+ (access)
+INFO   2025-07-01T00:10:28.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.326 ms {}
+ (access)
+INFO   2025-07-01T00:10:33.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.156 ms {}
+ (access)
+INFO   2025-07-01T00:10:38.830              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.417 ms {}
+ (access)
+INFO   2025-07-01T00:10:43.825              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.270 ms {}
+ (access)
+INFO   2025-07-01T00:10:48.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.228 ms {}
+ (access)
+INFO   2025-07-01T00:10:53.825              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.197 ms {}
+ (access)
+INFO   2025-07-01T00:10:58.825              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.041 ms {}
+ (access)
+INFO   2025-07-01T00:11:03.824              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.053 ms {}
+ (access)
+INFO   2025-07-01T00:11:08.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.506 ms {}
+ (access)
+INFO   2025-07-01T00:11:13.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.458 ms {}
+ (access)
+INFO   2025-07-01T00:11:18.825              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.252 ms {}
+ (access)
+INFO   2025-07-01T00:11:23.824              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.208 ms {}
+ (access)
+INFO   2025-07-01T00:11:28.825              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.171 ms {}
+ (access)
+INFO   2025-07-01T00:11:33.824              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.279 ms {}
+ (access)
+INFO   2025-07-01T00:11:38.828              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.274 ms {}
+ (access)
+INFO   2025-07-01T00:11:43.823              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.141 ms {}
+ (access)
+INFO   2025-07-01T00:11:48.823              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.295 ms {}
+ (access)
+INFO   2025-07-01T00:11:53.823              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.341 ms {}
+ (access)
+INFO   2025-07-01T00:11:58.824              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.919 ms {}
+ (access)
+INFO   2025-07-01T00:12:03.824              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.976 ms {}
+ (access)
+INFO   2025-07-01T00:12:08.823              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.252 ms {}
+ (access)
+INFO   2025-07-01T00:12:13.823              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.776 ms {}
+ (access)
+INFO   2025-07-01T00:12:18.822              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.136 ms {}
+ (access)
+INFO   2025-07-01T00:12:23.822              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.847 ms {}
+ (access)
+INFO   2025-07-01T00:12:28.823              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.466 ms {}
+ (access)
+INFO   2025-07-01T00:12:33.822              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.998 ms {}
+ (access)
+INFO   2025-07-01T00:12:38.837              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 6.340 ms {}
+ (access)
+INFO   2025-07-01T00:12:43.821              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.180 ms {}
+ (access)
+INFO   2025-07-01T00:12:48.821              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.370 ms {}
+ (access)
+INFO   2025-07-01T00:12:53.821              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.240 ms {}
+ (access)
+INFO   2025-07-01T00:12:58.821              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.089 ms {}
+ (access)
+INFO   2025-07-01T00:13:03.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.338 ms {}
+ (access)
+INFO   2025-07-01T00:13:08.822              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.839 ms {}
+ (access)
+INFO   2025-07-01T00:13:13.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.294 ms {}
+ (access)
+INFO   2025-07-01T00:13:18.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.179 ms {}
+ (access)
+INFO   2025-07-01T00:13:23.819              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.510 ms {}
+ (access)
+INFO   2025-07-01T00:13:28.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.650 ms {}
+ (access)
+INFO   2025-07-01T00:13:33.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.916 ms {}
+ (access)
+INFO   2025-07-01T00:13:38.831              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 6.274 ms {}
+ (access)
+INFO   2025-07-01T00:13:43.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.230 ms {}
+ (access)
+INFO   2025-07-01T00:13:48.820              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.449 ms {}
+ (access)
+INFO   2025-07-01T00:13:53.819              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.148 ms {}
+ (access)
+INFO   2025-07-01T00:13:58.819              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.194 ms {}
+ (access)
+INFO   2025-07-01T00:14:03.818              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.145 ms {}
+ (access)
+INFO   2025-07-01T00:14:08.818              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.159 ms {}
+ (access)
+INFO   2025-07-01T00:14:13.818              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.324 ms {}
+ (access)
+INFO   2025-07-01T00:14:18.817              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.463 ms {}
+ (access)
+INFO   2025-07-01T00:14:23.817              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.401 ms {}
+ (access)
+INFO   2025-07-01T00:14:28.818              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.441 ms {}
+ (access)
+INFO   2025-07-01T00:14:33.817              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.187 ms {}
+ (access)
+INFO   2025-07-01T00:14:38.816              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 0.979 ms {}
+ (access)
+INFO   2025-07-01T00:14:43.816              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.104 ms {}
+ (access)
+INFO   2025-07-01T00:14:48.817              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.333 ms {}
+ (access)
+INFO   2025-07-01T00:14:53.815              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.076 ms {}
+ (access)
+INFO   2025-07-01T00:14:58.817              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.272 ms {}
+ (access)
+INFO   2025-07-01T00:15:03.815              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.277 ms {}
+ (access)
+INFO   2025-07-01T00:15:08.815              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.300 ms {}
+ (access)
+INFO   2025-07-01T00:15:13.816              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.738 ms {}
+ (access)
+INFO   2025-07-01T00:15:18.814              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.064 ms {}
+ (access)
+INFO   2025-07-01T00:15:23.815              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.256 ms {}
+ (access)
+INFO   2025-07-01T00:15:28.815              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.443 ms {}
+ (access)
+INFO   2025-07-01T00:15:33.815              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.034 ms {}
+ (access)
+INFO   2025-07-01T00:15:38.816              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.172 ms {}
+ (access)
+INFO   2025-07-01T00:15:43.814              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.045 ms {}
+ (access)
+INFO   2025-07-01T00:15:48.814              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.217 ms {}
+ (access)
+INFO   2025-07-01T00:15:53.814              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.121 ms {}
+ (access)
+INFO   2025-07-01T00:15:58.826              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.991 ms {}
+ (access)
+INFO   2025-07-01T00:16:03.813              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.125 ms {}
+ (access)
+INFO   2025-07-01T00:16:08.814              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.349 ms {}
+ (access)
+INFO   2025-07-01T00:16:13.812              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.217 ms {}
+ (access)
+INFO   2025-07-01T00:16:18.813              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.206 ms {}
+ (access)
+INFO   2025-07-01T00:16:23.813              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.379 ms {}
+ (access)
+INFO   2025-07-01T00:16:28.813              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.215 ms {}
+ (access)
+INFO   2025-07-01T00:16:33.812              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.290 ms {}
+ (access)
+INFO   2025-07-01T00:16:38.811              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.066 ms {}
+ (access)
+INFO   2025-07-01T00:16:43.812              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.921 ms {}
+ (access)
+INFO   2025-07-01T00:16:48.811              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.244 ms {}
+ (access)
+INFO   2025-07-01T00:16:53.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.238 ms {}
+ (access)
+INFO   2025-07-01T00:16:58.812              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.412 ms {}
+ (access)
+INFO   2025-07-01T00:17:03.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.083 ms {}
+ (access)
+INFO   2025-07-01T00:17:08.812              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.271 ms {}
+ (access)
+INFO   2025-07-01T00:17:13.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.328 ms {}
+ (access)
+INFO   2025-07-01T00:17:18.811              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.284 ms {}
+ (access)
+INFO   2025-07-01T00:17:23.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.399 ms {}
+ (access)
+INFO   2025-07-01T00:17:28.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.060 ms {}
+ (access)
+INFO   2025-07-01T00:17:33.809              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.377 ms {}
+ (access)
+INFO   2025-07-01T00:17:38.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.760 ms {}
+ (access)
+INFO   2025-07-01T00:17:43.809              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.236 ms {}
+ (access)
+INFO   2025-07-01T00:17:48.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.239 ms {}
+ (access)
+INFO   2025-07-01T00:17:53.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.761 ms {}
+ (access)
+INFO   2025-07-01T00:17:58.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.387 ms {}
+ (access)
+INFO   2025-07-01T00:18:03.809              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.358 ms {}
+ (access)
+INFO   2025-07-01T00:18:08.808              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.097 ms {}
+ (access)
+INFO   2025-07-01T00:18:13.808              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.032 ms {}
+ (access)
+INFO   2025-07-01T00:18:18.809              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.112 ms {}
+ (access)
+INFO   2025-07-01T00:18:23.807              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.169 ms {}
+ (access)
+INFO   2025-07-01T00:18:28.808              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.222 ms {}
+ (access)
+INFO   2025-07-01T00:18:33.807              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.043 ms {}
+ (access)
+INFO   2025-07-01T00:18:38.809              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.033 ms {}
+ (access)
+INFO   2025-07-01T00:18:43.806              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.364 ms {}
+ (access)
+INFO   2025-07-01T00:18:48.806              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.200 ms {}
+ (access)
+INFO   2025-07-01T00:18:53.806              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.338 ms {}
+ (access)
+INFO   2025-07-01T00:18:58.806              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.012 ms {}
+ (access)
+INFO   2025-07-01T00:19:03.805              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.230 ms {}
+ (access)
+INFO   2025-07-01T00:19:08.806              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.212 ms {}
+ (access)
+INFO   2025-07-01T00:19:13.805              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.631 ms {}
+ (access)
+INFO   2025-07-01T00:19:18.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.015 ms {}
+ (access)
+INFO   2025-07-01T00:19:23.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.107 ms {}
+ (access)
+INFO   2025-07-01T00:19:28.805              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.394 ms {}
+ (access)
+INFO   2025-07-01T00:19:33.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.283 ms {}
+ (access)
+INFO   2025-07-01T00:19:38.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.100 ms {}
+ (access)
+INFO   2025-07-01T00:19:43.805              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.941 ms {}
+ (access)
+INFO   2025-07-01T00:19:48.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.063 ms {}
+ (access)
+INFO   2025-07-01T00:19:53.803              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.137 ms {}
+ (access)
+INFO   2025-07-01T00:19:58.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.759 ms {}
+ (access)
+INFO   2025-07-01T00:20:03.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.039 ms {}
+ (access)
+INFO   2025-07-01T00:20:08.803              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.146 ms {}
+ (access)
+INFO   2025-07-01T00:20:13.803              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.011 ms {}
+ (access)
+INFO   2025-07-01T00:20:18.803              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.355 ms {}
+ (access)
+INFO   2025-07-01T00:20:23.818              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.144 ms {}
+ (access)
+INFO   2025-07-01T00:20:28.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.147 ms {}
+ (access)
+INFO   2025-07-01T00:20:33.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.957 ms {}
+ (access)
+INFO   2025-07-01T00:20:38.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.309 ms {}
+ (access)
+INFO   2025-07-01T00:20:43.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.284 ms {}
+ (access)
+INFO   2025-07-01T00:20:48.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.082 ms {}
+ (access)
+INFO   2025-07-01T00:20:53.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.344 ms {}
+ (access)
+INFO   2025-07-01T00:20:58.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.057 ms {}
+ (access)
+INFO   2025-07-01T00:21:03.801              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.420 ms {}
+ (access)
+INFO   2025-07-01T00:21:08.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.583 ms {}
+ (access)
+INFO   2025-07-01T00:21:13.801              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.264 ms {}
+ (access)
+INFO   2025-07-01T00:21:18.801              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.338 ms {}
+ (access)
+INFO   2025-07-01T00:21:23.801              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.379 ms {}
+ (access)
+INFO   2025-07-01T00:21:28.802              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.917 ms {}
+ (access)
+INFO   2025-07-01T00:21:33.800              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.505 ms {}
+ (access)
+INFO   2025-07-01T00:21:38.801              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.454 ms {}
+ (access)
+INFO   2025-07-01T00:21:43.804              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 3.664 ms {}
+ (access)
+INFO   2025-07-01T00:21:48.799              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.028 ms {}
+ (access)
+INFO   2025-07-01T00:21:53.799              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.151 ms {}
+ (access)
+INFO   2025-07-01T00:21:58.800              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.193 ms {}
+ (access)
+INFO   2025-07-01T00:22:03.798              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.034 ms {}
+ (access)
+INFO   2025-07-01T00:22:08.800              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.500 ms {}
+ (access)
+INFO   2025-07-01T00:22:13.798              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.293 ms {}
+ (access)
+INFO   2025-07-01T00:22:18.799              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.109 ms {}
+ (access)
+INFO   2025-07-01T00:22:23.799              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.892 ms {}
+ (access)
+INFO   2025-07-01T00:22:28.798              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.139 ms {}
+ (access)
+INFO   2025-07-01T00:22:33.797              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.055 ms {}
+ (access)
+INFO   2025-07-01T00:22:38.796              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.024 ms {}
+ (access)
+INFO   2025-07-01T00:22:43.796              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.040 ms {}
+ (access)
+INFO   2025-07-01T00:22:48.797              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.029 ms {}
+ (access)
+INFO   2025-07-01T00:22:53.796              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.097 ms {}
+ (access)
+INFO   2025-07-01T00:22:58.797              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.699 ms {}
+ (access)
+INFO   2025-07-01T00:23:03.796              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.060 ms {}
+ (access)
+INFO   2025-07-01T00:23:08.796              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.328 ms {}
+ (access)
+INFO   2025-07-01T00:23:13.795              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.033 ms {}
+ (access)
+INFO   2025-07-01T00:23:18.796              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.091 ms {}
+ (access)
+INFO   2025-07-01T00:23:23.795              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.218 ms {}
+ (access)
+INFO   2025-07-01T00:23:28.795              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.022 ms {}
+ (access)
+INFO   2025-07-01T00:23:33.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.082 ms {}
+ (access)
+INFO   2025-07-01T00:23:38.795              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.105 ms {}
+ (access)
+INFO   2025-07-01T00:23:43.795              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.109 ms {}
+ (access)
+INFO   2025-07-01T00:23:48.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.055 ms {}
+ (access)
+INFO   2025-07-01T00:23:53.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.105 ms {}
+ (access)
+INFO   2025-07-01T00:23:58.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.228 ms {}
+ (access)
+INFO   2025-07-01T00:24:03.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.153 ms {}
+ (access)
+INFO   2025-07-01T00:24:08.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.101 ms {}
+ (access)
+INFO   2025-07-01T00:24:13.793              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.289 ms {}
+ (access)
+INFO   2025-07-01T00:24:18.794              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.226 ms {}
+ (access)
+INFO   2025-07-01T00:24:23.793              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.113 ms {}
+ (access)
+INFO   2025-07-01T00:24:28.793              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.119 ms {}
+ (access)
+INFO   2025-07-01T00:24:33.793              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.251 ms {}
+ (access)
+INFO   2025-07-01T00:24:38.795              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.134 ms {}
+ (access)
+INFO   2025-07-01T00:24:43.792              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.108 ms {}
+ (access)
+INFO   2025-07-01T00:24:48.792              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.078 ms {}
+ (access)
+INFO   2025-07-01T00:24:53.792              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.280 ms {}
+ (access)
+INFO   2025-07-01T00:24:58.792              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.151 ms {}
+ (access)
+INFO   2025-07-01T00:25:03.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.020 ms {}
+ (access)
+INFO   2025-07-01T00:25:08.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.199 ms {}
+ (access)
+INFO   2025-07-01T00:25:13.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.863 ms {}
+ (access)
+INFO   2025-07-01T00:25:18.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.086 ms {}
+ (access)
+INFO   2025-07-01T00:25:23.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.110 ms {}
+ (access)
+INFO   2025-07-01T00:25:28.790              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.183 ms {}
+ (access)
+INFO   2025-07-01T00:25:33.790              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.181 ms {}
+ (access)
+INFO   2025-07-01T00:25:38.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.750 ms {}
+ (access)
+INFO   2025-07-01T00:25:43.790              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.713 ms {}
+ (access)
+INFO   2025-07-01T00:25:48.810              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.686 ms {}
+ (access)
+INFO   2025-07-01T00:25:53.790              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.932 ms {}
+ (access)
+INFO   2025-07-01T00:25:58.791              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.661 ms {}
+ (access)
+INFO   2025-07-01T00:26:03.789              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.146 ms {}
+ (access)
+INFO   2025-07-01T00:26:08.789              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.456 ms {}
+ (access)
+INFO   2025-07-01T00:26:13.788              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.068 ms {}
+ (access)
+INFO   2025-07-01T00:26:18.789              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.270 ms {}
+ (access)
+INFO   2025-07-01T00:26:23.788              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.200 ms {}
+ (access)
+INFO   2025-07-01T00:26:28.788              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.230 ms {}
+ (access)
+INFO   2025-07-01T00:26:33.789              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.251 ms {}
+ (access)
+INFO   2025-07-01T00:26:38.788              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.561 ms {}
+ (access)
+INFO   2025-07-01T00:26:43.787              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.048 ms {}
+ (access)
+INFO   2025-07-01T00:26:48.787              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.152 ms {}
+ (access)
+INFO   2025-07-01T00:26:53.788              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.369 ms {}
+ (access)
+INFO   2025-07-01T00:26:58.787              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.177 ms {}
+ (access)
+INFO   2025-07-01T00:27:03.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.044 ms {}
+ (access)
+INFO   2025-07-01T00:27:08.787              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.132 ms {}
+ (access)
+INFO   2025-07-01T00:27:13.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.079 ms {}
+ (access)
+INFO   2025-07-01T00:27:18.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.233 ms {}
+ (access)
+INFO   2025-07-01T00:27:23.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.081 ms {}
+ (access)
+INFO   2025-07-01T00:27:28.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.323 ms {}
+ (access)
+INFO   2025-07-01T00:27:33.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.164 ms {}
+ (access)
+INFO   2025-07-01T00:27:38.785              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.074 ms {}
+ (access)
+INFO   2025-07-01T00:27:43.788              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.427 ms {}
+ (access)
+INFO   2025-07-01T00:27:48.785              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.296 ms {}
+ (access)
+INFO   2025-07-01T00:27:53.787              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.497 ms {}
+ (access)
+INFO   2025-07-01T00:27:58.786              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.156 ms {}
+ (access)
+INFO   2025-07-01T00:28:03.784              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.477 ms {}
+ (access)
+INFO   2025-07-01T00:28:08.785              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.292 ms {}
+ (access)
+INFO   2025-07-01T00:28:13.784              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.447 ms {}
+ (access)
+INFO   2025-07-01T00:28:18.785              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.488 ms {}
+ (access)
+INFO   2025-07-01T00:28:23.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.281 ms {}
+ (access)
+INFO   2025-07-01T00:28:28.784              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.204 ms {}
+ (access)
+INFO   2025-07-01T00:28:33.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.383 ms {}
+ (access)
+INFO   2025-07-01T00:28:38.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.323 ms {}
+ (access)
+INFO   2025-07-01T00:28:43.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.153 ms {}
+ (access)
+INFO   2025-07-01T00:28:48.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.228 ms {}
+ (access)
+INFO   2025-07-01T00:28:53.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.765 ms {}
+ (access)
+INFO   2025-07-01T00:28:58.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.293 ms {}
+ (access)
+INFO   2025-07-01T00:29:03.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.656 ms {}
+ (access)
+INFO   2025-07-01T00:29:08.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.195 ms {}
+ (access)
+INFO   2025-07-01T00:29:13.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.634 ms {}
+ (access)
+INFO   2025-07-01T00:29:18.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.784 ms {}
+ (access)
+INFO   2025-07-01T00:29:23.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.352 ms {}
+ (access)
+INFO   2025-07-01T00:29:28.783              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.909 ms {}
+ (access)
+INFO   2025-07-01T00:29:33.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.627 ms {}
+ (access)
+INFO   2025-07-01T00:29:38.781              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.709 ms {}
+ (access)
+INFO   2025-07-01T00:29:43.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.216 ms {}
+ (access)
+INFO   2025-07-01T00:29:48.780              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.085 ms {}
+ (access)
+INFO   2025-07-01T00:29:53.780              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.095 ms {}
+ (access)
+INFO   2025-07-01T00:29:58.781              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.172 ms {}
+ (access)
+INFO   2025-07-01T00:30:03.780              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.100 ms {}
+ (access)
+INFO   2025-07-01T00:30:08.782              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.706 ms {}
+ (access)
+INFO   2025-07-01T00:30:13.780              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.419 ms {}
+ (access)
+INFO   2025-07-01T00:30:18.780              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.403 ms {}
+ (access)
+INFO   2025-07-01T00:30:23.780              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.260 ms {}
+ (access)
+INFO   2025-07-01T00:30:28.781              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.943 ms {}
+ (access)
+INFO   2025-07-01T00:30:33.779              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.058 ms {}
+ (access)
+INFO   2025-07-01T00:30:38.779              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.158 ms {}
+ (access)
+INFO   2025-07-01T00:30:43.778              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.055 ms {}
+ (access)
+INFO   2025-07-01T00:30:48.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.045 ms {}
+ (access)
+INFO   2025-07-01T00:30:53.778              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.349 ms {}
+ (access)
+INFO   2025-07-01T00:30:58.778              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.432 ms {}
+ (access)
+INFO   2025-07-01T00:31:03.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.282 ms {}
+ (access)
+INFO   2025-07-01T00:31:08.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.121 ms {}
+ (access)
+INFO   2025-07-01T00:31:13.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.303 ms {}
+ (access)
+INFO   2025-07-01T00:31:18.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.098 ms {}
+ (access)
+INFO   2025-07-01T00:31:23.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.438 ms {}
+ (access)
+INFO   2025-07-01T00:31:28.776              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.176 ms {}
+ (access)
+INFO   2025-07-01T00:31:33.776              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.110 ms {}
+ (access)
+INFO   2025-07-01T00:31:38.775              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.074 ms {}
+ (access)
+INFO   2025-07-01T00:31:43.776              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.140 ms {}
+ (access)
+INFO   2025-07-01T00:31:48.775              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.096 ms {}
+ (access)
+INFO   2025-07-01T00:31:53.777              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.195 ms {}
+ (access)
+INFO   2025-07-01T00:31:58.775              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.463 ms {}
+ (access)
+INFO   2025-07-01T00:32:03.775              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.086 ms {}
+ (access)
+INFO   2025-07-01T00:32:08.774              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.282 ms {}
+ (access)
+INFO   2025-07-01T00:32:13.774              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.157 ms {}
+ (access)
+INFO   2025-07-01T00:32:18.774              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.138 ms {}
+ (access)
+INFO   2025-07-01T00:32:23.774              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.121 ms {}
+ (access)
+INFO   2025-07-01T00:32:28.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.089 ms {}
+ (access)
+INFO   2025-07-01T00:32:33.774              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.026 ms {}
+ (access)
+INFO   2025-07-01T00:32:38.774              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.188 ms {}
+ (access)
+INFO   2025-07-01T00:32:43.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.020 ms {}
+ (access)
+INFO   2025-07-01T00:32:48.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.132 ms {}
+ (access)
+INFO   2025-07-01T00:32:53.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.206 ms {}
+ (access)
+INFO   2025-07-01T00:32:58.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.152 ms {}
+ (access)
+INFO   2025-07-01T00:33:03.776              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.222 ms {}
+ (access)
+INFO   2025-07-01T00:33:08.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.199 ms {}
+ (access)
+INFO   2025-07-01T00:33:13.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.230 ms {}
+ (access)
+INFO   2025-07-01T00:33:18.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.289 ms {}
+ (access)
+INFO   2025-07-01T00:33:23.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.678 ms {}
+ (access)
+INFO   2025-07-01T00:33:28.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.287 ms {}
+ (access)
+INFO   2025-07-01T00:33:33.772              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.570 ms {}
+ (access)
+INFO   2025-07-01T00:33:38.771              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.373 ms {}
+ (access)
+INFO   2025-07-01T00:33:43.771              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.142 ms {}
+ (access)
+INFO   2025-07-01T00:33:48.770              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.034 ms {}
+ (access)
+INFO   2025-07-01T00:33:53.771              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.390 ms {}
+ (access)
+INFO   2025-07-01T00:33:58.773              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.570 ms {}
+ (access)
+INFO   2025-07-01T00:34:03.771              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.796 ms {}
+ (access)
+INFO   2025-07-01T00:34:08.770              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.730 ms {}
+ (access)
+INFO   2025-07-01T00:34:13.770              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.096 ms {}
+ (access)
+INFO   2025-07-01T00:34:18.770              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.315 ms {}
+ (access)
+INFO   2025-07-01T00:34:23.769              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.188 ms {}
+ (access)
+INFO   2025-07-01T00:34:28.769              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.358 ms {}
+ (access)
+INFO   2025-07-01T00:34:33.770              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.738 ms {}
+ (access)
+INFO   2025-07-01T00:34:38.769              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.273 ms {}
+ (access)
+INFO   2025-07-01T00:34:43.768              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.147 ms {}
+ (access)
+INFO   2025-07-01T00:34:48.768              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.137 ms {}
+ (access)
+INFO   2025-07-01T00:34:53.769              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.070 ms {}
+ (access)
+INFO   2025-07-01T00:34:58.767              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.024 ms {}
+ (access)
+INFO   2025-07-01T00:35:03.769              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.525 ms {}
+ (access)
+INFO   2025-07-01T00:35:08.767              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.033 ms {}
+ (access)
+INFO   2025-07-01T00:35:13.767              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.027 ms {}
+ (access)
+INFO   2025-07-01T00:35:18.768              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.501 ms {}
+ (access)
+INFO   2025-07-01T00:35:23.769              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.887 ms {}
+ (access)
+INFO   2025-07-01T00:35:28.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 0.982 ms {}
+ (access)
+INFO   2025-07-01T00:35:33.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.222 ms {}
+ (access)
+INFO   2025-07-01T00:35:38.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.215 ms {}
+ (access)
+INFO   2025-07-01T00:35:43.767              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.160 ms {}
+ (access)
+INFO   2025-07-01T00:35:48.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.252 ms {}
+ (access)
+INFO   2025-07-01T00:35:53.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.101 ms {}
+ (access)
+INFO   2025-07-01T00:35:58.765              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.172 ms {}
+ (access)
+INFO   2025-07-01T00:36:03.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.118 ms {}
+ (access)
+INFO   2025-07-01T00:36:08.765              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.103 ms {}
+ (access)
+INFO   2025-07-01T00:36:13.765              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.169 ms {}
+ (access)
+INFO   2025-07-01T00:36:18.765              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.552 ms {}
+ (access)
+INFO   2025-07-01T00:36:23.765              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.048 ms {}
+ (access)
+INFO   2025-07-01T00:36:28.764              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.107 ms {}
+ (access)
+INFO   2025-07-01T00:36:33.766              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.077 ms {}
+ (access)
+INFO   2025-07-01T00:36:38.763              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.233 ms {}
+ (access)
+INFO   2025-07-01T00:36:43.764              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.440 ms {}
+ (access)
+INFO   2025-07-01T00:36:48.763              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.136 ms {}
+ (access)
+INFO   2025-07-01T00:36:53.764              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.223 ms {}
+ (access)
+INFO   2025-07-01T00:36:58.763              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.085 ms {}
+ (access)
+INFO   2025-07-01T00:37:03.763              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.144 ms {}
+ (access)
+INFO   2025-07-01T00:37:08.763              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.109 ms {}
+ (access)
+INFO   2025-07-01T00:37:13.763              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.146 ms {}
+ (access)
+INFO   2025-07-01T00:37:18.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.121 ms {}
+ (access)
+INFO   2025-07-01T00:37:23.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.108 ms {}
+ (access)
+INFO   2025-07-01T00:37:28.761              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.139 ms {}
+ (access)
+INFO   2025-07-01T00:37:33.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.461 ms {}
+ (access)
+INFO   2025-07-01T00:37:38.761              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.143 ms {}
+ (access)
+INFO   2025-07-01T00:37:43.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.601 ms {}
+ (access)
+INFO   2025-07-01T00:37:48.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.722 ms {}
+ (access)
+INFO   2025-07-01T00:37:53.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.291 ms {}
+ (access)
+INFO   2025-07-01T00:37:58.761              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.363 ms {}
+ (access)
+INFO   2025-07-01T00:38:03.762              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.862 ms {}
+ (access)
+INFO   2025-07-01T00:38:08.760              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.318 ms {}
+ (access)
+INFO   2025-07-01T00:38:13.760              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.069 ms {}
+ (access)
+INFO   2025-07-01T00:38:18.759              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.079 ms {}
+ (access)
+INFO   2025-07-01T00:38:23.761              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.265 ms {}
+ (access)
+INFO   2025-07-01T00:38:28.760              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.275 ms {}
+ (access)
+INFO   2025-07-01T00:38:33.760              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.268 ms {}
+ (access)
+INFO   2025-07-01T00:38:38.759              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.222 ms {}
+ (access)
+INFO   2025-07-01T00:38:43.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.153 ms {}
+ (access)
+INFO   2025-07-01T00:38:48.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.118 ms {}
+ (access)
+INFO   2025-07-01T00:38:53.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.321 ms {}
+ (access)
+INFO   2025-07-01T00:38:58.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.551 ms {}
+ (access)
+INFO   2025-07-01T00:39:03.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.263 ms {}
+ (access)
+INFO   2025-07-01T00:39:08.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.941 ms {}
+ (access)
+INFO   2025-07-01T00:39:13.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.445 ms {}
+ (access)
+INFO   2025-07-01T00:39:18.757              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.137 ms {}
+ (access)
+INFO   2025-07-01T00:39:23.758              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.107 ms {}
+ (access)
+INFO   2025-07-01T00:39:28.756              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.156 ms {}
+ (access)
+INFO   2025-07-01T00:39:33.757              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.409 ms {}
+ (access)
+INFO   2025-07-01T00:39:38.756              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.133 ms {}
+ (access)
+INFO   2025-07-01T00:39:43.756              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.085 ms {}
+ (access)
+INFO   2025-07-01T00:39:48.756              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.174 ms {}
+ (access)
+INFO   2025-07-01T00:39:53.756              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.360 ms {}
+ (access)
+INFO   2025-07-01T00:39:58.755              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.164 ms {}
+ (access)
+INFO   2025-07-01T00:40:03.757              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.156 ms {}
+ (access)
+INFO   2025-07-01T00:40:08.755              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.211 ms {}
+ (access)
+INFO   2025-07-01T00:40:13.755              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.105 ms {}
+ (access)
+INFO   2025-07-01T00:40:18.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.074 ms {}
+ (access)
+INFO   2025-07-01T00:40:23.755              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.117 ms {}
+ (access)
+INFO   2025-07-01T00:40:28.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.089 ms {}
+ (access)
+INFO   2025-07-01T00:40:33.755              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.164 ms {}
+ (access)
+INFO   2025-07-01T00:40:38.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.754 ms {}
+ (access)
+INFO   2025-07-01T00:40:43.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.172 ms {}
+ (access)
+INFO   2025-07-01T00:40:48.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.286 ms {}
+ (access)
+INFO   2025-07-01T00:40:53.753              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.002 ms {}
+ (access)
+INFO   2025-07-01T00:40:58.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.693 ms {}
+ (access)
+INFO   2025-07-01T00:41:03.753              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.011 ms {}
+ (access)
+INFO   2025-07-01T00:41:08.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.055 ms {}
+ (access)
+INFO   2025-07-01T00:41:13.753              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.561 ms {}
+ (access)
+INFO   2025-07-01T00:41:18.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.165 ms {}
+ (access)
+INFO   2025-07-01T00:41:23.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.131 ms {}
+ (access)
+INFO   2025-07-01T00:41:28.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.048 ms {}
+ (access)
+INFO   2025-07-01T00:41:33.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 0.983 ms {}
+ (access)
+INFO   2025-07-01T00:41:38.754              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.683 ms {}
+ (access)
+INFO   2025-07-01T00:41:43.753              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.550 ms {}
+ (access)
+INFO   2025-07-01T00:41:48.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.591 ms {}
+ (access)
+INFO   2025-07-01T00:41:53.752              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.414 ms {}
+ (access)
+INFO   2025-07-01T00:41:58.751              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.130 ms {}
+ (access)
+INFO   2025-07-01T00:42:03.751              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.185 ms {}
+ (access)
+INFO   2025-07-01T00:42:08.750              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.141 ms {}
+ (access)
+INFO   2025-07-01T00:42:13.751              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.131 ms {}
+ (access)
+INFO   2025-07-01T00:42:18.750              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.176 ms {}
+ (access)
+INFO   2025-07-01T00:42:23.750              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.460 ms {}
+ (access)
+INFO   2025-07-01T00:42:28.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.069 ms {}
+ (access)
+INFO   2025-07-01T00:42:33.750              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.182 ms {}
+ (access)
+INFO   2025-07-01T00:42:38.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.609 ms {}
+ (access)
+INFO   2025-07-01T00:42:43.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.392 ms {}
+ (access)
+INFO   2025-07-01T00:42:48.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.846 ms {}
+ (access)
+INFO   2025-07-01T00:42:53.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.819 ms {}
+ (access)
+INFO   2025-07-01T00:42:58.748              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.447 ms {}
+ (access)
+INFO   2025-07-01T00:43:03.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.422 ms {}
+ (access)
+INFO   2025-07-01T00:43:08.748              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.148 ms {}
+ (access)
+INFO   2025-07-01T00:43:13.748              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.266 ms {}
+ (access)
+INFO   2025-07-01T00:43:18.747              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.344 ms {}
+ (access)
+INFO   2025-07-01T00:43:23.749              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.732 ms {}
+ (access)
+INFO   2025-07-01T00:43:28.747              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.064 ms {}
+ (access)
+INFO   2025-07-01T00:43:33.747              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.044 ms {}
+ (access)
+INFO   2025-07-01T00:43:38.746              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.121 ms {}
+ (access)
+INFO   2025-07-01T00:43:43.747              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.304 ms {}
+ (access)
+INFO   2025-07-01T00:43:48.746              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.080 ms {}
+ (access)
+INFO   2025-07-01T00:43:53.746              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.219 ms {}
+ (access)
+INFO   2025-07-01T00:43:58.745              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.079 ms {}
+ (access)
+INFO   2025-07-01T00:44:03.745              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.254 ms {}
+ (access)
+INFO   2025-07-01T00:44:08.746              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.411 ms {}
+ (access)
+INFO   2025-07-01T00:44:13.746              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.214 ms {}
+ (access)
+INFO   2025-07-01T00:44:18.745              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.163 ms {}
+ (access)
+INFO   2025-07-01T00:44:23.745              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.258 ms {}
+ (access)
+INFO   2025-07-01T00:44:28.745              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.183 ms {}
+ (access)
+INFO   2025-07-01T00:44:33.745              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.282 ms {}
+ (access)
+INFO   2025-07-01T00:44:38.744              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.132 ms {}
+ (access)
+INFO   2025-07-01T00:44:43.744              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.088 ms {}
+ (access)
+INFO   2025-07-01T00:44:48.744              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.151 ms {}
+ (access)
+INFO   2025-07-01T00:44:53.744              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.095 ms {}
+ (access)
+INFO   2025-07-01T00:44:58.743              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.170 ms {}
+ (access)
+INFO   2025-07-01T00:45:03.743              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.177 ms {}
+ (access)
+INFO   2025-07-01T00:45:08.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.153 ms {}
+ (access)
+INFO   2025-07-01T00:45:13.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.263 ms {}
+ (access)
+INFO   2025-07-01T00:45:18.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.004 ms {}
+ (access)
+INFO   2025-07-01T00:45:23.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.165 ms {}
+ (access)
+INFO   2025-07-01T00:45:28.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.313 ms {}
+ (access)
+INFO   2025-07-01T00:45:33.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.221 ms {}
+ (access)
+INFO   2025-07-01T00:45:38.741              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.271 ms {}
+ (access)
+INFO   2025-07-01T00:45:43.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.161 ms {}
+ (access)
+INFO   2025-07-01T00:45:48.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.392 ms {}
+ (access)
+INFO   2025-07-01T00:45:53.741              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.100 ms {}
+ (access)
+INFO   2025-07-01T00:45:58.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.424 ms {}
+ (access)
+INFO   2025-07-01T00:46:03.742              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.267 ms {}
+ (access)
+INFO   2025-07-01T00:46:08.740              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.341 ms {}
+ (access)
+INFO   2025-07-01T00:46:13.741              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.334 ms {}
+ (access)
+INFO   2025-07-01T00:46:18.741              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.677 ms {}
+ (access)
+INFO   2025-07-01T00:46:23.741              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.652 ms {}
+ (access)
+INFO   2025-07-01T00:46:28.740              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.238 ms {}
+ (access)
+INFO   2025-07-01T00:46:33.739              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.196 ms {}
+ (access)
+INFO   2025-07-01T00:46:38.740              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.910 ms {}
+ (access)
+INFO   2025-07-01T00:46:43.740              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.937 ms {}
+ (access)
+INFO   2025-07-01T00:46:48.739              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.397 ms {}
+ (access)
+INFO   2025-07-01T00:46:53.739              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.283 ms {}
+ (access)
+INFO   2025-07-01T00:46:58.738              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.860 ms {}
+ (access)
+INFO   2025-07-01T00:47:03.738              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.224 ms {}
+ (access)
+INFO   2025-07-01T00:47:08.738              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.341 ms {}
+ (access)
+INFO   2025-07-01T00:47:13.738              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.063 ms {}
+ (access)
+INFO   2025-07-01T00:47:18.737              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.030 ms {}
+ (access)
+INFO   2025-07-01T00:47:23.739              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.117 ms {}
+ (access)
+INFO   2025-07-01T00:47:28.736              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.180 ms {}
+ (access)
+INFO   2025-07-01T00:47:33.737              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.000 ms {}
+ (access)
+INFO   2025-07-01T00:47:38.736              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.172 ms {}
+ (access)
+INFO   2025-07-01T00:47:43.736              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.099 ms {}
+ (access)
+INFO   2025-07-01T00:47:48.738              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.092 ms {}
+ (access)
+INFO   2025-07-01T00:47:53.736              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.323 ms {}
+ (access)
+INFO   2025-07-01T00:47:58.736              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.390 ms {}
+ (access)
+INFO   2025-07-01T00:48:03.736              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.293 ms {}
+ (access)
+INFO   2025-07-01T00:48:08.735              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.086 ms {}
+ (access)
+INFO   2025-07-01T00:48:13.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.081 ms {}
+ (access)
+INFO   2025-07-01T00:48:18.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.030 ms {}
+ (access)
+INFO   2025-07-01T00:48:23.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.057 ms {}
+ (access)
+INFO   2025-07-01T00:48:28.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.141 ms {}
+ (access)
+INFO   2025-07-01T00:48:33.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.079 ms {}
+ (access)
+INFO   2025-07-01T00:48:38.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.117 ms {}
+ (access)
+INFO   2025-07-01T00:48:43.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.114 ms {}
+ (access)
+INFO   2025-07-01T00:48:48.734              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.165 ms {}
+ (access)
+INFO   2025-07-01T00:48:53.733              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.569 ms {}
+ (access)
+INFO   2025-07-01T00:48:58.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.290 ms {}
+ (access)
+INFO   2025-07-01T00:49:03.733              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.363 ms {}
+ (access)
+INFO   2025-07-01T00:49:08.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.265 ms {}
+ (access)
+INFO   2025-07-01T00:49:13.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.017 ms {}
+ (access)
+INFO   2025-07-01T00:49:18.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.299 ms {}
+ (access)
+INFO   2025-07-01T00:49:23.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.130 ms {}
+ (access)
+INFO   2025-07-01T00:49:28.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.237 ms {}
+ (access)
+INFO   2025-07-01T00:49:33.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.350 ms {}
+ (access)
+INFO   2025-07-01T00:49:38.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.296 ms {}
+ (access)
+INFO   2025-07-01T00:49:43.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.173 ms {}
+ (access)
+INFO   2025-07-01T00:49:48.730              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.294 ms {}
+ (access)
+INFO   2025-07-01T00:49:53.730              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.081 ms {}
+ (access)
+INFO   2025-07-01T00:49:58.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.151 ms {}
+ (access)
+INFO   2025-07-01T00:50:03.730              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.111 ms {}
+ (access)
+INFO   2025-07-01T00:50:08.730              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.446 ms {}
+ (access)
+INFO   2025-07-01T00:50:13.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.936 ms {}
+ (access)
+INFO   2025-07-01T00:50:18.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.536 ms {}
+ (access)
+INFO   2025-07-01T00:50:23.732              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.103 ms {}
+ (access)
+INFO   2025-07-01T00:50:28.730              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.176 ms {}
+ (access)
+INFO   2025-07-01T00:50:33.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.171 ms {}
+ (access)
+INFO   2025-07-01T00:50:38.729              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.246 ms {}
+ (access)
+INFO   2025-07-01T00:50:43.731              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 2.807 ms {}
+ (access)
+INFO   2025-07-01T00:50:48.727              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.085 ms {}
+ (access)
+INFO   2025-07-01T00:50:53.728              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.057 ms {}
+ (access)
+INFO   2025-07-01T00:50:58.728              morgan\index.js:130 | ::ffff:127.0.0.1 Anonymous GET /metrics 200 - 1.123 ms {}
+ (access)
+INFO   2025-07-01T00:51:02.918       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+INFO   2025-07-01T00:51:03.035       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-01T00:51:03.036       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+INFO   2025-07-01T00:51:03.244       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-01T00:51:03.248       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+INFO   2025-07-01T00:51:03.558       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-01T00:51:03.559       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+INFO   2025-07-01T00:51:03.964       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-01T00:51:03.964       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+ERROR  2025-07-01T00:51:04.478       redis\redis.service.ts:112 | Redis connection error: connect ECONNREFUSED 127.0.0.1:6319 RedisService (default)
+INFO   2025-07-01T00:51:04.479       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+ERROR  2025-07-01T00:51:05.095       redis\redis.service.ts:112 | Redis connection error: connect ECONNREFUSED 127.0.0.1:6319 RedisService (default)
+INFO   2025-07-01T00:51:05.096       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+ERROR  2025-07-01T00:51:05.797       redis\redis.service.ts:112 | Redis connection error: connect ECONNREFUSED 127.0.0.1:6319 RedisService (default)
+INFO   2025-07-01T00:51:05.798       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+ERROR  2025-07-01T00:51:06.609       redis\redis.service.ts:112 | Redis connection error: connect ECONNREFUSED 127.0.0.1:6319 RedisService (default)
+INFO   2025-07-01T00:51:06.610       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+ERROR  2025-07-01T00:51:07.519       redis\redis.service.ts:112 | Redis connection error: connect ECONNREFUSED 127.0.0.1:6319 RedisService (default)
+INFO   2025-07-01T00:51:07.519       redis\redis.service.ts:103 | Attempting to reconnect to Redis RedisService (default)
+ERROR  2025-07-01T00:51:08.529       redis\redis.service.ts:112 | Redis connection error: connect ECONNREFUSED 127.0.0.1:6319 RedisService (default)
+WARN   2025-07-01T00:51:08.531       redis\redis.service.ts:97  | Redis connection ended RedisService (default)

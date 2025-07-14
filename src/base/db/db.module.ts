@@ -1,22 +1,27 @@
 import {Module, OnModuleInit} from '@nestjs/common';
-import {TypeOrmModule, TypeOrmModuleAsyncOptions, TypeOrmModuleOptions} from '@nestjs/typeorm';
-import {config} from 'src/base/config';
+import {TypeOrmModule} from '@nestjs/typeorm';
+import {ConfigService} from 'src/base/config';
 import {LoggingService} from 'src/base/logging';
 import {DataSource} from 'typeorm';
-import {typeOrmOptionsGenerate} from './ormconfig';
-
-const typeOrmOptions: TypeOrmModuleAsyncOptions[] = [
-   {
-      inject: [],
-      useFactory: () =>
-         ({
-            ...typeOrmOptionsGenerate(config),
-         }) as TypeOrmModuleOptions,
-   },
-];
 
 @Module({
-   imports: [...typeOrmOptions.map((options) => TypeOrmModule.forRootAsync(options))],
+   imports: [
+      TypeOrmModule.forRootAsync({
+         inject: [ConfigService],
+         useFactory: (config: ConfigService) => ({
+            type: 'mysql',
+            host: config.DB_HOST,
+            port: config.DB_PORT,
+            username: config.DB_USERNAME,
+            password: config.DB_PASSWORD,
+            database: config.DB_DATABASE,
+            synchronize: true, // Trong production, ko được để là true
+            autoLoadEntities: true,
+            poolSize: 10,
+            connectorPackage: 'mysql2',
+         }),
+      }),
+   ],
 })
 export class DatabaseModule implements OnModuleInit {
    constructor(
