@@ -17,7 +17,7 @@ import {DataSource} from 'typeorm';
             database: config.DB_DATABASE,
             synchronize: true, // Trong production, ko được để là true
             autoLoadEntities: true,
-            poolSize: 10,
+            // poolSize: 10,
             connectorPackage: 'mysql2',
          }),
       }),
