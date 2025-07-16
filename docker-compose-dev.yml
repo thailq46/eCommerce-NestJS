@@ -1,4 +1,4 @@
-#  docker-compose -p ecom-monitor -f docker-compose-dev.yml up
+#  docker-compose -p ecom-nest -f docker-compose-dev.yml --env-file ./.env.dev up
 version: '3.2'
 
 networks:
@@ -6,24 +6,25 @@ networks:
       driver: bridge
 
 services:
-   # mysql:
-   #    image: mysql:8.0
-   #    container_name: mysql-container
-   #    volumes:
-   #       - ./environments/mysql:/var/lib/mysql
-   #    command: [
-   #          '--character-set-server=utf8mb4',
-   #          '--collation-server=utf8mb4_unicode_ci',
-   #          '--skip-character-set-client-handshake', # Buộc tất cả kết nối sử dụng utf8mb4
-   #       ]
-   #    environment:
-   #       MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
-   #       MYSQL_DATABASE: ${DB_DATABASE}
-   #       MYSQL_PASSWORD: ${DB_PASSWORD}
-   #    ports:
-   #       - '8811:3306'
-   #    networks:
-   #       - nest-app-network
+   mysql:
+      image: mysql:8.0
+      container_name: pre-event-mysql
+      volumes:
+         - ./environments/data/mysql:/var/lib/mysql
+         # - D:/Backup/backup.sql:/docker-entrypoint-initdb.d/backup.sql # Chỉ chạy file backup.sql khi khởi tạo container lần đầu
+      command: [
+            '--character-set-server=utf8mb4',
+            '--collation-server=utf8mb4_unicode_ci',
+            '--skip-character-set-client-handshake', # Buộc tất cả kết nối sử dụng utf8mb4
+         ]
+      environment:
+         MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
+         MYSQL_DATABASE: ${DB_DATABASE}
+         MYSQL_PASSWORD: ${DB_PASSWORD}
+      ports:
+         - '8822:3306'
+      networks:
+         - nest-app-network
 
    redis:
       container_name: pre-event-redis
@@ -108,16 +109,18 @@ services:
       volumes:
          - ./environments/mysqld-exporter/.my.cnf:/etc/mysql/.my.cnf
       environment:
-         - DATA_SOURCE_NAME=root:thailq@tcp(mysql:8811)/
-      # depends_on:
-      #    - mysql
+         - DATA_SOURCE_NAME=root:thailq@tcp(mysql:8822)/
+      depends_on:
+         - mysql
       networks:
          - nest-app-network
 
    redis-exporter:
       image: oliver006/redis_exporter
-      command: -redis.addr redis://redis:6319
+      command: -redis.addr redis://redis:6379
       ports:
          - 9121:9121
+      depends_on:
+         - redis
       networks:
          - nest-app-network
