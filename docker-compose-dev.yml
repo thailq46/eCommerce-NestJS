@@ -124,3 +124,44 @@ services:
          - redis
       networks:
          - nest-app-network
+
+   elasticsearch:
+      image: elasticsearch:7.17.25
+      container_name: pre-event-elasticsearch
+      volumes:
+         - ./environments/elk/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+      ports:
+         - '9200:9200'
+         - '9300:9300'
+      environment:
+         discovery.type: single-node
+      networks:
+         - nest-app-network
+
+   logstash:
+      image: logstash:7.17.25
+      container_name: pre-event-logstash
+      volumes:
+         - ./environments/elk/logstash.yml:/usr/share/logstash/config/logstash.yml
+         - ./environments/elk/pipeline:/usr/share/logstash/pipeline
+      ports:
+         - '5044:5044'
+         - '5033:5000/tcp'
+         - '5022:5000/udp'
+         - '9600:9600'
+      networks:
+         - nest-app-network
+      depends_on:
+         - elasticsearch
+
+   kibana:
+      image: kibana:7.17.25
+      container_name: pre-event-kibana
+      volumes:
+         - ./environments/elk/kibana.yml:/usr/share/kibana/config/kibana.yml
+      ports:
+         - '5601:5601'
+      networks:
+         - nest-app-network
+      depends_on:
+         - elasticsearch

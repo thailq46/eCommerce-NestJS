@@ -1,9 +1,6 @@
 import {Injectable} from '@nestjs/common';
-import {Appender, configure, Logger as FourLogger, getLogger, Layout} from 'log4js';
-import {Logger, QueryRunner} from 'typeorm';
-
+import {Appender, configure, getLogger, Layout} from 'log4js';
 import {config} from 'src/base/config';
-import {QueryDbError} from 'src/base/db/db.constant';
 
 // Cấu hình Layouts (định dạng log)
 const layouts: Record<string, Layout> = {
@@ -92,58 +89,15 @@ const appenders: Record<string, Appender> = {
       type: 'console',
       layout: layouts.access,
    },
+   logstash: {
+      type: '@log4js-node/logstash-http',
+      url: 'http://localhost:5044',
+      application: 'logstash-log4js',
+      logType: 'application',
+      logChannel: 'node',
+      timeout: 10000,
+   },
 };
-
-class DbLogger implements Logger {
-   constructor(private logger: FourLogger) {}
-
-   /**
-    * Logs query and parameters used in it.(Ghi log câu truy vấn và tham số ở mức DEBUG)
-    */
-   logQuery(query: string, parameters?: any[], queryRunner?: QueryRunner): any {
-      this.logger.debug(`query=${query}` + (parameters ? ` parameters=${JSON.stringify(parameters)}` : ``));
-   }
-
-   /**
-    * Logs query that is failed.
-    *  + Log lỗi ở mức DEBUG
-    *  + Nếu lỗi thuộc QueryDbError (lỗi đã biết) thì chỉ log WARNING
-    *  + Các lỗi khác log ở mức ERROR với cả truy vấn và tham số
-    */
-   logQueryError(error: Error & {code: string}, query: string, parameters?: any[], queryRunner?: QueryRunner): any {
-      this.logger.debug(error);
-      const errorMessage = error.message ? error.message : error;
-      if (Object.values(QueryDbError).includes(error?.code)) return this.logger.warn(errorMessage);
-
-      this.logger.error(errorMessage);
-      this.logger.error(`query=${query} parameters=${JSON.stringify(parameters)}`);
-   }
-
-   /**
-    * Logs query that is slow. (Ghi log các câu truy vấn chậm ở mức WARN)
-    */
-   logQuerySlow(time: number, query: string, parameters?: any[], queryRunner?: QueryRunner): any {
-      this.logger.warn(`time=${time} query=${query} parameters=${JSON.stringify(parameters)}`);
-   }
-
-   /**
-    * Logs events from the schema build process.
-    */
-   logSchemaBuild(message: string, queryRunner?: QueryRunner): any {}
-
-   /**
-    * Logs events from the migrations run process.
-    */
-   logMigration(message: string, queryRunner?: QueryRunner): any {}
-
-   /**
-    * Perform logging using given logger, or by default to the console.
-    * Log has its own level and message.
-    */
-   log(level: 'log' | 'info' | 'warn', message: any, queryRunner?: QueryRunner): any {
-      this.logger[level](message);
-   }
-}
 
 @Injectable()
 export class LoggingService {
@@ -161,19 +115,18 @@ export class LoggingService {
     * ----------------------------------------
     */
    constructor() {
-      const isDev = config.NODE_ENV === config.DEV;
       const level = config.DEBUG ? 'debug' : 'info';
 
       configure({
          appenders: appenders,
          categories: {
             default: {
-               appenders: ['console', 'dateFile'],
+               appenders: ['console', 'dateFile', 'logstash'],
                level: level,
                enableCallStack: true,
             },
             access: {
-               appenders: ['access', 'dateFile'],
+               appenders: ['access', 'dateFile', 'logstash'],
                level: 'info',
                enableCallStack: true,
             },
@@ -195,10 +148,5 @@ export class LoggingService {
    logger = {
       default: getLogger('default'),
       access: this._access(),
-      thirdParty: getLogger('thirdParty'),
    };
-
-   getDbLogger(category: string) {
-      return new DbLogger(this.getLogger(category));
-   }
 }

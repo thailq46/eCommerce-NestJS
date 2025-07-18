@@ -15,7 +15,7 @@ import {DataSource} from 'typeorm';
             username: config.DB_USERNAME,
             password: config.DB_PASSWORD,
             database: config.DB_DATABASE,
-            synchronize: true, // Trong production, ko được để là true
+            synchronize: false, // Trong production, ko được để là true
             autoLoadEntities: true,
             // poolSize: 10,
             connectorPackage: 'mysql2',

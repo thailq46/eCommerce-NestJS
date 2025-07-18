@@ -39,5 +39,10 @@ morgan.format('custom', (tokens, req, res) => {
 export function useMorgan(logger) {
    return morgan('custom', {
       stream: logger,
+      skip: function (req) {
+         // Skip logging cho các route không cần thiết
+         const skipRoutes = ['/metrics'];
+         return req.url ? skipRoutes.includes(req.url) : false;
+      },
    });
 }

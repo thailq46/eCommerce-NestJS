@@ -6,7 +6,6 @@ import helmet from 'helmet';
 import {join} from 'path';
 import {config} from 'src/base/config';
 import {LoggingService} from 'src/base/logging';
-import {MyLogger} from 'src/base/logging/my.logger';
 import {useMorgan} from 'src/base/middleware/morgan.middleware';
 import {ResponseTransformInterceptor} from 'src/base/middleware/response.interceptor';
 import {AppModule} from './app.module';
@@ -22,8 +21,8 @@ async function bootstrap() {
    // Enable CORS
    app.enableCors(config.CORS);
 
-   const myLogger = new MyLogger();
-   app.useLogger(myLogger);
+   // const myLogger = new MyLogger();
+   // app.useLogger(myLogger);
 
    // Init Middleware
    app.use(useMorgan(loggingService.logger.access));
