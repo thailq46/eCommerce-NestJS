@@ -9,5 +9,6 @@ import {SkuService} from './sku.service';
    imports: [TypeOrmModule.forFeature([Sku]), RedisModule],
    controllers: [SkuController],
    providers: [SkuService],
+   exports: [SkuService],
 })
 export class SkuModule {}

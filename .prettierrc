@@ -1,6 +1,5 @@
 {
-  "singleQuote": true,
-  "trailingComma": "all",
-  "endOfLine": "lf",
-  "bracketSpacing": false
+   "singleQuote": true,
+   "trailingComma": "all",
+   "endOfLine": "lf"
 }

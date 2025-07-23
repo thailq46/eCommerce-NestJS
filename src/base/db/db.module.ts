@@ -1,8 +1,8 @@
-import {Module, OnModuleInit} from '@nestjs/common';
-import {TypeOrmModule} from '@nestjs/typeorm';
-import {ConfigService} from 'src/base/config';
-import {LoggingService} from 'src/base/logging';
-import {DataSource} from 'typeorm';
+import { Module, OnModuleInit } from '@nestjs/common';
+import { TypeOrmModule } from '@nestjs/typeorm';
+import { ConfigService } from 'src/base/config';
+import { LoggingService } from 'src/base/logging';
+import { DataSource } from 'typeorm';
 
 @Module({
    imports: [

@@ -16,3 +16,10 @@ Sử dụng Jit -> Just in time -> Tiêu chuẩn của JWT đại diện cho 1 �
 
 - Prometheus công cụ cảnh báo và giám sát hệ thống -> Đầu tiên nó thu thập dữ liệu sau đó nó lưu trữ và truy vấn chuỗi dữ liệu đó thông qua 1 thời gian cụ thể rất nhanh thông qua req của http
 - Graphana dùng để trực quan hóa và phân tích dữ liệu, nó kết nối đến nhiều nguồn dữ liệu khác nhau chứ ko phải riêng thằng Prometheus
+
+# Hệ thống đồng thời cao
+
+1. Luôn phải sử dụng cache (Local vs Distributed)
+2. Cho dù update data cho local cache hay distributed cache thì phải sử dụng cơ chế lock thread
+3. Nếu data ko tồn tại trong DB nhưng bắt buộc nó phải tồn tại trong local cache
+   ![alt text](/my-app/public/Local%20cache%202.png)

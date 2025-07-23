@@ -1,0 +1,778 @@
+INFO   2025-07-23T13:39:40.457              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T13:39:40.542                  src\main.ts:49  | Server time: Wed Jul 23 2025 13:39:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T13:39:40.544                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T13:39:40.547                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T13:39:40.571       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T13:39:44.483              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 197.998 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T13:43:58.351              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T13:43:58.375                  src\main.ts:49  | Server time: Wed Jul 23 2025 13:43:58 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T13:43:58.381                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T13:43:58.382                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T13:43:58.394       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T13:46:29.997              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 87.097 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T13:52:09.612              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T13:52:09.627                  src\main.ts:49  | Server time: Wed Jul 23 2025 13:52:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T13:52:09.628                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T13:52:09.629                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T13:52:09.639       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T13:58:33.477              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T13:58:33.499                  src\main.ts:49  | Server time: Wed Jul 23 2025 13:58:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T13:58:33.503                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T13:58:33.507                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T13:58:33.525       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T13:58:38.239         cart\cart.service.ts:37  | Giá sản phẩm không hợp lệ BadRequestException: Giá sản phẩm không hợp lệ
+    at CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:37:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Giá sản phẩm không hợp lệ',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T13:58:38.251              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 400 - 80.681 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T13:58:54.904              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T13:58:54.920                  src\main.ts:49  | Server time: Wed Jul 23 2025 13:58:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T13:58:54.923                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T13:58:54.925                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T13:58:54.937       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T13:58:56.062              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 85.539 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:01:36.656              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:01:36.673                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:01:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:01:36.676                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:01:36.677                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:01:36.689       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:02:26.163              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:02:26.182                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:02:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:02:26.185                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:02:26.186                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:02:26.196       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:03:55.700              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 58.985 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:05:45.990              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:05:46.007                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:05:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:05:46.009                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:05:46.009                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:05:46.020       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:05:51.295              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:05:51.318                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:05:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:05:51.321                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:05:51.323                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:05:51.335       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:05:54.794              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 68.254 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:06:10.451              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:06:10.471                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:06:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:06:10.473                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:06:10.474                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:06:10.483       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:06:27.162              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 46.341 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:07:15.438              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:07:15.469                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:07:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:07:15.479                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:07:15.484                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:07:15.504       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:07:18.898              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:07:18.917                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:07:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:07:18.919                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:07:18.920                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:07:18.929       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:07:23.249              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 47.232 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:07:32.600              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:07:32.616                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:07:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:07:32.617                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:07:32.618                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:07:32.626       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:07:34.346              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 40.041 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:14:24.783              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:14:24.807                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:14:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:14:24.809                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:14:24.811                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:14:24.821       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:14:32.507              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:14:32.525                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:14:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:14:32.527                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:14:32.529                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:14:32.539       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:15:15.794              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:15:15.816                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:15:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:15:15.818                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:15:15.822                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:15:15.839       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:15:23.253              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:15:23.267                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:15:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:15:23.270                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:15:23.272                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:15:23.279       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:15:37.946              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:15:37.962                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:15:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:15:37.964                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:15:37.965                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:15:37.973       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:16:01.176              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:16:01.196                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:16:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:16:01.198                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:16:01.199                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:16:01.209       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:16:42.066              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 38.525 ms {"product_id":21,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:18:31.682              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:18:31.710                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:18:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:18:31.718                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:18:31.722                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:18:31.736       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:18:42.536              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:18:42.558                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:18:42 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:18:42.560                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:18:42.562                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:18:42.571       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T14:18:47.402         cart\cart.service.ts:34  | Thuộc tính sản phẩm không tồn tại BadRequestException: Thuộc tính sản phẩm không tồn tại
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:34:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:24:23) {
+  response: {
+    message: 'Thuộc tính sản phẩm không tồn tại',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T14:18:47.410              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 400 - 63.512 ms {"product_id":21,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:19:11.373              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 52.336 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:19:35.742              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 101.879 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:19:38.857              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 21.066 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:19:41.827              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 57.742 ms {"product_id":2,"quantity":2,"price":1005,"sku_id":12}
+ (access)
+ERROR  2025-07-23T14:19:51.939         cart\cart.service.ts:45  | Số lượng sản phẩm trong giỏ hàng vượt quá số lượng tồn kho BadRequestException: Số lượng sản phẩm trong giỏ hàng vượt quá số lượng tồn kho
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:45:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:24:23) {
+  response: {
+    message: 'Số lượng sản phẩm trong giỏ hàng vượt quá số lượng tồn kho',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T14:19:51.942              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 400 - 15.225 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:20:20.379              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:20:20.410                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:20:20 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:20:20.415                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:20:20.418                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:20:20.445       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:20:24.028              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:20:24.043                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:20:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:20:24.045                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:20:24.046                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:20:24.056       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:20:37.094              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:20:37.110                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:20:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:20:37.112                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:20:37.113                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:20:37.119       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:21:43.814              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:21:43.828                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:21:43 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:21:43.830                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:21:43.831                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:21:43.844       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T14:22:10.026         cart\cart.service.ts:29  | Thuộc tính sản phẩm không tồn tại NotFoundException: Thuộc tính sản phẩm không tồn tại
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:21:23) {
+  response: {
+    message: 'Thuộc tính sản phẩm không tồn tại',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (default)
+INFO   2025-07-23T14:22:10.036              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 400 - 56.338 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":122}
+ (access)
+INFO   2025-07-23T14:22:22.869              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:22:22.884                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:22:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:22:22.886                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:22:22.887                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:22:22.894       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T14:22:24.106         cart\cart.service.ts:29  | Thuộc tính sản phẩm không tồn tại NotFoundException: Thuộc tính sản phẩm không tồn tại
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:21:23) {
+  response: {
+    message: 'Thuộc tính sản phẩm không tồn tại',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (default)
+INFO   2025-07-23T14:22:24.119              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 500 - 59.370 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":122}
+ (access)
+INFO   2025-07-23T14:22:45.803              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:22:45.817                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:22:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:22:45.819                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:22:45.820                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:22:45.830       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T14:22:46.742         cart\cart.service.ts:29  | Thuộc tính sản phẩm không tồn tại NotFoundException: Thuộc tính sản phẩm không tồn tại
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:21:23) {
+  response: {
+    message: 'Thuộc tính sản phẩm không tồn tại',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (default)
+INFO   2025-07-23T14:22:46.748              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 404 - 49.715 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":122}
+ (access)
+INFO   2025-07-23T14:22:58.918              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:22:58.938                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:22:58 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:22:58.939                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:22:58.941                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:22:58.950       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T14:23:00.367         cart\cart.service.ts:29  | Thuộc tính sản phẩm không tồn tại NotFoundException: Thuộc tính sản phẩm không tồn tại
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:21:23) {
+  response: {
+    message: 'Thuộc tính sản phẩm không tồn tại',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (default)
+INFO   2025-07-23T14:23:00.376              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 404 - 55.966 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":122}
+ (access)
+ERROR  2025-07-23T14:23:01.551         cart\cart.service.ts:29  | Thuộc tính sản phẩm không tồn tại NotFoundException: Thuộc tính sản phẩm không tồn tại
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:29:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:21:23) {
+  response: {
+    message: 'Thuộc tính sản phẩm không tồn tại',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (default)
+INFO   2025-07-23T14:23:01.559              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 404 - 43.039 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":122}
+ (access)
+ERROR  2025-07-23T14:23:20.840         cart\cart.service.ts:33  | Giá sản phẩm không hợp lệ BadRequestException: Giá sản phẩm không hợp lệ
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:33:22)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:21:23) {
+  response: {
+    message: 'Giá sản phẩm không hợp lệ',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T14:23:20.843              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 400 - 15.619 ms {"product_id":2,"quantity":10,"price":10205,"sku_id":12}
+ (access)
+INFO   2025-07-23T14:23:41.748              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:23:41.769                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:23:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:23:41.772                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:23:41.773                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:23:41.784       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T14:23:46.874              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T14:23:46.893                  src\main.ts:49  | Server time: Wed Jul 23 2025 14:23:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T14:23:46.894                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T14:23:46.895                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T14:23:46.908       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:43:09.101              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:43:09.116                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:43:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:43:09.118                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:43:09.119                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:43:09.127       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:43:12.790              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:43:12.803                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:43:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:43:12.805                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:43:12.807                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:43:12.815       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:44:09.513              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:44:09.527                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:44:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:44:09.529                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:44:09.530                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:44:09.538       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:44:16.758              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:44:16.771                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:44:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:44:16.773                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:44:16.774                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:44:16.780       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:44:22.814              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:44:22.832                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:44:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:44:22.834                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:44:22.835                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:44:22.845       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:44:42.719              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:44:42.736                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:44:42 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:44:42.737                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:44:42.738                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:44:42.748       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:51:55.943              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:51:55.957                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:51:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:51:55.959                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:51:55.960                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:51:55.968       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:52:06.406              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:52:06.418                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:52:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:52:06.420                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:52:06.421                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:52:06.428       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:52:56.855              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:52:56.869                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:52:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:52:56.871                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:52:56.872                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:52:56.880       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:54:49.045              morgan\index.js:130 | ::1 Anonymous POST /api/v1/cart/2/quantity 404 - 4.519 ms {}
+ (access)
+INFO   2025-07-23T15:54:58.956              morgan\index.js:130 | ::1 Anonymous POST /api/v1/cart/1/quantity 404 - 1.300 ms {}
+ (access)
+INFO   2025-07-23T15:55:05.291              morgan\index.js:130 | ::1 Anonymous PATCH /api/v1/cart/1/quantity 401 - 9.531 ms {}
+ (access)
+INFO   2025-07-23T15:55:11.048              morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 77.388 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-07-23T15:55:13.014              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 400 - 13.351 ms {}
+ (access)
+INFO   2025-07-23T15:55:33.677              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 400 - 7.495 ms {"action":"INCREMENT"}
+ (access)
+INFO   2025-07-23T15:55:56.748              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 36.652 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:00.128              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 19.823 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:01.237              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 64.893 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:26.241              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 21.037 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:27.123              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 64.795 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:29.033              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 19.571 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:32.577              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 17.318 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:33.333              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 16.851 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:34.071              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 63.300 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:34.719              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 16.649 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:35.511              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 63.609 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:36.204              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 14.864 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:36.915              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 66.640 ms {"action":"increment"}
+ (access)
+ERROR  2025-07-23T15:56:37.572         cart\cart.service.ts:93  | Số lượng sản phẩm vượt quá số lượng tồn kho BadRequestException: Số lượng sản phẩm vượt quá số lượng tồn kho
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:93:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.updateQuantity (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:72:23) {
+  response: {
+    message: 'Số lượng sản phẩm vượt quá số lượng tồn kho',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T15:56:37.575              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 400 - 15.738 ms {"action":"increment"}
+ (access)
+ERROR  2025-07-23T15:56:38.167         cart\cart.service.ts:93  | Số lượng sản phẩm vượt quá số lượng tồn kho BadRequestException: Số lượng sản phẩm vượt quá số lượng tồn kho
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:93:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.updateQuantity (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:72:23) {
+  response: {
+    message: 'Số lượng sản phẩm vượt quá số lượng tồn kho',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T15:56:38.169              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 400 - 11.117 ms {"action":"increment"}
+ (access)
+ERROR  2025-07-23T15:56:40.603         cart\cart.service.ts:93  | Số lượng sản phẩm vượt quá số lượng tồn kho BadRequestException: Số lượng sản phẩm vượt quá số lượng tồn kho
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:93:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async CartService.updateQuantity (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:72:23) {
+  response: {
+    message: 'Số lượng sản phẩm vượt quá số lượng tồn kho',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (default)
+INFO   2025-07-23T15:56:40.606              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 400 - 12.462 ms {"action":"increment"}
+ (access)
+INFO   2025-07-23T15:56:43.301              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 62.806 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:44.418              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 60.696 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:45.130              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 61.058 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:45.819              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 67.633 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:46.528              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 64.472 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:47.209              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 61.194 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:47.959              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 60.843 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:48.710              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 60.982 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:49.411              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 61.273 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:50.202              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 63.922 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:50.854              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 62.818 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:51.625              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 63.110 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:52.304              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 60.572 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:53.045              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 61.736 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:56:53.788              morgan\index.js:130 | ::1 thailq PATCH /api/v1/cart/1/quantity 200 - 61.708 ms {"action":"decrement"}
+ (access)
+INFO   2025-07-23T15:58:12.481              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:58:12.496                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:58:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:58:12.498                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:58:12.499                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:58:12.507       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:59:05.712              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:59:05.728                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:59:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:59:05.730                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:59:05.731                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:59:05.740       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:59:32.850              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T15:59:32.868                  src\main.ts:49  | Server time: Wed Jul 23 2025 15:59:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T15:59:32.870                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T15:59:32.872                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T15:59:32.884       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T15:59:34.649              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 139.780 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T15:59:58.241              morgan\index.js:130 | ::1 thailq DELETE /api/v1/cart/2 200 - 28.921 ms {}
+ (access)
+INFO   2025-07-23T16:04:33.774              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:04:33.789                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:04:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:04:33.791                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:04:33.793                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:04:33.802       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T16:04:50.796    mysql\MysqlQueryRunner.ts:246 | Table 'shopdev_nestjs.product' doesn't exist QueryFailedError: Table 'shopdev_nestjs.product' doesn't exist
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_name, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `product` `product` ON `cart`.`product_id` = product.product_id  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = ? AND `cart`.`user_id` = ?',
+  parameters: [ 2, 1 ],
+  driverError: Error: Table 'shopdev_nestjs.product' doesn't exist
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlState: '42S02',
+    sqlMessage: "Table 'shopdev_nestjs.product' doesn't exist",
+    sql: 'SELECT `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_name, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `product` `product` ON `cart`.`product_id` = product.product_id  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = 2 AND `cart`.`user_id` = 1'
+  },
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'shopdev_nestjs.product' doesn't exist",
+  sql: 'SELECT `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_name, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `product` `product` ON `cart`.`product_id` = product.product_id  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = 2 AND `cart`.`user_id` = 1'
+} (default)
+INFO   2025-07-23T16:04:50.818              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 500 - 50.727 ms {}
+ (access)
+ERROR  2025-07-23T16:04:56.444    mysql\MysqlQueryRunner.ts:246 | Table 'shopdev_nestjs.product' doesn't exist QueryFailedError: Table 'shopdev_nestjs.product' doesn't exist
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_name, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `product` `product` ON `cart`.`product_id` = product.product_id  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = ? AND `cart`.`user_id` = ?',
+  parameters: [ 2, 1 ],
+  driverError: Error: Table 'shopdev_nestjs.product' doesn't exist
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlState: '42S02',
+    sqlMessage: "Table 'shopdev_nestjs.product' doesn't exist",
+    sql: 'SELECT `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_name, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `product` `product` ON `cart`.`product_id` = product.product_id  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = 2 AND `cart`.`user_id` = 1'
+  },
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'shopdev_nestjs.product' doesn't exist",
+  sql: 'SELECT `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_name, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `product` `product` ON `cart`.`product_id` = product.product_id  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = 2 AND `cart`.`user_id` = 1'
+} (default)
+INFO   2025-07-23T16:04:56.455              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 500 - 12.598 ms {}
+ (access)
+INFO   2025-07-23T16:05:20.702              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:05:20.721                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:05:20 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:05:20.724                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:05:20.726                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:05:20.740       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T16:05:22.300    mysql\MysqlQueryRunner.ts:246 | Unknown column 'product.product_thumbnail' in 'field list' QueryFailedError: Unknown column 'product.product_thumbnail' in 'field list'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `product`.`product_name` AS `product_product_name`, `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `spu` `product` ON  `cart`.`product_id` = product.product_id AND `product`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = ? AND `cart`.`user_id` = ?',
+  parameters: [ 2, 1 ],
+  driverError: Error: Unknown column 'product.product_thumbnail' in 'field list'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'product.product_thumbnail' in 'field list'",
+    sql: 'SELECT `product`.`product_name` AS `product_product_name`, `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `spu` `product` ON  `cart`.`product_id` = product.product_id AND `product`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = 2 AND `cart`.`user_id` = 1'
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'product.product_thumbnail' in 'field list'",
+  sql: 'SELECT `product`.`product_name` AS `product_product_name`, `sku`.`sku_stock` AS `sku_sku_stock`, cart.*, product.product_thumbnail, sku.sku_name FROM `cart` `cart` LEFT JOIN `spu` `product` ON  `cart`.`product_id` = product.product_id AND `product`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `cart`.`sku_id` = `sku`.`sku_id` AND `cart`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `cart`.`cart_id` = 2 AND `cart`.`user_id` = 1'
+} (default)
+INFO   2025-07-23T16:05:22.327              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 500 - 45.036 ms {}
+ (access)
+INFO   2025-07-23T16:06:32.236              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:06:32.252                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:06:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:06:32.254                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:06:32.256                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:06:32.264       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T16:06:35.305    mysql\MysqlQueryRunner.ts:246 | Unknown column 'sku.sku_name' in 'field list' QueryFailedError: Unknown column 'sku.sku_name' in 'field list'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_stock` AS `sku_sku_stock`, c.*, sku.sku_name FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = ? AND `c`.`user_id` = ?',
+  parameters: [ 2, 1 ],
+  driverError: Error: Unknown column 'sku.sku_name' in 'field list'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'sku.sku_name' in 'field list'",
+    sql: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_stock` AS `sku_sku_stock`, c.*, sku.sku_name FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = 2 AND `c`.`user_id` = 1'
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'sku.sku_name' in 'field list'",
+  sql: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_stock` AS `sku_sku_stock`, c.*, sku.sku_name FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = 2 AND `c`.`user_id` = 1'
+} (default)
+INFO   2025-07-23T16:06:35.320              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 500 - 39.301 ms {}
+ (access)
+INFO   2025-07-23T16:07:29.738              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:07:29.757                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:07:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:07:29.759                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:07:29.760                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:07:29.768       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T16:07:30.403    mysql\MysqlQueryRunner.ts:246 | Unknown column 'p.product_id' in 'on clause' QueryFailedError: Unknown column 'p.product_id' in 'on clause'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_tier_idx` AS `sku_sku_tier_idx`, `sku`.`sku_stock` AS `sku_sku_stock`, c.* FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = ? AND `c`.`user_id` = ?',
+  parameters: [ 2, 1 ],
+  driverError: Error: Unknown column 'p.product_id' in 'on clause'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'p.product_id' in 'on clause'",
+    sql: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_tier_idx` AS `sku_sku_tier_idx`, `sku`.`sku_stock` AS `sku_sku_stock`, c.* FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = 2 AND `c`.`user_id` = 1'
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'p.product_id' in 'on clause'",
+  sql: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_tier_idx` AS `sku_sku_tier_idx`, `sku`.`sku_stock` AS `sku_sku_stock`, c.* FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = 2 AND `c`.`user_id` = 1'
+} (default)
+INFO   2025-07-23T16:07:30.420              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 500 - 44.755 ms {}
+ (access)
+ERROR  2025-07-23T16:07:31.556    mysql\MysqlQueryRunner.ts:246 | Unknown column 'p.product_id' in 'on clause' QueryFailedError: Unknown column 'p.product_id' in 'on clause'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_tier_idx` AS `sku_sku_tier_idx`, `sku`.`sku_stock` AS `sku_sku_stock`, c.* FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = ? AND `c`.`user_id` = ?',
+  parameters: [ 2, 1 ],
+  driverError: Error: Unknown column 'p.product_id' in 'on clause'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'p.product_id' in 'on clause'",
+    sql: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_tier_idx` AS `sku_sku_tier_idx`, `sku`.`sku_stock` AS `sku_sku_stock`, c.* FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = 2 AND `c`.`user_id` = 1'
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'p.product_id' in 'on clause'",
+  sql: 'SELECT `p`.`product_name` AS `p_product_name`, `p`.`product_thumb` AS `p_product_thumb`, `sku`.`sku_tier_idx` AS `sku_sku_tier_idx`, `sku`.`sku_stock` AS `sku_sku_stock`, c.* FROM `cart` `c` LEFT JOIN `spu` `p` ON  `c`.`product_id` = p.product_id AND `p`.`deleted_at` IS NULL  LEFT JOIN `sku` `sku` ON  `c`.`sku_id` = `sku`.`sku_id` AND `c`.`product_id` = `sku`.`product_id` AND `sku`.`deleted_at` IS NULL WHERE `c`.`cart_id` = 2 AND `c`.`user_id` = 1'
+} (default)
+INFO   2025-07-23T16:07:31.579              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 500 - 21.264 ms {}
+ (access)
+INFO   2025-07-23T16:07:54.134              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:07:54.154                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:07:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:07:54.157                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:07:54.158                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:07:54.169       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-23T16:08:02.742         cart\cart.service.ts:79  | Sản phẩm không tồn tại trong giỏ hàng NotFoundException: Sản phẩm không tồn tại trong giỏ hàng
+    at CartService.findOne (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\cart\cart.service.ts:79:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Sản phẩm không tồn tại trong giỏ hàng',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (default)
+INFO   2025-07-23T16:08:02.749              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/2 404 - 30.575 ms {}
+ (access)
+INFO   2025-07-23T16:08:14.090              morgan\index.js:130 | ::1 thailq POST /api/v1/cart 201 - 49.816 ms {"product_id":2,"quantity":10,"price":1005,"sku_id":12}
+ (access)
+INFO   2025-07-23T16:08:18.414              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/3 200 - 11.843 ms {}
+ (access)
+INFO   2025-07-23T16:10:39.981              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:10:40.008                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:10:40 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:10:40.012                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:10:40.014                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:10:40.027       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T16:10:46.326              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:10:46.345                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:10:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:10:46.349                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:10:46.350                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:10:46.360       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T16:11:24.307              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:11:24.325                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:11:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:11:24.328                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:11:24.331                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:11:24.381       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-23T16:11:27.264              morgan\index.js:130 | ::1 thailq GET /api/v1/cart/3 200 - 26.328 ms {}
+ (access)
+INFO   2025-07-23T16:12:00.750              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-23T16:12:00.771                  src\main.ts:49  | Server time: Wed Jul 23 2025 16:12:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-23T16:12:00.774                  src\main.ts:50  | Local/public ip: 192.168.1.4 - 192.168.1.4 (default)
+INFO   2025-07-23T16:12:00.776                  src\main.ts:51  | Running app on: http://192.168.1.4:3005 (default)
+INFO   2025-07-23T16:12:00.784       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)

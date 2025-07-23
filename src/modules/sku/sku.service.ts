@@ -1,9 +1,9 @@
-import {BadRequestException, Injectable} from '@nestjs/common';
-import {InjectRepository} from '@nestjs/typeorm';
-import {RedisService} from 'src/base/db/redis/redis.service';
-import {LoggingService} from 'src/base/logging';
-import {Sku} from 'src/modules/sku/entities/sku.entity';
-import {Repository} from 'typeorm';
+import { BadRequestException, Injectable } from '@nestjs/common';
+import { InjectRepository } from '@nestjs/typeorm';
+import { RedisService } from 'src/base/db/redis/redis.service';
+import { LoggingService } from 'src/base/logging';
+import { Sku } from 'src/modules/sku/entities/sku.entity';
+import { Repository } from 'typeorm';
 
 @Injectable()
 export class SkuService {
@@ -14,7 +14,7 @@ export class SkuService {
       private readonly loggingService: LoggingService,
    ) {}
 
-   async findOneSku({sku_id, product_id}: {sku_id: number; product_id: number}) {
+   async findOneSku({ sku_id, product_id }: { sku_id: number; product_id: number }) {
       try {
          const SKU_CACHE_KEY = `sku-k-${sku_id}`;
          // Read Cache
@@ -31,7 +31,7 @@ export class SkuService {
          // Read DB if not exist cache
          if (!skuCache) {
             const sku = await this.skuRepo.findOne({
-               where: {sku_id, product_id, is_deleted: false},
+               where: { sku_id, product_id, is_deleted: false },
                select: ['sku_id', 'sku_tier_idx', 'sku_default', 'sku_sort', 'sku_price', 'sku_stock', 'product_id'],
             });
 

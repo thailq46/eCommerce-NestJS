@@ -17,6 +17,7 @@ import {ShopModule} from './modules/shop/shop.module';
 import {SkuModule} from './modules/sku/sku.module';
 import {SpuModule} from './modules/spu/spu.module';
 import {UserModule} from './modules/user/user.module';
+import {CartModule} from './modules/cart/cart.module';
 
 const globalModule = [ConfigModule, LoggingModule];
 
@@ -32,6 +33,7 @@ const appModule = [
    SkuModule,
    UploadModule,
    HttpExternalModule,
+   CartModule,
 ];
 
 @Module({
