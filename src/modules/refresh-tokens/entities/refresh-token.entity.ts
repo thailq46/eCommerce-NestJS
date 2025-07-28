@@ -1,14 +1,14 @@
-import {BaseEntity, Column, CreateDateColumn, Entity, PrimaryGeneratedColumn, UpdateDateColumn} from 'typeorm';
+import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
 @Entity()
 export class RefreshToken extends BaseEntity {
    @PrimaryGeneratedColumn()
    id: number;
 
-   @Column()
+   @Column({ type: 'int' })
    user_id: number;
 
-   @Column({unique: true})
+   @Column({ type: 'nvarchar', length: 500, unique: true, nullable: true })
    token: string;
 
    @Column()
@@ -17,9 +17,9 @@ export class RefreshToken extends BaseEntity {
    @Column()
    exp: number;
 
-   @CreateDateColumn({type: 'timestamp'})
+   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP', nullable: false })
    created_at: Date;
 
-   @UpdateDateColumn({type: 'timestamp'})
+   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP', onUpdate: 'CURRENT_TIMESTAMP', nullable: false })
    updated_at: Date;
 }

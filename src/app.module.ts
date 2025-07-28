@@ -1,23 +1,25 @@
-import {MiddlewareConsumer, Module, NestModule} from '@nestjs/common';
-import {APP_GUARD} from '@nestjs/core';
-import {JwtAuthGuard} from 'src/modules/auth/jwt-auth.guard';
+import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
+import { APP_GUARD } from '@nestjs/core';
+import { JwtAuthGuard } from 'src/modules/auth/jwt-auth.guard';
 
-import {PrometheusModule} from '@willsoto/nestjs-prometheus';
-import {ConfigModule} from 'src/base/config';
-import {DatabaseModule} from 'src/base/db/db.module';
-import {RedisModule} from 'src/base/db/redis/redis.module';
-import {LoggingModule} from 'src/base/logging/logging.module';
-import {PrometheusMiddleware} from 'src/base/middleware/prometheus.middleware';
-import {RefreshTokensModule} from 'src/modules/refresh-tokens/refresh-tokens.module';
-import {UploadModule} from 'src/modules/upload/upload.module';
-import {AuthModule} from './modules/auth/auth.module';
-import {CategoryModule} from './modules/category/category.module';
-import {HttpExternalModule} from './modules/http-external/http-external.module';
-import {ShopModule} from './modules/shop/shop.module';
-import {SkuModule} from './modules/sku/sku.module';
-import {SpuModule} from './modules/spu/spu.module';
-import {UserModule} from './modules/user/user.module';
-import {CartModule} from './modules/cart/cart.module';
+import { PrometheusModule } from '@willsoto/nestjs-prometheus';
+import { ConfigModule } from 'src/base/config';
+import { DatabaseModule } from 'src/base/db/db.module';
+import { RedisModule } from 'src/base/db/redis/redis.module';
+import { LoggingModule } from 'src/base/logging/logging.module';
+import { PrometheusMiddleware } from 'src/base/middleware/prometheus.middleware';
+import { RefreshTokensModule } from 'src/modules/refresh-tokens/refresh-tokens.module';
+import { UploadModule } from 'src/modules/upload/upload.module';
+import { AuthModule } from './modules/auth/auth.module';
+import { CartModule } from './modules/cart/cart.module';
+import { CategoryModule } from './modules/category/category.module';
+import { HttpExternalModule } from './modules/http-external/http-external.module';
+import { OrderModule } from './modules/order/order.module';
+import { OrderDetailModule } from './modules/order_detail/order_detail.module';
+import { ShopModule } from './modules/shop/shop.module';
+import { SkuModule } from './modules/sku/sku.module';
+import { SpuModule } from './modules/spu/spu.module';
+import { UserModule } from './modules/user/user.module';
 
 const globalModule = [ConfigModule, LoggingModule];
 
@@ -34,10 +36,12 @@ const appModule = [
    UploadModule,
    HttpExternalModule,
    CartModule,
+   OrderModule,
+   OrderDetailModule,
 ];
 
 @Module({
-   imports: [...globalModule, ...coreModule, ...appModule, PrometheusModule.register({path: '/metrics'})],
+   imports: [...globalModule, ...coreModule, ...appModule, PrometheusModule.register({ path: '/metrics' })],
    providers: [
       {
          provide: APP_GUARD,
