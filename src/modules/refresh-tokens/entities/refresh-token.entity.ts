@@ -1,25 +1,25 @@
-import { BaseEntity, Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
+import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity()
-export class RefreshToken extends BaseEntity {
+@Entity({ name: 'refresh_tokens' })
+export class RefreshToken {
    @PrimaryGeneratedColumn()
    id: number;
 
-   @Column({ type: 'int' })
+   @Column({ name: 'user_id', type: 'int' })
    user_id: number;
 
-   @Column({ type: 'nvarchar', length: 500, unique: true, nullable: true })
+   @Column({ name: 'token', type: 'nvarchar', length: 500, unique: true })
    token: string;
 
-   @Column()
+   @Column({ name: 'iat', type: 'int', default: 0, comment: 'Thời gian tạo token' })
    iat: number;
 
-   @Column()
+   @Column({ name: 'exp', type: 'int', default: 0, comment: 'Thời gian hết hạn token' })
    exp: number;
 
-   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP', nullable: false })
+   @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP' })
    created_at: Date;
 
-   @Column({ type: 'timestamp', default: () => 'CURRENT_TIMESTAMP', onUpdate: 'CURRENT_TIMESTAMP', nullable: false })
+   @Column({ type: 'datetime', default: () => 'CURRENT_TIMESTAMP', onUpdate: 'CURRENT_TIMESTAMP' })
    updated_at: Date;
 }

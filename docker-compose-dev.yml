@@ -10,9 +10,12 @@ services:
       image: mysql:8.0
       container_name: pre-event-mysql
       volumes:
+         - /etc/localtime:/etc/localtime:ro
+         - /etc/timezone:/etc/timezone:ro
          - ./environments/data/mysql:/var/lib/mysql
          # - D:/Backup/backup.sql:/docker-entrypoint-initdb.d/backup.sql # Chỉ chạy file backup.sql khi khởi tạo container lần đầu
       command: [
+            '--default-time-zone=Asia/Ho_Chi_Minh',
             '--character-set-server=utf8mb4',
             '--collation-server=utf8mb4_unicode_ci',
             '--skip-character-set-client-handshake', # Buộc tất cả kết nối sử dụng utf8mb4
@@ -21,6 +24,7 @@ services:
          MYSQL_ROOT_PASSWORD: ${DB_PASSWORD}
          MYSQL_DATABASE: ${DB_DATABASE}
          MYSQL_PASSWORD: ${DB_PASSWORD}
+         TZ: Asia/Ho_Chi_Minh
       ports:
          - '8822:3306'
       networks:
