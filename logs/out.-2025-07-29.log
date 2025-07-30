@@ -319,3 +319,13 @@ INFO   2025-07-29T18:12:34.660              morgan\index.js:130 | ::1 thailq POS
  (access)
 INFO   2025-07-29T18:12:47.873              morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 32.354 ms {"username":"thailq@gmail.com","password":"******"}
  (access)
+INFO   2025-07-29T18:34:48.732              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-29T18:34:48.747                  src\main.ts:49  | Server time: Tue Jul 29 2025 18:34:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-29T18:34:48.749                  src\main.ts:50  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-07-29T18:34:48.750                  src\main.ts:51  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-07-29T18:34:48.757       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-29T19:13:39.882              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-29T19:13:39.895                  src\main.ts:49  | Server time: Tue Jul 29 2025 19:13:39 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-29T19:13:39.897                  src\main.ts:50  | Local/public ip: 192.168.1.9 - 192.168.1.9 (default)
+INFO   2025-07-29T19:13:39.898                  src\main.ts:51  | Running app on: http://192.168.1.9:3005 (default)
+INFO   2025-07-29T19:13:39.906       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)

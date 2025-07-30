@@ -1,7 +1,8 @@
 import * as dotenv from 'dotenv';
 import { DataSource } from 'typeorm';
 
-import { RefreshToken } from './modules/refresh-tokens/entities/refresh-token.entity';
+import { OptionValue } from './modules/option-value/entities/option-value.entity';
+// import { Option } from './modules/option/entities/option.entity';
 
 dotenv.config({ path: '.env.dev' });
 
@@ -17,7 +18,7 @@ export const AppDataSource = new DataSource({
    username: process.env.DB_USERNAME,
    password: process.env.DB_PASSWORD,
    database: process.env.DB_DATABASE,
-   entities: [RefreshToken],
+   entities: [OptionValue],
    migrations: [__dirname + '/../migrations/**/*{.ts,.js}'],
    synchronize: false,
    logging: true,

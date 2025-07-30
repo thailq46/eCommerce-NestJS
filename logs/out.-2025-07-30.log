@@ -1,0 +1,903 @@
+INFO   2025-07-30T09:44:44.789              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:44:44.807                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:44:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:44:44.809                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:44:44.810                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:44:44.819       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:47:30.536              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:47:30.548                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:47:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:47:30.550                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:47:30.550                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:47:30.558       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:50:07.870              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:50:07.882                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:50:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:50:07.884                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:50:07.885                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:50:07.891       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:50:31.586              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:50:31.599                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:50:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:50:31.600                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:50:31.601                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:50:31.608       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:50:48.543              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:50:48.554                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:50:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:50:48.556                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:50:48.557                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:50:48.563       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:51:17.715              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:51:17.728                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:51:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:51:17.730                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:51:17.730                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:51:17.737       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:51:37.038              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:51:37.050                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:51:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:51:37.052                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:51:37.053                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:51:37.059       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:51:48.900              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:51:48.912                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:51:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:51:48.914                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:51:48.915                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:51:48.921       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:53:44.310              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:53:44.322                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:53:44 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:53:44.323                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:53:44.324                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:53:44.330       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:54:29.870              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:54:29.882                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:54:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:54:29.883                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:54:29.884                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:54:29.890       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:56:01.785              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:56:01.797                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:56:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:56:01.799                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:56:01.800                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:56:01.806       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:56:46.646              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:56:46.658                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:56:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:56:46.660                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:56:46.661                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:56:46.668       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:56:51.337              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:56:51.348                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:56:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:56:51.349                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:56:51.350                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:56:51.356       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:57:55.315              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:57:55.327                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:57:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:57:55.329                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:57:55.330                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:57:55.337       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:58:01.756              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:58:01.767                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:58:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:58:01.769                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:58:01.770                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:58:01.777       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:58:23.974              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:58:23.986                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:58:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:58:23.987                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:58:23.988                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:58:23.995       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:59:32.938              morgan\index.js:130 | ::1 thailq POST /api/v1/option 400 - 164.757 ms {}
+ (access)
+INFO   2025-07-30T09:59:45.525              morgan\index.js:130 | ::1 thailq POST /api/v1/option 201 - 72.384 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T09:59:53.927              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T09:59:53.942                  src\main.ts:49  | Server time: Wed Jul 30 2025 09:59:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T09:59:53.945                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T09:59:53.946                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T09:59:53.955       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T09:59:59.224              morgan\index.js:130 | ::1 thailq POST /api/v1/option 201 - 36.555 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:01:53.103              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:01:53.119                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:01:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:01:53.121                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:01:53.122                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:01:53.132       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:03:17.963              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:03:17.986                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:03:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:03:17.988                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:03:17.989                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:03:17.998       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:04:14.597              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:04:14.614                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:04:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:04:14.616                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:04:14.617                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:04:14.624       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T10:04:26.705    mysql\MysqlQueryRunner.ts:246 | Error creating option QueryFailedError: Table 'shopdev_nestjs.option' doesn't exist
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `Option`.`id` AS `Option_id`, `Option`.`name` AS `Option_name`, `Option`.`created_at` AS `Option_created_at`, `Option`.`updated_at` AS `Option_updated_at`, `Option`.`deleted_at` AS `Option_deleted_at`, `Option`.`is_deleted` AS `Option_is_deleted` FROM `option` `Option` WHERE ( ((`Option`.`name` = ?) AND (`Option`.`is_deleted` = ?)) ) AND ( `Option`.`deleted_at` IS NULL ) LIMIT 1',
+  parameters: [ 'Color', false ],
+  driverError: Error: Table 'shopdev_nestjs.option' doesn't exist
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_NO_SUCH_TABLE',
+    errno: 1146,
+    sqlState: '42S02',
+    sqlMessage: "Table 'shopdev_nestjs.option' doesn't exist",
+    sql: "SELECT `Option`.`id` AS `Option_id`, `Option`.`name` AS `Option_name`, `Option`.`created_at` AS `Option_created_at`, `Option`.`updated_at` AS `Option_updated_at`, `Option`.`deleted_at` AS `Option_deleted_at`, `Option`.`is_deleted` AS `Option_is_deleted` FROM `option` `Option` WHERE ( ((`Option`.`name` = 'Color') AND (`Option`.`is_deleted` = false)) ) AND ( `Option`.`deleted_at` IS NULL ) LIMIT 1"
+  },
+  code: 'ER_NO_SUCH_TABLE',
+  errno: 1146,
+  sqlState: '42S02',
+  sqlMessage: "Table 'shopdev_nestjs.option' doesn't exist",
+  sql: "SELECT `Option`.`id` AS `Option_id`, `Option`.`name` AS `Option_name`, `Option`.`created_at` AS `Option_created_at`, `Option`.`updated_at` AS `Option_updated_at`, `Option`.`deleted_at` AS `Option_deleted_at`, `Option`.`is_deleted` AS `Option_is_deleted` FROM `option` `Option` WHERE ( ((`Option`.`name` = 'Color') AND (`Option`.`is_deleted` = false)) ) AND ( `Option`.`deleted_at` IS NULL ) LIMIT 1"
+} (OptionService)
+INFO   2025-07-30T10:04:26.714              morgan\index.js:130 | ::1 thailq POST /api/v1/option 400 - 51.611 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:04:58.987              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:04:59.013                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:04:59 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:04:59.017                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:04:59.019                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:04:59.035       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:06:15.056              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:06:15.100                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:06:15 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:06:15.105                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:06:15.107                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:06:15.131       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:06:35.142              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:06:35.174                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:06:35 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:06:35.178                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:06:35.181                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:06:35.202       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:07:14.017              morgan\index.js:130 | ::1 thailq POST /api/v1/option 201 - 144.630 ms {"name":"Color"}
+ (access)
+ERROR  2025-07-30T10:07:20.217     option\option.service.ts:24  | Error creating option BadRequestException: Option with name Color already exists
+    at OptionService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option\option.service.ts:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option with name Color already exists',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (OptionService)
+INFO   2025-07-30T10:07:20.221              morgan\index.js:130 | ::1 thailq POST /api/v1/option 400 - 16.933 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:08:20.124              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:08:20.137                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:08:20 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:08:20.138                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:08:20.139                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:08:20.147       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:10:01.410              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:10:01.426                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:10:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:10:01.428                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:10:01.429                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:10:01.437       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:10:17.147              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option/1 200 - 37.649 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:11:57.427              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:11:57.443                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:11:57 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:11:57.444                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:11:57.445                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:11:57.454       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:13:38.472              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option/1 200 - 49.077 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:13:40.742              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option/1 200 - 13.345 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:13:48.213              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option/1 200 - 29.409 ms {"name":"Color 1"}
+ (access)
+INFO   2025-07-30T10:14:27.358              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:14:27.371                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:14:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:14:27.373                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:14:27.374                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:14:27.380       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:15:10.133              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:15:10.146                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:15:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:15:10.147                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:15:10.148                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:15:10.155       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:16:37.465              morgan\index.js:130 | ::1 thailq DELETE /api/v1/option/1 200 - 172.173 ms {}
+ (access)
+ERROR  2025-07-30T10:17:40.817     option\option.service.ts:78  | Error deleting option BadRequestException: Option with ID 1 not found
+    at OptionService.remove (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option\option.service.ts:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option with ID 1 not found',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (Option)
+INFO   2025-07-30T10:17:40.820              morgan\index.js:130 | ::1 thailq DELETE /api/v1/option/1 400 - 11.212 ms {}
+ (access)
+INFO   2025-07-30T10:18:05.139              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:18:05.157                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:18:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:18:05.159                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:18:05.160                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:18:05.170       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:19:23.033              morgan\index.js:130 | ::1 thailq POST /api/v1/option 201 - 56.888 ms {"name":"Color"}
+ (access)
+ERROR  2025-07-30T10:19:26.437     option\option.service.ts:78  | Error deleting option BadRequestException: Option with ID 1 not found
+    at OptionService.remove (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option\option.service.ts:78:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option with ID 1 not found',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (Option)
+INFO   2025-07-30T10:19:26.440              morgan\index.js:130 | ::1 thailq DELETE /api/v1/option/1 400 - 11.686 ms {}
+ (access)
+INFO   2025-07-30T10:19:32.667              morgan\index.js:130 | ::1 thailq DELETE /api/v1/option/2 200 - 65.462 ms {}
+ (access)
+INFO   2025-07-30T10:19:43.671              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:19:43.685                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:19:43 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:19:43.687                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:19:43.688                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:19:43.695       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:20:02.571              morgan\index.js:130 | ::1 thailq POST /api/v1/option 201 - 95.925 ms {"name":"Color"}
+ (access)
+INFO   2025-07-30T10:20:08.735              morgan\index.js:130 | ::1 thailq POST /api/v1/option 201 - 20.051 ms {"name":"Storage"}
+ (access)
+ERROR  2025-07-30T10:20:10.958     option\option.service.ts:24  | Error creating option BadRequestException: Option with name Storage already exists
+    at OptionService.create (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option\option.service.ts:24:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option with name Storage already exists',
+    error: 'Bad Request',
+    statusCode: 400
+  },
+  status: 400,
+  options: {}
+} (Option)
+INFO   2025-07-30T10:20:10.961              morgan\index.js:130 | ::1 thailq POST /api/v1/option 400 - 11.503 ms {"name":"Storage"}
+ (access)
+INFO   2025-07-30T10:20:53.955              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:20:53.968                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:20:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:20:53.970                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:20:53.971                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:20:53.978       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:21:22.326              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:21:22.344                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:21:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:21:22.347                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:21:22.349                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:21:22.356       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:21:52.728              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T10:21:52.741                  src\main.ts:49  | Server time: Wed Jul 30 2025 10:21:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T10:21:52.743                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T10:21:52.744                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T10:21:52.752       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T10:22:09.833              morgan\index.js:130 | ::1 thailq GET /api/v1/option/3 200 - 27.701 ms {}
+ (access)
+INFO   2025-07-30T10:22:23.847              morgan\index.js:130 | ::1 thailq GET /api/v1/option 200 - 8.156 ms {}
+ (access)
+INFO   2025-07-30T13:01:31.299              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:01:31.314                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:01:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:01:31.317                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:01:31.319                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:01:31.326       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:01:34.496              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:01:34.509                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:01:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:01:34.511                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:01:34.512                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:01:34.520       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:04:32.785              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:04:32.802                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:04:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:04:32.804                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:04:32.805                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:04:32.813       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:04:55.559              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:04:55.653                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:04:55 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:04:55.656                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:04:55.657                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:04:55.666       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:10:27.268              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:10:27.284                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:10:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:10:27.286                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:10:27.287                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:10:27.296       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:10:36.767              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:10:36.783                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:10:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:10:36.784                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:10:36.786                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:10:36.793       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:11:56.769              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:11:56.786                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:11:56 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:11:56.789                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:11:56.792                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:11:56.802       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:12:03.392              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:12:03.411                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:12:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:12:03.417                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:12:03.449                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:12:03.480       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:12:21.199              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:12:21.220                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:12:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:12:21.223                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:12:21.224                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:12:21.238       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:13:03.949              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:13:03.969                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:13:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:13:03.971                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:13:03.972                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:13:03.981       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:13:45.187              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:13:45.212                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:13:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:13:45.215                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:13:45.217                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:13:45.226       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:13:57.769              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:13:57.791                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:13:57 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:13:57.793                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:13:57.795                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:13:57.806       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:15:25.969              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:15:25.988                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:15:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:15:25.990                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:15:25.991                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:15:26.000       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:15:32.921              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:15:32.938                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:15:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:15:32.941                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:15:32.942                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:15:32.951       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:15:41.174              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:15:41.193                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:15:41 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:15:41.194                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:15:41.195                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:15:41.205       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:16:17.240              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:16:17.273                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:16:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:16:17.295                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:16:17.326                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:16:17.340       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:17:26.208              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:17:26.224                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:17:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:17:26.228                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:17:26.229                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:17:26.239       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:17:53.319              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:17:53.340                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:17:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:17:53.342                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:17:53.343                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:17:53.357       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:18:51.166              morgan\index.js:130 | ::1 Anonymous POST /api/v1/option_value 404 - 9.093 ms {}
+ (access)
+INFO   2025-07-30T13:19:03.198              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 400 - 21.782 ms {}
+ (access)
+INFO   2025-07-30T13:20:04.438              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:20:04.457                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:20:04 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:20:04.460                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:20:04.462                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:20:04.475       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:20:17.409              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:20:17.429                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:20:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:20:17.432                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:20:17.434                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:20:17.447       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:20:50.951              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 400 - 47.391 ms {"option_id":3,"name":"256GB"}
+ (access)
+INFO   2025-07-30T13:20:57.585              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 400 - 8.168 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T13:21:25.489              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:21:25.536                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:21:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:21:25.540                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:21:25.545                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:21:25.567       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:21:30.894              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:21:30.914                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:21:30 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:21:30.916                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:21:30.917                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:21:30.926       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:22:28.004              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:22:28.022                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:22:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:22:28.025                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:22:28.026                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:22:28.035       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:22:48.076              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 201 - 43.009 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T13:30:23.844              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:30:23.865                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:30:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:30:23.867                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:30:23.868                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:30:23.878       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:30:25.364              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 201 - 48.316 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T13:32:25.815              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:32:25.831                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:32:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:32:25.834                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:32:25.835                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:32:25.844       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:33:10.980              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:33:10.997                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:33:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:33:10.998                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:33:10.999                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:33:11.008       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:33:22.923              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:33:22.940                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:33:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:33:22.943                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:33:22.944                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:33:22.952       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:34:16.930              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:34:16.948                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:34:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:34:16.950                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:34:16.951                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:34:16.959       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:34:23.984              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:34:24.048                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:34:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:34:24.090                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:34:24.104                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:34:24.119       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:34:27.288              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:34:27.306                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:34:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:34:27.308                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:34:27.309                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:34:27.326       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:34:49.833              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:34:49.860                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:34:49 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:34:49.863                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:34:49.865                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:34:49.876       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:35:09.489              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:35:09.511                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:35:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:35:09.514                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:35:09.517                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:35:09.532       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:35:14.028              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:35:14.047                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:35:14 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:35:14.053                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:35:14.055                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:35:14.068       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:35:23.863              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:35:23.882                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:35:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:35:23.884                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:35:23.885                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:35:23.894       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:35:48.784              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:35:48.801                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:35:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:35:48.803                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:35:48.804                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:35:48.815       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:36:06.475              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:36:06.494                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:36:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:36:06.498                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:36:06.499                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:36:06.509       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:36:46.992              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:36:47.012                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:36:47 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:36:47.015                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:36:47.016                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:36:47.025       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:37:13.502              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:37:13.519                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:37:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:37:13.522                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:37:13.524                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:37:13.535       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:37:24.723              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:37:24.742                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:37:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:37:24.745                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:37:24.747                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:37:24.760       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:37:54.316              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 201 - 105.007 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T13:40:27.416              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:40:27.436                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:40:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:40:27.439                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:40:27.441                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:40:27.451       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:41:07.117              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 49.647 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T13:43:12.804              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:43:12.827                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:43:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:43:12.830                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:43:12.832                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:43:12.843       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:43:26.949              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:43:26.972                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:43:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:43:26.975                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:43:26.977                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:43:26.991       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T13:43:52.470 query-builder\SelectQueryBui:3932| Error updating option value EntityPropertyNotFoundError: Property "option" was not found in "OptionValue". Make sure your query is correct.
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:3932:23)
+    at Array.forEach (<anonymous>)
+    at SelectQueryBuilder.buildRelations (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:3924:32)
+    at SelectQueryBuilder.applyFindOptions (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:3113:22)
+    at SelectQueryBuilder.setFindOptions (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:105:14)
+    at EntityManager.findOne (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:1213:14)
+    at Repository.findOne (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\repository\src\repository\Repository.ts:597:29)
+    at OptionValueService.update (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option-value\option-value.service.ts:78:64)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) (OptionValue)
+INFO   2025-07-30T13:43:52.486              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 102.154 ms {"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:45:07.408              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:45:07.435                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:45:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:45:07.469                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:45:07.504                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:45:07.520       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T13:45:09.741    mysql\MysqlQueryRunner.ts:246 | Error updating option value QueryFailedError: Unknown column 'OptionValue.optionId' in 'field list'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = ?) AND (`OptionValue`.`is_deleted` = ?) AND (`OptionValue`.`id` != ?)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1',
+  parameters: [ '512GB', false, 1 ],
+  driverError: Error: Unknown column 'OptionValue.optionId' in 'field list'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+    sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+  sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+} (OptionValue)
+INFO   2025-07-30T13:45:09.761              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 82.470 ms {"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:46:10.708              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:46:10.728                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:46:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:46:10.731                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:46:10.734                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:46:10.775       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T13:46:11.368    mysql\MysqlQueryRunner.ts:246 | Error updating option value QueryFailedError: Unknown column 'OptionValue.optionId' in 'field list'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = ?) AND (`OptionValue`.`is_deleted` = ?) AND (`OptionValue`.`id` != ?)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1',
+  parameters: [ '512GB', false, 1 ],
+  driverError: Error: Unknown column 'OptionValue.optionId' in 'field list'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+    sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+  sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+} (OptionValue)
+INFO   2025-07-30T13:46:11.380              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 67.704 ms {"value":"512GB"}
+ (access)
+ERROR  2025-07-30T13:46:56.336    mysql\MysqlQueryRunner.ts:246 | Error updating option value QueryFailedError: Unknown column 'OptionValue.optionId' in 'field list'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = ?) AND (`OptionValue`.`option_id` = ?) AND (`OptionValue`.`is_deleted` = ?) AND (`OptionValue`.`id` != ?)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1',
+  parameters: [ '512GB', 3, false, 1 ],
+  driverError: Error: Unknown column 'OptionValue.optionId' in 'field list'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+    sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`option_id` = 3) AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+  sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`option_id` = 3) AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+} (OptionValue)
+INFO   2025-07-30T13:46:56.348              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 17.952 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:47:22.883              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:47:22.904                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:47:22 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:47:22.906                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:47:22.908                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:47:22.917       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T13:48:00.034    mysql\MysqlQueryRunner.ts:246 | Error updating option value QueryFailedError: Unknown column 'OptionValue.optionId' in 'field list'
+    at Query.onResult (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\driver\src\driver\mysql\MysqlQueryRunner.ts:246:33)
+    at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:36:14)
+    at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+    at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+    at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+    at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+    at Socket.emit (node:events:524:28)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+    at Readable.push (node:internal/streams/readable:392:5) {
+  query: 'SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = ?) AND (`OptionValue`.`option_id` = ?) AND (`OptionValue`.`is_deleted` = ?) AND (`OptionValue`.`id` != ?)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1',
+  parameters: [ '512GB', 3, false, 1 ],
+  driverError: Error: Unknown column 'OptionValue.optionId' in 'field list'
+      at Packet.asError (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packets\packet.js:740:17)
+      at Query.execute (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\commands\command.js:29:26)
+      at PoolConnection.handlePacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:475:34)
+      at PacketParser.onPacket (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:93:12)
+      at PacketParser.executeStart (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\packet_parser.js:75:16)
+      at Socket.<anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\mysql2\lib\base\connection.js:100:25)
+      at Socket.emit (node:events:524:28)
+      at addChunk (node:internal/streams/readable:561:12)
+      at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+      at Readable.push (node:internal/streams/readable:392:5) {
+    code: 'ER_BAD_FIELD_ERROR',
+    errno: 1054,
+    sqlState: '42S22',
+    sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+    sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`option_id` = 3) AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+  },
+  code: 'ER_BAD_FIELD_ERROR',
+  errno: 1054,
+  sqlState: '42S22',
+  sqlMessage: "Unknown column 'OptionValue.optionId' in 'field list'",
+  sql: "SELECT `OptionValue`.`id` AS `OptionValue_id`, `OptionValue`.`option_id` AS `OptionValue_option_id`, `OptionValue`.`value` AS `OptionValue_value`, `OptionValue`.`created_at` AS `OptionValue_created_at`, `OptionValue`.`updated_at` AS `OptionValue_updated_at`, `OptionValue`.`deleted_at` AS `OptionValue_deleted_at`, `OptionValue`.`is_deleted` AS `OptionValue_is_deleted`, `OptionValue`.`optionId` AS `OptionValue_optionId` FROM `option_value` `OptionValue` WHERE ( ((`OptionValue`.`value` = '512GB') AND (`OptionValue`.`option_id` = 3) AND (`OptionValue`.`is_deleted` = false) AND (`OptionValue`.`id` != 1)) ) AND ( `OptionValue`.`deleted_at` IS NULL ) LIMIT 1"
+} (OptionValue)
+INFO   2025-07-30T13:48:00.049              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 73.336 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:48:25.062              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:48:25.085                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:48:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:48:25.087                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:48:25.089                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:48:25.103       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:48:26.092              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 49.204 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:49:06.593              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:49:06.610                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:49:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:49:06.612                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:49:06.613                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:49:06.626       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:49:09.998              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 47.177 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:50:26.178              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:50:26.198                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:50:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:50:26.201                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:50:26.203                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:50:26.213       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:50:27.716              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 52.170 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:54:54.559              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:54:54.583                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:54:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:54:54.585                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:54:54.589                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:54:54.602       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:54:55.710              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 45.937 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T13:57:24.002              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:57:24.024                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:57:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:57:24.027                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:57:24.028                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:57:24.040       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:57:32.351              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T13:57:32.371                  src\main.ts:49  | Server time: Wed Jul 30 2025 13:57:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T13:57:32.373                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T13:57:32.375                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T13:57:32.388       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T13:57:38.799              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 70.294 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T14:00:20.606              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:00:20.636                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:00:20 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:00:20.638                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:00:20.640                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:00:20.659       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:00:21.858              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 39.059 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T14:00:29.081              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:00:29.096                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:00:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:00:29.098                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:00:29.099                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:00:29.107       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:00:29.604              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 41.204 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T14:02:10.480              morgan\index.js:130 | ::1 thailq POST /api/v1/option-value 201 - 45.425 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T14:02:26.680              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 12.348 ms {"option_id":3,"value":"512GB"}
+ (access)
+INFO   2025-07-30T14:02:34.434              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 10.191 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T14:03:13.836              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:03:13.855                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:03:13 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:03:13.857                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:03:13.860                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:03:13.870       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:03:17.119              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:03:17.136                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:03:17 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:03:17.138                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:03:17.140                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:03:17.149       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T14:03:20.579 option-value\option-value.se:77  | Error updating option value NotFoundException: Option value with value 256GB already exists for option ID 3
+    at OptionValueService.update (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option-value\option-value.service.ts:77:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option value with value 256GB already exists for option ID 3',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (OptionValue)
+INFO   2025-07-30T14:03:20.587              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 52.428 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T14:04:11.604              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:04:11.621                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:04:11 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:04:11.623                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:04:11.624                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:04:11.633       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T14:04:12.643 option-value\option-value.se:72  | Error updating option value NotFoundException: Option value with value 256GB already exists for option ID 3
+    at OptionValueService.update (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option-value\option-value.service.ts:72:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option value with value 256GB already exists for option ID 3',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (OptionValue)
+INFO   2025-07-30T14:04:12.651              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 47.595 ms {"option_id":3,"value":"256GB"}
+ (access)
+ERROR  2025-07-30T14:04:13.527 option-value\option-value.se:72  | Error updating option value NotFoundException: Option value with value 256GB already exists for option ID 3
+    at OptionValueService.update (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option-value\option-value.service.ts:72:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option value with value 256GB already exists for option ID 3',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (OptionValue)
+INFO   2025-07-30T14:04:13.531              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 500 - 11.863 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T14:04:34.323              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:04:34.338                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:04:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:04:34.340                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:04:34.341                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:04:34.350       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T14:04:35.805 option-value\option-value.se:72  | Error updating option value NotFoundException: Option value with value 256GB already exists for option ID 3
+    at OptionValueService.update (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option-value\option-value.service.ts:72:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option value with value 256GB already exists for option ID 3',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (OptionValue)
+INFO   2025-07-30T14:04:35.815              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 404 - 70.491 ms {"option_id":3,"value":"256GB"}
+ (access)
+INFO   2025-07-30T14:04:51.356              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:04:51.369                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:04:51 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:04:51.371                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:04:51.372                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:04:51.380       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:05:17.811              morgan\index.js:130 | ::1 thailq PATCH /api/v1/option-value/1 200 - 67.773 ms {"option_id":3,"value":"254GB"}
+ (access)
+INFO   2025-07-30T14:06:06.529              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:06:06.546                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:06:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:06:06.547                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:06:06.549                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:06:06.556       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:06:29.304              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:06:29.357                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:06:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:06:29.380                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:06:29.382                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:06:29.397       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:06:45.159              morgan\index.js:130 | ::1 thailq DELETE /api/v1/option-value/1 200 - 66.385 ms {"option_id":3,"value":"254GB"}
+ (access)
+INFO   2025-07-30T14:07:18.802              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:07:18.819                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:07:18 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:07:18.822                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:07:18.823                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:07:18.831       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:07:25.951              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:07:25.966                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:07:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:07:25.968                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:07:25.969                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:07:25.980       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:07:49.487              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:07:49.506                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:07:49 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:07:49.508                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:07:49.509                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:07:49.519       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T14:08:05.471 option-value\option-value.se:60  | Error finding option value NotFoundException: Option value with ID 1 not found
+    at OptionValueService.findOne (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option-value\option-value.service.ts:60:19)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5) {
+  response: {
+    message: 'Option value with ID 1 not found',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (OptionValue)
+INFO   2025-07-30T14:08:05.477              morgan\index.js:130 | ::1 thailq GET /api/v1/option-value/1 400 - 41.434 ms {"option_id":3,"value":"254GB"}
+ (access)
+INFO   2025-07-30T14:08:09.685              morgan\index.js:130 | ::1 thailq GET /api/v1/option-value/2 200 - 14.701 ms {"option_id":3,"value":"254GB"}
+ (access)
+INFO   2025-07-30T14:08:50.332              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:08:50.353                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:08:50 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:08:50.356                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:08:50.358                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:08:50.370       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:08:56.877              morgan\index.js:130 | ::1 thailq GET /api/v1/option 200 - 31.196 ms {}
+ (access)
+INFO   2025-07-30T14:09:59.041              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:09:59.056                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:09:59 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:09:59.058                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:09:59.059                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:09:59.066       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+ERROR  2025-07-30T14:10:01.211 query-builder\SelectQueryBui:3932| Error retrieving options EntityPropertyNotFoundError: Property "optionValues" was not found in "Option". Make sure your query is correct.
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:3932:23)
+    at Array.forEach (<anonymous>)
+    at SelectQueryBuilder.buildRelations (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:3924:32)
+    at SelectQueryBuilder.applyFindOptions (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:3113:22)
+    at SelectQueryBuilder.setFindOptions (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\query-builder\src\query-builder\SelectQueryBuilder.ts:105:14)
+    at EntityManager.find (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:1106:14)
+    at Repository.find (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\repository\src\repository\Repository.ts:544:29)
+    at OptionService.findAll (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option\option.service.ts:40:11)
+    at OptionController.findAll (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\option\option.controller.ts:18:33)
+    at D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\@nestjs\core\router\router-execution-context.js:38:29 (Option)
+INFO   2025-07-30T14:10:01.219              morgan\index.js:130 | ::1 thailq GET /api/v1/option 400 - 34.197 ms {}
+ (access)
+INFO   2025-07-30T14:10:21.456              db\db.module.ts:37  | DB Connected successfully DatabaseModule (default)
+INFO   2025-07-30T14:10:21.470                  src\main.ts:49  | Server time: Wed Jul 30 2025 14:10:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-07-30T14:10:21.472                  src\main.ts:50  | Local/public ip: 192.168.1.8 - 192.168.1.8 (default)
+INFO   2025-07-30T14:10:21.473                  src\main.ts:51  | Running app on: http://192.168.1.8:3005 (default)
+INFO   2025-07-30T14:10:21.482       redis\redis.service.ts:88  | connectionIORedis - Connection status: connected RedisService (default)
+INFO   2025-07-30T14:10:22.702              morgan\index.js:130 | ::1 thailq GET /api/v1/option 200 - 25.329 ms {}
+ (access)

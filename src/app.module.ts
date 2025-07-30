@@ -14,6 +14,8 @@ import { AuthModule } from './modules/auth/auth.module';
 import { CartModule } from './modules/cart/cart.module';
 import { CategoryModule } from './modules/category/category.module';
 import { HttpExternalModule } from './modules/http-external/http-external.module';
+import { OptionValueModule } from './modules/option-value/option-value.module';
+import { OptionModule } from './modules/option/option.module';
 import { OrderModule } from './modules/order/order.module';
 import { OrderDetailModule } from './modules/order_detail/order_detail.module';
 import { ShopModule } from './modules/shop/shop.module';
@@ -38,6 +40,8 @@ const appModule = [
    CartModule,
    OrderModule,
    OrderDetailModule,
+   OptionModule,
+   OptionValueModule,
 ];
 
 @Module({
