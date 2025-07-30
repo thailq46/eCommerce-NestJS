@@ -18,6 +18,9 @@ import { OptionValueModule } from './modules/option-value/option-value.module';
 import { OptionModule } from './modules/option/option.module';
 import { OrderModule } from './modules/order/order.module';
 import { OrderDetailModule } from './modules/order_detail/order_detail.module';
+import { ProductVariantOptionValueModule } from './modules/product-variant-option-value/product-variant-option-value.module';
+import { ProductVariantModule } from './modules/product-variant/product-variant.module';
+import { ProductModule } from './modules/product/product.module';
 import { ShopModule } from './modules/shop/shop.module';
 import { SkuModule } from './modules/sku/sku.module';
 import { SpuModule } from './modules/spu/spu.module';
@@ -42,6 +45,9 @@ const appModule = [
    OrderDetailModule,
    OptionModule,
    OptionValueModule,
+   ProductModule,
+   ProductVariantModule,
+   ProductVariantOptionValueModule,
 ];
 
 @Module({
