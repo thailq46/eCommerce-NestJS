@@ -1,6 +1,7 @@
-import { Body, Controller, Delete, Get, Param, Patch, Post, Req } from '@nestjs/common';
+import { Body, Controller, Delete, Get, Param, Patch, Post, Query, Req } from '@nestjs/common';
 import { Request } from 'express';
 import { ParamIdDto } from 'src/base/shared/dto/common.dto';
+import { QuerySpecificationDto } from 'src/base/shared/dto/query-specification.dto';
 import { CartService } from './cart.service';
 import { CreateCartDto, UpdateCartQuantityDto } from './dto/create-cart.dto';
 
@@ -16,6 +17,10 @@ export class CartController {
    @Get(':id')
    findOne(@Param() { id }: ParamIdDto, @Req() req: Request) {
       return this.cartService.findOne({ cart_id: id, user: req.user });
+   }
+   @Get()
+   findAllCartByUser(@Query() query: QuerySpecificationDto, @Req() req: Request) {
+      return this.cartService.findAllCartByUser({ user: req.user, query });
    }
 
    @Patch(':id/quantity')

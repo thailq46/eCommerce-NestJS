@@ -34,10 +34,10 @@ export class DatabaseModule implements OnModuleInit {
          // Sử dụng connection đã inject qua constructor
          if (this.connection.isInitialized) {
             // console.log('DB Connected successfully');
-            this.loggingService.logger.default.log('DB Connected successfully', DatabaseModule.name);
+            this.loggingService.getLogger('Database').log('DB Connected successfully', DatabaseModule.name);
          }
       } catch (error) {
-         this.loggingService.logger.default.error(`Failed to connect to DB: ${error}`, DatabaseModule.name);
+         this.loggingService.getLogger('Database').error(`Failed to connect to DB: ${error}`, DatabaseModule.name);
          // console.error('Failed to connect to DB', error);
       }
    }

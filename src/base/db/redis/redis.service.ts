@@ -6,9 +6,9 @@ import {
    OnModuleInit,
 } from '@nestjs/common';
 import Redis from 'ioredis';
-import {config} from 'src/base/config';
-import {LockParams, TryLockParams} from 'src/base/db/redis/redis.interface';
-import {LoggingService} from 'src/base/logging';
+import { config } from 'src/base/config';
+import { LockParams, TryLockParams } from 'src/base/db/redis/redis.interface';
+import { LoggingService } from 'src/base/logging';
 
 @Injectable()
 export class RedisService implements OnModuleInit, OnModuleDestroy {
@@ -66,18 +66,14 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          this.clients.instanceConnect = redisInstance;
          this.handleEventConnection(redisInstance);
       } catch (error) {
-         this.loggingService.logger.default.error(
-            `Failed to initialize Redis connection: ${error.message}`,
-            this.category,
-         );
-         throw error;
+         this.loggingService.getLogger(this.category).error(`Failed to initialize Redis connection: ${error.message}`);
+         throw new InternalServerErrorException(this.REDIS_CONNECT_MESSAGE.message.vn);
       }
    }
 
    private handleTimeoutError() {
       this.connectionTimeout = setTimeout(() => {
-         this.loggingService.logger.default.error('Cannot connect to Redis - connection timeout', this.category);
-         // console.log(`connectionIORedis - Connection status: timeout`);
+         this.loggingService.getLogger(this.category).error('Cannot connect to Redis - connection timeout');
          // Trong NestJS, thường không ném lỗi trực tiếp mà xử lý gracefully
          throw new InternalServerErrorException(this.REDIS_CONNECT_MESSAGE.message.vn);
       }, this.REDIS_CONNECT_TIMEOUT);
@@ -85,8 +81,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
 
    private handleEventConnection(redisConnection: Redis) {
       redisConnection.on(this.statusConnectRedis.CONNECT, () => {
-         this.loggingService.logger.default.info('connectionIORedis - Connection status: connected', this.category);
-         // console.log(`connectionIORedis - Connection status: connected`);
+         this.loggingService.getLogger(this.category).info('connectionIORedis - Connection status: connected');
          if (this.connectionTimeout) {
             clearTimeout(this.connectionTimeout);
             this.connectionTimeout = null;
@@ -94,14 +89,12 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       });
 
       redisConnection.on(this.statusConnectRedis.END, () => {
-         this.loggingService.logger.default.warn('Redis connection ended', this.category);
-         // console.log(`connectionIORedis - Connection status: disconnected`);
+         this.loggingService.getLogger(this.category).warn('Redis connection ended');
          this.handleTimeoutError();
       });
 
       redisConnection.on(this.statusConnectRedis.RECONNECT, () => {
-         this.loggingService.logger.default.info('Attempting to reconnect to Redis', this.category);
-         // console.log(`connectionIORedis - Connection status: reconnecting`);
+         this.loggingService.getLogger(this.category).info('Attempting to reconnect to Redis');
          if (this.connectionTimeout) {
             clearTimeout(this.connectionTimeout);
             this.connectionTimeout = null;
@@ -109,8 +102,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       });
 
       redisConnection.on(this.statusConnectRedis.ERROR, (err) => {
-         this.loggingService.logger.default.error(`Redis connection error: ${err.message}`, this.category);
-         // console.log(`connectionIORedis - Connection status: error ${err}`);
+         this.loggingService.getLogger(this.category).error(`Redis connection error: ${err.message}`);
          this.handleTimeoutError();
       });
    }
@@ -126,13 +118,13 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       for (const clientName in this.clients) {
          if (this.clients[clientName]) {
             await this.clients[clientName].quit();
-            this.loggingService.logger.default.info(`Closed Redis connection: ${clientName}`, this.category);
+            this.loggingService.getLogger(this.category).info(`Closed Redis connection: ${clientName}`);
          }
       }
       this.clients = {};
    }
 
-   async set({key, value}: {key: string; value: any}) {
+   async set({ key, value }: { key: string; value: any }) {
       try {
          const redisCache = this.getClient();
          if (!redisCache) {
@@ -140,7 +132,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          }
          return await redisCache.set(key, value);
       } catch (error) {
-         this.loggingService.logger.default.error(`set ~ error: ${error}`, this.category);
+         this.loggingService.getLogger(this.category).error(`set ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
@@ -153,12 +145,12 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          }
          return await redisCache.get(key);
       } catch (error) {
-         this.loggingService.logger.default.error(`get ~ error: ${error}`, this.category);
+         this.loggingService.getLogger(this.category).error(`get ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
 
-   async setCacheWithExpireTime({key, value, expireTime}: {key: string; value: any; expireTime: number}) {
+   async setCacheWithExpireTime({ key, value, expireTime }: { key: string; value: any; expireTime: number }) {
       try {
          const redisCache = this.getClient();
          if (!redisCache) {
@@ -166,19 +158,18 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          }
          return await redisCache.set(key, value, 'EX', expireTime);
       } catch (error) {
-         this.loggingService.logger.default.error(`setCacheWithExpireTime ~ error: ${error}`, this.category);
+         this.loggingService.getLogger(this.category).error(`setCacheWithExpireTime ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
 
    // DISTRIBUTED LOCK
-   async tryLock({keyLock, value, waitTime, leaseTime, unit}: TryLockParams) {
+   async tryLock({ keyLock, value, waitTime, leaseTime, unit }: TryLockParams) {
       try {
          const redisCache = this.getClient();
          if (!redisCache) {
             throw new InternalServerErrorException('Cannot connect to Redis');
          }
-
          const ttl = unit === 'seconds' ? leaseTime * 1000 : leaseTime;
          const waitMs = unit === 'seconds' ? waitTime * 1000 : waitTime;
          const startTime = Date.now();
@@ -186,30 +177,28 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          while (Date.now() - startTime < waitMs) {
             const result = await redisCache.set(keyLock, value, 'PX', ttl, 'NX');
             if (result === 'OK') {
-               this.loggingService.logger.default.info(
-                  `tryLock ~ Successfully acquired lock for key: ${keyLock}`,
-                  this.category,
-               );
+               this.loggingService
+                  .getLogger(this.category)
+                  .info(`tryLock ~ Successfully acquired lock for key: ${keyLock}`);
                return true; // Lấy khóa thành công
             }
             // Chờ một khoảng ngắn trước khi thử lại
             await new Promise((resolve) => setTimeout(resolve, 100)); // Chờ 100ms giữa các lần thử
          }
-
          return false; // Không lấy được khóa sau waitTime
       } catch (error) {
-         this.loggingService.logger.default.error(`tryLock ~ error: ${error}`, this.category);
+         this.loggingService.getLogger(this.category).error(`tryLock ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
 
-   async lock({keyLock, value, leaseTime, unit, options = {}}: LockParams) {
+   async lock({ keyLock, value, leaseTime, unit, options = {} }: LockParams) {
       try {
          const redisCache = this.getClient();
          if (!redisCache) {
             throw new InternalServerErrorException('Cannot connect to Redis');
          }
-         const {timeout = 5000, maxRetries = 5, retryDelay = 100} = options;
+         const { timeout = 5000, maxRetries = 5, retryDelay = 100 } = options;
          const ttl = unit === 'seconds' ? leaseTime * 1000 : leaseTime;
          let attempts = 0;
          const startTime = Date.now();
@@ -220,7 +209,7 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
             await new Promise((resolve) => setTimeout(resolve, retryDelay));
          }
       } catch (error) {
-         this.loggingService.logger.default.error(`lock ~ error: ${error}`, this.category);
+         this.loggingService.getLogger(this.category).error(`lock ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }
@@ -234,12 +223,12 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          // Xóa khóa hiện tại
          const result = await redisCache.del(keyLock);
          if (result === 0) {
-            this.loggingService.logger.default.warn(`unlock ~ No lock found for key: ${keyLock}`, this.category);
+            this.loggingService.getLogger(this.category).warn(`unlock ~ No lock found for key: ${keyLock}`);
          } else {
-            this.loggingService.logger.default.info(`unlock ~ Successfully unlocked key: ${keyLock}`, this.category);
+            this.loggingService.getLogger(this.category).info(`unlock ~ Successfully unlocked key: ${keyLock}`);
          }
       } catch (error) {
-         this.loggingService.logger.default.error(`unlock ~ error: ${error}`, this.category);
+         this.loggingService.getLogger(this.category).error(`unlock ~ error: ${error}`);
          throw new InternalServerErrorException('Cannot connect to Redis');
       }
    }

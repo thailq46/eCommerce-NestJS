@@ -5,7 +5,8 @@ import { DataSource } from 'typeorm';
 // import { Option } from './modules/option/entities/option.entity';
 // import { ProductVariant } from './modules/product-variant/entities/product-variant.entity';
 // import { ProductVariantOptionValue } from './modules/product-variant-option-value/entities/product-variant-option-value.entity';
-import { Product } from './modules/product/entities/product.entity';
+// import { Product } from './modules/product/entities/product.entity';
+import { Cart } from './modules/cart/entities/cart.entity';
 
 dotenv.config({ path: '.env.dev' });
 
@@ -21,7 +22,7 @@ export const AppDataSource = new DataSource({
    username: process.env.DB_USERNAME,
    password: process.env.DB_PASSWORD,
    database: process.env.DB_DATABASE,
-   entities: [Product],
+   entities: [Cart],
    migrations: [__dirname + '/../migrations/**/*{.ts,.js}'],
    synchronize: false,
    logging: true,

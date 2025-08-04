@@ -14,13 +14,13 @@ export class CreateCartDto {
    @IsNumber(undefined, { message: 'Price phải là một số' })
    price: number;
 
-   @IsNotEmpty({ message: 'SKU ID không được để trống' })
-   @IsNumber(undefined, { message: 'SKU ID phải là một số' })
-   sku_id: number;
+   @IsNotEmpty({ message: 'Product Variant Id không được để trống' })
+   @IsNumber(undefined, { message: 'Product Variant Id phải là một số' })
+   product_variant_id: number;
 }
 
 export class UpdateCartQuantityDto {
    @IsNotEmpty({ message: 'Action không được để trống' })
-   @IsEnum(QuantityAction, { message: 'Action phải là INCREMENT hoặc DECREMENT' })
+   @IsEnum(QuantityAction, { message: 'Action không hợp lệ' })
    action: QuantityAction;
 }

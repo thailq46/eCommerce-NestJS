@@ -1,7 +1,12 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, Injectable, InternalServerErrorException, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { QuerySpecificationDto } from 'src/base/shared/dto/query-specification.dto';
 import { QuantityAction } from 'src/modules/cart/types';
-import { Sku } from 'src/modules/sku/entities/sku.entity';
+import { OptionValue } from 'src/modules/option-value/entities/option-value.entity';
+import { Option } from 'src/modules/option/entities/option.entity';
+import { ProductVariantOptionValue } from 'src/modules/product-variant-option-value/entities/product-variant-option-value.entity';
+import { ProductVariant } from 'src/modules/product-variant/entities/product-variant.entity';
+import { Product } from 'src/modules/product/entities/product.entity';
 import { Repository } from 'typeorm';
 import { LoggingService } from '../../base/logging';
 import { IUser } from '../user/types';
@@ -19,24 +24,22 @@ export class CartService {
    async createCart({ data, user }: { data: CreateCartDto; user: IUser }) {
       try {
          const cart = await this.cartRepo.manager.transaction(async (tx) => {
-            const { product_id, quantity, sku_id, price } = data;
-            const [cartItem, skuItem] = await Promise.all([
+            const { product_id, quantity, product_variant_id, price } = data;
+            const [cartItem, productVariant] = await Promise.all([
                tx.findOne(Cart, { where: { user_id: user.usr_id, product_id } }),
-               tx.findOne(Sku, { where: { sku_id, product_id, is_deleted: false } }),
+               tx.findOne(ProductVariant, { where: { id: product_variant_id, product_id, is_deleted: false } }),
             ]);
-
-            if (!skuItem) {
+            if (!productVariant) {
                throw new NotFoundException('Thuộc tính sản phẩm không tồn tại');
             }
-
-            if (price !== Number(skuItem.sku_price)) {
+            if (price !== Number(productVariant.price)) {
                throw new BadRequestException('Giá sản phẩm không hợp lệ');
             }
             if (cartItem) {
                // Nếu giỏ hàng đã tồn tại, cập nhật số lượng
-               const skuStock = skuItem.sku_stock;
+               const productVariantStock = productVariant.stock_quantity;
                const totalQuantity = cartItem.quantity + quantity;
-               if (totalQuantity > skuStock) {
+               if (totalQuantity > productVariantStock) {
                   throw new BadRequestException('Số lượng sản phẩm trong giỏ hàng vượt quá số lượng tồn kho');
                }
                cartItem.quantity = totalQuantity;
@@ -44,7 +47,13 @@ export class CartService {
                return cartItem;
             } else {
                // Nếu giỏ hàng chưa tồn tại, tạo mới
-               const newCart = tx.create(Cart, { user_id: user.usr_id, product_id, quantity, sku_id, price });
+               const newCart = tx.create(Cart, {
+                  user_id: user.usr_id,
+                  product_id,
+                  quantity,
+                  product_variant_id,
+                  price,
+               });
                await tx.save(newCart);
                return newCart;
             }
@@ -54,8 +63,11 @@ export class CartService {
             data: cart,
          };
       } catch (e) {
-         this.logService.logger.default.error(e?.message ?? 'Tạo giỏ hàng thất bại', e);
-         throw e;
+         this.logService.getLogger(Cart.name).error(e?.message ?? 'Tạo giỏ hàng thất bại', e);
+         if (e instanceof NotFoundException || e instanceof BadRequestException) {
+            throw e;
+         }
+         throw new InternalServerErrorException('Đã xảy ra lỗi khi tạo giỏ hàng');
       }
    }
 
@@ -63,26 +75,61 @@ export class CartService {
       try {
          const cartItem = await this.cartRepo
             .createQueryBuilder('c')
-            .where('c.cart_id = :cartId', { cartId: cart_id })
-            .andWhere('c.user_id = :userId', { userId: user.usr_id })
-            .leftJoinAndSelect('spu', 'p', 'c.product_id = p.spu_id')
-            .leftJoinAndSelect('sku', 'sku', 'c.sku_id = sku.sku_id AND c.product_id = sku.product_id')
+            .where('c.cart_id = :cart_id', { cart_id })
+            .andWhere('c.user_id = :user_id', { user_id: user.usr_id })
+            .leftJoin(Product, 'p', 'c.product_id = p.id')
+            .leftJoin(ProductVariant, 'pv', 'c.product_variant_id = pv.id AND c.product_id = pv.product_id')
+            .leftJoin(ProductVariantOptionValue, 'pvov', 'pvov.product_variant_id = pv.id')
+            .leftJoin(OptionValue, 'ov', 'ov.id = pvov.option_value_id AND ov.is_deleted = false')
+            .leftJoin(Option, 'o', 'o.id = ov.option_id AND o.is_deleted = false')
             .select([
                'c.*',
-               'p.product_name AS product_name',
-               'p.product_thumb AS product_thumb',
-               'sku.sku_tier_idx AS product_attribute',
-               'sku.sku_stock AS product_stock',
+               'p.name AS product_name',
+               'p.thumbnail AS product_thumb',
+               'pv.sku AS product_attribute',
+               'pv.stock AS product_stock',
+               'o.name AS option_name',
+               'ov.value AS option_value',
             ])
-            .getRawOne();
+            .getRawMany();
 
          if (!cartItem) {
             throw new NotFoundException('Sản phẩm không tồn tại trong giỏ hàng');
          }
 
+         const productData = cartItem[0];
+         const productVariants = new Map();
+
+         cartItem.forEach((item) => {
+            const variantKey = `${item.product_variant_id}-${item.product_id}`;
+            if (!productVariants.has(variantKey)) {
+               productVariants.set(variantKey, {
+                  product_variant_id: item.product_variant_id,
+                  sku: item.product_attribute,
+                  stock: item.product_stock,
+                  options: [],
+               });
+            }
+            if (item.option_name && item.option_value) {
+               productVariants.get(variantKey).options.push({
+                  name: item.option_name,
+                  value: item.option_value,
+               });
+            }
+         });
+         const formattedCartItem = {
+            cart_id: productData.cart_id,
+            user_id: productData.user_id,
+            product_id: productData.product_id,
+            product_name: productData.product_name,
+            product_thumb: productData.product_thumb,
+            quantity: productData.quantity,
+            price: Number(productData.price),
+            product_variants: Array.from(productVariants.values()),
+         };
          return {
             message: 'Lấy chi tiết giỏ hàng thành công',
-            data: cartItem,
+            data: formattedCartItem,
          };
       } catch (e) {
          this.logService.logger.default.error(e?.message ?? 'Lấy chi tiết giỏ hàng thất bại', e);
@@ -90,29 +137,145 @@ export class CartService {
       }
    }
 
+   async findAllCartByUser({ user, query }: { user: IUser; query: QuerySpecificationDto }) {
+      try {
+         const { page = 1, limit = 10 } = query;
+         const offset = (page - 1) * limit;
+
+         const totalCount = await this.cartRepo
+            .createQueryBuilder('c')
+            .where('c.user_id = :user_id', { user_id: user.usr_id })
+            .getCount();
+
+         if (totalCount === 0) {
+            return {
+               message: 'Giỏ hàng trống',
+               data: {
+                  data: [],
+                  meta: {
+                     page,
+                     limit,
+                     total: 0,
+                     totalPages: 0,
+                  },
+               },
+            };
+         }
+
+         const cartItems = await this.cartRepo
+            .createQueryBuilder('c')
+            .where('c.user_id = :user_id', { user_id: user.usr_id })
+            .leftJoin(Product, 'p', 'c.product_id = p.id AND p.is_deleted = false')
+            .leftJoin(
+               ProductVariant,
+               'pv',
+               'c.product_variant_id = pv.id AND c.product_id = pv.product_id AND pv.is_deleted = false',
+            )
+            .leftJoin(ProductVariantOptionValue, 'pvov', 'pvov.product_variant_id = pv.id')
+            .leftJoin(OptionValue, 'ov', 'ov.id = pvov.option_value_id AND ov.is_deleted = false')
+            .leftJoin(Option, 'o', 'o.id = ov.option_id AND o.is_deleted = false')
+            .select([
+               'c.cart_id AS cart_id',
+               'c.user_id AS user_id',
+               'c.product_id AS product_id',
+               'c.quantity AS quantity',
+               'c.price AS price',
+               'c.product_variant_id AS product_variant_id',
+               'c.created_at AS created_at',
+               'c.updated_at AS updated_at',
+               'p.name AS product_name',
+               'p.thumbnail AS product_thumb',
+               'p.slug AS product_slug',
+               'pv.sku AS product_attribute',
+               'pv.stock_quantity AS product_stock',
+               'o.name AS option_name',
+               'ov.value AS option_value',
+            ])
+            .orderBy('c.created_at', 'DESC')
+            .limit(limit)
+            .offset(offset)
+            .getRawMany();
+
+         const cartMap = new Map();
+
+         cartItems.forEach((item) => {
+            const cartId = item.cart_id;
+            if (!cartMap.has(cartId)) {
+               cartMap.set(cartId, {
+                  cart_id: item.cart_id,
+                  user_id: item.user_id,
+                  product_id: item.product_id,
+                  product_name: item.product_name,
+                  product_thumb: item.product_thumb,
+                  product_slug: item.product_slug,
+                  quantity: item.quantity,
+                  price: Number(item.price),
+                  product_variants: {
+                     product_variant_id: item.product_variant_id,
+                     sku: item.product_attribute,
+                     stock: item.product_stock,
+                     options: [],
+                  },
+               });
+            }
+            if (item.option_name && item.option_value) {
+               const cartItem = cartMap.get(cartId);
+               const existingOption = cartItem.product_variants.options.find(
+                  (opt) => opt.name === item.option_name && opt.value === item.option_value,
+               );
+               if (!existingOption) {
+                  cartItem.product_variants.options.push({
+                     name: item.option_name,
+                     value: item.option_value,
+                  });
+               }
+            }
+         });
+
+         const formattedCartItems = Array.from(cartMap.values());
+         const totalPages = Math.ceil(totalCount / limit);
+
+         return {
+            message: 'Lấy danh sách giỏ hàng thành công',
+            data: {
+               data: formattedCartItems,
+               meta: {
+                  page: Number(page),
+                  limit: Number(limit),
+                  total: totalCount,
+                  totalPages,
+                  hasNext: page < totalPages,
+                  hasPrev: page > 1,
+               },
+            },
+         };
+      } catch (e) {
+         this.logService.getLogger(Cart.name).error(e?.message ?? 'Lấy danh sách giỏ hàng thất bại', e);
+         if (e instanceof NotFoundException || e instanceof BadRequestException) {
+            throw e;
+         }
+         throw new InternalServerErrorException('Đã xảy ra lỗi khi lấy danh sách giỏ hàng');
+      }
+   }
+
    async updateQuantity({ cart_id, payload, user }: { cart_id: number; payload: UpdateCartQuantityDto; user: IUser }) {
       try {
          const cart = await this.cartRepo.manager.transaction(async (tx) => {
             const { action } = payload;
-
             const cartItem = await tx.findOne(Cart, {
                where: { cart_id, user_id: user.usr_id },
             });
-
             if (!cartItem) {
                throw new NotFoundException('Sản phẩm không tồn tại trong giỏ hàng');
             }
-
-            const skuItem = await tx.findOne(Sku, {
-               where: { sku_id: cartItem.sku_id, product_id: cartItem.product_id, is_deleted: false },
+            const productVariant = await tx.findOne(ProductVariant, {
+               where: { id: cartItem.product_variant_id, product_id: cartItem.product_id, is_deleted: false },
             });
-
-            if (!skuItem) {
+            if (!productVariant) {
                throw new NotFoundException('Thuộc tính sản phẩm không tồn tại');
             }
-
             if (action === QuantityAction.INCREMENT) {
-               if (cartItem.quantity + 1 > skuItem.sku_stock) {
+               if (cartItem.quantity + 1 > productVariant.stock_quantity) {
                   throw new BadRequestException('Số lượng sản phẩm vượt quá số lượng tồn kho');
                }
                cartItem.quantity += 1;
@@ -124,28 +287,27 @@ export class CartService {
                }
                cartItem.quantity -= 1;
             }
-
             if (cartItem.quantity > 0) {
                await tx.save(cartItem);
             }
-
             return cartItem;
          });
-
          if (cart === null) {
             return {
                message: 'Đã xóa sản phẩm khỏi giỏ hàng',
                data: null,
             };
          }
-
          return {
             message: 'Cập nhật số lượng thành công',
             data: cart,
          };
       } catch (e) {
-         this.logService.logger.default.error(e?.message ?? 'Cập nhật số lượng thất bại', e);
-         throw e;
+         this.logService.getLogger(Cart.name).error(e?.message ?? 'Cập nhật số lượng thất bại', e);
+         if (e instanceof NotFoundException || e instanceof BadRequestException) {
+            throw e;
+         }
+         throw new InternalServerErrorException('Đã xảy ra lỗi khi cập nhật số lượng sản phẩm');
       }
    }
 
@@ -155,27 +317,26 @@ export class CartService {
             const cartItem = await tx.findOne(Cart, {
                where: { cart_id, user_id: user.usr_id },
             });
-
             if (!cartItem) {
                throw new NotFoundException('Sản phẩm không tồn tại trong giỏ hàng');
             }
-
             await tx.remove(cartItem);
-
             return {
                cart_id,
                product_id: cartItem.product_id,
                removed: true,
             };
          });
-
          return {
             message: 'Đã xóa sản phẩm khỏi giỏ hàng',
             data: result,
          };
       } catch (e) {
-         this.logService.logger.default.error(e?.message ?? 'Xóa sản phẩm khỏi giỏ hàng thất bại', e);
-         throw e;
+         this.logService.getLogger(Cart.name).error(e?.message ?? 'Xóa sản phẩm khỏi giỏ hàng thất bại', e);
+         if (e instanceof NotFoundException) {
+            throw e;
+         }
+         throw new BadRequestException('Đã xảy ra lỗi khi xóa sản phẩm khỏi giỏ hàng');
       }
    }
 }
