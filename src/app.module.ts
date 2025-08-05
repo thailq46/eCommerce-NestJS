@@ -2,6 +2,7 @@ import { MiddlewareConsumer, Module, NestModule } from '@nestjs/common';
 import { APP_GUARD } from '@nestjs/core';
 import { JwtAuthGuard } from 'src/modules/auth/jwt-auth.guard';
 
+import { CacheModule } from '@nestjs/cache-manager';
 import { PrometheusModule } from '@willsoto/nestjs-prometheus';
 import { ConfigModule } from 'src/base/config';
 import { DatabaseModule } from 'src/base/db/db.module';
@@ -51,7 +52,13 @@ const appModule = [
 ];
 
 @Module({
-   imports: [...globalModule, ...coreModule, ...appModule, PrometheusModule.register({ path: '/metrics' })],
+   imports: [
+      ...globalModule,
+      ...coreModule,
+      ...appModule,
+      PrometheusModule.register({ path: '/metrics' }),
+      CacheModule.register({ isGlobal: true }),
+   ],
    providers: [
       {
          provide: APP_GUARD,

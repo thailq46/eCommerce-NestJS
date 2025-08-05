@@ -19,4 +19,10 @@ export class ProductController {
    findOne(@Param() { id }: ParamIdDto) {
       return this.productService.findOne(id);
    }
+
+   @Public()
+   @Get(':id/local-cache')
+   getProductLocalCache(@Param() { id }: ParamIdDto) {
+      return this.productService.getProductLocalCache(id);
+   }
 }

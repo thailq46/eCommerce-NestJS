@@ -1,5 +1,7 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { CACHE_MANAGER } from '@nestjs/cache-manager';
+import { BadRequestException, Inject, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { Cache } from 'cache-manager';
 import { RedisService } from 'src/base/db/redis/redis.service';
 import { LoggingService } from 'src/base/logging';
 import { generateSlugify } from 'src/base/utils/functions';
@@ -8,6 +10,7 @@ import { Option } from 'src/modules/option/entities/option.entity';
 import { ProductVariantOptionValue } from 'src/modules/product-variant-option-value/entities/product-variant-option-value.entity';
 import { ProductVariant } from 'src/modules/product-variant/entities/product-variant.entity';
 import { Product } from 'src/modules/product/entities/product.entity';
+import { ProductDataQuery, ProductTransformedResult, ProductVariantType } from 'src/modules/product/types';
 import { Shop } from 'src/modules/shop/entities/shop.entity';
 import { IUser } from 'src/modules/user/types';
 import { DataSource, Repository } from 'typeorm';
@@ -15,12 +18,16 @@ import { CreateProductDto } from './dto/create-product.dto';
 
 @Injectable()
 export class ProductService {
+   TTL: number = 1 * 60 * 1000; // 1p
+
    constructor(
       @InjectRepository(Product)
       private readonly productRepo: Repository<Product>,
       private readonly dataSource: DataSource,
       private readonly loggingService: LoggingService,
       private readonly redisService: RedisService,
+      @Inject(CACHE_MANAGER)
+      private readonly cacheManager: Cache,
    ) {}
 
    async createProduct({ dto, user }: { dto: CreateProductDto; user: IUser }) {
@@ -197,6 +204,124 @@ export class ProductService {
       }
    }
 
+   async getProductLocalCache(id: number) {
+      const resourceId = Date.now().toString();
+      const KEY_CACHE = `PRO_ITEM:${id}`,
+         KEY_LOCK = `PRO_LOCK:${id}`;
+      try {
+         // 1. Get product from local cache
+         const productLocalCache: undefined | ProductTransformedResult = await this.cacheManager.get(KEY_CACHE);
+         if (productLocalCache) {
+            this.loggingService
+               .getLogger(Product.name)
+               .log(`FROM LOCAL CACHE: ${id} ----- ${Date.now()} ----- ${JSON.stringify(productLocalCache)}`);
+            return {
+               message: 'Product found in local cache',
+               data: productLocalCache,
+            };
+         }
+         // 2. Check cache
+         const cachedData = await this.redisService.get(KEY_CACHE);
+         if (cachedData) {
+            this.loggingService
+               .getLogger(Product.name)
+               .log(`FROM CACHE: ${id} ----- ${Date.now()} ----- ${cachedData}`);
+            // 2.1 Set local cache với object, không phải string
+            await this.cacheManager.set(KEY_CACHE, JSON.parse(cachedData), this.TTL);
+            return {
+               message: 'Product found in cache',
+               data: JSON.parse(cachedData),
+            };
+         }
+         // 2. Acquire lock
+         const isLocked = await this.redisService.tryLock({
+            waitTime: 1,
+            leaseTime: 5,
+            unit: 'seconds',
+            keyLock: KEY_LOCK,
+            value: resourceId,
+         });
+         if (!isLocked) {
+            this.loggingService
+               .getLogger(Product.name)
+               .warn(`[${resourceId}] Could not acquire lock for product ID ${id}, waiting before retry...`);
+            return {
+               message: `Đang chờ lấy khóa cho sản phẩm với ID ${id}, vui lòng thử lại sau`,
+            };
+         }
+         // 3. Double-check cache after acquiring lock
+         const cachedDataAfterLock = await this.redisService.get(KEY_CACHE);
+         if (cachedDataAfterLock) {
+            this.loggingService
+               .getLogger(Product.name)
+               .log(`FROM CACHE AFTER LOCK: ${id} ----- ${Date.now()} ----- ${cachedDataAfterLock}`);
+
+            const parsedData = JSON.parse(cachedDataAfterLock);
+            // 3.1 Set local cache với object
+            await this.cacheManager.set(KEY_CACHE, parsedData, this.TTL);
+            return {
+               message: 'Product found in cache after lock',
+               data: parsedData,
+            };
+         }
+         // 4. Fetch from database
+         const result = await this.productRepo
+            .createQueryBuilder('p')
+            .select([
+               'p.name AS name',
+               'p.description AS description',
+               'p.rating_avg AS rating_avg',
+               'p.category_id AS category_id',
+               'p.slug AS slug',
+               'p.thumbnail AS thumbnail',
+               'p.shop_id AS shop_id',
+               'pv.id AS variant_id',
+               'pv.sku AS sku',
+               'pv.price AS price',
+               'pv.stock_quantity AS stock_quantity',
+               'o.name AS option_name',
+               'ov.value AS option_value',
+            ])
+            .leftJoin(ProductVariant, 'pv', 'pv.product_id = p.id AND pv.is_deleted = false')
+            .leftJoin(ProductVariantOptionValue, 'pvov', 'pvov.product_variant_id = pv.id')
+            .leftJoin(OptionValue, 'ov', 'ov.id = pvov.option_value_id AND ov.is_deleted = false')
+            .leftJoin(Option, 'o', 'o.id = ov.option_id AND o.is_deleted = false')
+            .where('p.id = :id', { id })
+            .andWhere('p.is_deleted = false')
+            .orderBy('pv.id', 'ASC')
+            .getRawMany();
+
+         if (!result || result.length === 0) {
+            await Promise.all([
+               this.cacheManager.set(KEY_CACHE, null),
+               this.redisService.set({ key: KEY_CACHE, value: null }),
+            ]);
+            throw new NotFoundException('Product not found');
+         }
+         // Chuyển đổi dữ liệu
+         const transformedResult = this.transformQueryResult(result);
+         await Promise.all([
+            this.redisService.set({
+               key: KEY_CACHE,
+               value: JSON.stringify(transformedResult),
+            }),
+            this.cacheManager.set(KEY_CACHE, transformedResult, this.TTL),
+         ]);
+         this.loggingService
+            .getLogger(Product.name)
+            .log(`FROM DBS: ${id} ----- ${Date.now()} ----- ${JSON.stringify(transformedResult)}`);
+         return {
+            message: 'Product found in database',
+            data: transformedResult,
+         };
+      } catch (error) {
+         this.loggingService.getLogger(Product.name).error(`Error finding product with id ${id}`, error);
+         throw new NotFoundException(`Product with id ${id} not found`);
+      } finally {
+         await this.redisService.unlock(KEY_LOCK);
+      }
+   }
+
    // Additional methods can be added here as needed
    private generateProductSlug(product_name: string, shop_id: number) {
       const product_slug = generateSlugify(product_name);
@@ -204,23 +329,7 @@ export class ProductService {
       return `${product_slug}-${shop_id}-${timestamp}`;
    }
 
-   private transformQueryResult(
-      data: {
-         name: string;
-         description: string;
-         rating_avg: string;
-         category_id: string;
-         slug: string;
-         shop_id: number;
-         thumbnail?: string | null;
-         variant_id?: number | null;
-         sku?: string;
-         price?: string;
-         stock_quantity?: number;
-         option_name?: string;
-         option_value?: string;
-      }[],
-   ) {
+   private transformQueryResult(data: ProductDataQuery): ProductTransformedResult | { message: string; data: null } {
       if (!data || data.length === 0) {
          return {
             message: 'No product found',
@@ -228,12 +337,11 @@ export class ProductService {
          };
       }
       const productData = data[0];
-      const variantsMap = new Map();
+      const variantsMap = new Map<number, ProductVariantType>();
       data.forEach((row) => {
          const variantId = row.variant_id;
          // Nếu variant_id null thì skip (trường hợp product không có variants)
          if (!variantId) return;
-
          if (!variantsMap.has(variantId)) {
             variantsMap.set(variantId, {
                sku: row.sku,
@@ -246,11 +354,11 @@ export class ProductService {
          if (row.option_name && row.option_value) {
             const variant = variantsMap.get(variantId);
             // Kiểm tra duplicate option để tránh thêm trùng
-            const existingOption = variant.options.find(
+            const existingOption = variant?.options.find(
                (opt) => opt.option_name === row.option_name && opt.option_value === row.option_value,
             );
             if (!existingOption) {
-               variant.options.push({
+               variant?.options.push({
                   option_name: row.option_name,
                   option_value: row.option_value,
                });
