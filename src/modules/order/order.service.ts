@@ -4,8 +4,7 @@ import { LoggingService } from 'src/base/logging';
 import { QuerySpecificationDto } from 'src/base/shared/dto/query-specification.dto';
 import { Order } from 'src/modules/order/entities/order.entity';
 import { OrderDetail } from 'src/modules/order_detail/entities/order_detail.entity';
-import { Sku } from 'src/modules/sku/entities/sku.entity';
-import { Spu } from 'src/modules/spu/entities/spu.entity';
+import { ProductVariant } from 'src/modules/product-variant/entities/product-variant.entity';
 import { IUser } from 'src/modules/user/types';
 import { DataSource, Repository } from 'typeorm';
 import { CreateOrderDto } from './dto/create-order.dto';
@@ -24,24 +23,25 @@ export class OrderService {
       try {
          const result = await this.dataSource.transaction(async (tx) => {
             // 1. Kiểm tra tồn tại và số lượng của các SKU
-            const skusToUpdate: any[] = [];
+            const skusToUpdate: { product_variant_id: number; product_id: number; quantity: number }[] = [];
             for (const item of payload.items) {
-               const sku = await tx.findOne(Sku, {
-                  where: { sku_id: item.sku_id, product_id: item.product_id, is_deleted: false },
+               const sku = await tx.findOne(ProductVariant, {
+                  where: { id: item.product_variant_id, product_id: item.product_id, is_deleted: false },
                });
                if (!sku) {
                   throw new NotFoundException(
-                     `Không tìm thấy SKU với ID ${item.sku_id} và Product ID ${item.product_id}`,
+                     `Không tìm thấy SKU với ID ${item.product_variant_id} và Product ID ${item.product_id}`,
                   );
                }
-               if (sku.sku_stock < item.quantity) {
-                  throw new NotFoundException(`Số lượng SKU với ID ${item.sku_id} không đủ, chỉ còn ${sku.sku_stock}`);
+               if (sku.stock_quantity < item.quantity) {
+                  throw new NotFoundException(
+                     `Số lượng SKU với ID ${item.product_variant_id} không đủ, chỉ còn ${sku.stock_quantity}`,
+                  );
                }
                skusToUpdate.push({
-                  sku_id: item.sku_id,
+                  product_variant_id: item.product_variant_id,
                   product_id: item.product_id,
                   quantity: item.quantity,
-                  is_default: sku.sku_default,
                });
             }
             // 2. Tính tổng tiền và tạo đơn hàng
@@ -67,7 +67,7 @@ export class OrderService {
                return tx.create(OrderDetail, {
                   order_id: savedOrder.order_id,
                   product_id: item.product_id,
-                  sku_id: item.sku_id,
+                  product_variant_id: item.product_variant_id,
                   quantity: item.quantity,
                   price: item.price,
                   sub_total: item.price * item.quantity,
@@ -77,31 +77,23 @@ export class OrderService {
             // 4. Cập nhật số lượng SKU
             for (const item of skusToUpdate) {
                await tx.update(
-                  Sku,
-                  { sku_id: item.sku_id, product_id: item.product_id },
-                  { sku_stock: () => `sku_stock - ${item.quantity}` },
+                  ProductVariant,
+                  { id: item.product_variant_id, product_id: item.product_id },
+                  { stock_quantity: () => `stock_quantity - ${item.quantity}` },
                );
-               // Nếu là SKU mặc định (is_default: true), cập nhật cả số lượng trong SPU
-               if (item.is_default) {
-                  await tx.update(
-                     Spu,
-                     { spu_id: item.product_id },
-                     { product_quantity: () => `product_quantity - ${item.quantity}` },
-                  );
-               }
             }
             return {
                order: savedOrder,
                order_details: savedOrderDetails,
             };
          });
-         this.loggingService.logger.default.info('OrderService ~ createOrder ~ result', result);
+         this.loggingService.getLogger(OrderService.name).info('OrderService ~ createOrder ~ result', result);
          return {
             message: 'Tạo đơn hàng thành công',
             data: result,
          };
       } catch (error) {
-         this.loggingService.logger.default.error('OrderService ~ createOrder ~ error', error);
+         this.loggingService.getLogger(OrderService.name).error('OrderService ~ createOrder ~ error', error);
          if (error instanceof NotFoundException) {
             throw error;
          }
@@ -131,7 +123,7 @@ export class OrderService {
             data: updatedOrder,
          };
       } catch (error) {
-         this.loggingService.logger.default.error('OrderService ~ updateOrderStatus ~ error', error);
+         this.loggingService.getLogger(OrderService.name).error('OrderService ~ updateOrderStatus ~ error', error);
          if (error instanceof NotFoundException) {
             throw error;
          }
@@ -153,7 +145,7 @@ export class OrderService {
             data: { order_id },
          };
       } catch (error) {
-         this.loggingService.logger.default.error('OrderService ~ remove ~ error', error);
+         this.loggingService.getLogger(OrderService.name).error('OrderService ~ remove ~ error', error);
          if (error instanceof NotFoundException) {
             throw error;
          }
@@ -175,7 +167,7 @@ export class OrderService {
             data: order,
          };
       } catch (error) {
-         this.loggingService.logger.default.error('OrderService ~ findOne ~ error', error);
+         this.loggingService.getLogger(OrderService.name).error('OrderService ~ findOne ~ error', error);
          if (error instanceof NotFoundException) {
             throw error;
          }
@@ -216,7 +208,7 @@ export class OrderService {
             },
          };
       } catch (error) {
-         this.loggingService.logger.default.error('OrderService ~ findAll ~ error', error);
+         this.loggingService.getLogger(OrderService.name).error('OrderService ~ findAll ~ error', error);
          throw new BadRequestException('Đã xảy ra lỗi khi lấy danh sách đơn hàng');
       }
    }

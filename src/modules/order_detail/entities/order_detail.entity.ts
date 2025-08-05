@@ -1,6 +1,6 @@
-import { BaseEntityCRUD } from 'src/base/model/model.entity';
 import { Order } from 'src/modules/order/entities/order.entity';
 import { Column, Entity, JoinColumn, ManyToOne, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseEntityCRUD } from '../../../base/model/model.entity';
 
 @Entity({ name: 'order_detail' })
 export class OrderDetail extends BaseEntityCRUD {
@@ -13,8 +13,8 @@ export class OrderDetail extends BaseEntityCRUD {
    @Column({ name: 'product_id', comment: 'Reference to the product' })
    product_id: number;
 
-   @Column({ name: 'sku_id', comment: 'Reference to the product SKU/variant' })
-   sku_id: number;
+   @Column({ name: 'product_variant_id', comment: 'Reference to the product SKU/variant' })
+   product_variant_id: number;
 
    @Column({ name: 'quantity', comment: 'Quantity of the product ordered' })
    quantity: number;

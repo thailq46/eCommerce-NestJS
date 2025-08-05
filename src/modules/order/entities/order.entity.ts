@@ -1,7 +1,7 @@
-import { BaseEntityCRUD } from 'src/base/model/model.entity';
-import { OrderStatus } from 'src/modules/order/types';
 import { OrderDetail } from 'src/modules/order_detail/entities/order_detail.entity';
 import { Column, Entity, OneToMany, PrimaryGeneratedColumn } from 'typeorm';
+import { BaseEntityCRUD } from '../../../base/model/model.entity';
+import { OrderStatus } from '../../../modules/order/types';
 
 @Entity({ name: 'order' })
 export class Order extends BaseEntityCRUD {

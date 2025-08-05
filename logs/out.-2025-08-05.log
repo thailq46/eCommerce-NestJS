@@ -688,3 +688,184 @@ INFO   2025-08-05T14:24:14.373                  src\main.ts:49  | Server time: T
 INFO   2025-08-05T14:24:14.376                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
 INFO   2025-08-05T14:24:14.380                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
 INFO   2025-08-05T14:24:14.401       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:24:45.982              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:24:45.995                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:24:45 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:24:45.996                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:24:45.997                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:24:46.003       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:28:02.292              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:28:02.305                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:28:02 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:28:02.306                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:28:02.307                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:28:02.314       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:29:10.637              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:29:10.650                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:29:10 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:29:10.652                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:29:10.653                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:29:10.661       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:30:07.867              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:30:07.881                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:30:07 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:30:07.882                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:30:07.883                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:30:07.889       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:30:24.219              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:30:24.233                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:30:24 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:30:24.234                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:30:24.235                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:30:24.241       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:31:36.943              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:31:36.955                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:31:36 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:31:36.957                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:31:36.958                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:31:36.965       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:32:01.778              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:32:01.791                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:32:01 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:32:01.793                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:32:01.794                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:32:01.802       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:32:32.903              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:32:32.916                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:32:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:32:32.917                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:32:32.918                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:32:32.925       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:32:35.856              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:32:35.868                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:32:35 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:32:35.870                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:32:35.871                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:32:35.878       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:32:48.313              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:32:48.325                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:32:48 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:32:48.327                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:32:48.328                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:32:48.335       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:34:28.373              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:34:28.386                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:34:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:34:28.387                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:34:28.388                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:34:28.394       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:35:16.233              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:35:16.245                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:35:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:35:16.247                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:35:16.248                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:35:16.254       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:35:23.858              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:35:23.871                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:35:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:35:23.873                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:35:23.874                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:35:23.883       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:36:12.073              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:36:12.086                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:36:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:36:12.087                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:36:12.089                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:36:12.097       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:36:21.484              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:36:21.496                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:36:21 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:36:21.498                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:36:21.499                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:36:21.505       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:38:02.061              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:38:02.073                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:38:02 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:38:02.075                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:38:02.076                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:38:02.083       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:39:46.769              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:39:46.780                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:39:46 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:39:46.782                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:39:46.783                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:39:46.788       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:44:33.491              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:44:33.503                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:44:33 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:44:33.504                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:44:33.505                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:44:33.512       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T14:46:09.610              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T14:46:09.624                  src\main.ts:49  | Server time: Tue Aug 05 2025 14:46:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T14:46:09.626                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T14:46:09.627                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T14:46:09.634       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T15:13:53.467              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T15:13:53.480                  src\main.ts:49  | Server time: Tue Aug 05 2025 15:13:53 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T15:13:53.482                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T15:13:53.483                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T15:13:53.489       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T15:14:09.224              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T15:14:09.236                  src\main.ts:49  | Server time: Tue Aug 05 2025 15:14:09 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T15:14:09.238                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T15:14:09.240                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T15:14:09.247       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T15:14:16.462              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T15:14:16.475                  src\main.ts:49  | Server time: Tue Aug 05 2025 15:14:16 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T15:14:16.477                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T15:14:16.478                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T15:14:16.486       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T15:14:25.333              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T15:14:25.347                  src\main.ts:49  | Server time: Tue Aug 05 2025 15:14:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T15:14:25.349                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T15:14:25.350                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T15:14:25.356       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T15:14:31.298              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T15:14:31.311                  src\main.ts:49  | Server time: Tue Aug 05 2025 15:14:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T15:14:31.313                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T15:14:31.313                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T15:14:31.320       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T15:15:57.096              morgan\index.js:130 | ::1 Anonymous POST /api/v1/order 401 - 154.876 ms {"email":"thailq@gmail.com","fullname":"Lê Quang Thái","phone_number":"0123456789","shipping_address":"Hà Nội","note":"Mua hàng 2","items":[{"product_id":2,"sku_id":14,"quantity":18,"price":1008},{"product_id":2,"sku_id":12,"quantity":10,"price":1005}]}
+ (access)
+INFO   2025-08-05T15:16:01.083              morgan\index.js:130 | ::1 thailq POST /api/v1/auth/login 201 - 89.165 ms {"username":"thailq@gmail.com","password":"******"}
+ (access)
+INFO   2025-08-05T15:16:03.351              morgan\index.js:130 | ::1 thailq POST /api/v1/order 400 - 13.940 ms {"email":"thailq@gmail.com","fullname":"Lê Quang Thái","phone_number":"0123456789","shipping_address":"Hà Nội","note":"Mua hàng 2","items":[{"product_id":2,"sku_id":14,"quantity":18,"price":1008},{"product_id":2,"sku_id":12,"quantity":10,"price":1005}]}
+ (access)
+ERROR  2025-08-05T15:19:51.492       order\order.service.ts:32  | OrderService ~ createOrder ~ error NotFoundException: Không tìm thấy SKU với ID 14 và Product ID 2
+    at <anonymous> (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\order\order.service.ts:32:25)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async EntityManager.transaction (D:\Github\thailq46\eCommerce-NestJS\my-app\node_modules\typeorm\entity-manager\src\entity-manager\EntityManager.ts:154:28)
+    at async OrderService.createOrder (D:\Github\thailq46\eCommerce-NestJS\my-app\src\modules\order\order.service.ts:24:25) {
+  response: {
+    message: 'Không tìm thấy SKU với ID 14 và Product ID 2',
+    error: 'Not Found',
+    statusCode: 404
+  },
+  status: 404,
+  options: {}
+} (OrderService)
+INFO   2025-08-05T15:19:51.496              morgan\index.js:130 | ::1 thailq POST /api/v1/order 404 - 22.895 ms {"email":"thailq@gmail.com","fullname":"Lê Quang Thái","phone_number":"0123456789","shipping_address":"Hà Nội","note":"Mua hàng","items":[{"product_id":2,"product_variant_id":14,"quantity":18,"price":1008},{"product_id":2,"product_variant_id":12,"quantity":10,"price":1005}]}
+ (access)
+INFO   2025-08-05T15:20:30.370       order\order.service.ts:90  | OrderService ~ createOrder ~ result {
+  order: Order {
+    created_at: 2025-08-05T08:20:30.302Z,
+    updated_at: 2025-08-05T08:20:30.302Z,
+    deleted_at: null,
+    is_deleted: false,
+    order_id: 1,
+    user_id: 1,
+    total_amount: 1699500000,
+    fullname: 'Lê Quang Thái',
+    phone_number: '0123456789',
+    email: 'thailq@gmail.com',
+    note: 'Mua hàng',
+    shipping_address: 'Hà Nội',
+    status: 'PENDING',
+    order_details: undefined
+  },
+  order_details: [
+    OrderDetail {
+      created_at: 2025-08-05T08:20:30.356Z,
+      updated_at: 2025-08-05T08:20:30.356Z,
+      deleted_at: null,
+      is_deleted: false,
+      id: 1,
+      order_id: 1,
+      product_id: 2,
+      product_variant_id: 4,
+      quantity: 50,
+      price: 33990000,
+      sub_total: 1699500000,
+      order: undefined
+    }
+  ]
+} (OrderService)
+INFO   2025-08-05T15:20:30.373              morgan\index.js:130 | ::1 thailq POST /api/v1/order 201 - 83.997 ms {"email":"thailq@gmail.com","fullname":"Lê Quang Thái","phone_number":"0123456789","shipping_address":"Hà Nội","note":"Mua hàng","items":[{"product_id":2,"product_variant_id":4,"quantity":50,"price":33990000}]}
+ (access)
+INFO   2025-08-05T15:21:31.896              morgan\index.js:130 | ::1 thailq GET /api/v1/order/1 200 - 12.308 ms {}
+ (access)
+INFO   2025-08-05T15:21:40.040              morgan\index.js:130 | ::1 thailq GET /api/v1/order?page=1&limit=10 200 - 19.933 ms {}
+ (access)

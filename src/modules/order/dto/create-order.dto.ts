@@ -17,9 +17,9 @@ export class OrderItemDto {
    @IsNumber({}, { message: 'Product ID phải là số' })
    product_id: number;
 
-   @IsNotEmpty({ message: 'SKU ID không được để trống' })
-   @IsNumber({}, { message: 'SKU ID phải là số' })
-   sku_id: number;
+   @IsNotEmpty({ message: 'Product Variant Id không được để trống' })
+   @IsNumber(undefined, { message: 'Product Variant Id phải là một số' })
+   product_variant_id: number;
 
    @IsNotEmpty({ message: 'Số lượng không được để trống' })
    @IsNumber({}, { message: 'Số lượng phải là số' })
