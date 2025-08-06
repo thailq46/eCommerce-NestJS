@@ -1,14 +1,14 @@
-import {ValidationPipe} from '@nestjs/common';
-import {NestFactory, Reflector} from '@nestjs/core';
-import {NestExpressApplication} from '@nestjs/platform-express';
+import { ValidationPipe } from '@nestjs/common';
+import { NestFactory, Reflector } from '@nestjs/core';
+import { NestExpressApplication } from '@nestjs/platform-express';
 import * as compression from 'compression';
 import helmet from 'helmet';
-import {join} from 'path';
-import {config} from 'src/base/config';
-import {LoggingService} from 'src/base/logging';
-import {useMorgan} from 'src/base/middleware/morgan.middleware';
-import {ResponseTransformInterceptor} from 'src/base/middleware/response.interceptor';
-import {AppModule} from './app.module';
+import { join } from 'path';
+import { config } from 'src/base/config';
+import { LoggingService } from 'src/base/logging';
+import { useMorgan } from 'src/base/middleware/morgan.middleware';
+import { ResponseTransformInterceptor } from 'src/base/middleware/response.interceptor';
+import { AppModule } from './app.module';
 
 async function bootstrap() {
    const app = await NestFactory.create<NestExpressApplication>(AppModule);
@@ -30,7 +30,7 @@ async function bootstrap() {
    app.use(compression());
 
    // Enable validation pipe globally
-   app.useGlobalPipes(new ValidationPipe({whitelist: true}));
+   app.useGlobalPipes(new ValidationPipe({ whitelist: true }));
 
    // Set global prefix
    app.setGlobalPrefix(config.API_NAMESPACE, {

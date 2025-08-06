@@ -1,5 +1,8 @@
-import { BadRequestException, Injectable, NotFoundException } from '@nestjs/common';
+import { CACHE_MANAGER } from '@nestjs/cache-manager';
+import { BadRequestException, Inject, Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
+import { Cache } from 'cache-manager';
+import { RedisService } from 'src/base/db/redis/redis.service';
 import { LoggingService } from 'src/base/logging';
 import { QuerySpecificationDto } from 'src/base/shared/dto/query-specification.dto';
 import { Order } from 'src/modules/order/entities/order.entity';
@@ -17,6 +20,9 @@ export class OrderService {
       private readonly orderRepo: Repository<Order>,
       private readonly dataSource: DataSource,
       private readonly loggingService: LoggingService,
+      private readonly redisService: RedisService,
+      @Inject(CACHE_MANAGER)
+      private readonly cacheManager: Cache,
    ) {}
 
    async createOrder({ payload, user }: { payload: CreateOrderDto; user: IUser }) {
@@ -81,6 +87,11 @@ export class OrderService {
                   { id: item.product_variant_id, product_id: item.product_id },
                   { stock_quantity: () => `stock_quantity - ${item.quantity}` },
                );
+            }
+            // 5. Xóa cache liên quan đến sản phẩm
+            for (const item of items) {
+               const KEY_CACHE = `PRO_ITEM:${item.product_id}`;
+               await Promise.all([this.redisService.del(KEY_CACHE), this.cacheManager.del(KEY_CACHE)]);
             }
             return {
                order: savedOrder,

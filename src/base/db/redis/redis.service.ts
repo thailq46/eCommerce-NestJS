@@ -163,6 +163,20 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       }
    }
 
+   // 0: Failed to delete, 1: Deleted successfully
+   async del(key: string) {
+      try {
+         const redisCache = this.getClient();
+         if (!redisCache) {
+            throw new InternalServerErrorException('Cannot connect to Redis');
+         }
+         return await redisCache.del(key);
+      } catch (error) {
+         this.loggingService.getLogger(this.category).error(`del ~ error: ${error}`);
+         throw new InternalServerErrorException('Cannot connect to Redis');
+      }
+   }
+
    // DISTRIBUTED LOCK
    async tryLock({ keyLock, value, waitTime, leaseTime, unit }: TryLockParams) {
       try {

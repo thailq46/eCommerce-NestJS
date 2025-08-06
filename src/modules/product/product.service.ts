@@ -18,7 +18,7 @@ import { CreateProductDto } from './dto/create-product.dto';
 
 @Injectable()
 export class ProductService {
-   TTL: number = 1 * 60 * 1000; // 1p
+   TTL: number = 5 * 60 * 1000; // 5pp
 
    constructor(
       @InjectRepository(Product)
@@ -107,7 +107,7 @@ export class ProductService {
             data: newProduct,
          };
       } catch (error) {
-         this.loggingService.getLogger(Product.name).error('Error creating product', error);
+         this.loggingService.getLogger(ProductService.name).error('Error creating product', error);
          throw new BadRequestException('Error creating product');
       }
    }
@@ -119,7 +119,9 @@ export class ProductService {
       // 1. Check cache
       const cachedData = await this.redisService.get(KEY_CACHE);
       if (cachedData) {
-         this.loggingService.getLogger(Product.name).log(`FROM CACHE: ${id} ----- ${Date.now()} ----- ${cachedData}`);
+         this.loggingService
+            .getLogger(ProductService.name)
+            .log(`FROM CACHE: ${id} ----- ${Date.now()} ----- ${cachedData}`);
          return {
             message: 'Product found in cache',
             data: JSON.parse(cachedData),
@@ -136,7 +138,7 @@ export class ProductService {
          });
          if (!isLocked) {
             this.loggingService
-               .getLogger(Product.name)
+               .getLogger(ProductService.name)
                .debug(`[${resourceId}] Could not acquire lock for product ID ${id}, waiting before retry...`);
             return {
                message: `Đang chờ lấy khóa cho sản phẩm với ID ${id}, vui lòng thử lại sau`,
@@ -146,7 +148,7 @@ export class ProductService {
          const cachedDataAfterLock = await this.redisService.get(KEY_CACHE);
          if (cachedDataAfterLock) {
             this.loggingService
-               .getLogger(Product.name)
+               .getLogger(ProductService.name)
                .log(`FROM CACHE AFTER LOCK: ${id} ----- ${Date.now()} ----- ${cachedDataAfterLock}`);
             return {
                message: 'Product found in cache after lock',
@@ -190,20 +192,33 @@ export class ProductService {
             value: JSON.stringify(transformedResult),
          });
          this.loggingService
-            .getLogger(Product.name)
+            .getLogger(ProductService.name)
             .log(`FROM DBS: ${id} ----- ${Date.now()} ----- ${JSON.stringify(transformedResult)}`);
          return {
             message: 'Product found in database',
             data: transformedResult,
          };
       } catch (error) {
-         this.loggingService.getLogger(Product.name).error(`Error finding product with id ${id}`, error);
+         this.loggingService.getLogger(ProductService.name).error(`Error finding product with id ${id}`, error);
          throw new NotFoundException(`Product with id ${id} not found`);
       } finally {
          await this.redisService.unlock(KEY_LOCK);
       }
    }
 
+   /**
+    * Nếu dùng MircoService thì hàm getProductLocalCache sẽ có vấn đề về tính nhất quán dữ liệu giữa các service.(Giữa LocalCache với Distributed Cache)
+    * Cách test:
+    * - Set up Nginx để load balance giữa các instance của app
+    * - Build xong dùng PM2 hoặc Node để chạy thành 2 PROT khác nhau
+    *  + With PM2
+    *        PORT=3006 pm2 start dist/src/main.js --name app-3006 --update-env
+    *        PORT=3005 pm2 start dist/src/main.js --name app-3005 --update-env
+    *  + With Node
+    *       PORT=3005 node dist/src/main.js
+    *       PORT=3006 node dist/src/main.js
+    * - Gửi request đến 2 instance khác nhau đến khi data đc get từ LocalCache ra xong request api order để trừ stock đến 1 trong 2 instance đó. xong getProductLocalCache lại sẽ thấy dữ liệu không nhất quán giữa LocalCache và Redis.
+    */
    async getProductLocalCache(id: number) {
       const resourceId = Date.now().toString();
       const KEY_CACHE = `PRO_ITEM:${id}`,
@@ -213,7 +228,7 @@ export class ProductService {
          const productLocalCache: undefined | ProductTransformedResult = await this.cacheManager.get(KEY_CACHE);
          if (productLocalCache) {
             this.loggingService
-               .getLogger(Product.name)
+               .getLogger(ProductService.name)
                .log(`FROM LOCAL CACHE: ${id} ----- ${Date.now()} ----- ${JSON.stringify(productLocalCache)}`);
             return {
                message: 'Product found in local cache',
@@ -224,7 +239,7 @@ export class ProductService {
          const cachedData = await this.redisService.get(KEY_CACHE);
          if (cachedData) {
             this.loggingService
-               .getLogger(Product.name)
+               .getLogger(ProductService.name)
                .log(`FROM CACHE: ${id} ----- ${Date.now()} ----- ${cachedData}`);
             // 2.1 Set local cache với object, không phải string
             await this.cacheManager.set(KEY_CACHE, JSON.parse(cachedData), this.TTL);
@@ -243,7 +258,7 @@ export class ProductService {
          });
          if (!isLocked) {
             this.loggingService
-               .getLogger(Product.name)
+               .getLogger(ProductService.name)
                .warn(`[${resourceId}] Could not acquire lock for product ID ${id}, waiting before retry...`);
             return {
                message: `Đang chờ lấy khóa cho sản phẩm với ID ${id}, vui lòng thử lại sau`,
@@ -253,7 +268,7 @@ export class ProductService {
          const cachedDataAfterLock = await this.redisService.get(KEY_CACHE);
          if (cachedDataAfterLock) {
             this.loggingService
-               .getLogger(Product.name)
+               .getLogger(ProductService.name)
                .log(`FROM CACHE AFTER LOCK: ${id} ----- ${Date.now()} ----- ${cachedDataAfterLock}`);
 
             const parsedData = JSON.parse(cachedDataAfterLock);
@@ -308,14 +323,14 @@ export class ProductService {
             this.cacheManager.set(KEY_CACHE, transformedResult, this.TTL),
          ]);
          this.loggingService
-            .getLogger(Product.name)
+            .getLogger(ProductService.name)
             .log(`FROM DBS: ${id} ----- ${Date.now()} ----- ${JSON.stringify(transformedResult)}`);
          return {
             message: 'Product found in database',
             data: transformedResult,
          };
       } catch (error) {
-         this.loggingService.getLogger(Product.name).error(`Error finding product with id ${id}`, error);
+         this.loggingService.getLogger(ProductService.name).error(`Error finding product with id ${id}`, error);
          throw new NotFoundException(`Product with id ${id} not found`);
       } finally {
          await this.redisService.unlock(KEY_LOCK);

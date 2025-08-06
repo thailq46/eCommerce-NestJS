@@ -869,3 +869,333 @@ INFO   2025-08-05T15:21:31.896              morgan\index.js:130 | ::1 thailq GET
  (access)
 INFO   2025-08-05T15:21:40.040              morgan\index.js:130 | ::1 thailq GET /api/v1/order?page=1&limit=10 200 - 19.933 ms {}
  (access)
+INFO   2025-08-05T15:31:57.321   product\product.service.ts:234 | FROM CACHE: 2 ----- 1754382717321 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":150,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T15:31:57.325       redis\redis.service.ts:226 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T15:31:57.332              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 10.672 ms {}
+ (access)
+INFO   2025-08-05T16:17:00.563              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:17:00.590                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:17:00 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:17:00.594                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:17:00.596                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:17:00.607       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:17:28.304              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:17:28.318                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:17:28 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:17:28.320                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:17:28.321                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:17:28.328       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:23:06.757              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:23:06.770                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:23:06 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:23:06.772                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:23:06.773                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:23:06.779       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:23:26.388              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:23:26.401                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:23:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:23:26.402                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:23:26.403                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:23:26.410       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:24:19.775              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:24:19.789                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:24:19 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:24:19.791                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:24:19.793                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:24:19.801       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:25:34.295              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:25:34.311                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:25:34 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:25:34.314                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:25:34.315                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:25:34.322       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:26:48.606   product\product.service.ts:234 | FROM CACHE: 2 ----- 1754386008604 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":150,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:26:48.611       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:26:48.621              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 21.465 ms {}
+ (access)
+INFO   2025-08-05T16:27:19.764   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386039764 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":150,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:27:19.768       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:27:19.771              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 7.098 ms {}
+ (access)
+INFO   2025-08-05T16:27:22.446   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386042446 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":150,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:27:22.449       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:27:22.451              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 5.065 ms {}
+ (access)
+INFO   2025-08-05T16:27:45.631       order\order.service.ts:104 | OrderService ~ createOrder ~ result {
+  order: Order {
+    created_at: 2025-08-05T09:27:45.610Z,
+    updated_at: 2025-08-05T09:27:45.610Z,
+    deleted_at: null,
+    is_deleted: false,
+    order_id: 2,
+    user_id: 1,
+    total_amount: 1699500000,
+    fullname: 'Lê Quang Thái',
+    phone_number: '0123456789',
+    email: 'thailq@gmail.com',
+    note: 'Mua hàng',
+    shipping_address: 'Hà Nội',
+    status: 'PENDING',
+    order_details: undefined
+  },
+  order_details: [
+    OrderDetail {
+      created_at: 2025-08-05T09:27:45.617Z,
+      updated_at: 2025-08-05T09:27:45.617Z,
+      deleted_at: null,
+      is_deleted: false,
+      id: 2,
+      order_id: 2,
+      product_id: 2,
+      product_variant_id: 4,
+      quantity: 50,
+      price: 33990000,
+      sub_total: 1699500000,
+      order: undefined
+    }
+  ]
+} (OrderService)
+INFO   2025-08-05T16:27:45.637              morgan\index.js:130 | ::1 thailq POST /api/v1/order 201 - 67.662 ms {"email":"thailq@gmail.com","fullname":"Lê Quang Thái","phone_number":"0123456789","shipping_address":"Hà Nội","note":"Mua hàng","items":[{"product_id":2,"product_variant_id":4,"quantity":50,"price":33990000}]}
+ (access)
+INFO   2025-08-05T16:28:34.643       redis\redis.service.ts:195 | tryLock ~ Successfully acquired lock for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:28:34.651   product\product.service.ts:318 | FROM DBS: 2 ----- 1754386114651 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+INFO   2025-08-05T16:28:34.654       redis\redis.service.ts:241 | unlock ~ Successfully unlocked key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:28:34.657              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 16.198 ms {}
+ (access)
+INFO   2025-08-05T16:28:36.181   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386116181 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:28:36.186       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:28:36.190              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 7.838 ms {}
+ (access)
+INFO   2025-08-05T16:28:37.372   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386117371 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:28:37.374       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:28:37.377              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 4.440 ms {}
+ (access)
+INFO   2025-08-05T16:28:38.318   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386118318 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:28:38.321       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:28:38.325              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 5.407 ms {}
+ (access)
+INFO   2025-08-05T16:30:25.999              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:30:26.013                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:30:26 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:30:26.014                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:30:26.016                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:30:26.023       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:31:53.406   product\product.service.ts:234 | FROM CACHE: 2 ----- 1754386313404 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:31:53.410       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:31:53.419              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 19.631 ms {}
+ (access)
+INFO   2025-08-05T16:32:05.512   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386325512 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:32:05.516       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:05.520              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 7.134 ms {}
+ (access)
+INFO   2025-08-05T16:32:07.361   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386327361 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:32:07.364       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:07.368              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 4.972 ms {}
+ (access)
+INFO   2025-08-05T16:32:27.273              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:32:27.289                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:32:27 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:32:27.291                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:32:27.292                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:32:27.300       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:32:35.065       redis\redis.service.ts:195 | tryLock ~ Successfully acquired lock for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:35.076   product\product.service.ts:318 | FROM DBS: 2 ----- 1754386355076 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":150,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+INFO   2025-08-05T16:32:35.080       redis\redis.service.ts:241 | unlock ~ Successfully unlocked key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:35.091              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 34.035 ms {}
+ (access)
+INFO   2025-08-05T16:32:38.338   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386358338 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":150,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:32:38.341       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:38.345              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 5.955 ms {}
+ (access)
+INFO   2025-08-05T16:32:50.049       order\order.service.ts:104 | OrderService ~ createOrder ~ result {
+  order: Order {
+    created_at: 2025-08-05T09:32:50.027Z,
+    updated_at: 2025-08-05T09:32:50.027Z,
+    deleted_at: null,
+    is_deleted: false,
+    order_id: 3,
+    user_id: 1,
+    total_amount: 1699500000,
+    fullname: 'Lê Quang Thái',
+    phone_number: '0123456789',
+    email: 'thailq@gmail.com',
+    note: 'Mua hàng',
+    shipping_address: 'Hà Nội',
+    status: 'PENDING',
+    order_details: undefined
+  },
+  order_details: [
+    OrderDetail {
+      created_at: 2025-08-05T09:32:50.034Z,
+      updated_at: 2025-08-05T09:32:50.034Z,
+      deleted_at: null,
+      is_deleted: false,
+      id: 3,
+      order_id: 3,
+      product_id: 2,
+      product_variant_id: 4,
+      quantity: 50,
+      price: 33990000,
+      sub_total: 1699500000,
+      order: undefined
+    }
+  ]
+} (OrderService)
+INFO   2025-08-05T16:32:50.057              morgan\index.js:130 | ::1 thailq POST /api/v1/order 201 - 68.691 ms {"email":"thailq@gmail.com","fullname":"Lê Quang Thái","phone_number":"0123456789","shipping_address":"Hà Nội","note":"Mua hàng","items":[{"product_id":2,"product_variant_id":4,"quantity":50,"price":33990000}]}
+ (access)
+INFO   2025-08-05T16:32:54.081       redis\redis.service.ts:195 | tryLock ~ Successfully acquired lock for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:54.087   product\product.service.ts:318 | FROM DBS: 2 ----- 1754386374087 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+INFO   2025-08-05T16:32:54.090       redis\redis.service.ts:241 | unlock ~ Successfully unlocked key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:32:54.096              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 13.795 ms {}
+ (access)
+INFO   2025-08-05T16:33:00.370   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386380370 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:33:00.373       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:33:00.377              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 4.874 ms {}
+ (access)
+INFO   2025-08-05T16:33:48.039   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754386428039 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T16:33:48.042       redis\redis.service.ts:239 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T16:33:48.046              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 5.451 ms {}
+ (access)
+INFO   2025-08-05T16:34:52.431              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:34:52.446                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:34:52 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:34:52.447                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:34:52.448                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:34:52.455       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:35:05.605              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:35:05.617                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:35:05 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:35:05.619                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:35:05.620                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:35:05.628       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:35:12.365              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:35:12.379                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:35:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:35:12.381                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:35:12.382                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:35:12.389       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T16:35:31.299              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T16:35:31.312                  src\main.ts:49  | Server time: Tue Aug 05 2025 16:35:31 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T16:35:31.314                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T16:35:31.315                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T16:35:31.321       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:28:56.647              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET / 404 - 6.719 ms {}
+ (access)
+INFO   2025-08-05T17:28:56.815              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /favicon.ico 404 - 2.038 ms {}
+ (access)
+INFO   2025-08-05T17:29:04.813   product\product.service.ts:234 | FROM CACHE: 2 ----- 1754389744810 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:29:04.818       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:29:04.821              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 18.046 ms {}
+ (access)
+INFO   2025-08-05T17:29:11.149   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754389751149 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:29:11.153       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:29:11.159              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 8.115 ms {}
+ (access)
+INFO   2025-08-05T17:31:36.636              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /favicon.ico 404 - 1.202 ms {}
+ (access)
+INFO   2025-08-05T17:32:20.710              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /favicon.ico 404 - 0.778 ms {}
+ (access)
+INFO   2025-08-05T17:33:33.195   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754390013194 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:33:33.197       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:33:33.199              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 4.959 ms {}
+ (access)
+INFO   2025-08-05T17:39:12.356              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:39:12.368                  src\main.ts:49  | Server time: Tue Aug 05 2025 17:39:12 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:39:12.369                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:39:12.370                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T17:39:12.377       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:40:29.805              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:40:29.819                  src\main.js:31  | Server time: Tue Aug 05 2025 17:40:29 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:40:29.820                  src\main.js:32  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:40:29.821                  src\main.js:33  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T17:40:29.827       redis\redis.service.js:81  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:40:54.514              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:40:54.529                  src\main.js:31  | Server time: Tue Aug 05 2025 17:40:54 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:40:54.531                  src\main.js:32  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:40:54.532                  src\main.js:33  | Running app on: http://192.168.1.3:3006 (default)
+INFO   2025-08-05T17:40:54.538       redis\redis.service.js:81  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:42:03.859              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:42:03.870                  src\main.js:31  | Server time: Tue Aug 05 2025 17:42:03 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:42:03.871                  src\main.js:32  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:42:03.872                  src\main.js:33  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T17:42:03.876       redis\redis.service.js:81  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:42:10.445              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:42:17.340              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:43:29.634              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:45:23.158              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:45:23.170                  src\main.ts:49  | Server time: Tue Aug 05 2025 17:45:23 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:45:23.171                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:45:23.172                  src\main.ts:51  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T17:45:23.179       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:45:57.572              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:45:57.591       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:46:29.959   product\product.service.ts:234 | FROM CACHE: 2 ----- 1754390789955 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:46:29.963       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:46:29.973              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 22.051 ms {}
+ (access)
+INFO   2025-08-05T17:46:31.012   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754390791011 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:46:31.015       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:46:31.019              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 6.395 ms {}
+ (access)
+INFO   2025-08-05T17:48:06.100              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:48:06.120       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:49:37.816              db\db.module.ts:37  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:49:37.828                  src\main.ts:49  | Server time: Tue Aug 05 2025 17:49:37 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:49:37.829                  src\main.ts:50  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:49:37.830                  src\main.ts:51  | Running app on: http://192.168.1.3:3006 (default)
+INFO   2025-08-05T17:49:37.839       redis\redis.service.ts:84  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:49:51.916   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754390991916 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:49:51.919       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:49:51.921              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 5.841 ms {}
+ (access)
+INFO   2025-08-05T17:51:02.617   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754391062617 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:51:02.620       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:51:02.622              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 5.355 ms {}
+ (access)
+INFO   2025-08-05T17:51:04.852   product\product.service.ts:234 | FROM CACHE: 2 ----- 1754391064846 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:51:04.857       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:51:04.875              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 28.369 ms {}
+ (access)
+INFO   2025-08-05T17:51:07.580   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754391067580 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:51:07.582       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:51:07.585              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 4.688 ms {}
+ (access)
+INFO   2025-08-05T17:51:09.997   product\product.service.ts:223 | FROM LOCAL CACHE: 2 ----- 1754391069996 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:51:10.000       redis\redis.service.ts:240 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:51:10.003              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 6.935 ms {}
+ (access)
+INFO   2025-08-05T17:55:25.198              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:55:25.213                  src\main.js:31  | Server time: Tue Aug 05 2025 17:55:25 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:55:25.215                  src\main.js:32  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:55:25.216                  src\main.js:33  | Running app on: http://192.168.1.3:3005 (default)
+INFO   2025-08-05T17:55:25.221       redis\redis.service.js:81  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:55:32.477              db\db.module.js:29  | DB Connected successfully DatabaseModule (Database)
+INFO   2025-08-05T17:55:32.491                  src\main.js:31  | Server time: Tue Aug 05 2025 17:55:32 GMT+0700 (Indochina Time) (default)
+INFO   2025-08-05T17:55:32.493                  src\main.js:32  | Local/public ip: 192.168.1.3 - 192.168.1.3 (default)
+INFO   2025-08-05T17:55:32.494                  src\main.js:33  | Running app on: http://192.168.1.3:3006 (default)
+INFO   2025-08-05T17:55:32.501       redis\redis.service.js:81  | connectionIORedis - Connection status: connected (RedisService)
+INFO   2025-08-05T17:55:49.765   product\product.service.js:220 | FROM CACHE: 2 ----- 1754391349765 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:55:49.774       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:55:49.784              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 24.107 ms {}
+ (access)
+INFO   2025-08-05T17:55:53.292   product\product.service.js:220 | FROM CACHE: 2 ----- 1754391353291 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:55:53.297       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:55:53.307              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 22.759 ms {}
+ (access)
+INFO   2025-08-05T17:56:04.895   product\product.service.js:210 | FROM LOCAL CACHE: 2 ----- 1754391364895 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:56:04.898       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:56:04.903              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 8.166 ms {}
+ (access)
+INFO   2025-08-05T17:56:09.577   product\product.service.js:210 | FROM LOCAL CACHE: 2 ----- 1754391369577 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T17:56:09.580       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T17:56:09.582              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 6.290 ms {}
+ (access)
+INFO   2025-08-05T18:01:36.924   product\product.service.js:220 | FROM CACHE: 2 ----- 1754391696924 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T18:01:36.926       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T18:01:36.930              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 5.556 ms {}
+ (access)
+INFO   2025-08-05T18:01:44.465   product\product.service.js:220 | FROM CACHE: 2 ----- 1754391704465 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T18:01:44.468       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T18:01:44.471              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 304 - 6.914 ms {}
+ (access)
+INFO   2025-08-05T18:01:47.754   product\product.service.js:210 | FROM LOCAL CACHE: 2 ----- 1754391707754 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T18:01:47.756       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T18:01:47.760              morgan\index.js:130 | ::ffff:192.168.1.3 Anonymous GET /api/v1/product/2/local-cache 200 - 4.741 ms {}
+ (access)
+INFO   2025-08-05T18:02:00.233   product\product.service.js:210 | FROM LOCAL CACHE: 2 ----- 1754391720233 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T18:02:00.236       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T18:02:00.239              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 5.469 ms {}
+ (access)
+INFO   2025-08-05T18:02:02.582   product\product.service.js:210 | FROM LOCAL CACHE: 2 ----- 1754391722582 ----- {"name":"iPhone 17 Pro Max","description":"Trải nghiệm đỉnh cao với chip A19 Bionic, màn hình ProMotion XDR và hệ thống camera Magsafe thế hệ mới. Thiết kế titan siêu bền, siêu nhẹ.","rating_avg":4.8,"category_id":1,"shop_id":1,"slug":"iphone-17-pro-max-1-1753864660","thumbnail":null,"variants":[{"sku":"IP17PM-V5-256-SLV","price":33990000,"stock_quantity":120,"options":[{"option_name":"Color","option_value":"Silver"},{"option_name":"Storage","option_value":"256GB"}]},{"sku":"IP17PM-V5-512-BLK","price":37990000,"stock_quantity":200,"options":[{"option_name":"Color","option_value":"Black"},{"option_name":"Storage","option_value":"512GB"}]},{"sku":"IP17PM-V5-1TB-BLU","price":43990000,"stock_quantity":75,"options":[{"option_name":"Color","option_value":"Blue"},{"option_name":"Storage","option_value":"1TB"}]},{"sku":"IP17PM-V5-256-RED","price":33990000,"stock_quantity":100,"options":[{"option_name":"Storage","option_value":"256GB"},{"option_name":"Color","option_value":"Red"}]}]} (Product)
+WARN   2025-08-05T18:02:02.585       redis\redis.service.js:227 | unlock ~ No lock found for key: PRO_LOCK:2 (RedisService)
+INFO   2025-08-05T18:02:02.588              morgan\index.js:130 | ::1 Anonymous GET /api/v1/product/2/local-cache 200 - 4.581 ms {}
+ (access)
