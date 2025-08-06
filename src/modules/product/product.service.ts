@@ -1,5 +1,5 @@
 import { CACHE_MANAGER } from '@nestjs/cache-manager';
-import { BadRequestException, Inject, Injectable, NotFoundException } from '@nestjs/common';
+import { BadRequestException, Inject, Injectable, NotFoundException, OnModuleInit } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Cache } from 'cache-manager';
 import { RedisService } from 'src/base/db/redis/redis.service';
@@ -17,7 +17,7 @@ import { DataSource, Repository } from 'typeorm';
 import { CreateProductDto } from './dto/create-product.dto';
 
 @Injectable()
-export class ProductService {
+export class ProductService implements OnModuleInit {
    TTL: number = 5 * 60 * 1000; // 5pp
 
    constructor(
@@ -29,6 +29,16 @@ export class ProductService {
       @Inject(CACHE_MANAGER)
       private readonly cacheManager: Cache,
    ) {}
+
+   onModuleInit() {
+      this.redisService.subscribe('product_update', (message) => {
+         console.log('\x1b[33m%s\x1b[0m', `Received product update message: ${message}`);
+         const { product_id } = JSON.parse(message);
+         const KEY_CACHE = `PRO_ITEM:${product_id}`;
+         // Xóa cache cục bộ và Redis khi có cập nhật sản phẩm
+         void Promise.all([this.cacheManager.del(KEY_CACHE), this.redisService.del(KEY_CACHE)]);
+      });
+   }
 
    async createProduct({ dto, user }: { dto: CreateProductDto; user: IUser }) {
       try {
@@ -206,6 +216,13 @@ export class ProductService {
       }
    }
 
+   /*
+      - User A: Lần 1 {ticketId: 1} -> Server_A -> Tìm trong LocalCache (Ko có) -> Tìm trong Redis (Ko có) -> Tìm DB (Có) {ticketId: 1, stock: 150} -> Set Redis với version (ticketId: 1, stock: 150, version: 12:00) -> Set LocalCache (ticketId: 1, stock: 150, version: 12:00) -> Trả về cho User_A (ticketId: 1, stock: 150, version: 12:00) -> User_A lưu version vào Cookies/LocalStorage
+      - User-A: Lần 2 {ticketId: 1, vesion: 12:00} -> Server_B -> Tìm trong LocalCache (Ko có) -> Tìm trong Redis (Có) (ticketId: 1, stock: 150, version: 12:00) -> So sánh 2 version với nhau (`Khác nhau` => Data LocalCache !== Data Redis => Ko nhất quán => Lấy Redis vì Redis luôn nhất quán với DB: `Giống nhau` => Trả về cho User-A (ticketId: 1, stock: 150, version: 12:00) -> User-A lưu version vào Cookies/LocalStorage)
+      - User-B -> Server A -> mua hàng lúc 12:05  -> stock còn 100 -> Set Redis với version mới (ticketId: 1, stock: 100, version: 12:05) -> Set LocalCache (ticketId: 1, stock: 100, version: 12:05) -> Trả về cho User-B (ticketId: 1, stock: 100, version: 12:05) -> User-B lưu version vào Cookies/LocalStorage
+      - User-A: Lần 3 {ticketId: 1, vesion: 12:00} -> Server B  -> Tìm trong LocalCache (Có) -> So sánh version (LocalCache: 12:00 !== Redis: 12:05) => Lấy Redis vì Redis luôn nhất quán với DB -> Tìm trong Redis (Có) (ticketId: 1, stock: 100, version: 12:05) -> Set lại LocalCached với version 12:05 -> Trả về cho User-A (ticketId: 1, stock: 100, version: 12:05) -> User-A lưu version vào Cookies/LocalStorage
+      => Dùng version cũng ko khả thi lắm vì luôn phải so sánh version giữa LocalCache và Redis chứ ko thể so sánh version giữa client với local cache được.
+    */
    /**
     * Nếu dùng MircoService thì hàm getProductLocalCache sẽ có vấn đề về tính nhất quán dữ liệu giữa các service.(Giữa LocalCache với Distributed Cache)
     * Cách test:

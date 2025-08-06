@@ -8,6 +8,7 @@ import { QuerySpecificationDto } from 'src/base/shared/dto/query-specification.d
 import { Order } from 'src/modules/order/entities/order.entity';
 import { OrderDetail } from 'src/modules/order_detail/entities/order_detail.entity';
 import { ProductVariant } from 'src/modules/product-variant/entities/product-variant.entity';
+import { ProductService } from 'src/modules/product/product.service';
 import { IUser } from 'src/modules/user/types';
 import { DataSource, Repository } from 'typeorm';
 import { CreateOrderDto } from './dto/create-order.dto';
@@ -21,6 +22,7 @@ export class OrderService {
       private readonly dataSource: DataSource,
       private readonly loggingService: LoggingService,
       private readonly redisService: RedisService,
+      private readonly productService: ProductService,
       @Inject(CACHE_MANAGER)
       private readonly cacheManager: Cache,
    ) {}
@@ -92,6 +94,7 @@ export class OrderService {
             for (const item of items) {
                const KEY_CACHE = `PRO_ITEM:${item.product_id}`;
                await Promise.all([this.redisService.del(KEY_CACHE), this.cacheManager.del(KEY_CACHE)]);
+               await this.redisService.publish('product_update', JSON.stringify({ product_id: item.product_id }));
             }
             return {
                order: savedOrder,

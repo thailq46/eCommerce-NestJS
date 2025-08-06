@@ -14,8 +14,12 @@ import { LoggingService } from 'src/base/logging';
 export class RedisService implements OnModuleInit, OnModuleDestroy {
    private readonly category = RedisService.name;
    private clients: Record<string, Redis> = {};
+   private subscriberClient: Redis | null = null;
+   private publisherClient: Redis | null = null;
    private connectionTimeout: NodeJS.Timeout | null = null;
+
    private readonly REDIS_CONNECT_TIMEOUT = 10000; // 10s
+
    private readonly statusConnectRedis = {
       CONNECT: 'connect',
       END: 'end',
@@ -31,7 +35,10 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       },
    };
 
-   constructor(private readonly loggingService: LoggingService) {}
+   constructor(private readonly loggingService: LoggingService) {
+      this.subscriberClient = new Redis({ host: config.REDIS_HOST, port: config.REDIS_PORT });
+      this.publisherClient = new Redis({ host: config.REDIS_HOST, port: config.REDIS_PORT });
+   }
 
    onModuleInit() {
       const isRedisEnabled = true;
@@ -46,6 +53,8 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
 
    async onModuleDestroy() {
       await this.closeConnections();
+      await this.subscriberClient?.quit();
+      await this.publisherClient?.quit();
    }
 
    private initRedisConnection(host: string, port: number, password?: string) {
@@ -77,6 +86,29 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
          // Trong NestJS, thường không ném lỗi trực tiếp mà xử lý gracefully
          throw new InternalServerErrorException(this.REDIS_CONNECT_MESSAGE.message.vn);
       }, this.REDIS_CONNECT_TIMEOUT);
+   }
+
+   publish(channel: string, message: string) {
+      return new Promise((resolve, reject) => {
+         void this.publisherClient?.publish(channel, message, (err, reply) => {
+            if (err) {
+               this.loggingService.getLogger(this.category).error(`Publish error: ${err.message}`);
+               return reject(err);
+            }
+            this.loggingService.getLogger(this.category).log(`Message published to channel [${channel}]: ${message}`);
+            resolve(reply);
+         });
+      });
+   }
+
+   subscribe(channel: string, callback: (message: string) => void) {
+      void this.subscriberClient?.subscribe(channel);
+      this.subscriberClient?.on('message', (subscribedChannel, message) => {
+         if (subscribedChannel === channel) {
+            this.loggingService.getLogger(this.category).log(`Message received on channel [${channel}]: ${message}`);
+            callback(message);
+         }
+      });
    }
 
    private handleEventConnection(redisConnection: Redis) {
