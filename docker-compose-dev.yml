@@ -38,134 +38,191 @@ services:
       networks:
          - nest-app-network
 
-   prometheus:
-      image: prom/prometheus:latest
-      container_name: pre-event-prometheus
-      restart: unless-stopped
-      volumes:
-         - ./environments/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
-         - ./environments/data/prometheus_data:/prometheus
-      command:
-         - '--config.file=/etc/prometheus/prometheus.yml'
-         - '--storage.tsdb.path=/prometheus'
-         - '--web.console.libraries=/etc/prometheus/console_libraries'
-         - '--web.console.templates=/etc/prometheus/consoles'
-         - '--web.enable-lifecycle'
-      extra_hosts:
-         - host.docker.internal:host-gateway
+   kafka1:
+      image: bitnami/kafka:3.5
+      container_name: kafka1
       ports:
-         - '9090:9090'
-      networks:
-         - nest-app-network
-
-   grafana:
-      image: grafana/grafana
-      container_name: pre-event-grafana
-      hostname: grafana
+         - '9192:9092' # Broker port
+         - '9193:9094' # Controller port
       environment:
-         - GF_SECURITY_ADMIN_PASSWORD=admin
-         - GF_USERS_ALLOW_SING_UP=false
-         - GF_SERVER_DOMAIN=localhost
-         #enable logger
-         - GF_LOG_MODE=console file
-         - GF_LOG_FILTERS=alerting.notifier.slack:debug alermanager:debug ngalert:debug
+         # General configurations
+         - KAFKA_ENABLE_KRAFT=yes
+         - KAFKA_CFG_PROCESS_ROLES=broker,controller
+         - KAFKA_CFG_CONTROLLER_LISTENER_NAMES=CONTROLLER
+         - KAFKA_CFG_NODE_ID=1
+         # Define Kafka server-side socket listening ports (Là các địa chỉ/port mà Kafka broker sẽ mở socket để lắng nghe kết nối)
+         # PLAINTEXT://:9092 => Lắng nghe tất cả các kết nối trên tất cả các interface của container ở cổng 9092 (Đây là cổng dành cho kết nối nội bộ trong mạng Docker)
+         # CONTROLLER://:9093 => Kafka Broker lắng nghe các kết nối Controller để sử dụng cho KRaft hoặc ZooKeeper
+         # EXTERNAL://:9094 => Lắng nghe các kết nối từ bên ngoài mạng Docker trên tất cả các interface của container (nếu project chạy thông qua Dockerfile thì phải liên kết qua port 9092)
+         - KAFKA_CFG_LISTENERS=PLAINTEXT://:9092,CONTROLLER://:9093,EXTERNAL://:9094
+         # Define security protocols
+         - KAFKA_CFG_LISTENER_SECURITY_PROTOCOL_MAP=CONTROLLER:PLAINTEXT,PLAINTEXT:PLAINTEXT,EXTERNAL:PLAINTEXT
+         # Set advertised listener (Là địa chỉ/host mà Kafka báo lại cho client khi client kết nối)
+         # EXTERNAL: Khi client kết nối qua cổng external thì Kafka sẽ trả về địa chỉ IP cho client trong metadata
+         # PLAINTEXT: Khi client kết nối qua cổng nội bộ trong mạng Docker thì
+         - KAFKA_CFG_ADVERTISED_LISTENERS=EXTERNAL://192.168.1.7:9193,PLAINTEXT://kafka1:9092 # Dùng khi dev local
+         # Interbroker listener name
+         - KAFKA_CFG_INTER_BROKER_LISTENER_NAME=PLAINTEXT
+         # Cluster ID for Kafka, must be the same across the cluster. Use a generated UUID
+         - KAFKA_KRAFT_CLUSTER_ID=LeLM2dIFQkiUFvXCEcqRWA
+         # Cluster address
+         - KAFKA_CFG_CONTROLLER_QUORUM_VOTERS=1@kafka1:9093
+         # Allow PLAINTEXT listener (default is false; not recommended for production)
+         - ALLOW_PLAINTEXT_LISTENER=yes
+         # Set maximum and initial memory for the broker
+         - KAFKA_HEAP_OPTS=-Xmx512M -Xms256M
+         # Enable auto-creation of topics
+         - KAFKA_CFG_AUTO_CREATE_TOPICS_ENABLE=true
+         # Message retention period (in ms), set to 7 days
+         - KAFKA_CFG_LOG_RETENTION_MS=604800000
       volumes:
-         - ./environments/data/grafana-storage:/var/lib/grafana
-      ports:
-         - '3000:3000'
+         - ./environments/data/kafka:/bitnami/kafka
       networks:
          - nest-app-network
-
-   node-exporter:
-      image: prom/node-exporter:latest
-      container_name: pre-event-node-exporter
-      restart: unless-stopped
-      volumes:
-         - /proc:/host/proc:ro
-         - /sys:/host/sys:ro
-         - /:/rootfs:ro
-      command:
-         - --path.procfs=/host/proc
-         - --path.rootfs=/rootfs
-         - --path.sysfs=/host/sys
-         - --collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)
+   kafka-ui:
+      image: provectuslabs/kafka-ui:latest
+      container_name: kafka-ui
       ports:
-         - '9100:9100'
-      networks:
-         - nest-app-network
-
-   mysqld-exporter:
-      image: prom/mysqld-exporter
-      container_name: pre-event-mysqld-exporter
-      ports:
-         - '9104:9104'
-      command:
-         - '--collect.engine_innodb_status'
-         - '--collect.info_schema.processlist'
-         - '--collect.info_schema.tables'
-         - '--collect.info_schema.query_response_time'
-         - '--collect.perf_schema.file_events'
-         - '--collect.perf_schema.eventsstatements'
-         - '--collect.perf_schema.indexiowaits'
-         - '--collect.global_status'
-         #      - '--ignore-tables' # Ko giám sát các table của hệ thống
-         - '--config.my-cnf=/etc/mysql/.my.cnf'
-      volumes:
-         - ./environments/mysqld-exporter/.my.cnf:/etc/mysql/.my.cnf
+         - '8080:8080'
       environment:
-         - DATA_SOURCE_NAME=root:thailq@tcp(mysql:8822)/
-      depends_on:
-         - mysql
-      networks:
-         - nest-app-network
-
-   redis-exporter:
-      image: oliver006/redis_exporter
-      command: -redis.addr redis://redis:6379
-      ports:
-         - 9121:9121
-      depends_on:
-         - redis
-      networks:
-         - nest-app-network
-
-   elasticsearch:
-      image: elasticsearch:7.17.25
-      container_name: pre-event-elasticsearch
+         # - KAFKA_CLUSTERS_0_NAME=ecom-nest
+         # - KAFKA_CLUSTERS_0_BOOTSTRAPSERVERS=kafka1:9092
+         - DYNAMIC_CONFIG_ENABLED=true
       volumes:
-         - ./environments/elk/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
-      ports:
-         - '9200:9200'
-         - '9300:9300'
-      environment:
-         discovery.type: single-node
+         - ./environments/kafkaui/dynamic_config.yml:/etc/kafkaui/dynamic_config.yaml
+      depends_on:
+         - kafka1
       networks:
          - nest-app-network
 
-   logstash:
-      image: logstash:7.17.25
-      container_name: pre-event-logstash
-      volumes:
-         - ./environments/elk/logstash.yml:/usr/share/logstash/config/logstash.yml
-         - ./environments/elk/pipeline:/usr/share/logstash/pipeline
-      ports:
-         - '5044:5044'
-         - '5033:5000/tcp'
-         - '5022:5000/udp'
-         - '9600:9600'
-      networks:
-         - nest-app-network
-      depends_on:
-         - elasticsearch
+   # prometheus:
+   #    image: prom/prometheus:latest
+   #    container_name: pre-event-prometheus
+   #    restart: unless-stopped
+   #    volumes:
+   #       - ./environments/prometheus/prometheus.yml:/etc/prometheus/prometheus.yml
+   #       - ./environments/data/prometheus_data:/prometheus
+   #    command:
+   #       - '--config.file=/etc/prometheus/prometheus.yml'
+   #       - '--storage.tsdb.path=/prometheus'
+   #       - '--web.console.libraries=/etc/prometheus/console_libraries'
+   #       - '--web.console.templates=/etc/prometheus/consoles'
+   #       - '--web.enable-lifecycle'
+   #    extra_hosts:
+   #       - host.docker.internal:host-gateway
+   #    ports:
+   #       - '9090:9090'
+   #    networks:
+   #       - nest-app-network
 
-   kibana:
-      image: kibana:7.17.25
-      container_name: pre-event-kibana
-      volumes:
-         - ./environments/elk/kibana.yml:/usr/share/kibana/config/kibana.yml
-      ports:
-         - '5601:5601'
-      networks:
-         - nest-app-network
-      depends_on:
-         - elasticsearch
+   # grafana:
+   #    image: grafana/grafana
+   #    container_name: pre-event-grafana
+   #    hostname: grafana
+   #    environment:
+   #       - GF_SECURITY_ADMIN_PASSWORD=admin
+   #       - GF_USERS_ALLOW_SING_UP=false
+   #       - GF_SERVER_DOMAIN=localhost
+   #       #enable logger
+   #       - GF_LOG_MODE=console file
+   #       - GF_LOG_FILTERS=alerting.notifier.slack:debug alermanager:debug ngalert:debug
+   #    volumes:
+   #       - ./environments/data/grafana-storage:/var/lib/grafana
+   #    ports:
+   #       - '3000:3000'
+   #    networks:
+   #       - nest-app-network
+
+   # node-exporter:
+   #    image: prom/node-exporter:latest
+   #    container_name: pre-event-node-exporter
+   #    restart: unless-stopped
+   #    volumes:
+   #       - /proc:/host/proc:ro
+   #       - /sys:/host/sys:ro
+   #       - /:/rootfs:ro
+   #    command:
+   #       - --path.procfs=/host/proc
+   #       - --path.rootfs=/rootfs
+   #       - --path.sysfs=/host/sys
+   #       - --collector.filesystem.mount-points-exclude=^/(sys|proc|dev|host|etc)($$|/)
+   #    ports:
+   #       - '9100:9100'
+   #    networks:
+   #       - nest-app-network
+
+   # mysqld-exporter:
+   #    image: prom/mysqld-exporter
+   #    container_name: pre-event-mysqld-exporter
+   #    ports:
+   #       - '9104:9104'
+   #    command:
+   #       - '--collect.engine_innodb_status'
+   #       - '--collect.info_schema.processlist'
+   #       - '--collect.info_schema.tables'
+   #       - '--collect.info_schema.query_response_time'
+   #       - '--collect.perf_schema.file_events'
+   #       - '--collect.perf_schema.eventsstatements'
+   #       - '--collect.perf_schema.indexiowaits'
+   #       - '--collect.global_status'
+   #       #      - '--ignore-tables' # Ko giám sát các table của hệ thống
+   #       - '--config.my-cnf=/etc/mysql/.my.cnf'
+   #    volumes:
+   #       - ./environments/mysqld-exporter/.my.cnf:/etc/mysql/.my.cnf
+   #    environment:
+   #       - DATA_SOURCE_NAME=root:thailq@tcp(mysql:8822)/
+   #    depends_on:
+   #       - mysql
+   #    networks:
+   #       - nest-app-network
+
+   # redis-exporter:
+   #    image: oliver006/redis_exporter
+   #    command: -redis.addr redis://redis:6379
+   #    ports:
+   #       - 9121:9121
+   #    depends_on:
+   #       - redis
+   #    networks:
+   #       - nest-app-network
+
+   # elasticsearch:
+   #    image: elasticsearch:7.17.25
+   #    container_name: pre-event-elasticsearch
+   #    volumes:
+   #       - ./environments/elk/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml
+   #    ports:
+   #       - '9200:9200'
+   #       - '9300:9300'
+   #    environment:
+   #       discovery.type: single-node
+   #    networks:
+   #       - nest-app-network
+
+   # logstash:
+   #    image: logstash:7.17.25
+   #    container_name: pre-event-logstash
+   #    volumes:
+   #       - ./environments/elk/logstash.yml:/usr/share/logstash/config/logstash.yml
+   #       - ./environments/elk/pipeline:/usr/share/logstash/pipeline
+   #    ports:
+   #       - '5044:5044'
+   #       - '5033:5000/tcp'
+   #       - '5022:5000/udp'
+   #       - '9600:9600'
+   #    networks:
+   #       - nest-app-network
+   #    depends_on:
+   #       - elasticsearch
+
+   # kibana:
+   #    image: kibana:7.17.25
+   #    container_name: pre-event-kibana
+   #    volumes:
+   #       - ./environments/elk/kibana.yml:/usr/share/kibana/config/kibana.yml
+   #    ports:
+   #       - '5601:5601'
+   #    networks:
+   #       - nest-app-network
+   #    depends_on:
+   #       - elasticsearch

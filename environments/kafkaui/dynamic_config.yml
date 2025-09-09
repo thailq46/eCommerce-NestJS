@@ -1,0 +1,7 @@
+kafka:
+   clusters:
+      - name: ecom-nest
+        bootstrapServers: kafka1:9092
+        properties:
+           security.protocol: PLAINTEXT
+           allow.auto.create.topics: true

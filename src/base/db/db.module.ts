@@ -3,6 +3,7 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 import { ConfigService } from 'src/base/config';
 import { LoggingService } from 'src/base/logging';
 import { DataSource } from 'typeorm';
+import { KafkaModule } from './kafka/kafka.module';
 
 @Module({
    imports: [
@@ -21,6 +22,7 @@ import { DataSource } from 'typeorm';
             connectorPackage: 'mysql2',
          }),
       }),
+      KafkaModule,
    ],
 })
 export class DatabaseModule implements OnModuleInit {
@@ -33,12 +35,10 @@ export class DatabaseModule implements OnModuleInit {
       try {
          // Sử dụng connection đã inject qua constructor
          if (this.connection.isInitialized) {
-            // console.log('DB Connected successfully');
             this.loggingService.getLogger('Database').log('DB Connected successfully', DatabaseModule.name);
          }
       } catch (error) {
          this.loggingService.getLogger('Database').error(`Failed to connect to DB: ${error}`, DatabaseModule.name);
-         // console.error('Failed to connect to DB', error);
       }
    }
 }

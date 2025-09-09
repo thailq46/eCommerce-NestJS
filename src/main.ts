@@ -1,5 +1,6 @@
 import { ValidationPipe } from '@nestjs/common';
 import { NestFactory, Reflector } from '@nestjs/core';
+import { MicroserviceOptions, Transport } from '@nestjs/microservices';
 import { NestExpressApplication } from '@nestjs/platform-express';
 import * as compression from 'compression';
 import helmet from 'helmet';
@@ -12,8 +13,46 @@ import { AppModule } from './app.module';
 
 async function bootstrap() {
    const app = await NestFactory.create<NestExpressApplication>(AppModule);
-   const reflector = app.get(Reflector);
+   app.connectMicroservice<MicroserviceOptions>({
+      transport: Transport.KAFKA,
+      options: {
+         client: {
+            brokers: ['localhost:9193'],
+            clientId: 'nest-kafka-app',
+            connectionTimeout: 15000,
+            requestTimeout: 30000,
+         },
+         consumer: {
+            groupId: 'NESTJS-ECOM',
+            allowAutoTopicCreation: true,
+            sessionTimeout: 30000, // Thời gian tối đa mà consumer có thể không gửi heartbeat trước khi bị coi là đã chết và bị xóa khỏi nhóm
+            heartbeatInterval: 3000, // Khoảng thời gian mà consumer sẽ gửi heartbeat đến Kafka để xác nhận rằng nó vẫn đang hoạt động.
+            retry: {
+               retries: 5,
+               initialRetryTime: 1000,
+            },
+         },
+      },
+   });
 
+   // Consumer 2
+   app.connectMicroservice<MicroserviceOptions>({
+      transport: Transport.KAFKA,
+      options: {
+         client: { brokers: ['localhost:9193'], clientId: 'consumer-2' },
+         consumer: { groupId: 'NESTJS-ECOM' },
+      },
+   });
+
+   // Consumer 3
+   app.connectMicroservice<MicroserviceOptions>({
+      transport: Transport.KAFKA,
+      options: {
+         client: { brokers: ['localhost:9193'], clientId: 'consumer-3' },
+         consumer: { groupId: 'NESTJS-ECOM' },
+      },
+   });
+   const reflector = app.get(Reflector);
    // Logging
    const loggingService = app.get(LoggingService);
    const logger = loggingService.getLogger();
@@ -45,6 +84,7 @@ async function bootstrap() {
    });
 
    // Start app
+   await app.startAllMicroservices();
    await app.listen(config.PORT);
    logger.info('Server time: ' + new Date().toString());
    logger.info(`Local/public ip: ${String(config.LOCAL_IP)} - ${String(config.PUBLIC_IP)}`);

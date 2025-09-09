@@ -45,16 +45,13 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
       const redisHost = config.REDIS_HOST;
       const redisPort = config.REDIS_PORT;
       const redisPassword = config.REDIS_PASSWORD;
-
       if (isRedisEnabled) {
          this.initRedisConnection(redisHost, redisPort, redisPassword);
       }
    }
 
    async onModuleDestroy() {
-      await this.closeConnections();
-      await this.subscriberClient?.quit();
-      await this.publisherClient?.quit();
+      await Promise.all([this.closeConnections(), this.subscriberClient?.quit(), this.publisherClient?.quit()]);
    }
 
    private initRedisConnection(host: string, port: number, password?: string) {
@@ -71,7 +68,6 @@ export class RedisService implements OnModuleInit, OnModuleDestroy {
                return Math.min(times * 100, 3000);
             },
          });
-
          this.clients.instanceConnect = redisInstance;
          this.handleEventConnection(redisInstance);
       } catch (error) {

@@ -6,6 +6,7 @@ import { CacheModule } from '@nestjs/cache-manager';
 import { PrometheusModule } from '@willsoto/nestjs-prometheus';
 import { ConfigModule } from 'src/base/config';
 import { DatabaseModule } from 'src/base/db/db.module';
+import { KafkaModule } from 'src/base/db/kafka/kafka.module';
 import { RedisModule } from 'src/base/db/redis/redis.module';
 import { LoggingModule } from 'src/base/logging/logging.module';
 import { PrometheusMiddleware } from 'src/base/middleware/prometheus.middleware';
@@ -29,7 +30,7 @@ import { UserModule } from './modules/user/user.module';
 
 const globalModule = [ConfigModule, LoggingModule];
 
-const coreModule = [DatabaseModule, RedisModule];
+const coreModule = [DatabaseModule, RedisModule, KafkaModule];
 
 const appModule = [
    UserModule,

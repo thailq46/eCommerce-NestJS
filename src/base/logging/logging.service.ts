@@ -1,6 +1,6 @@
-import {Injectable} from '@nestjs/common';
-import {Appender, configure, getLogger, Layout} from 'log4js';
-import {config} from 'src/base/config';
+import { Injectable } from '@nestjs/common';
+import { Appender, configure, getLogger, Layout } from 'log4js';
+import { config } from 'src/base/config';
 
 // Cấu hình Layouts (định dạng log)
 const layouts: Record<string, Layout> = {
@@ -89,14 +89,15 @@ const appenders: Record<string, Appender> = {
       type: 'console',
       layout: layouts.access,
    },
-   logstash: {
-      type: '@log4js-node/logstash-http',
-      url: 'http://localhost:5044',
-      application: 'logstash-log4js',
-      logType: 'application',
-      logChannel: 'node',
-      timeout: 10000,
-   },
+   // Dùng khi muốn khi gửi log lên Logstash -> ElasticSearch
+   // logstash: {
+   //    type: '@log4js-node/logstash-http',
+   //    url: 'http://localhost:5044',
+   //    application: 'logstash-log4js',
+   //    logType: 'application',
+   //    logChannel: 'node',
+   //    timeout: 10000,
+   // },
 };
 
 @Injectable()
@@ -121,12 +122,14 @@ export class LoggingService {
          appenders: appenders,
          categories: {
             default: {
-               appenders: ['console', 'dateFile', 'logstash'],
+               // appenders: ['console', 'dateFile', 'logstash'],
+               appenders: ['console', 'dateFile'],
                level: level,
                enableCallStack: true,
             },
             access: {
-               appenders: ['access', 'dateFile', 'logstash'],
+               // appenders: ['access', 'dateFile', 'logstash'],
+               appenders: ['access', 'dateFile'],
                level: 'info',
                enableCallStack: true,
             },

@@ -144,3 +144,47 @@ VD: `SELECT * FROM feeds WHERE feed_status = 1 AND feed_created_at >= "2025-07-2
 -> C3: Tạo View trong Procedure
 
 ## Rule 9: Nguyên tắc 3NF
+
+
+### Sơ đồ ERP
+
++-----------------+                +---------------------+
+|     product     |                |   product_variant   |
+|-----------------|                |---------------------|
+| id (PK)         |                | id (PK)             |
+| name            |                | sku (unique)        |
+| description     |                | price               |
+| slug (unique)   | <----------->  | stock_quantity      |
+| thumnail        |                | product_id (FK)     |
+| category_id     |                +---------------------+
+| shop_id         |                          ^
+| rating_avg      |                          |
++-----------------+                          |
+                                             |
+                                             |
+                                             |
+                                             |
+                              +----------------+----------------+
+                              |                                 |
+                              v                                 v
+                  +-------------------+           +------------------------------+
+                  |    option_value   |<--------->| product_variant_option_value |
+                  |-------------------|           |                              |
+                  | id (PK)           |           |------------------------------|
+                  | value             |           | product_variant_id (PK, FK)  |
+                  | option_id (FK)    |           | option_value_id (PK, FK)     |
+                  +-------------------+           +------------------------------+
+                              ^
+                              |
+                              |
+                  +-------------------+
+                  |      option       |
+                  |-------------------|
+                  | id (PK)           |
+                  | name (unique)     |
+                  +-------------------+
+Product: {id: 1, name: "iPhone 17 Pro Max"}
+Option -> {id: 1, name: "Color"},{id: 2, name: "Storage"}
+Option_Value -> {id: 1, option_id: 1, name: "Black"}
+                {id: 2, option_id: 1, name: "White"}
+                {id: 3, option_id: 2, name: "256GB"}
